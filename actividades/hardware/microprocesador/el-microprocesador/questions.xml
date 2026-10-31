@@ -60,7 +60,7 @@
       <text>calculo velocidad micro</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[Si el multiplicador de un microprocesador es x6 y la velocidad del bus del sistema es de 333MHz, ¿a qué velocidad funciona el micro aproximadamente?<br />]]></text>
+      <text><![CDATA[Si el multiplicador de un microprocesador es x36 y la frecuencia del reloj base (BCLK) es de 100 MHz, ¿a qué velocidad funciona el micro?<br />]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -83,25 +83,25 @@
       <text></text>
     </incorrectfeedback>
     <answer fraction="100" format="html">
-      <text>2 GHz</text>
+      <text>3,6 GHz</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>1GHz</text>
+      <text>360 MHz</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>55 MHz</text>
+      <text>2,78 MHz</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>1.5 GHz</text>
+      <text>36 GHz</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -191,7 +191,7 @@
       <text></text>
     </incorrectfeedback>
     <answer fraction="100" format="html">
-      <text>Frecuencia FSB * Multiplicador</text>
+      <text>Frecuencia del reloj base (FSB o BCLK) × multiplicador</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -245,13 +245,13 @@
       <text></text>
     </incorrectfeedback>
     <answer fraction="100" format="html">
-      <text>El número de veces que el microprocesador va más rápido que el FSB.</text>
+      <text>El número de veces que el microprocesador va más rápido que el reloj base (FSB o BCLK).</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>El número de veces que el FSB es más rápido que la velocidad interna del micro.</text>
+      <text>El número de veces que el reloj base es más rápido que la velocidad interna del micro.</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -264,60 +264,6 @@
     </answer>
     <answer fraction="0" format="html">
       <text>La cantidad de niveles de caché que dispone el micro.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155721  -->
-  <question type="multichoice">
-    <name>
-      <text>cuanto de bueno es un micro</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál de las siguientes es la mejor forma de medir la eficacia de un microprocesador?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Por los millones de instrucciones por segundo que es capaz de ejecutar (MIPS)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Por la velocidad de reloj del microprocesador (MHZ o GHz; a más Hz mejor es el micro)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Por el factor multiplicador (cuanto mayor sea mejor es el micro)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Por el tamaño de su memoria caché (cuanto menor sea la caché mejor es el micro)</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -629,7 +575,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>DIP (Dual Inline Memory Module)</text>
+      <text>DIP (Dual Inline Package)</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -683,7 +629,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Empaquetado</text>
+      <text>Fotolitografía</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -1026,60 +972,6 @@
     </answer>
   </question>
 
-<!-- question: 2155705  -->
-  <question type="multichoice">
-    <name>
-      <text>heatpipe</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[La refrigeración mediante &quot;heatpipe&quot; la encontramos sobre todo en ...<br />]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Portátiles</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>PCs de sobremesa</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Servidores</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Supercomputadores</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155687  -->
   <question type="multichoice">
     <name>
@@ -1248,7 +1140,7 @@
       <text>los 64 bits</text>
     </name>
     <questiontext format="html">
-      <text>¿Qué microprocesador de Intel se fabricó según la aquitectura IA-64?</text>
+      <text>¿Qué microprocesador de Intel se fabricó según la arquitectura IA-64?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -1331,7 +1223,7 @@
       </feedback>
     </answer>
     <answer fraction="33.33333" format="html">
-      <text>El modo emulado para ejecutar aplicaciones de menos de 64 bits era muy mala</text>
+      <text>El modo emulado para ejecutar aplicaciones de menos de 64 bits era muy malo</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -1397,7 +1289,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>x64</text>
+      <text>ARM64</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -1458,60 +1350,6 @@
     </answer>
   </question>
 
-<!-- question: 2155718  -->
-  <question type="multichoice">
-    <name>
-      <text>memoria cache</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cómo se denomina el bus interno del microprocesador que comunica las memorias caché con los núcleos?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Back Side Bus (BSB)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Cache Memoria Bus (CMS)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>FSB (Front Side Bus)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>HyperTransport</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155723  -->
   <question type="multichoice">
     <name>
@@ -1554,60 +1392,6 @@
     </answer>
     <answer fraction="0" format="html">
       <text>L3</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155724  -->
-  <question type="multichoice">
-    <name>
-      <text>memoria cache</text>
-    </name>
-    <questiontext format="html">
-      <text>Disponemos de un microprocesador de 4 núcleos y en las especificaciones indica lo siguiente: L1 64KB + 64KB; ¿Qué significa?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Que hay 64 KB por cada pareja de núcleos (32 KB para instrucciones y 32 KB para datos en cada núcleo) </text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Que hay 64 KB de caché de datos para cada núcleo.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Que hay 128 KB de caché para compartir por todos los núcleos</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Que dos núcleos tienen 64 KB de caché y dos no disponen de caché.</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -1662,384 +1446,6 @@
     </answer>
     <answer fraction="0" format="html">
       <text>Para generar gráficos en 3D</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155716  -->
-  <question type="multichoice">
-    <name>
-      <text>nuevas instrucciones</text>
-    </name>
-    <questiontext format="html">
-      <text>¿En qué microprocesador añadió AMD por primera vez el juego de instrucciones 3DNow!?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>En el K6-2</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>En el Athlon XP</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>En el K7</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>En el Athlon</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155715  -->
-  <question type="multichoice">
-    <name>
-      <text>nuevas instrucciones</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es la finalidad del juego de instrucciones 3DNow!?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Para mejorar el procesamiento de vídeo y audio</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Para mejorar compresión y descompresión de datos</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Para mejorar las comunicaciones de datos a través de redes de ordenadores</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Para mejorar el rendimiento en los cálculos para gráficos en 3D</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155714  -->
-  <question type="multichoice">
-    <name>
-      <text>nuevas instrucciones</text>
-    </name>
-    <questiontext format="html">
-      <text>¿De qué tamaño eran los nuevos 8 registros que Intel añadió a sus micros junto con el juego de instrucciones MMX?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>64 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>32 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>128 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>16 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155712  -->
-  <question type="multichoice">
-    <name>
-      <text>nuevas instrucciones</text>
-    </name>
-    <questiontext format="html">
-      <text>¿En qué año comenzó Intel a aumentar el juego de instrucciones de sus microprocesadores de la familia x86?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>1996</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>2006</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1981</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1976</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155743  -->
-  <question type="multichoice">
-    <name>
-      <text>PRE100</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p style="margin: 0cm 0cm 0.0001pt 18pt; line-height: normal;" class="MsoNormal"><b><span lang="ES" style="font-size: 12pt; font-family: "cambria","serif"; color: black;">La familia de procesadores Pentium salió a la luz en:<o:p></o:p></span></b></p><p style="margin: 0cm 0cm 0.0001pt 18pt; line-height: normal;" class="MsoNormal"><span lang="ES" style="font-size: 12pt; font-family: "cambria","serif"; color: black;"><o:p></o:p></span></p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.0000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>1993</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1992</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1989</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1995</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155744  -->
-  <question type="multichoice">
-    <name>
-      <text>PRE101</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p style="margin: 0cm 0cm 0.0001pt 18pt; line-height: normal;" class="MsoNormal"><b><span lang="ES" style="font-size: 12pt; font-family: "cambria","serif"; color: black;">El Intel i486 es también llamado:<o:p></o:p></span></b></p><p style="margin: 0cm 0cm 0.0001pt 18pt; line-height: normal;" class="MsoNormal"><span lang="ES" style="font-size: 12pt; font-family: "cambria","serif"; color: black;"><o:p></o:p></span></p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.0000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>08486</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>800486</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>8486</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>80486</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155745  -->
-  <question type="multichoice">
-    <name>
-      <text>PRE105</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p style="line-height: normal;" class="MsoNormal"><b><span lang="ES" style="font-size: 12pt; font-family: "cambria","serif"; color: black;"><span></span>¿Qué significan las siglas CPU?</span></b><span lang="ES" style="font-size: 12pt; font-family: "cambria","serif"; color: black;">:<br /><span></span><o:p></o:p></span></p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.0000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Computadora de Procesos Unificados.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Computación Para Usuarios.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Unidad central de procesamiento (Central Processing Unit).</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Equipo a Favor del Usuario (Computer Pro User)</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -2290,20 +1696,20 @@
     <incorrectfeedback format="html">
       <text></text>
     </incorrectfeedback>
-    <answer fraction="33.33333" format="html">
+    <answer fraction="50" format="html">
       <text>Refrigeración por aire</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
-    <answer fraction="33.33333" format="html">
+    <answer fraction="50" format="html">
       <text>Refrigeración líquida</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
-    <answer fraction="33.33333" format="html">
-      <text>Watercooling</text>
+    <answer fraction="0" format="html">
+      <text>Nitrógeno líquido</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -2669,7 +2075,7 @@
       <text></text>
     </incorrectfeedback>
     <answer fraction="100" format="html">
-      <text>Nanometros</text>
+      <text>Nanómetros</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -2891,7 +2297,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Que puede operar con datos de todo tipo (números enteros, natuales, reales, caracteres, ...)</text>
+      <text>Que puede operar con datos de todo tipo (números enteros, naturales, reales, caracteres, ...)</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -2903,61 +2309,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Es una notación que solo se empela para supercomputadores formados por más de una CPU</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155641  -->
-  <question type="multichoice">
-    <name>
-      <text>velocidad de bus</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cómo denomina AMD a su bus frontal del sistema?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>QPI (Quick Path Interconnection)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>FSB (Front Side Bus)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>BSB (Back Side Bus)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>HyperTransport</text>
+      <text>Es una notación que solo se emplea para supercomputadores formados por más de una CPU</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -3120,60 +2472,6 @@
     </answer>
     <answer fraction="0" format="html">
       <text>Tasa de transferencia del bus</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155640  -->
-  <question type="multichoice">
-    <name>
-      <text>velocidad de bus</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cómo denomina Intel a su bus frontal del sistema?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>QPI (Quick Path Interconnection)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>FSB (Front Side Bus)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>BSB (Back Side Bus)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>HyperTransport</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -4302,7 +3600,7 @@
       </answer>
     </subquestion>
     <subquestion format="html">
-      <text>Intel 8088</text>
+      <text>Intel 8080</text>
       <answer>
         <text>8 bits</text>
       </answer>
@@ -4333,7 +3631,7 @@
       <text>fabricacion</text>
     </name>
     <questiontext format="html">
-      <text>¿Cómo se llama a cada chip individual extraído de una oblea de silicio? (reponde con una sola palabra en singular)</text>
+      <text>¿Cómo se llama a cada chip individual extraído de una oblea de silicio? (responde con una sola palabra en singular)</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -4345,36 +3643,6 @@
     <usecase>0</usecase>
     <answer fraction="100" format="plain_text">
       <text>die</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="plain_text">
-      <text>core</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2158130  -->
-  <question type="shortanswer">
-    <name>
-      <text>nuevas instrucciones</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cómo se denominó el juego de instrucciones que Intel añadió a su Pentium en el año 1996?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <usecase>0</usecase>
-    <answer fraction="100" format="plain_text">
-      <text>MMX</text>
       <feedback format="html">
         <text></text>
       </feedback>

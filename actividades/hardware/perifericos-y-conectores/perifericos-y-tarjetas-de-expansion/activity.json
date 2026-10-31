@@ -4,5 +4,53 @@
     "author": {
         "name": "Francisco Vargas Ruiz",
         "github": "fvarrui"
-    }
+    },
+    "curriculo": [
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3029",
+            "ra": "RA1",
+            "ce": [
+                "f",
+                "h"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0221",
+            "ra": "RA8",
+            "ce": [
+                "d",
+                "e"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0371",
+            "ra": "RA1",
+            "ce": [
+                "h"
+            ]
+        },
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "d"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "d"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ],
+    "difficulty": "easy"
 }

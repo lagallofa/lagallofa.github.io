@@ -6,5 +6,52 @@
         "name": "Noemí Pérez",
         "email": "nperpere@gobiernodecanarias.org",
         "github": "noeper"
-    }
+    },
+    "curriculo": [
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3029",
+            "ra": "RA1",
+            "ce": [
+                "g",
+                "h"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0221",
+            "ra": "RA2",
+            "ce": [
+                "b"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0371",
+            "ra": "RA1",
+            "ce": [
+                "a",
+                "c"
+            ]
+        },
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
 }

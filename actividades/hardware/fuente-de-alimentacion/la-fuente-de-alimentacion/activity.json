@@ -4,5 +4,36 @@
     "author": {
         "name": "Francisco Vargas Ruiz",
         "github": "fvarrui"
-    }
+    },
+    "curriculo": [
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3029",
+            "ra": "RA1",
+            "ce": [
+                "f",
+                "h"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0221",
+            "ra": "RA3",
+            "ce": [
+                "e"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0371",
+            "ra": "RA1",
+            "ce": [
+                "a"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ],
+    "difficulty": "easy"
 }

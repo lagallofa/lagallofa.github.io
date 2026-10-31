@@ -16,21 +16,21 @@ window.INDICE = {
    "ruta": "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion",
    "nombre": "La fuente de alimentación",
    "descripcion": "",
-   "dificultad": "",
+   "dificultad": "easy",
    "autor": "Francisco Vargas Ruiz",
    "categorias": [
     "Hardware y montaje de equipos",
     "Fuente de alimentación"
    ],
-   "preguntas": 10,
+   "preguntas": 7,
    "tipos": {
-    "multichoice": 10
+    "multichoice": 7
    },
    "ficheros": [
     {
      "nombre": "la fuente de alimentación.xml",
      "ruta": "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/la fuente de alimentación.xml",
-     "preguntas": 10
+     "preguntas": 7
     }
    ],
    "imagenes": [
@@ -41,8 +41,45 @@ window.INDICE = {
     "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/images/la fuente de alimentación/bateria_1.png"
    ],
    "readme": "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/README.md",
-   "curriculo": [],
-   "tecnologias": [],
+   "curriculo": [
+    {
+     "ciclo": "Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "f",
+      "h"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA3",
+     "ce": [
+      "e"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
    "tema": "hardware",
    "tema_nombre": "Hardware y montaje de equipos",
    "subtema": "fuente-de-alimentacion",
@@ -54,23 +91,23 @@ window.INDICE = {
    "ruta": "actividades/hardware/memoria/la-memoria-ram",
    "nombre": "La memoria RAM",
    "descripcion": "",
-   "dificultad": "",
+   "dificultad": "easy",
    "autor": "Francisco Vargas Ruiz",
    "categorias": [
     "Hardware y montaje de equipos",
     "Memoria"
    ],
-   "preguntas": 212,
+   "preguntas": 106,
    "tipos": {
-    "multichoice": 199,
-    "truefalse": 8,
-    "matching": 5
+    "multichoice": 98,
+    "matching": 5,
+    "truefalse": 3
    },
    "ficheros": [
     {
      "nombre": "la memoria ram.xml",
      "ruta": "actividades/hardware/memoria/la-memoria-ram/la memoria ram.xml",
-     "preguntas": 212
+     "preguntas": 106
     }
    ],
    "imagenes": [
@@ -82,51 +119,75 @@ window.INDICE = {
     "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-memoria_1.png"
    ],
    "readme": "actividades/hardware/memoria/la-memoria-ram/README.md",
-   "curriculo": [],
-   "tecnologias": [],
+   "curriculo": [
+    {
+     "ciclo": "Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "f"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "g"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "c",
+      "e"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    },
+    {
+     "ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "b"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "b"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
    "tema": "hardware",
    "tema_nombre": "Hardware y montaje de equipos",
    "subtema": "memoria",
    "subtema_nombre": "Memoria"
-  },
-  {
-   "id": "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel",
-   "textos": "ver/datos/hardware-microprocesador-analisis-de-microprocesadores-intel.json",
-   "ruta": "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel",
-   "nombre": "Análisis de microprocesadores Intel",
-   "descripcion": "",
-   "dificultad": "",
-   "autor": "Francisco Vargas Ruiz",
-   "categorias": [
-    "Hardware y montaje de equipos",
-    "Microprocesador"
-   ],
-   "preguntas": 80,
-   "tipos": {
-    "multichoice": 72,
-    "matching": 8
-   },
-   "ficheros": [
-    {
-     "nombre": "análisis microprocesadores intel.xml",
-     "ruta": "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/análisis microprocesadores intel.xml",
-     "preguntas": 80
-    }
-   ],
-   "imagenes": [
-    "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/images/análisis microprocesadores intel/atom-n570_1.png",
-    "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/images/análisis microprocesadores intel/atom-n570_2.png",
-    "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/images/análisis microprocesadores intel/atom-n570_3.png",
-    "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/images/análisis microprocesadores intel/atom-n570_4.png",
-    "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/images/análisis microprocesadores intel/atom-n570_5.png"
-   ],
-   "readme": "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/README.md",
-   "curriculo": [],
-   "tecnologias": [],
-   "tema": "hardware",
-   "tema_nombre": "Hardware y montaje de equipos",
-   "subtema": "microprocesador",
-   "subtema_nombre": "Microprocesador"
   },
   {
    "id": "actividades/hardware/microprocesador/el-microprocesador",
@@ -140,18 +201,18 @@ window.INDICE = {
     "Hardware y montaje de equipos",
     "Microprocesador"
    ],
-   "preguntas": 88,
+   "preguntas": 74,
    "tipos": {
-    "multichoice": 70,
+    "multichoice": 57,
     "truefalse": 8,
     "matching": 7,
-    "shortanswer": 3
+    "shortanswer": 2
    },
    "ficheros": [
     {
      "nombre": "questions.xml",
      "ruta": "actividades/hardware/microprocesador/el-microprocesador/questions.xml",
-     "preguntas": 88
+     "preguntas": 74
     }
    ],
    "imagenes": [
@@ -163,8 +224,48 @@ window.INDICE = {
     "actividades/hardware/microprocesador/el-microprocesador/images/questions/calculo-velocidad-micro_2.png"
    ],
    "readme": "actividades/hardware/microprocesador/el-microprocesador/README.md",
-   "curriculo": [],
-   "tecnologias": [],
+   "curriculo": [
+    {
+     "ciclo": "Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "f"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA1",
+     "ce": [
+      "b",
+      "c",
+      "d"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "c",
+      "e"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
    "tema": "hardware",
    "tema_nombre": "Hardware y montaje de equipos",
    "subtema": "microprocesador",
@@ -176,36 +277,90 @@ window.INDICE = {
    "ruta": "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos",
    "nombre": "Conectores y buses externos",
    "descripcion": "",
-   "dificultad": "",
+   "dificultad": "easy",
    "autor": "Francisco Vargas Ruiz",
    "categorias": [
     "Hardware y montaje de equipos",
     "Periféricos y conectores"
    ],
-   "preguntas": 136,
+   "preguntas": 101,
    "tipos": {
-    "multichoice": 127,
-    "matching": 6,
-    "truefalse": 3
+    "multichoice": 97,
+    "matching": 3,
+    "truefalse": 1
    },
    "ficheros": [
     {
-     "nombre": "conextores y buses externos.xml",
-     "ruta": "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/conextores y buses externos.xml",
-     "preguntas": 136
+     "nombre": "conectores y buses externos.xml",
+     "ruta": "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/conectores y buses externos.xml",
+     "preguntas": 101
     }
    ],
-   "imagenes": [
-    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conextores y buses externos/bluetooth_1.png",
-    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conextores y buses externos/bluetooth_2.png",
-    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conextores y buses externos/com_1.png",
-    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conextores y buses externos/com_2.png",
-    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conextores y buses externos/com_3.png",
-    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conextores y buses externos/firewire_1.png"
-   ],
+   "imagenes": [],
    "readme": "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/README.md",
-   "curriculo": [],
-   "tecnologias": [],
+   "curriculo": [
+    {
+     "ciclo": "Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "h"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA1",
+     "ce": [
+      "b",
+      "j"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "c",
+      "h",
+      "i"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    },
+    {
+     "ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
    "tema": "hardware",
    "tema_nombre": "Hardware y montaje de equipos",
    "subtema": "perifericos-y-conectores",
@@ -217,22 +372,22 @@ window.INDICE = {
    "ruta": "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion",
    "nombre": "Periféricos y tarjetas de expansión",
    "descripcion": "",
-   "dificultad": "",
+   "dificultad": "easy",
    "autor": "Francisco Vargas Ruiz",
    "categorias": [
     "Hardware y montaje de equipos",
     "Periféricos y conectores"
    ],
-   "preguntas": 43,
+   "preguntas": 32,
    "tipos": {
-    "multichoice": 37,
-    "truefalse": 6
+    "multichoice": 27,
+    "truefalse": 5
    },
    "ficheros": [
     {
      "nombre": "periféricos y tarjetas de expansión.xml",
      "ruta": "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/periféricos y tarjetas de expansión.xml",
-     "preguntas": 43
+     "preguntas": 32
     }
    ],
    "imagenes": [
@@ -244,8 +399,68 @@ window.INDICE = {
     "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/escaner_5.png"
    ],
    "readme": "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/README.md",
-   "curriculo": [],
-   "tecnologias": [],
+   "curriculo": [
+    {
+     "ciclo": "Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "f",
+      "h"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA8",
+     "ce": [
+      "d",
+      "e"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "h"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    },
+    {
+     "ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "d"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "d"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
    "tema": "hardware",
    "tema_nombre": "Hardware y montaje de equipos",
    "subtema": "perifericos-y-conectores",
@@ -284,8 +499,68 @@ window.INDICE = {
     "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-msi-pro-b850-p-wifi_1.png"
    ],
    "readme": "actividades/hardware/placa-base/componentes-de-la-placa-base/README.md",
-   "curriculo": [],
-   "tecnologias": [],
+   "curriculo": [
+    {
+     "ciclo": "Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "g",
+      "h"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA2",
+     "ce": [
+      "b"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "c"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    },
+    {
+     "ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
    "tema": "hardware",
    "tema_nombre": "Hardware y montaje de equipos",
    "subtema": "placa-base",
@@ -297,21 +572,21 @@ window.INDICE = {
    "ruta": "actividades/hardware/placa-base/la-placa-base",
    "nombre": "La placa base",
    "descripcion": "",
-   "dificultad": "",
+   "dificultad": "easy",
    "autor": "Francisco Vargas Ruiz",
    "categorias": [
     "Hardware y montaje de equipos",
     "Placa base"
    ],
-   "preguntas": 111,
+   "preguntas": 50,
    "tipos": {
-    "multichoice": 111
+    "multichoice": 50
    },
    "ficheros": [
     {
      "nombre": "la placa base.xml",
      "ruta": "actividades/hardware/placa-base/la-placa-base/la placa base.xml",
-     "preguntas": 111
+     "preguntas": 50
     }
    ],
    "imagenes": [
@@ -322,8 +597,74 @@ window.INDICE = {
     "actividades/hardware/placa-base/la-placa-base/images/la placa base/fuw-placa-base_5.png"
    ],
    "readme": "actividades/hardware/placa-base/la-placa-base/README.md",
-   "curriculo": [],
-   "tecnologias": [],
+   "curriculo": [
+    {
+     "ciclo": "Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "f",
+      "g",
+      "h"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA1",
+     "ce": [
+      "b",
+      "e",
+      "f"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "b",
+      "c"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    },
+    {
+     "ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "c"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "c"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
    "tema": "hardware",
    "tema_nombre": "Hardware y montaje de equipos",
    "subtema": "placa-base",

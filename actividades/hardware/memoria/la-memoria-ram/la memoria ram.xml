@@ -54,60 +54,6 @@
     </answer>
   </question>
 
-<!-- question: 2155819  -->
-  <question type="multichoice">
-    <name>
-      <text>bus de memoria</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[¿De qué tamaño es el bus de direcciones en las arquitecturas actuales de 64 bits?<br />]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>44 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>20 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>32 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>64 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155820  -->
   <question type="multichoice">
     <name>
@@ -546,7 +492,7 @@
       <text>calcular velocidad acceso</text>
     </name>
     <questiontext format="html">
-      <text>¿Cuál es la velocidad de acceso (en nanosegundos) de una memoria DDR2-266?</text>
+      <text>¿Cuál es la velocidad de acceso (en segundos) de una memoria DDR-266?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -594,334 +540,10 @@
     </answer>
   </question>
 
-<!-- question: 2155828  -->
-  <question type="multichoice">
-    <name>
-      <text>calcular velocidad acceso</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es la velocidad de bus efectiva de una memoria PC-100?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>100 MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>200 MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>50 MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>5 ns</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155827  -->
-  <question type="multichoice">
-    <name>
-      <text>calcular velocidad acceso</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es la velocidad real de bus de una memoria PC-133?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>133 MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>66 MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>266 MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1066 MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155980  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuánto es el máximo de memoria que se soporta en un módulo de DDR3?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>6GB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>8GB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>16GB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>32GB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155998  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál de los siguientes módulos de memoria son de mayor tamaño?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>SIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>RIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>DIMM y RIMM tienen el mismo mismo</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155999  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿A qué llamamos encapsulado cuando hablamos de una memoria RAM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Módulos de memoria</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Paquetes de memoria</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Chips de memoria</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Núcleos (dies) de memoria</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156000  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿De qué capacidades encontramos los módulos DIMM para SDR SDRAM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Entre 256MB y 4GB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Entre 512MB y 1GB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Entre 256MB y 2GB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Entre 32MB y 2GB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156001  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 11</text>
     </name>
     <questiontext format="html">
       <text>¿Cuáles son los niveles de memoria de un ordenador?</text>
@@ -975,7 +597,7 @@
 <!-- question: 2156002  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 12</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[A las memorias de tipo "Unbuffered" se las denomina también ...]]></text>
@@ -1020,64 +642,10 @@
     </answer>
   </question>
 
-<!-- question: 2156003  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Las  DDR2 se suministran en módulos de ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>184 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>240 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>74 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>214 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156004  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 13</text>
     </name>
     <questiontext format="html">
       <text>La SRAM suele utilizarse como memoria caché de la CPU, y no como memoria principal.</text>
@@ -1116,118 +684,10 @@
     </answer>
   </question>
 
-<!-- question: 2156005  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál de las siguientes es una memoria de tipo DDR?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>PC-2700</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>PC-133</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>PC2-6400</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>PC3-6400</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156006  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuales de los siguientes modulos son para portatiles?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>DIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>RIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>SO-DIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>SIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156007  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 14</text>
     </name>
     <questiontext format="html">
       <text>¿Qué tipo de memoria se comunica directamente con la CPU?</text>
@@ -1281,7 +741,7 @@
 <!-- question: 2156008  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 15</text>
     </name>
     <questiontext format="html">
       <text>¿Qué tipo de memoria se usa en las tarjetas gráficas?</text>
@@ -1332,64 +792,10 @@
     </answer>
   </question>
 
-<!-- question: 2156009  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>La velocidad de acceso de la memoria ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Es el tiempo que tarda la memoria en una lectura o escritura</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Es el tiempo que dura un ciclo de reloj</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Se mide en nanosegundos</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Es el retardo que se produce al acceder a la memoria</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156010  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 16</text>
     </name>
     <questiontext format="html">
       <text>¿Qué tipo de memoria mantiene la información siempre que no se interrumpa la alimentación eléctrica (no necesita refresco)?</text>
@@ -1440,64 +846,10 @@
     </answer>
   </question>
 
-<!-- question: 2156011  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es el tipo de memoria más antiguo?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>DDR SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DDR2 SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DDR3 SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>RDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156012  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 17</text>
     </name>
     <questiontext format="html">
       <text>¿Qué quiere decir que la memoria tiene una latencia alta?</text>
@@ -1548,64 +900,10 @@
     </answer>
   </question>
 
-<!-- question: 2156013  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuántos pines tiene el módulo de memoria SO-DIMM para DDR2?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>132</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>144</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>200</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>232</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156014  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 18</text>
     </name>
     <questiontext format="html">
       <text>Las memorias SRAM respecto a las DRAM ...</text>
@@ -1631,7 +929,7 @@
       <text></text>
     </incorrectfeedback>
     <answer fraction="0" format="html">
-      <text>Son más rápidas y de menor capacidad.</text>
+      <text>Son más lentas, más baratas y de mayor capacidad.</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -1656,64 +954,10 @@
     </answer>
   </question>
 
-<!-- question: 2156015  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál tiene mayor ancho de banda?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>DDR-333</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DDR2-333</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Ambos tienen la misma</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Es imposible saberlo</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156016  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 19</text>
     </name>
     <questiontext format="html">
       <text>¿De qué depende el voltaje de la memoria?</text>
@@ -1767,7 +1011,7 @@
 <!-- question: 2156017  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 20</text>
     </name>
     <questiontext format="html">
       <text>El medio o soporte de la SRAM es ...</text>
@@ -1805,121 +1049,13 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>De sola lectura.</text>
+      <text>De solo lectura.</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>No volátil y de sola lectura.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156018  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál de los siguientes es el formato más pequeño de módulo de memoria?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>DIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>SO-DIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>MICRO-DIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>SO-RIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156019  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[¿Cuál de las siguientes afirmaciones es cierta con respecto al "triple canal" en las memorias?]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Permite acceso a dos moduloes de memoria</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Triplica el ancho de banda</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Son necesarios tres módulos de memoria distintos entre sí</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Es tres veces más rápido que el doble canal</text>
+      <text>No volátil y de solo lectura.</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -1929,7 +1065,7 @@
 <!-- question: 2156020  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 21</text>
     </name>
     <questiontext format="html">
       <text>Las siglas SRAM significan ...</text>
@@ -1983,7 +1119,7 @@
 <!-- question: 2156021  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 22</text>
     </name>
     <questiontext format="html">
       <text>¿Qué es un módulo de memoria?</text>
@@ -2028,118 +1164,10 @@
     </answer>
   </question>
 
-<!-- question: 2156022  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿En qué nivel de memoria se emplea la SRAM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Caché</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Secundaria</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Registros</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Principal</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156023  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Se distribuye en módulos DIMM de 184 pines, ¿qué tipo de memoria es?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>DDR SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Rambus DRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>SDR SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DDR2 SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156024  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 23</text>
     </name>
     <questiontext format="html">
       <text>La SRAM ...</text>
@@ -2193,7 +1221,7 @@
 <!-- question: 2156025  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 24</text>
     </name>
     <questiontext format="html">
       <text>¿Qué afirmación no es cierta referido a las memorias buffered?</text>
@@ -2231,103 +1259,13 @@
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text>Memoria má rápida pero menos segura</text>
+      <text>Memoria más rápida pero menos segura</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Se comunican no directamente con la CPU</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156026  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Qué significa que existe Dual-Channel?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text><![CDATA[<p>Que la CPU puede acceder a dos o más módulos de memoria de forma simultánea.</p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[<p>Que la CPU puede acceder solamente a dos módulos de memoria de forma simultánea.</p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[<p>Que la CPU se conecta de manera asíncrona a dos módulos de memoria</p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156028  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Los módulos de memoria Micro-DIMM se usan para DDR3.</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text><![CDATA[<p>Falso</p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[<p>Verdadero</p>]]></text>
+      <text>No se comunican directamente con la CPU</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -2337,7 +1275,7 @@
 <!-- question: 2155859  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 25</text>
     </name>
     <questiontext format="html">
       <text>En inglés MMU significa:</text>
@@ -2391,7 +1329,7 @@
 <!-- question: 2155860  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 26</text>
     </name>
     <questiontext format="html">
       <text>¿De qué se encarga el bus de direcciones?</text>
@@ -2445,7 +1383,7 @@
 <!-- question: 2155861  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 27</text>
     </name>
     <questiontext format="html">
       <text>¿Cómo se calcula el ancho de banda? Siendo VE=Velocidad Efectiva y ABD=Ancho de Bus de Datos (en bits)</text>
@@ -2496,67 +1434,13 @@
     </answer>
   </question>
 
-<!-- question: 2155862  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>El MMU es un dispositivo que controla</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>El intercambio de datos entre periféricos y microprocesador</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>El intercambio de datos entre la memoria y el microprocesador</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>El intercambio de datos entre el microprocesador y el usuario</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>El intercambio de datos en general</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155863  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 28</text>
     </name>
     <questiontext format="html">
-      <text>El overcloking ...</text>
+      <text>El overclocking ...</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -2585,7 +1469,7 @@
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text>Se puede hacer mediante la Bios</text>
+      <text>Se puede hacer mediante la BIOS</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -2607,10 +1491,10 @@
 <!-- question: 2155864  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 29</text>
     </name>
     <questiontext format="html">
-      <text>En las memorias SDRAM, ¿de cuánto es el ancho de banda?</text>
+      <text>En las memorias SDRAM, ¿de cuánto es el ancho del bus de datos?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -2661,7 +1545,7 @@
 <!-- question: 2155865  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 30</text>
     </name>
     <questiontext format="html">
       <text>¿En que se mide la latencia?</text>
@@ -2715,7 +1599,7 @@
 <!-- question: 2155866  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 31</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[¿Cómo se denomina también a las memorias que son "buffered"?]]></text>
@@ -2769,10 +1653,10 @@
 <!-- question: 2155867  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 32</text>
     </name>
     <questiontext format="html">
-      <text>Sabiendo que un bus de direcciones de 32 bits es capaz de direccionar 2^32 bits, ¿cuántos bytes seremos capaces de direccionar con un bus de 64 bits?</text>
+      <text>Sabiendo que un bus de direcciones de 32 bits es capaz de direccionar 2^32 bytes (4 GB), ¿cuántos bytes seremos capaces de direccionar con un bus de 64 bits?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -2823,7 +1707,7 @@
 <!-- question: 2155868  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 33</text>
     </name>
     <questiontext format="html">
       <text>La Memoria RAM almacena ...</text>
@@ -2849,7 +1733,7 @@
       <text></text>
     </incorrectfeedback>
     <answer fraction="0" format="html">
-      <text>Sóo datos</text>
+      <text>Solo datos</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -2861,7 +1745,7 @@
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text>Datos e instrucciones de programas que están ejecución</text>
+      <text>Datos e instrucciones de programas que están en ejecución</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -2877,7 +1761,7 @@
 <!-- question: 2155869  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 34</text>
     </name>
     <questiontext format="html">
       <text>¿Qué nombre recibe los módulos de SDRAM?</text>
@@ -2928,64 +1812,10 @@
     </answer>
   </question>
 
-<!-- question: 2155870  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuántos pines contiene un modulo DIMM para SDR SDRAM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>186</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>126</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>86</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>168</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155871  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 35</text>
     </name>
     <questiontext format="html">
       <text>El ancho de bus condiciona la cantidad de datos que se pueden transferir en un ciclo del reloj.</text>
@@ -3024,118 +1854,10 @@
     </answer>
   </question>
 
-<!-- question: 2155872  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Si tenemos una memoria DDR2-667 ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>La velocidad efectiva es 667MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>La velocidad efectiva es 667 x 2 = 1333MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>La velocidad efectiva es 667 / 2 = 333MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Ninguna es correcta</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155873  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es la latencia más importante?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>ACTIVE</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>RAS</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>PRECHARGE</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>CAS</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155874  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 36</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[¿Qué tienen las memorias "buffered"?]]></text>
@@ -3179,7 +1901,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Documentos de texto</text>
+      <text>Un chip que comprime los datos</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -3189,7 +1911,7 @@
 <!-- question: 2155875  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 37</text>
     </name>
     <questiontext format="html">
       <text>¿Qué conjunto de características perteneciente al Dual-Channel es correcta?</text>
@@ -3243,7 +1965,7 @@
 <!-- question: 2155876  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 38</text>
     </name>
     <questiontext format="html">
       <text>¿A qué equivale un ciclo por segundo?</text>
@@ -3294,55 +2016,13 @@
     </answer>
   </question>
 
-<!-- question: 2155877  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Las siglas RAM significan Random Access Memory.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155878  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 39</text>
     </name>
     <questiontext format="html">
-      <text>¿Cuál de estos paremetros NO define características de la RAM?</text>
+      <text>¿Cuál de estos parámetros NO define características de la RAM?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -3393,10 +2073,10 @@
 <!-- question: 2155879  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 40</text>
     </name>
     <questiontext format="html">
-      <text>¿Cuántos B/s podremos transmitir en un ciclo del reloj si nuestro sistema es de 32 bits a 600MHz?</text>
+      <text>¿Cuántos bytes por segundo podremos transmitir si nuestro sistema es de 32 bits a 600MHz?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -3447,7 +2127,7 @@
 <!-- question: 2155880  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 41</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[¿Aumenta la fiabilidad del sistema una memoria "buffered"?]]></text>
@@ -3473,7 +2153,7 @@
       <text></text>
     </incorrectfeedback>
     <answer fraction="100" format="html">
-      <text>Si</text>
+      <text>Sí</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -3498,118 +2178,10 @@
     </answer>
   </question>
 
-<!-- question: 2155881  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Indica cuál de los siguientes tipos de memoria RAM tiene menor voltaje nominal</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>DDR3</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DDR</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>FPM y EDO</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155882  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>De los módulos de memoria DIMM 30, SIPP, DIP y SIMM 72, ¿cuál es el más pequeño?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>DIMM 30</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>SIPP</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>DIP</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>SIMM 72</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155883  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 42</text>
     </name>
     <questiontext format="html">
       <text>Las siglas SDR SDRAM significan ...</text>
@@ -3663,7 +2235,7 @@
 <!-- question: 2155884  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 43</text>
     </name>
     <questiontext format="html">
       <text>Antiguamente el controlador de memoria se encontraba ...</text>
@@ -3714,64 +2286,10 @@
     </answer>
   </question>
 
-<!-- question: 2155885  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Teniendo  un Intel Core i7 (9xx), Triple-Channel, DDR3-1066MHz, ¿cuál es su tasa de transferencia (velocidad)?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>35.5 GB/s</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>36352 MB/s</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>15872 MB/s</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>25.5 GB/s</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155886  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 44</text>
     </name>
     <questiontext format="html">
       <text>La memoria con menos valores de CAS son más rápidas y más caras.</text>
@@ -3810,64 +2328,10 @@
     </answer>
   </question>
 
-<!-- question: 2155887  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál de los siguientes tipos de memoria RAM tiene mayor voltaje nominal?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>RDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DDR</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>FPM y EDO</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DDR3</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155888  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 45</text>
     </name>
     <questiontext format="html">
       <text>Las memorias RAM se utilizan porque ...</text>
@@ -3921,7 +2385,7 @@
 <!-- question: 2155889  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 46</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[¿En qué se suele usar las memorias de tipo "buffered"?]]></text>
@@ -3975,7 +2439,7 @@
 <!-- question: 2155890  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 47</text>
     </name>
     <questiontext format="html">
       <text>De las siguientes características, ¿cuál es relativa a las RAM?</text>
@@ -4029,7 +2493,7 @@
 <!-- question: 2155891  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 48</text>
     </name>
     <questiontext format="html">
       <text>Antiguamente el bus que comunicaba el controlador de memoria con la memoria se llamaba ...</text>
@@ -4080,64 +2544,10 @@
     </answer>
   </question>
 
-<!-- question: 2155892  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[Si hacemos el "overclocking" en el voltaje:]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>No hay ningún peligro</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Tendrá cierto peligro</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>El peligro será extremo, pero no tendrá que ver el voltaje</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Será una práctica peligrosa</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155893  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 49</text>
     </name>
     <questiontext format="html">
       <text>Las capacidades de la memorias RAM se miden actualmente en ...</text>
@@ -4191,7 +2601,7 @@
 <!-- question: 2155894  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 50</text>
     </name>
     <questiontext format="html">
       <text>Las siglas RAM significan ...</text>
@@ -4245,7 +2655,7 @@
 <!-- question: 2155895  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 51</text>
     </name>
     <questiontext format="html">
       <text>¿Cuál de los siguientes tipos módulos de memoria se usan en los portátiles?</text>
@@ -4299,10 +2709,10 @@
 <!-- question: 2155896  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 52</text>
     </name>
     <questiontext format="html">
-      <text>Hemos comprado un ordenador con 6GB de memoria RAM, procesador Intel i5 3220 y Windows 7 Home Premium x86, ¿hemos hecho una buena inversión?</text>
+      <text>Hemos comprado un ordenador con 6GB de memoria RAM, procesador de 64 bits y un sistema operativo de 32 bits, ¿hemos hecho una buena inversión?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -4325,7 +2735,7 @@
       <text></text>
     </incorrectfeedback>
     <answer fraction="0" format="html">
-      <text>Si, ya que la arquitectura incluida aprovecha al máximo nuestros recursos.</text>
+      <text>Sí, ya que la arquitectura incluida aprovecha al máximo nuestros recursos.</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -4343,61 +2753,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Si, ya que nuestro procesador trabaja perfectamente con nuestros 6GB de RAM.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155897  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>El voltaje nominal para las memorias DDR 2 es:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>3V</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>1.8V</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1.8Hz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>0.01V</text>
+      <text>Sí, ya que nuestro procesador trabaja perfectamente con nuestros 6GB de RAM.</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -4407,7 +2763,7 @@
 <!-- question: 2155898  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 53</text>
     </name>
     <questiontext format="html">
       <text>La memoria RAM se distribuye en forma de ...</text>
@@ -4458,118 +2814,10 @@
     </answer>
   </question>
 
-<!-- question: 2155899  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Actualmente el controlador de memoria ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Mejora la velocidad de acceso a la memoria</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Tiene mayor capacidad de control</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>El bus que lo comunica con la memoria se llama QDI</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Ninguna es correcta</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155900  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[¿Con qué se comunican las memorias "unbuffered"?]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Con el disco duro</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Con la disquetera</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Con la CPU</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Con la memoria USB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155901  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 54</text>
     </name>
     <questiontext format="html">
       <text>Tenemos una memoria DDR3-1600, ¿cuál es la frecuencia real del bus de memoria?</text>
@@ -4613,169 +2861,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>El bus físico es 1600 x 2 = 2200 MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155902  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>El voltaje nominal para las memorias RAM DDR-400 es:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>2.6V</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>2.5V</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>5.5V</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>21A</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155903  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>El ancho de bus de datos de la DDR2 es de:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>8 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>32 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>64 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>96 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155904  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>El número de pines de los módulos de memoria para DDR2 es ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>240</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>120</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>184</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>80</text>
+      <text>El bus físico es 1600 x 2 = 3200 MHz</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -4785,7 +2871,7 @@
 <!-- question: 2155905  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 55</text>
     </name>
     <questiontext format="html">
       <text>En las memorias DDR, ¿se aprovechan los flancos de subida y de bajada de la señal del reloj?</text>
@@ -4836,64 +2922,10 @@
     </answer>
   </question>
 
-<!-- question: 2155906  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿En Triple-Channel cuantos bits se envian por transferencia?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>128 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>192 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>64 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>256 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155907  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 56</text>
     </name>
     <questiontext format="html">
       <text>Actualmente se utilizan memorias ...</text>
@@ -4944,172 +2976,10 @@
     </answer>
   </question>
 
-<!-- question: 2155908  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>La mejora de DDR2 supuso ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>más velocidad, más voltaje</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>menos velocidad, más voltaje</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>menos velocidad, menos voltaje</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>más velocidad, menos voltaje</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155909  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿De qué material están hechos los módulos de memoria RAM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Los módulos de memoria RAM son tarjetas de circuito impreso que tienen soldados semiconductores de silicio</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Los módulos de memoria RAM son tarjetas de circuito impreso que tienen semiconductores de silicio</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Los módulos de memoria RAM son tarjetas de circuito impreso que tienen soldados semiconductores de diamante</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Los módulos de memoria RAM son cables impreso que tienen soldados semiconductores de silicio</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155910  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>La capacidad máxima de almacenamiento de las memorias DDR2 es de ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>hasta 2 GB por módulo</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>hasta 4 GB por módulo</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>hasta 1 GB por módulo</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>hasta 250 MB por rmódulo</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155911  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 57</text>
     </name>
     <questiontext format="html">
       <text>¿Qué es la latencia en las memorias RAM?</text>
@@ -5160,106 +3030,10 @@
     </answer>
   </question>
 
-<!-- question: 2155912  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Los módulos de alto rendimiento:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Funcionan con pocos MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>No requieren voltaje</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>No disponen de disipadores</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Tienen sistemas de refrigeración mejorados</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155913  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>PC2-1600 es una memoria tipo DDR2.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155914  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 58</text>
     </name>
     <questiontext format="html">
       <text>En las memorias DDR PC-3200, ¿a qué hace referencia el número del modelo?</text>
@@ -5310,52 +3084,10 @@
     </answer>
   </question>
 
-<!-- question: 2155915  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Triple-channel significa que la velocidad de transferencia es trece veces mayor con respecto a las dos veces del doble-channel?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155916  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 59</text>
     </name>
     <questiontext format="html">
       <text>En las memorias DRAM ...</text>
@@ -5406,388 +3138,10 @@
     </answer>
   </question>
 
-<!-- question: 2155917  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>La memoria Rambus DRAM es:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Una memoria propietaria</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Una memoria genérica</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Una memoria virtual</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Una memoria estática</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155918  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Qué significan las siglas RIMM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Random Incline Memory Module</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Rambus Inline Memory Module</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Rambus Inline Memory Master</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Rambus Inside Memory Master</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155919  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Qué tipo de memoria es la PC-133?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>SDR SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DDR SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DDR2 SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DDR3 SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155920  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuántas variantes de memoria con doble tasa de transferencia de datos podemos encontrar (sin tener en cuenta su frecuencia)?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>2</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>3</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Ningun es correcta.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155921  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿A qué se debe que el acceso a memoria para lectura o escritura lleva tiempo?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Al funcionamiento de los componentes electrónicos</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>A la velocidad que permite el slot</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>A la distancia del microprocesador</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Al calor generado por los condensadores de la memoria</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155922  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>La memoria Rambus DRAM apareció después de la ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>DDR SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>SDR SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DDR2 SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>FPM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155923  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es la velocidad de bus real de la memoria DDR-266?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>133</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>266</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>532</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>100</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155924  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 60</text>
     </name>
     <questiontext format="html">
       <text>El voltaje nominal es el mismo para todos los tipos de memoria.</text>
@@ -5826,334 +3180,10 @@
     </answer>
   </question>
 
-<!-- question: 2155925  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Qué capacidades tienen las SIMM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Entre 1MB Y 128MB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Entre 1KB Y 128KB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Entre 2GB y 4GB.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Entre 32MB y 2GB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155926  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿En qué unidad se mide el tiempo mínimo en realizar un acceso a memoria?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Nanosegundos</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>mAh (Miliamperios/hora)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Voltios</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155927  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Con cuántos pines nos los encontramos los módulos RIMM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>168 y 232</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>168 y 240</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>100 y 133</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>32 y 512</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155928  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>La memoria Rambus DRAM se utilizó en la ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Sega Megradrive</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>PSVita</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Playstation 3</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Nintendo 64</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155929  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuándo se usaron los módulos SIMM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Entre los 80 y los 90.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Entre los 70 y los 80.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Entre los 60 y los 70.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Entre los 50 y los 60.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155930  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es la formula correcta para hallar la velocidad de acceso para la Memoria DDR2-1066?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>2 * 1066</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1066 / 2</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>1 / 1.066.000.000</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1 / 1066</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155931  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 61</text>
     </name>
     <questiontext format="html">
       <text>Con respecto a las SRAM, las DRAM:</text>
@@ -6204,166 +3234,10 @@
     </answer>
   </question>
 
-<!-- question: 2155932  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[El concepto de "Triple Canal" hace referencia a ...]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>La capacidad de los módulos de memoria,</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>El ancho de bits del bus.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>La velocidad de acceso.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>El tipo de latencia.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155933  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Viene con un disipador la RIMM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Sí</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>No</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Sólo en algunos casos</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155934  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Intel incorporó la memoria Rambus DRAM en el ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Pentium II</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Pentium III</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Core 2 Duo</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Celeron</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155935  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 62</text>
     </name>
     <questiontext format="html">
       <text>Las siglas DDR significan Dinamyc Data Rate Random Access Memory</text>
@@ -6405,7 +3279,7 @@
 <!-- question: 2155936  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 63</text>
     </name>
     <questiontext format="html">
       <text>¿En qué magnitud se mide la velocidad efectiva de bus?</text>
@@ -6443,325 +3317,13 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Watios</text>
+      <text>Vatios</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Ohmnios</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155937  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Las memorias Rambus DRAM eran muy baratas.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155938  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>El ancho de bus de datos de la DDR2 es de:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>8bit</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>32bit</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>64bit</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>96bit</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155939  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Qué memoria barrió del mercado a la memoria Rambus DRAM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>VRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>BEDO</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>DDR SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155940  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>La memoria RAM puede ser ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Cored o Uncored.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Dual Core o Triple Core.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Buffered o Registered.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Buffered o Unregistered</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155941  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Las memorias DRAM ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Son estáticas</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Son dinámicas</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Son no volátiles</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>No necesitan refresco</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155942  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuántos pines tienen los módulos de memoria DIMM para DDR2 y DDR3?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>240</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>232</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>184</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>168</text>
+      <text>Ohmios</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -6771,7 +3333,7 @@
 <!-- question: 2155943  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 64</text>
     </name>
     <questiontext format="html">
       <text>¿Cuál de las siguientes características es propia de los módulos de memoria de alto rendimiento?</text>
@@ -6822,67 +3384,13 @@
     </answer>
   </question>
 
-<!-- question: 2155944  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Con cuántos pines podemos encontrar un módulo de memoria de tipo RIMM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>128</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>232</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>192</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>229</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155945  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 65</text>
     </name>
     <questiontext format="html">
-      <text>Las memorias síncronas funcionan a una cierta velocidad del bus del sistema, ¿en qué se mide está velocidad?</text>
+      <text>Las memorias síncronas funcionan a una cierta velocidad del bus del sistema, ¿en qué se mide esta velocidad?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -6930,160 +3438,10 @@
     </answer>
   </question>
 
-<!-- question: 2155946  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>La memoria DDR se suministra en modulos DIMM de:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>124 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>64 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>256 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>184 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155947  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Las latencias se miden en ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Segundos (s)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Ciclos del reloj</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Hercios (Hz)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Miliamperios/hora (mAh)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155948  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>La velocidad de acceso a la RAM es una característica propia de la memoria, o esta definida por la velocidad de la CPU.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero (Es una característica de la memoria)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso (Está determinada por la velocidad de la CPU)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155949  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 66</text>
     </name>
     <questiontext format="html">
       <text>¿Cuál de las siguientes afirmaciones es cierta con respecto a las memorias DRAM?</text>
@@ -7137,7 +3495,7 @@
 <!-- question: 2155950  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 67</text>
     </name>
     <questiontext format="html">
       <text>¿En qué unidad se mide el tiempo de acceso a la memoria?</text>
@@ -7191,7 +3549,7 @@
 <!-- question: 2155951  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 68</text>
     </name>
     <questiontext format="html">
       <text>¿En que magnitud se mide el ancho de bus de datos?</text>
@@ -7242,160 +3600,10 @@
     </answer>
   </question>
 
-<!-- question: 2155952  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>La memoria DDR2 es una mejora respecto a ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>DDR</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DDR3</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Rambus DRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>GDDR</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155953  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Según Intel, ¿es peligroso para el micro que el MMU tenga un voltaje superior al 5%?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>No</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Sí</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>No es posible</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Tal vez</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155954  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>La DDR2 incrementa su velocidad respecto a las memorias anteriores a coste de un mayor consumo.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155955  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 69</text>
     </name>
     <questiontext format="html">
       <text>Selecciona la verdadera.</text>
@@ -7449,7 +3657,7 @@
 <!-- question: 2155956  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 70</text>
     </name>
     <questiontext format="html">
       <text>¿Cuántas muescas tienen los módulos de memoria DDR entre los pines?</text>
@@ -7500,160 +3708,10 @@
     </answer>
   </question>
 
-<!-- question: 2155957  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Las memorias DDR barrieron en el mercado a qué memorias?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Rambus DRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>SDR SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>GDDR</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DDR2</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155958  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>El módulo de memoria Micro-DIMM tiene 172 pines, 64 bits de ancho, 46 mm de tamaño y es un tipo de memoria DDR2.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155959  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Las memorias DDR2 se suministran en módulos DIMM de ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>72 Pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>168 Pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>240 Pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>184 Pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155960  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 71</text>
     </name>
     <questiontext format="html">
       <text>El ancho de banda de la memoria cuanto mayor sea, mejor.</text>
@@ -7695,7 +3753,7 @@
 <!-- question: 2155961  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 72</text>
     </name>
     <questiontext format="html">
       <text>¿Qué componente se introduce en los slots de memoria?</text>
@@ -7749,7 +3807,7 @@
 <!-- question: 2155962  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 73</text>
     </name>
     <questiontext format="html">
       <text>La muesca entre los pines no coincide entre los módulos de memoria de tipo DDR (son incompatibles), aunque todos son DIMM.</text>
@@ -7788,64 +3846,10 @@
     </answer>
   </question>
 
-<!-- question: 2155963  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>El bus de memoria se divide en ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Bus de direcciones y bus de control</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Bus de direcciones y bus de datos</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Bus de datos y bus de control</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Bus de control y bus de datos</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155964  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 74</text>
     </name>
     <questiontext format="html">
       <text>Las memorias síncronas...</text>
@@ -7883,7 +3887,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Son más lentas que la asíncronas</text>
+      <text>Son más lentas que las asíncronas</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -7899,7 +3903,7 @@
 <!-- question: 2155965  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 75</text>
     </name>
     <questiontext format="html">
       <text>¿Dónde almacena la memoria los bits?</text>
@@ -7950,226 +3954,10 @@
     </answer>
   </question>
 
-<!-- question: 2155966  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuáles de estos módulos solían venir siempre con disipador por trabajar a frecuencias muy altas y generar mucho calor?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>RIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>SIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DIMM DDR</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155967  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Al realizar overclocking, ¿qué mejoramos en el microprocesador aumentando el voltaje?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>El rendimiento</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>La emisión de calor</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>El ahorro energético</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Nada</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155968  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuánto es el ancho en bits de las memorias DDR3?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>128</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>16</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>32</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>64</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155969  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Una memoria DDR2-800, con una tasa de transferencia de 8 Bytes/hz.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Tienen un ancho de bus de 64 bits.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Permite transferir 6400 Mb/s</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Trabaja a una velocidad maxima de 800Mhz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Todas las anteriores son ciertas</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155970  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 76</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[¿Cómo se denomina en inglés a la "ranura" de memoria?]]></text>
@@ -8223,7 +4011,7 @@
 <!-- question: 2155971  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 77</text>
     </name>
     <questiontext format="html">
       <text>¿A qué nos referimos con memoria?</text>
@@ -8277,10 +4065,10 @@
 <!-- question: 2155972  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 78</text>
     </name>
     <questiontext format="html">
-      <text>El ancho de banda es la máxima cantidad de memoria que se puede transferir por segundo hacia o desde la CPU.</text>
+      <text>El ancho de banda es la máxima cantidad de datos que se puede transferir por segundo hacia o desde la CPU.</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -8316,118 +4104,10 @@
     </answer>
   </question>
 
-<!-- question: 2155973  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>La memorias DDR2 permiten como máximo módulos de hasta ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>4 GB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>2 GB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>8 GB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1 GB</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155974  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>Las siglas de las memorias para tarjetas gráficas son:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>GRDD</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>GDDR</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>VDDR</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>RDDR</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155975  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 79</text>
     </name>
     <questiontext format="html">
       <text>La Memoria RAM es la memoria principal del ordenador.</text>
@@ -8466,67 +4146,13 @@
     </answer>
   </question>
 
-<!-- question: 2155976  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuántas muescas tienen los módulos de memoria DDR a cada lado?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>2</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>6</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>4</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155977  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 80</text>
     </name>
     <questiontext format="html">
-      <text>¿Qué diferencias hay en DDR3 respecto a DDR2?</text>
+      <text>¿Qué diferencias hay en DDR5 respecto a DDR4?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -8568,64 +4194,10 @@
     </answer>
   </question>
 
-<!-- question: 2155978  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Qué es un  SIMM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Es un formato para módulos de memoria RAM que consisten en placas de circuito impreso sobre las que se montan los integrados de memoria DRAM.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Es un formato para módulos de memoria RAM que consisten en placas de circuito impreso sobre las que se montan los integrados de memoria SDRAM .</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Es un formato para módulos de memoria RAM que consisten en placas de circuito impreso sobre las que se montan los integrados de memoria DDR2.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Es un formato para módulos de memoria RAM que consisten en placas de circuito impreso sobre las que se montan los integrados de memoria DDR3.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155979  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 81</text>
     </name>
     <questiontext format="html">
       <text>¿Qué significan las siglas DIMM?</text>
@@ -8676,64 +4248,10 @@
     </answer>
   </question>
 
-<!-- question: 2155981  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es el tamaño en mm de las memorias DIMM-DDR3?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>89</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>108</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>133</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>68</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155982  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 82</text>
     </name>
     <questiontext format="html">
       <text>¿Cuál de las siguientes afirmaciones referentes a la latencia de las memorias es cierta?</text>
@@ -8787,7 +4305,7 @@
 <!-- question: 2155983  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 83</text>
     </name>
     <questiontext format="html">
       <text>Dual Channel:</text>
@@ -8838,64 +4356,10 @@
     </answer>
   </question>
 
-<!-- question: 2155984  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuántos pines tienen los módulos de memoria DDR SDRAM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>184</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>333</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Son integradas en la placa</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>64</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155985  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 84</text>
     </name>
     <questiontext format="html">
       <text>Una tarjeta gráfica que tiene su propia memoria, nunca accede a la memoria RAM del PC.</text>
@@ -8937,7 +4401,7 @@
 <!-- question: 2155986  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 85</text>
     </name>
     <questiontext format="html">
       <text>La memoria caché es ...</text>
@@ -8991,10 +4455,10 @@
 <!-- question: 2155987  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 86</text>
     </name>
     <questiontext format="html">
-      <text>¿Cuál de las siguientes NO es un tipo de memoria DDR3?</text>
+      <text>¿Cuál de las siguientes NO es un tipo de memoria DDR4?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -9017,133 +4481,25 @@
       <text></text>
     </incorrectfeedback>
     <answer fraction="0" format="html">
-      <text>DDR3-800</text>
+      <text>DDR4-2400</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text>DDR3-950</text>
+      <text>DDR4-2950</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>DDR3-1333</text>
+      <text>DDR4-2666</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>DDR3-1600</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155988  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Qué es más largo físicamente: un SIMM o un DIMM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Dependen del tipo de DIMM y SIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Un DIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Un SIMM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Son igual de largos</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155989  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>El bus físico de la memoria DDR3-1600 es de..</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>800MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1600MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>3200MHz</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>333MHz</text>
+      <text>DDR4-3200</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -9153,7 +4509,7 @@
 <!-- question: 2155990  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 87</text>
     </name>
     <questiontext format="html">
       <text>Las latencias ...</text>
@@ -9207,7 +4563,7 @@
 <!-- question: 2155991  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 88</text>
     </name>
     <questiontext format="html">
       <text>¿Dónde no solemos encontar la memoria de tipo GDDR?</text>
@@ -9252,64 +4608,10 @@
     </answer>
   </question>
 
-<!-- question: 2155992  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿De cuántos pines constan las memorias SO-DIMM DDR3?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>172</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>168</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>204</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>244</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155993  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 89</text>
     </name>
     <questiontext format="html">
       <text>¿Cuál de las siguientes niveles de memoria es más rápido?</text>
@@ -9360,166 +4662,10 @@
     </answer>
   </question>
 
-<!-- question: 2155994  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Se puede encajar un módulo DDR3 en un slot de DDR2?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Sí</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>No</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Sí, dándole la vuelta al módulo</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155995  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cual es el ancho de banda de la SDRAM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>64 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>32 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>96 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>16 bits</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155996  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Memoria RAM</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Que memoria RAM se utilizó en la Playstation 2?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>SDRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>GDDR</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Rambus DRAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155997  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Memoria RAM</text>
+      <text>Memoria RAM 90</text>
     </name>
     <questiontext format="html">
       <text>La velocidad de bus efectiva de la memoria DDR3-1600 es de..</text>
@@ -9576,7 +4722,7 @@
       <text>latencias</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[En las especificaciones técnicas de una memoria RAM nos indica que las latencias son &quot;8-9-7-24&quot;, ¿de cuántos nanosegundos es la latencia CAS?]]></text>
+      <text><![CDATA[En las especificaciones técnicas de una memoria RAM nos indica que las latencias son &quot;8-9-7-24&quot;, ¿cuántos ciclos de reloj dura la latencia CAS?]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -9678,60 +4824,6 @@
     </answer>
   </question>
 
-<!-- question: 2155832  -->
-  <question type="multichoice">
-    <name>
-      <text>latencias</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cómo se llaman los restrasos que se producen durante el acceso a la memoria RAM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Latencias</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Retardos</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Lapsus</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Quantum</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155796  -->
   <question type="multichoice">
     <name>
@@ -9739,114 +4831,6 @@
     </name>
     <questiontext format="html">
       <text>¿Cuál o cuáles de los siguientes tipos de memoria RAM son de tipo SDRAM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>false</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="25" format="html">
-      <text>SDR</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="25" format="html">
-      <text>DDR</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="25" format="html">
-      <text>DDR2</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="25" format="html">
-      <text>DDR3</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155792  -->
-  <question type="multichoice">
-    <name>
-      <text>memoria ram</text>
-    </name>
-    <questiontext format="html">
-      <text>RAM es el acrónimo de ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Random Access Memory</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Rapid Access Memory</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Random Automation Memory</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Real Automated Memory</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155797  -->
-  <question type="multichoice">
-    <name>
-      <text>memoria ram</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál o cuáles de los siguientes tipos de memoria RAM son síncronas?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -9948,60 +4932,6 @@
     </answer>
   </question>
 
-<!-- question: 2155794  -->
-  <question type="multichoice">
-    <name>
-      <text>memoria ram</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Qué se almacena en la memoria RAM?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>false</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="50" format="html">
-      <text>Datos</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="50" format="html">
-      <text>Instrucciones</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Ficheros</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Ejecutables</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155795  -->
   <question type="multichoice">
     <name>
@@ -10050,276 +4980,6 @@
     </answer>
     <answer fraction="0" format="html">
       <text>No se pierde su información al apagar el ordenador</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155800  -->
-  <question type="multichoice">
-    <name>
-      <text>mmu</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Dónde podemos encontrar el controlador de memoria (MMU)?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>false</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="50" format="html">
-      <text>Dentro del microprocesador</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="50" format="html">
-      <text>Dentro del puente norte (northbridge, chip de la placa base)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Dentro de la memoria</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Dentro de la controladora DMA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155801  -->
-  <question type="multichoice">
-    <name>
-      <text>mmu</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[¿Cómo denomina AMD el bus que comunica con la memoria RAM?<br />]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Hypertransport</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>QPI (Quick Path Interconnection)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>FSB (Front Side Bus)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Bus del sistema</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155808  -->
-  <question type="multichoice">
-    <name>
-      <text>mmu</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[¿Cómo denomina Intel el bus que comunica con la memoria RAM?<br />]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Hypertransport</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>QPI (Quick Path Interconnection)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>FSB (Front Side Bus)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Bus del sistema</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155799  -->
-  <question type="multichoice">
-    <name>
-      <text>mmu</text>
-    </name>
-    <questiontext format="html">
-      <text>¿De que se encarga la unidad MMU?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Del intercambio de datos entre la CPU y la memoria</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Del intercambio de datos entre los periféricos</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Del control del bus frontal del sistema</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>De la gestión de los dispositivos de almacemamiento secundario</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155798  -->
-  <question type="multichoice">
-    <name>
-      <text>modulo memoria</text>
-    </name>
-    <questiontext format="html">
-      <text>Actualmente la memoria RAM se distribuye encapsulada en ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Módulos de memoria</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Chips</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Núcleos de silicio</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Plaquitas de memoria</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -10476,35 +5136,6 @@
     </answer>
   </question>
 
-<!-- question: 2155839  -->
-  <question type="truefalse">
-    <name>
-      <text>ancho banda</text>
-    </name>
-    <questiontext format="html">
-      <text>Cuanto más bajo sea el ancho de banda de la memoria RAM mejor.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>1.0000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="0" format="plain_text">
-      <text>true</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="plain_text">
-      <text>false</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2155783  -->
   <question type="truefalse">
     <name>
@@ -10512,35 +5143,6 @@
     </name>
     <questiontext format="html">
       <text>Cuántos más ancho de bits tenga el bus datos, más datos se podrán transmitir en cada ciclo de reloj.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>1.0000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="plain_text">
-      <text>true</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="plain_text">
-      <text>false</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155834  -->
-  <question type="truefalse">
-    <name>
-      <text>latencias</text>
-    </name>
-    <questiontext format="html">
-      <text>Las latencias de las memorias RAM cuanto menores sean, mejor.</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -10621,93 +5223,6 @@
     </answer>
   </question>
 
-<!-- question: 2155838  -->
-  <question type="truefalse">
-    <name>
-      <text>latencias</text>
-    </name>
-    <questiontext format="html">
-      <text>Al hacer overclocking sobre el FSB es necesario aumentar la latencias CAS.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>1.0000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="plain_text">
-      <text>true</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="plain_text">
-      <text>false</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155790  -->
-  <question type="truefalse">
-    <name>
-      <text>memoria</text>
-    </name>
-    <questiontext format="html">
-      <text>Memoria es cualquier dispositivo capaz de controlar y dirigiral resto de componentes del sistema.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>1.0000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="0" format="plain_text">
-      <text>true</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="plain_text">
-      <text>false</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2155791  -->
-  <question type="truefalse">
-    <name>
-      <text>memoria</text>
-    </name>
-    <questiontext format="html">
-      <text>Memoria es todo dispositivo capaz de almacenar información y permitir recuperarla con posterioridad.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>1.0000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="plain_text">
-      <text>true</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="plain_text">
-      <text>false</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2158135  -->
   <question type="matching">
     <name>
@@ -10781,25 +5296,25 @@
     <subquestion format="html">
       <text>CAS</text>
       <answer>
-        <text>8 ns</text>
+        <text>8 ciclos</text>
       </answer>
     </subquestion>
     <subquestion format="html">
       <text>tRCD</text>
       <answer>
-        <text>9 ns</text>
+        <text>9 ciclos</text>
       </answer>
     </subquestion>
     <subquestion format="html">
       <text>tRP</text>
       <answer>
-        <text>7 ns</text>
+        <text>7 ciclos</text>
       </answer>
     </subquestion>
     <subquestion format="html">
       <text>tRAS</text>
       <answer>
-        <text>24 ns</text>
+        <text>24 ciclos</text>
       </answer>
     </subquestion>
   </question>
@@ -10887,7 +5402,7 @@
       </answer>
     </subquestion>
     <subquestion format="html">
-      <text>Memoria interna a la CPU muy muy rápida y pero pequeña.
+      <text>Memoria interna a la CPU muy rápida pero pequeña.
 </text>
       <answer>
         <text>Memoria caché</text>

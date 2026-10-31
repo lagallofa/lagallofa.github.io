@@ -7,5 +7,38 @@
         "email": "fvarrui@canariaseducacion.es",
         "github": "fvarrui"
     },
-    "limit": 10
+    "limit": 10,
+    "curriculo": [
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3029",
+            "ra": "RA1",
+            "ce": [
+                "f"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0221",
+            "ra": "RA1",
+            "ce": [
+                "b",
+                "c",
+                "d"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0371",
+            "ra": "RA1",
+            "ce": [
+                "a",
+                "c",
+                "e"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
 }

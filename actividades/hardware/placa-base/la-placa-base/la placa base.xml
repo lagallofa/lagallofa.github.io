@@ -1,201 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
-<!-- question: 2156038  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Primer estándar de factor de forma de los IBM PC fue el PC/XT</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156039  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El factor de forma BTX fue introducida por:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>AMD</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Motorola</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Apple</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Intel</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156040  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Por cuántos chips esta compuesto el Chipset?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>1 (la BIOS)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>2 (el puente norte y el puente sur)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>5 (el puente norte, el puente sur, el copro, la BIOS y la CMOS)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>4 (el puente norte, el puente sur, la BIOS y la CMOS)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156041  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Las placas se fabrican de distintos tamaños y con muy diversos conectores.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156042  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 01</text>
     </name>
     <questiontext format="html">
       <text>¿Cómo se llama el conector donde se aloja el microprocesador?</text>
@@ -246,352 +54,10 @@
     </answer>
   </question>
 
-<!-- question: 2156043  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Las placas ATX son incompatibles con BTX.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156044  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿El formato WTX fue creado por qué compañía en qué año?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Apple 1974</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>IBM 1994</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Intel 1998</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Motorola 1996</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156045  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El formato WTX es comúnmente usado en...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Media center</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Ordenadores domésticos</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Pequeños servidores</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Servidores enrackables</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156046  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Cada microprocesador tiene un socket específico, y cada socket admite una gama de microprocesadores.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156047  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El factor de forma de la BabyAT es mayor que la AT.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156048  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál de los siguientes factores de forma corresponde a un formato de gran tamaño?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>ATX</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>AT</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>WTX</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>LPX</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156049  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Que formatos introdujo AMD en 2007?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>DTX y Mini-DTX</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Mini-DTX y Micro-ATX</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Mini-AX y DTX</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>STX y Mini-STX</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156050  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 02</text>
     </name>
     <questiontext format="html">
       <text>¿Cuál es el voltaje común de la pila de la placa?</text>
@@ -645,7 +111,7 @@
 <!-- question: 2156051  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 03</text>
     </name>
     <questiontext format="html">
       <text>¿Cuáles son las funciones del Chipset?</text>
@@ -699,7 +165,7 @@
 <!-- question: 2156052  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 04</text>
     </name>
     <questiontext format="html">
       <text>¿Qué ventaja tiene una placa mayor frente a otra de menor tamaño?</text>
@@ -750,106 +216,10 @@
     </answer>
   </question>
 
-<!-- question: 2156053  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Las BIOS actuales permiten:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>La detección de dispositivos de forma manual</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Gestión avanzada de energía</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Deshabilitar la pila para que no se gaste</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Todas son ciertas</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156054  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El puente sur (ICH) se comunica con el microprocesador a través del puente norte.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156055  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 05</text>
     </name>
     <questiontext format="html">
       <text>La pila de la placa mantiene la alimentación eléctrica para...</text>
@@ -900,214 +270,10 @@
     </answer>
   </question>
 
-<!-- question: 2156056  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál de estos microprocesadores pertenece a Intel?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Athlon 64</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Phenom</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Sempron</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Celeron</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156057  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Que desventaja tiene el factor de forma BabyAT</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Hay que desmontar muchos componentes para llegar a otros con holgura</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>No disipa bien el calor</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Es posible que se reduzca el tiempo de vida de los componentes al ser la placa tan pequeña</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Hay que utilizar herramientas específicas para acceder a los componentes de la placa</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156058  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El socket dispone de unos puntos de guía que permiten que el microprocesador no quede totalmente pegado al zócalo para no generar calor.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156059  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál de estas ranuras de expansión tiene mayor velocidad?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>PCI-e x1</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>ISA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>AGP x1</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>VESA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156060  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 06</text>
     </name>
     <questiontext format="html">
       <text>¿Cómo se llama el programa para configurar la BIOS?</text>
@@ -1161,7 +327,7 @@
 <!-- question: 2156061  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 07</text>
     </name>
     <questiontext format="html">
       <text>Quitar la pila durante un determinado tiempo de la placa base provoca que se ...</text>
@@ -1199,7 +365,7 @@
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text>Reinicie la contraseña de la BIOS</text>
+      <text>Restablezca la configuración de la BIOS (incluida su contraseña)</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -1212,52 +378,10 @@
     </answer>
   </question>
 
-<!-- question: 2156062  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El puente sur (southbridge) se comunica directamente con los dispositivos más rapidos.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156063  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 08</text>
     </name>
     <questiontext format="html">
       <text>¿Qué significan las siglas PCI?</text>
@@ -1308,64 +432,10 @@
     </answer>
   </question>
 
-<!-- question: 2156064  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál de estas ranuras de expansión tiene menor velocidad?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>PCI-e x1</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>ISA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>AGP x1</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>VESA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156065  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 09</text>
     </name>
     <questiontext format="html">
       <text>El botón de encendido suele etiquetarse como...</text>
@@ -1416,64 +486,10 @@
     </answer>
   </question>
 
-<!-- question: 2156066  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Entre que fechas se fabricó el factor de forma BabyAT?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>1984 y 1996</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1954 y 1966</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>2004 y 2010</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>1996 y 2004</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156067  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 10</text>
     </name>
     <questiontext format="html">
       <text>¿Cuál es la función del POST?</text>
@@ -1524,64 +540,10 @@
     </answer>
   </question>
 
-<!-- question: 2156068  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es la versión más actual del bus PCI?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>4.0</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>3.0</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>2.2</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>2.3</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156069  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 11</text>
     </name>
     <questiontext format="html">
       <text>El factor de forma:</text>
@@ -1613,7 +575,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Lo definen lo usuarios</text>
+      <text>Lo definen los usuarios</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -1635,7 +597,7 @@
 <!-- question: 2156070  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 12</text>
     </name>
     <questiontext format="html">
       <text>En el factor de forma Micro-ATX ...</text>
@@ -1686,52 +648,10 @@
     </answer>
   </question>
 
-<!-- question: 2156071  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Recientemente en los nuevos PCs está desapareciendo el puente norte (northbridge).</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156072  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 13</text>
     </name>
     <questiontext format="html">
       <text>Las etiquetas PowerLED o PLED hacen referencia a:</text>
@@ -1785,7 +705,7 @@
 <!-- question: 2156073  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 14</text>
     </name>
     <questiontext format="html">
       <text>En cada placa base...</text>
@@ -1811,13 +731,13 @@
       <text></text>
     </incorrectfeedback>
     <answer fraction="0" format="html">
-      <text>Varia el número de conectores pero siempre son del mismo tipo</text>
+      <text>Varía el número de conectores pero siempre son del mismo tipo</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Varia el tipo de conectores pero el número es el mismo</text>
+      <text>Varía el tipo de conectores pero el número es el mismo</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -1829,61 +749,7 @@
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text>Varian el número y el tipo de conectores</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156074  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es la diferencia del factor de forma ATX con respecto al anterior AT?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>El interruptor de encendido se conecta a la placa base, no a la fuente de alimentación</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Nuevo conector de corriente, denominado New-AT</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>El tamaño de los componentes electrónicos es menor</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Todas las anteriores son correctas.</text>
+      <text>Varían el número y el tipo de conectores</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -1893,7 +759,7 @@
 <!-- question: 2156075  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 15</text>
     </name>
     <questiontext format="html">
       <text>Un jumper es un elemento que...</text>
@@ -1947,7 +813,7 @@
 <!-- question: 2156076  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 16</text>
     </name>
     <questiontext format="html">
       <text>La placa base posee energía gracias a:</text>
@@ -1973,7 +839,7 @@
       <text></text>
     </incorrectfeedback>
     <answer fraction="0" format="html">
-      <text>Los condensadores de fluzo</text>
+      <text>El chipset</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -2001,10 +867,10 @@
 <!-- question: 2156077  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 17</text>
     </name>
     <questiontext format="html">
-      <text>¿Cuál de las siguientes no es una versión de PCI-Express?</text>
+      <text>¿Cuál de las siguientes no es un ancho (número de carriles) válido de PCI Express?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -2055,7 +921,7 @@
 <!-- question: 2156078  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 18</text>
     </name>
     <questiontext format="html">
       <text>Los dispositivos de refrigeración de la CPU se mantienen en su sitio gracias a...</text>
@@ -2106,226 +972,10 @@
     </answer>
   </question>
 
-<!-- question: 2156079  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Variante de PCI para tarjetas de vídeo:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>AGP</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>VGA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>VESA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>PCI-Express x16</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156080  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál de estos microprocesadores NO encaja en un socket LGA775 de Intel?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Pentium IV</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Celeron</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Duron</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Core 2 Duo</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156081  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>HDD_LED e IDE_LED son conectores que especifican:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>La actividad de los discos duros mediante un LED</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>La actividad de cualquier dispositivo de almacenamiento mediante un LED</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>La actividad de las unidades ópticas mediante un LED</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Todas son correctas</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156082  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cómo se llamaba el primer bus de expansión de los PCs?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>PCI</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>ISA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>VESA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>AGP</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156083  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 19</text>
     </name>
     <questiontext format="html">
       <text>¿Qué chip ya NO encontramos en la placa base actualmente?</text>
@@ -2376,64 +1026,10 @@
     </answer>
   </question>
 
-<!-- question: 2156084  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El puente norte (northbridge):</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Soporta más carga de trabajo que el southbridge</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Es el más alejado del microprocesador</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Contiene la unidad de coma flotante (FPU, Floating Point Unit)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Nunca lleva disipador</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156085  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 20</text>
     </name>
     <questiontext format="html">
       <text>¿Cuál de los diferentes componentes de la placa base gestiona el arranque del PC?</text>
@@ -2487,7 +1083,7 @@
 <!-- question: 2156086  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 21</text>
     </name>
     <questiontext format="html">
       <text>Para reiniciar la configuración de la BIOS podemos ...</text>
@@ -2541,7 +1137,7 @@
 <!-- question: 2156087  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 22</text>
     </name>
     <questiontext format="html">
       <text>¿Cuál de estos conectores lo encontramos tanto interno como externo a la carcasa?</text>
@@ -2595,7 +1191,7 @@
 <!-- question: 2156088  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 23</text>
     </name>
     <questiontext format="html">
       <text>¿Cuáles son los conectores que normalmente provienen del frontal de la carcasa y se conectan en la placa base?</text>
@@ -2646,118 +1242,10 @@
     </answer>
   </question>
 
-<!-- question: 2156089  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cómo se denomina las variantes de Bus PCI para portátiles?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>MiniPCI</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>PCMCIA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Todas son correctas</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Ninguna es para portátil</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156090  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El puente norte controla la comunicación del microprocesador con:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Todas las anteriores son ciertas</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>La memoria RAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>La tarjeta gráfica</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>El puente sur</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156091  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 24</text>
     </name>
     <questiontext format="html">
       <text>¿Cuál de estos NO es un fabricante de placas base?</text>
@@ -2795,7 +1283,7 @@
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text>Sempron</text>
+      <text>Ryzen</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -2808,64 +1296,10 @@
     </answer>
   </question>
 
-<!-- question: 2156092  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es el significado de las siglas ICH?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Internal Controller Hardware</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Input output Controller Hub</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Input Component Hub</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Internal Capacity Hub</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156093  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 25</text>
     </name>
     <questiontext format="html">
       <text>SO-DIMM se le conoce por ...</text>
@@ -2903,7 +1337,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Ser un tipo de memoria para portátiles</text>
+      <text>Ser un tipo de memoria caché del procesador</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -2916,190 +1350,10 @@
     </answer>
   </question>
 
-<!-- question: 2156094  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El puente norte comunica los elementos de más velocidad</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156095  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Las ranuras del bus ISA medían aproximadamente 35 cm.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156096  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Las BTX utilizan las fuentes de alimentación ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>BT</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>BTX</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>ATX</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>AT</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156097  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El puente sur, a veces puede estar cubierto por un disipador.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156098  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 26</text>
     </name>
     <questiontext format="html">
       <text>¿Qué significan las siglas POST?</text>
@@ -3150,118 +1404,10 @@
     </answer>
   </question>
 
-<!-- question: 2156099  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál de estos es una variante del bus ISA para tarjetas de vídeo?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>ISA-V</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>EISA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>PCI</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>VESA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156100  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál de las siguientes es una función del chipset?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Maneja la tarjeta gráfica</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Controla la memoria caché</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Hace funcionar la BIOS del sistema</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Realiza las operaciones de coma flotante (FPO, Floating Point Operations)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156101  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 27</text>
     </name>
     <questiontext format="html">
       <text>El bus PCI-Express es una evolución de:</text>
@@ -3315,10 +1461,10 @@
 <!-- question: 2156102  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 28</text>
     </name>
     <questiontext format="html">
-      <text>Las BIOS actuales también permiten el inicio desde discos duros, disquetera, CD-ROM, DVD, pendrive o incluso la red:</text>
+      <text>Las BIOS actuales también permiten el inicio desde discos duros, SSD, unidades ópticas, pendrive o incluso la red:</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -3354,118 +1500,10 @@
     </answer>
   </question>
 
-<!-- question: 2156103  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>En las BTX se colocan los componentes de diferente forma para...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Que los componentes electrónicos generen menos calor</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Disminuir la cantidad de cables del interior de la caja</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Mejorar el flujo del aire</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Optimizar el gasto energético de los componentes de la placa</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156104  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es el único conector externo integrado en la placa base de factor de forma AT?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Conector DIN de 5 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Conector HDMI de 19 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Conector DB-15 (VGA) de 15 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Conector USB de 4 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156105  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 29</text>
     </name>
     <questiontext format="html">
       <text>Un bus de expansión permite...</text>
@@ -3519,10 +1557,10 @@
 <!-- question: 2156106  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 30</text>
     </name>
     <questiontext format="html">
-      <text>Por su potencia, el bus de expansión PCI-Express x16 se usa sobretodo para...</text>
+      <text>Por su potencia, el bus de expansión PCI-Express x16 se usa sobre todo para...</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -3570,154 +1608,10 @@
     </answer>
   </question>
 
-<!-- question: 2156107  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>La fuente de alimentación empleada en la placa base de factor de forma AT era ATX.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156108  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuáles son las medidas del factor de forma LPX y NLX para ordenadores sobremesa?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Cajas de perfil alto (13 y 15 cm de alto)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Cajas de perfil medio (12 y 13 cm de alto)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Cajas de perfil bajo (7 y 12 cm de alto)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156109  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cómo se denomina también el conector IDE?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>SATA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>CATA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>EATA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>PATA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156110  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 31</text>
     </name>
     <questiontext format="html">
       <text>¿Cuál es el formato actual de las ranuras de memoria?</text>
@@ -3768,310 +1662,10 @@
     </answer>
   </question>
 
-<!-- question: 2156111  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>La velocidad de bus PCI-E es:</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>133 MHZ</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>950 MHZ</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>3 GHZ</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>24 W</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156112  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuándo tiene sentido usar un factor de forma reducido?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>En entornos fríos donde el calor generado no es problema.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Cuando no es necesario ampliar el equipo con tarjetas de expansión.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>En ubicaciones estrechas.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Para control domótico.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156113  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Dos tarjetas PCI-Express x16 se podrían conectar en dual direction si el ordenador lo permite</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156114  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Habitualmente el southbridge se encuentra...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>En el extremo opuesto al microprocesador</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>A la derecha de la memoria RAM</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>En el interior de la BIOS</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Más próximo al microprocesador</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156115  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Mini PCI-Express es la variante de PCI-E para portátiles.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156116  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es el significado de PATA?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Parseable dATA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Parallel dATA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Parallel ATA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Post ATA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156117  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 32</text>
     </name>
     <questiontext format="html">
       <text>¿Cuáles de los siguientes son todos buses de expansión?</text>
@@ -4125,10 +1719,10 @@
 <!-- question: 2156118  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 33</text>
     </name>
     <questiontext format="html">
-      <text>Anteriormente en las placas base para micros Intel se suele denominar ICH al puente sur. ¿Cómo se denomina actualmente?</text>
+      <text>Anteriormente en las placas base para micros Intel se solía denominar ICH al puente sur. ¿Cómo se denomina actualmente?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -4179,7 +1773,7 @@
 <!-- question: 2156119  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 34</text>
     </name>
     <questiontext format="html">
       <text>Las siglas RTC, ¿a qué hacen referencia?</text>
@@ -4233,7 +1827,7 @@
 <!-- question: 2156120  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 35</text>
     </name>
     <questiontext format="html">
       <text>¿Qué es una memoria EPROM?</text>
@@ -4287,10 +1881,10 @@
 <!-- question: 2156121  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 36</text>
     </name>
     <questiontext format="html">
-      <text>¿Cuáles es un conector interno para dispositivos de almacenamiento?</text>
+      <text>¿Cuál es un conector interno para dispositivos de almacenamiento?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -4341,7 +1935,7 @@
 <!-- question: 2156122  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 37</text>
     </name>
     <questiontext format="html">
       <text>Las ranuras para memorias RAM son buses de expansión.</text>
@@ -4383,7 +1977,7 @@
 <!-- question: 2156123  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 38</text>
     </name>
     <questiontext format="html">
       <text>¿Es necesario una pila para el funcionamiento de la BIOS?</text>
@@ -4409,7 +2003,7 @@
       <text></text>
     </incorrectfeedback>
     <answer fraction="0" format="html">
-      <text>Si, ya que sin ella el equipo no arrancaría.</text>
+      <text>Sí, ya que sin ella el equipo no arrancaría.</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -4421,7 +2015,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Si, ya que se borraría el SETUP de la BIOS.</text>
+      <text>Sí, ya que se borraría el SETUP de la BIOS.</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -4434,226 +2028,10 @@
     </answer>
   </question>
 
-<!-- question: 2156124  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El puente sur se comunica con el microprocesador a través de...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>El puente norte</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>La unidad de E/S</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>La BIOS</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Las ranuras PCI-Express</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156125  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cómo denomina Intel el southbridge?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>ICH</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>DMI</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>QPI</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>MCH</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156126  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál de los siguientes conectores tiene mayor tasa de transferencia de datos?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>AGP x8</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>SATA2</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>PCI-E x32</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>SATA3</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156127  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Qué gestiona el chipset?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>La unidad de gestión de la memoria (MMU)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>La controladora DMA</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>La tarjeta gráfica integrada</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Todas son correctas</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156128  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 39</text>
     </name>
     <questiontext format="html">
       <text>En las arquitecturas actuales, ¿qué componente ha asumido la funcionalidad que anteriormente tenía el northbridge?</text>
@@ -4707,7 +2085,7 @@
 <!-- question: 2156129  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 40</text>
     </name>
     <questiontext format="html">
       <text>¿Cómo podemos reconocer sobre la placa base los conectores del panel frontal?</text>
@@ -4761,10 +2139,10 @@
 <!-- question: 2156130  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 41</text>
     </name>
     <questiontext format="html">
-      <text>¿Cuáll es la velocidad de transferencia de SATA-3 en Gbps?</text>
+      <text>¿Cuál es la velocidad de transferencia de SATA-3 en Gbps?</text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -4815,7 +2193,7 @@
 <!-- question: 2156131  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 42</text>
     </name>
     <questiontext format="html">
       <text>El conector SATA es usado para...</text>
@@ -4847,7 +2225,7 @@
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text>Conectar una unidad óptica (CD, DVD o BLURAY)</text>
+      <text>Conectar discos duros, SSD y unidades ópticas</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -4866,64 +2244,10 @@
     </answer>
   </question>
 
-<!-- question: 2156132  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuál es el principal problema de los factores de forma LPX y NLX?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>La mala refrigeración.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>El difícil acceso a sus componentes para su montaje y desmontaje.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Al ser de perfil bajo impide usar tarjetas de expansión estándar.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Los equipos de sobremesa han caído en desuso en favor de los barebones.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156133  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 43</text>
     </name>
     <questiontext format="html">
       <text>¿Cuál es la función del jumper CLR_CMOS?</text>
@@ -4974,94 +2298,10 @@
     </answer>
   </question>
 
-<!-- question: 2156134  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Los sockets AM2, 775 y AM3 pertenecen a Intel.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156137  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>Algunos de los conectores externos adicionales que encontramos en el sobre la placa base son USB y Firewire.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156138  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 44</text>
     </name>
     <questiontext format="html">
       <text>Un socket determinado permite conectar...</text>
@@ -5093,7 +2333,7 @@
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text>Un gama de CPU del mismo fabricante.</text>
+      <text>Una gama de CPU del mismo fabricante.</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -5112,106 +2352,10 @@
     </answer>
   </question>
 
-<!-- question: 2156139  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Cuáles son los tipos de conectores IDE que podemos encontrar?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>De 34 y 40 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>De 4 y 8 pines</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Serie y paralelo</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Para BLURAY, para CD y otro para DVD.</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156140  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El puente sur (southbridge) se comunica con el microprocesador a través de la controladora DMA.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Sí</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>No</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156141  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 45</text>
     </name>
     <questiontext format="html">
       <text>Mini-ITX es un factor de forma de tipo...</text>
@@ -5265,7 +2409,7 @@
 <!-- question: 2156142  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 46</text>
     </name>
     <questiontext format="html">
       <text>El conector ATX de corriente tiene....</text>
@@ -5316,118 +2460,10 @@
     </answer>
   </question>
 
-<!-- question: 2156143  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿Qué se conecta al bus AGP?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Tarjetas gráficas</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Tarjetas de sonido</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Tarjetas capturadoras de TDT</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Todas son correctas</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156144  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El conector PATA tiene una tasa de transferencia de ...</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>266Mbps</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>333Mbps</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>133Mbps</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>32Mbps</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156145  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 47</text>
     </name>
     <questiontext format="html">
       <text>¿Son compatibles los sockets de diferentes fabricantes?</text>
@@ -5459,7 +2495,7 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text>Si</text>
+      <text>Sí</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -5469,7 +2505,7 @@
 <!-- question: 2156146  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 48</text>
     </name>
     <questiontext format="html">
       <text>¿Cómo localizamos la BIOS en la placa?</text>
@@ -5523,7 +2559,7 @@
 <!-- question: 2156147  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 49</text>
     </name>
     <questiontext format="html">
       <text>¿Cuál de las siguientes opciones NO es una ranura de expansión?</text>
@@ -5574,64 +2610,10 @@
     </answer>
   </question>
 
-<!-- question: 2156154  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>¿De qué color suele ser el bus de AGP?</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="0" format="html">
-      <text>Amarillo</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Rosa</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text>Marrón</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Blanco</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
 <!-- question: 2156155  -->
   <question type="multichoice">
     <name>
-      <text>FUW: Placa base</text>
+      <text>Placa base 50</text>
     </name>
     <questiontext format="html">
       <text>El tamaño de una placa base con factor de forma Micro-ATX es de ...</text>
@@ -5676,48 +2658,6 @@
     </answer>
     <answer fraction="0" format="html">
       <text>244x234 mm</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 2156156  -->
-  <question type="multichoice">
-    <name>
-      <text>FUW: Placa base</text>
-    </name>
-    <questiontext format="html">
-      <text>El puente sur (southbridge) se comunica directamente con los dispositivos más lentos.</text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.1000000</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>1</showstandardinstruction>
-    <correctfeedback format="html">
-      <text></text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text></text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text></text>
-    </incorrectfeedback>
-    <answer fraction="100" format="html">
-      <text>Verdadero</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text>Falso</text>
       <feedback format="html">
         <text></text>
       </feedback>
