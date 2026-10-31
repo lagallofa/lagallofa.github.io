@@ -11,9 +11,9 @@ Periféricos, tarjetas de expansión, puertos y conectores externos
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 164 |
-| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | Verdadero/Falso | 9 |
-|   | **TOTAL**         | 173 |
+| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 124 |
+| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | Verdadero/Falso | 6 |
+|   | **TOTAL**         | 130 |
 
 
 
@@ -22,6 +22,6 @@ Periféricos, tarjetas de expansión, puertos y conectores externos
 ## Actividades
 | Nombre              | Descripción                   | Dificultad | Preguntas |
 | ------------------- | ----------------------------- | ---------- | --------- |
-| [Periféricos y tarjetas de expansión](perifericos-y-tarjetas-de-expansion) |  | ![Dificultad](https://img.shields.io/badge/Desconocida-black) | 43 |
-| [Conectores y buses externos](conectores-y-buses-externos) |  | ![Dificultad](https://img.shields.io/badge/Desconocida-black) | 130 |
+| [Periféricos y tarjetas de expansión](perifericos-y-tarjetas-de-expansion) |  | ![Dificultad](https://img.shields.io/badge/Baja-green) | 32 |
+| [Conectores y buses externos](conectores-y-buses-externos) |  | ![Dificultad](https://img.shields.io/badge/Baja-green) | 98 |
 

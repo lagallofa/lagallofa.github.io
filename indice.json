@@ -35,10 +35,10 @@
    ],
    "imagenes": [
     "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/images/la fuente de alimentación/adaptador-de-corriente_1.png",
-    "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/images/la fuente de alimentación/at_1.png",
     "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/images/la fuente de alimentación/atx_1.png",
     "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/images/la fuente de alimentación/atx_2.png",
-    "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/images/la fuente de alimentación/bateria_1.png"
+    "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/images/la fuente de alimentación/bateria_1.png",
+    "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/images/la fuente de alimentación/fuente-de-alimentacion_1.png"
    ],
    "readme": "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/README.md",
    "curriculo": [
@@ -111,12 +111,12 @@
     }
    ],
    "imagenes": [
-    "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/ancho-banda_1.png",
     "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-de-memoria_1.png",
     "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-de-memoria_2.png",
     "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-de-memoria_3.png",
-    "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-de-memoria_4.png",
-    "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-memoria_1.png"
+    "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-memoria_1.png",
+    "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-memoria_2.png",
+    "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-memoria_3.png"
    ],
    "readme": "actividades/hardware/memoria/la-memoria-ram/README.md",
    "curriculo": [
@@ -296,7 +296,14 @@
      "preguntas": 101
     }
    ],
-   "imagenes": [],
+   "imagenes": [
+    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conectores y buses externos/bluetooth_1.png",
+    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conectores y buses externos/com_1.png",
+    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conectores y buses externos/com_2.png",
+    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conectores y buses externos/com_3.png",
+    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conectores y buses externos/dvi_1.png",
+    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conectores y buses externos/usb_1.png"
+   ],
    "readme": "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/README.md",
    "curriculo": [
     {
@@ -391,12 +398,12 @@
     }
    ],
    "imagenes": [
-    "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/disco-duro_1.png",
     "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/escaner_1.png",
     "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/escaner_2.png",
     "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/escaner_3.png",
     "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/escaner_4.png",
-    "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/escaner_5.png"
+    "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/escaner_5.png",
+    "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/impresora_1.png"
    ],
    "readme": "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/README.md",
    "curriculo": [
@@ -590,11 +597,11 @@
     }
    ],
    "imagenes": [
-    "actividades/hardware/placa-base/la-placa-base/images/la placa base/fuw-placa-base_1.png",
-    "actividades/hardware/placa-base/la-placa-base/images/la placa base/fuw-placa-base_2.png",
-    "actividades/hardware/placa-base/la-placa-base/images/la placa base/fuw-placa-base_3.png",
-    "actividades/hardware/placa-base/la-placa-base/images/la placa base/fuw-placa-base_4.png",
-    "actividades/hardware/placa-base/la-placa-base/images/la placa base/fuw-placa-base_5.png"
+    "actividades/hardware/placa-base/la-placa-base/images/la placa base/placa-base-01_1.png",
+    "actividades/hardware/placa-base/la-placa-base/images/la placa base/placa-base-02_1.png",
+    "actividades/hardware/placa-base/la-placa-base/images/la placa base/placa-base-03_1.png",
+    "actividades/hardware/placa-base/la-placa-base/images/la placa base/placa-base-04_1.png",
+    "actividades/hardware/placa-base/la-placa-base/images/la placa base/placa-base-05_1.png"
    ],
    "readme": "actividades/hardware/placa-base/la-placa-base/README.md",
    "curriculo": [

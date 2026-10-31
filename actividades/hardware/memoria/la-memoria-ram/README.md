@@ -5,7 +5,7 @@ author: Francisco Vargas Ruiz ()
 
 # La memoria RAM
 
-![Dificultad](https://img.shields.io/badge/Dificultad-Desconocida-black)
+![Dificultad](https://img.shields.io/badge/Dificultad-Baja-green)
 
 
 
@@ -20,9 +20,9 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 199 |
-| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | [Verdadero/Falso](#verdaderofalso) | 8 |
-|   | **TOTAL**         | 207 |
+| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 98 |
+| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | [Verdadero/Falso](#verdaderofalso) | 3 |
+|   | **TOTAL**         | 101 |
 
 
 #### Selección múltiple
@@ -32,26 +32,22 @@ Ficheros de preguntas disponibles en esta actividad:
 
 ![bus de memoria](images/la%20memoria%20ram/bus-de-memoria_2.png)
 
-![bus de memoria](images/la%20memoria%20ram/bus-de-memoria_3.png)
-
 ![bus memoria](images/la%20memoria%20ram/bus-memoria_1.png)
 
 ![bus memoria](images/la%20memoria%20ram/bus-memoria_2.png)
+
+![bus memoria](images/la%20memoria%20ram/bus-memoria_3.png)
 
 
 
 #### Verdadero/Falso
 
 
-![ancho banda](images/la%20memoria%20ram/ancho-banda_1.png)
-
-![bus de memoria](images/la%20memoria%20ram/bus-de-memoria_4.png)
+![bus de memoria](images/la%20memoria%20ram/bus-de-memoria_3.png)
 
 ![latencias](images/la%20memoria%20ram/latencias_1.png)
 
 ![latencias](images/la%20memoria%20ram/latencias_2.png)
-
-![latencias](images/la%20memoria%20ram/latencias_3.png)
 
 
 

@@ -5,7 +5,7 @@ author: Francisco Vargas Ruiz ()
 
 # La placa base
 
-![Dificultad](https://img.shields.io/badge/Dificultad-Desconocida-black)
+![Dificultad](https://img.shields.io/badge/Dificultad-Baja-green)
 
 
 
@@ -20,22 +20,22 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 111 |
-|   | **TOTAL**         | 111 |
+| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 50 |
+|   | **TOTAL**         | 50 |
 
 
 #### Selección múltiple
 
 
-![FUW: Placa base](images/la%20placa%20base/fuw-placa-base_1.png)
+![Placa base 01](images/la%20placa%20base/placa-base-01_1.png)
 
-![FUW: Placa base](images/la%20placa%20base/fuw-placa-base_2.png)
+![Placa base 02](images/la%20placa%20base/placa-base-02_1.png)
 
-![FUW: Placa base](images/la%20placa%20base/fuw-placa-base_3.png)
+![Placa base 03](images/la%20placa%20base/placa-base-03_1.png)
 
-![FUW: Placa base](images/la%20placa%20base/fuw-placa-base_4.png)
+![Placa base 04](images/la%20placa%20base/placa-base-04_1.png)
 
-![FUW: Placa base](images/la%20placa%20base/fuw-placa-base_5.png)
+![Placa base 05](images/la%20placa%20base/placa-base-05_1.png)
 
 
 

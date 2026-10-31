@@ -11,9 +11,9 @@ Tipos de memoria, RAM, características y formatos
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 199 |
-| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | Verdadero/Falso | 8 |
-|   | **TOTAL**         | 207 |
+| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 98 |
+| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | Verdadero/Falso | 3 |
+|   | **TOTAL**         | 101 |
 
 
 
@@ -22,5 +22,5 @@ Tipos de memoria, RAM, características y formatos
 ## Actividades
 | Nombre              | Descripción                   | Dificultad | Preguntas |
 | ------------------- | ----------------------------- | ---------- | --------- |
-| [La memoria RAM](la-memoria-ram) |  | ![Dificultad](https://img.shields.io/badge/Desconocida-black) | 207 |
+| [La memoria RAM](la-memoria-ram) |  | ![Dificultad](https://img.shields.io/badge/Baja-green) | 101 |
 

@@ -20,10 +20,10 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 70 |
+| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 57 |
 | ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | [Verdadero/Falso](#verdaderofalso) | 8 |
-| ![shortanswer](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 3 |
-|   | **TOTAL**         | 81 |
+| ![shortanswer](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 2 |
+|   | **TOTAL**         | 67 |
 
 
 #### Selección múltiple
@@ -41,13 +41,13 @@ Ficheros de preguntas disponibles en esta actividad:
 
 ![cuanto de bueno es un micro](images/questions/cuanto-de-bueno-es-un-micro_1.png)
 
-![cuanto de bueno es un micro](images/questions/cuanto-de-bueno-es-un-micro_2.png)
-
 ![encapsulado](images/questions/encapsulado_1.png)
 
 ![encapsulado](images/questions/encapsulado_2.png)
 
 ![encapsulado](images/questions/encapsulado_3.png)
+
+![encapsulado](images/questions/encapsulado_4.png)
 
 
 
@@ -76,8 +76,6 @@ Ficheros de preguntas disponibles en esta actividad:
 
 
 ![fabricacion](images/questions/fabricacion_1.png)
-
-![nuevas instrucciones](images/questions/nuevas-instrucciones_1.png)
 
 ![registros](images/questions/registros_1.png)
 

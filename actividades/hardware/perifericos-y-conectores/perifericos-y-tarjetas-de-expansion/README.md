@@ -5,7 +5,7 @@ author: Francisco Vargas Ruiz ()
 
 # Periféricos y tarjetas de expansión
 
-![Dificultad](https://img.shields.io/badge/Dificultad-Desconocida-black)
+![Dificultad](https://img.shields.io/badge/Dificultad-Baja-green)
 
 
 
@@ -20,15 +20,13 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 37 |
-| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | [Verdadero/Falso](#verdaderofalso) | 6 |
-|   | **TOTAL**         | 43 |
+| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 27 |
+| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | [Verdadero/Falso](#verdaderofalso) | 5 |
+|   | **TOTAL**         | 32 |
 
 
 #### Selección múltiple
 
-
-![disco duro](images/perif%C3%A9ricos%20y%20tarjetas%20de%20expansi%C3%B3n/disco-duro_1.png)
 
 ![escaner](images/perif%C3%A9ricos%20y%20tarjetas%20de%20expansi%C3%B3n/escaner_1.png)
 
@@ -38,6 +36,8 @@ Ficheros de preguntas disponibles en esta actividad:
 
 ![escaner](images/perif%C3%A9ricos%20y%20tarjetas%20de%20expansi%C3%B3n/escaner_4.png)
 
+![impresora](images/perif%C3%A9ricos%20y%20tarjetas%20de%20expansi%C3%B3n/impresora_1.png)
+
 
 
 #### Verdadero/Falso
@@ -45,11 +45,11 @@ Ficheros de preguntas disponibles en esta actividad:
 
 ![escaner](images/perif%C3%A9ricos%20y%20tarjetas%20de%20expansi%C3%B3n/escaner_5.png)
 
-![impresora](images/perif%C3%A9ricos%20y%20tarjetas%20de%20expansi%C3%B3n/impresora_1.png)
-
 ![impresora](images/perif%C3%A9ricos%20y%20tarjetas%20de%20expansi%C3%B3n/impresora_2.png)
 
 ![impresora](images/perif%C3%A9ricos%20y%20tarjetas%20de%20expansi%C3%B3n/impresora_3.png)
+
+![impresora](images/perif%C3%A9ricos%20y%20tarjetas%20de%20expansi%C3%B3n/impresora_4.png)
 
 ![monitor](images/perif%C3%A9ricos%20y%20tarjetas%20de%20expansi%C3%B3n/monitor_1.png)
 

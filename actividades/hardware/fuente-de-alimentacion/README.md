@@ -11,8 +11,8 @@ Fuentes, SAI, consumo
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 10 |
-|   | **TOTAL**         | 10 |
+| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 7 |
+|   | **TOTAL**         | 7 |
 
 
 
@@ -21,5 +21,5 @@ Fuentes, SAI, consumo
 ## Actividades
 | Nombre              | Descripción                   | Dificultad | Preguntas |
 | ------------------- | ----------------------------- | ---------- | --------- |
-| [La fuente de alimentación](la-fuente-de-alimentacion) |  | ![Dificultad](https://img.shields.io/badge/Desconocida-black) | 10 |
+| [La fuente de alimentación](la-fuente-de-alimentacion) |  | ![Dificultad](https://img.shields.io/badge/Baja-green) | 7 |
 
