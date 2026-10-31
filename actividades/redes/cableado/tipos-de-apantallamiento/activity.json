@@ -6,5 +6,34 @@
         "name": "Noemí Pérez",
         "email": "nperpere@canariaseducacion.es",
         "github": "noeper"
-    }
+    },
+    "curriculo": [
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3016",
+            "ra": "RA1",
+            "ce": [
+                "c"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0225",
+            "ra": "RA1",
+            "ce": [
+                "d"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0370",
+            "ra": "RA2",
+            "ce": [
+                "a"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
 }

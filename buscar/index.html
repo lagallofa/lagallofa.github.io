@@ -171,7 +171,7 @@
     <div class="barra">
       <span id="contador">Cargando…</span>
       <span>
-        <label><input type="checkbox" id="f-sin"> Mostrar también las no clasificadas</label>
+        <label><input type="checkbox" id="f-sin" checked> Mostrar también las no clasificadas</label>
         <button class="limpiar versalitas" id="limpiar" type="button">Limpiar</button>
       </span>
     </div>
@@ -403,8 +403,6 @@ $("galeria").addEventListener("click", e => { if (e.target === $("galeria")) $("
   .then(datos => {
     actividades = datos.actividades;
     pintarTecnologias(datos.tecnologias || {});
-    // Mientras casi nada esté clasificado, enseñar todo por defecto
-    if (!actividades.some(a => filas(a).length)) $("f-sin").checked = true;
     pintar();
   })
   .catch(() => { $("contador").textContent = "No se pudo cargar el índice de actividades."; });
