@@ -49,3 +49,6 @@ ehthumbs.db
 
 # Visual Studio Code directories
 .vscode/
+
+# Copias de seguridad que deja scripts/limpiar_xml.py
+*.xml.orig

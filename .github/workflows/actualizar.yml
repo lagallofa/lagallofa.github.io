@@ -1,6 +1,6 @@
 name: "Actualizar actividades"
-# En cada cambio: actirepo genera las páginas (README y capturas) de cada actividad
-# y generar_indice.py rehace la lista que usa el buscador.
+# En cada cambio: se revisa la seguridad de los XML; si todo está bien, actirepo genera las
+# páginas (README y capturas) de cada actividad y generar_indice.py rehace la lista del buscador.
 on:
   push:
     branches:
@@ -22,6 +22,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
+
+      # Si algún XML tiene un problema de seguridad, aquí se para todo y no se actualiza nada
+      - name: Revisar la seguridad de los XML
+        run: python scripts/revisar_xml.py actividades --salida "$GITHUB_STEP_SUMMARY"
 
       - name: Instalar actirepo
         run: pip install git+https://github.com/noeper/actirepo.git

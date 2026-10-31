@@ -1,0 +1,31 @@
+name: "Revisar XML"
+# Revisa las aportaciones (pull requests) que traen ficheros XML o cambian las herramientas:
+# primero se prueba la herramienta con ficheros maliciosos de ejemplo y después se revisan todos
+# los XML. Si hay un problema de seguridad, la comprobación sale en rojo y no se debe aceptar.
+# El informe completo aparece en el resumen de la ejecución.
+on:
+  pull_request:
+    paths:
+      - "**.xml"
+      - "scripts/revisar_xml.py"
+      - "scripts/probar_revisar_xml.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Probar la herramienta con ficheros maliciosos de ejemplo
+        run: python scripts/probar_revisar_xml.py
+
+      - name: Revisar la seguridad y la calidad de los XML
+        run: python scripts/revisar_xml.py actividades --salida "$GITHUB_STEP_SUMMARY"

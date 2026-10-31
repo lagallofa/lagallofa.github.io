@@ -19,7 +19,7 @@ de evaluación (CE).
 | [`aportar/`](aportar), [`modificar/`](modificar), [`retirar/`](retirar) | Páginas para que el profesorado gestione sus actividades |
 | [`actividades/`](actividades) | Las actividades: una carpeta por actividad, con su XML, capturas y ficha `activity.json` |
 | `indice.json`, `indice.js` | Lista de todas las actividades para el buscador (se genera sola) |
-| [`scripts/`](scripts) | Programas que generan el índice |
+| [`scripts/`](scripts) | Programas: índice del buscador (`generar_indice.py`), revisión de seguridad y calidad de los XML (`revisar_xml.py`, con sus pruebas en `probar_revisar_xml.py`) y limpieza de adjuntos sobrantes (`limpiar_xml.py`) |
 
 ## Ficha de una actividad (`activity.json`)
 
@@ -46,3 +46,7 @@ módulo solo para un RA, y sus CE son de ese RA.
 
 Las páginas de cada actividad las genera [actirepo](https://github.com/teuton-software/actirepo)
 automáticamente en cada cambio.
+
+## Seguridad de los XML
+
+Antes de publicar, cada fichero se revisa con `scripts/revisar_xml.py`: que no declare entidades XML (ataques XXE), que su HTML no lleve código (scripts, eventos, enlaces `javascript:`, iframes, formularios…) y que los adjuntos sean imágenes, audio, vídeo o PDF de verdad, no ficheros disfrazados ni SVG con código. Las preguntas que ejecutan código (CodeRunner, STACK) se marcan para revisarlas a mano. Si hay un problema de seguridad, la actualización automática se detiene y las aportaciones salen en rojo.
