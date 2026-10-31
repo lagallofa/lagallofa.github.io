@@ -933,8 +933,11 @@ window.INDICE = {
      "preguntas": 8
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/images/escape room operación hipervisor/ra2-ceg-virtualizacion-escape-room-5-vt-x-desactivado_1.png",
+    "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/images/escape room operación hipervisor/ra2-ceg-virtualizacion-escape-room-7-codigo-de-salida_1.png"
+   ],
+   "readme": "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/README.md",
    "curriculo": [
     {
      "ciclo": "Sistemas Microinformáticos y Redes",
