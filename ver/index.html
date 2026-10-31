@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Gallofa · Ver actividad</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../estilos.css">
+<style>
+  .portada h1 { white-space: normal; font-size: clamp(1.6rem, 5vw, 3rem); }
+
+  .ficha { display: grid; gap: 22px; grid-template-columns: 1fr auto; align-items: start; padding: 32px 0 24px; border-bottom: 1px solid var(--tinta); }
+  .ficha .datos { display: flex; flex-direction: column; gap: 12px; }
+  .etiquetas { display: flex; flex-wrap: wrap; gap: 6px; }
+  .etiqueta { font-size: .7rem; padding: 2px 9px; border-radius: 999px; border: 1px solid var(--linea); color: var(--suave); white-space: nowrap; }
+  .curriculo { display: flex; flex-wrap: wrap; gap: 10px; font-size: .8rem; }
+  .curriculo div { border-left: 3px solid var(--color-nivel, var(--tinta)); padding: 2px 12px 2px 10px; }
+  .curriculo small { color: var(--suave); font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; display: block; }
+  .sin-clasificar { font-size: .78rem; color: var(--suave); border-left: 3px dashed var(--linea); padding-left: 10px; }
+  .descargas { display: flex; flex-direction: column; gap: 8px; align-items: stretch; }
+
+  .boton {
+    font-size: .7rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; text-align: center;
+    text-decoration: none; padding: 8px 16px; border: 1px solid var(--tinta); border-radius: 999px;
+    background: var(--tinta); color: var(--fondo);
+  }
+  .boton:hover { opacity: .8; }
+
+  .filtro-tipos { display: flex; flex-wrap: wrap; gap: 8px; padding: 18px 0 6px; }
+
+  .filtro-tipos button {
+    font: inherit; font-size: .72rem; cursor: pointer; padding: 5px 12px; border-radius: 999px;
+    border: 1px solid var(--tinta); background: none; color: var(--tinta);
+  }
+  .filtro-tipos button[aria-pressed="true"] { background: var(--tinta); color: var(--fondo); }
+
+  main { padding: 18px 0 72px; }
+  .preguntas { display: flex; flex-direction: column; gap: 22px; }
+  .pregunta { position: relative; border: 1px solid var(--tinta); padding: 22px 24px 26px 82px; }
+  .pregunta::after { content: ""; position: absolute; right: -1px; bottom: -1px; width: 22px; height: 22px; background: var(--tinta); }
+
+  .numero {
+    position: absolute; left: 18px; top: 18px; width: 46px; height: 46px; border-radius: 50%;
+    background: var(--tinta); color: var(--fondo); display: flex; align-items: center; justify-content: center;
+    font-weight: 600; font-size: .95rem;
+  }
+  .cabecera { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline; margin-bottom: 10px; }
+  .cabecera b { font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; }
+  .cabecera span { font-size: .75rem; color: var(--suave); }
+  .enunciado { font-size: .95rem; overflow-wrap: anywhere; }
+  .enunciado img, .retro img { max-width: 100%; height: auto; }
+  .enunciado p:first-child { margin-top: 0; }
+  .sin-imagen { display: inline-block; font-size: .7rem; color: var(--suave); border: 1px dashed var(--linea); padding: 2px 8px; }
+  .captura { display: block; margin: 12px 0; max-width: 100%; border: 1px solid var(--linea); }
+  mark.hueco { background: var(--tinta); color: var(--fondo); padding: 0 6px; }
+
+  .respuestas { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+  .respuestas li { display: grid; grid-template-columns: 22px 1fr; gap: 8px; align-items: start; font-size: .9rem; }
+  .respuestas li::before { content: "○"; font-size: 1rem; line-height: 1.4; color: var(--suave); }
+  .respuestas li.correcta { font-weight: 600; }
+  .respuestas li.correcta::before { content: "●"; color: var(--tinta); }
+  .respuestas li > div > *:first-child { margin-top: 0; }
+  .respuestas li > div > *:last-child { margin-bottom: 0; }
+  .respuestas small { display: block; font-weight: 400; color: var(--suave); font-size: .75rem; }
+  .porcentaje { font-weight: 400; font-size: .72rem; color: var(--suave); margin-left: 6px; }
+
+  table.pares { border-collapse: collapse; margin-top: 14px; font-size: .88rem; }
+  table.pares td { border-bottom: 1px solid var(--linea); padding: 6px 14px 6px 0; vertical-align: top; }
+  table.pares td:nth-child(2) { color: var(--suave); }
+  table.pares td:last-child { font-weight: 600; padding-right: 0; }
+
+  pre { background: var(--relleno); padding: 12px 14px; overflow: auto; font-size: .8rem; }
+  details.retro { margin-top: 14px; font-size: .82rem; color: var(--suave); }
+  details.retro summary { cursor: pointer; font-size: .68rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--tinta); }
+
+  .aviso { text-align: center; color: var(--suave); padding: 56px 16px; }
+
+  @media (width <= 600px) {
+    .ficha { grid-template-columns: 1fr; }
+    .pregunta { padding: 72px 18px 26px; }
+  }
+</style>
+</head>
+<body>
+<header class="portada compacta">
+  <a class="volver" href="../buscar/">← Buscar</a>
+  <img class="logo" src="../logo.svg" alt="">
+  <h1 class="versalitas" id="titulo">Cargando…</h1>
+  <p class="lema versalitas" id="ruta"></p>
+  <p class="explicacion" id="descripcion"></p>
+</header>
+
+<div class="contenedor">
+  <section class="ficha" id="ficha" hidden>
+    <div class="datos">
+      <div class="etiquetas" id="etiquetas"></div>
+      <div id="curriculo"></div>
+    </div>
+    <div class="descargas" id="descargas"></div>
+  </section>
+  <nav class="filtro-tipos" id="filtro" aria-label="Tipo de pregunta"></nav>
+</div>
+
+<main class="contenedor">
+  <div class="preguntas" id="preguntas"></div>
+  <p class="aviso" id="aviso" hidden></p>
+</main>
+
+<footer>
+  <b>La Gallofa</b> · <a href="https://github.com/lagallofa">github.com/lagallofa</a>
+</footer>
+
+<script src="../indice.js"></script>
+<script>
+const BASE = "../";
+const TIPOS = {
+  multichoice: "Opción múltiple", truefalse: "Verdadero/Falso", matching: "Emparejamiento",
+  shortanswer: "Respuesta corta", numerical: "Numérica", essay: "Ensayo",
+  ddimageortext: "Arrastrar sobre imagen", ddmarker: "Arrastrar marcadores", ddwtos: "Arrastrar al texto",
+  gapselect: "Seleccionar palabras", multianswer: "Respuestas anidadas",
+  coderunner: "CodeRunner", description: "Descripción"
+};
+const DIFICULTAD = { easy: "Dificultad baja", medium: "Dificultad media", hard: "Dificultad alta" };
+const COLOR_NIVEL = { "FP Básica": "var(--basica)", "Grado Medio": "var(--medio)", "Grado Superior": "var(--superior)" };
+
+const $ = id => document.getElementById(id);
+const url = ruta => BASE + ruta.split("/").map(encodeURIComponent).join("/");
+const escapar = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+// El HTML de las preguntas viene de los XML que aporta el profesorado: se limpia antes de
+// mostrarlo (sin scripts ni eventos) y las imágenes incrustadas de Moodle se marcan.
+// Atributos con una dirección (también xlink:href de SVG o formaction de botones)
+const CON_DIRECCION = /(^|:)(href|src|action|formaction|data)$/;
+
+function limpiar(html, textoImagen = "imagen") {
+  const doc = new DOMParser().parseFromString(html || "", "text/html");
+  doc.querySelectorAll("script, style, iframe, object, embed, form, link, meta, base").forEach(e => e.remove());
+  doc.querySelectorAll("*").forEach(e => {
+    [...e.attributes].forEach(a => {
+      // El navegador ignora espacios y caracteres de control dentro de «javascript:»
+      // eslint-disable-next-line no-control-regex -- se buscan justo esos caracteres para quitarlos
+      const valor = a.value.replace(/[\s\u0000-\u001f]/g, "").toLowerCase();
+      const peligrosa = CON_DIRECCION.test(a.name) && /^(javascript|vbscript|data:text\/html)/.test(valor);
+      if (a.name.startsWith("on") || peligrosa) e.removeAttribute(a.name);
+    });
+    if (e.tagName === "A") { e.target = "_blank"; e.rel = "noopener"; }
+  });
+  doc.querySelectorAll("img").forEach(img => {
+    const src = img.getAttribute("src") || "";
+    if (!src.startsWith("data:image/") && !/^https?:/.test(src)) {
+      const marca = doc.createElement("span");
+      marca.className = "sin-imagen";
+      marca.textContent = textoImagen;
+      img.replaceWith(marca);
+    }
+  });
+  return doc.body.innerHTML;
+}
+
+function respuestas(p) {
+  return `<ul class="respuestas">${p.respuestas.map(r => {
+    const parcial = r.correcta && r.fraccion < 100 ? `<span class="porcentaje">${Math.round(r.fraccion * 100) / 100}%</span>` : "";
+    const negativa = r.fraccion < 0 ? `<span class="porcentaje">${Math.round(r.fraccion * 100) / 100}%</span>` : "";
+    const retro = r.retro ? `<small>${limpiar(r.retro)}</small>` : "";
+    return `<li class="${r.correcta ? "correcta" : ""}"><div>${limpiar(r.texto)}${parcial}${negativa}${retro}</div></li>`;
+  }).join("")}</ul>`;
+}
+
+function pares(p) {
+  return `<table class="pares">${p.pares.map(([a, b]) =>
+    `<tr><td>${limpiar(a)}</td><td>→</td><td>${limpiar(b)}</td></tr>`).join("")}</table>`;
+}
+
+function pregunta(p, n) {
+  let cuerpo = `<div class="enunciado">${limpiar(p.enunciado, p.captura ? "imagen: ver la captura de abajo" : "imagen")}</div>`;
+  if (p.captura) cuerpo += `<a href="${url(p.captura)}" target="_blank" rel="noopener"><img class="captura" loading="lazy" src="${url(p.captura)}" alt="Captura de la pregunta"></a>`;
+  if (p.respuestas) cuerpo += respuestas(p);
+  if (p.pares) cuerpo += pares(p);
+  if (p.codigo) cuerpo += `<pre>${escapar(p.codigo)}</pre>`;
+  if (p.pruebas && p.pruebas.length) {
+    cuerpo += `<table class="pares">${p.pruebas.map(([entrada, esperado]) =>
+      `<tr><td><pre>${escapar(entrada)}</pre></td><td>→</td><td><pre>${escapar(esperado)}</pre></td></tr>`).join("")}</table>`;
+  }
+  if (p.retro) cuerpo += `<details class="retro"><summary>Retroalimentación</summary>${limpiar(p.retro)}</details>`;
+  const tipo = TIPOS[p.tipo] || p.tipo;
+  const extra = p.multiple ? " · varias correctas" : "";
+  return `<article class="pregunta" data-tipo="${escapar(p.tipo)}">
+    <div class="numero">${n}</div>
+    <div class="cabecera"><b>${escapar(tipo)}${extra}</b><span>${escapar(p.nombre)}</span></div>
+    ${cuerpo}
+  </article>`;
+}
+
+function ficha(a) {
+  document.title = `La Gallofa · ${a.nombre}`;
+  $("titulo").textContent = a.nombre;
+  $("ruta").textContent = a.categorias.join(" › ");
+  $("descripcion").textContent = a.descripcion;
+  const dificultad = a.dificultad ? `<span class="etiqueta">${escapar(DIFICULTAD[a.dificultad] || a.dificultad)}</span>` : "";
+  const autor = a.autor ? `<span class="etiqueta">Autoría: ${escapar(a.autor)}</span>` : "";
+  $("etiquetas").innerHTML = `<span class="etiqueta">${a.preguntas} preguntas</span>${dificultad}${autor}`;
+  $("curriculo").innerHTML = a.curriculo && a.curriculo.length
+    ? `<div class="curriculo">${a.curriculo.map(c => `<div style="--color-nivel:${COLOR_NIVEL[c.nivel] || "var(--tinta)"}">
+        <small>${escapar(c.ciclo)}</small><b>${escapar(c.modulo)}</b><br>${escapar(c.ra)}${c.ce && c.ce.length ? " · CE " + c.ce.map(escapar).join(", ") : ""}</div>`).join("")}</div>`
+    : `<div class="sin-clasificar">Pendiente de clasificar por módulo, RA y CE</div>`;
+  $("descargas").innerHTML = a.ficheros.map(f =>
+    `<a class="boton" href="${url(f.ruta)}" download>Descargar${a.ficheros.length > 1 ? " " + escapar(f.nombre) : " XML"}</a>`).join("");
+  $("ficha").hidden = false;
+}
+
+function filtro(preguntas) {
+  const tipos = [...new Set(preguntas.map(p => p.tipo))];
+  if (tipos.length < 2) return;
+  const cuenta = t => preguntas.filter(p => p.tipo === t).length;
+  $("filtro").innerHTML = `<button type="button" data-tipo="" aria-pressed="true">Todas · ${preguntas.length}</button>` +
+    tipos.map(t => `<button type="button" data-tipo="${escapar(t)}" aria-pressed="false">${escapar(TIPOS[t] || t)} · ${cuenta(t)}</button>`).join("");
+  $("filtro").addEventListener("click", e => {
+    const boton = e.target.closest("button");
+    if (!boton) return;
+    $("filtro").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b === boton));
+    document.querySelectorAll(".pregunta").forEach(art => {
+      art.hidden = boton.dataset.tipo !== "" && art.dataset.tipo !== boton.dataset.tipo;
+    });
+  });
+}
+
+function aviso(texto) {
+  $("titulo").textContent = "La Gallofa";
+  $("aviso").textContent = texto;
+  $("aviso").hidden = false;
+}
+
+const id = new URLSearchParams(location.search).get("id");
+const actividad = window.INDICE && window.INDICE.actividades.find(a => a.id === id);
+if (!actividad) {
+  aviso("No encuentro esa actividad. Vuelve al buscador y elígela de nuevo.");
+} else {
+  ficha(actividad);
+  fetch(url(actividad.textos))
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(datos => {
+      $("preguntas").innerHTML = datos.preguntas.map((p, i) => pregunta(p, i + 1)).join("");
+      filtro(datos.preguntas);
+    })
+    .catch(() => aviso("No se pudieron cargar las preguntas de esta actividad."));
+}
+</script>
+</body>
+</html>

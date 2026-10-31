@@ -1,5 +1,9 @@
-title: Actividades
-description: Repositorio de actividades en formato Moodle XML
+title: La Gallofa
+description: Actividades de FP de Informática para Moodle, organizadas por módulo, RA y CE
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
+# La portada es index.html; el README de la raíz es solo para quien entra en GitHub
+exclude:
+- README.md
+- scripts

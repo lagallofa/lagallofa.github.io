@@ -1,0 +1,404 @@
+{
+ "repositorio": {
+  "name": "La Gallofa: actividades de FP de Informática",
+  "organization": "La Gallofa",
+  "download_url": "https://github.com/lagallofa/lagallofa.github.io/tree/main/actividades",
+  "raw_url": "https://raw.githubusercontent.com/lagallofa/lagallofa.github.io/main/actividades",
+  "pages_url": "https://lagallofa.github.io/actividades"
+ },
+ "tecnologias": {},
+ "actividades": [
+  {
+   "id": "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion",
+   "textos": "ver/datos/hardware-fuente-de-alimentacion-la-fuente-de-alimentacion.json",
+   "ruta": "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion",
+   "nombre": "La fuente de alimentación",
+   "descripcion": "",
+   "dificultad": "",
+   "autor": "Francisco Vargas Ruiz",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Fuente de alimentación"
+   ],
+   "preguntas": 10,
+   "tipos": {
+    "multichoice": 10
+   },
+   "ficheros": [
+    {
+     "nombre": "la fuente de alimentación.xml",
+     "ruta": "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/la fuente de alimentación.xml",
+     "preguntas": 10
+    }
+   ],
+   "imagenes": [
+    "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/images/la fuente de alimentación/adaptador-de-corriente_1.png",
+    "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/images/la fuente de alimentación/at_1.png",
+    "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/images/la fuente de alimentación/atx_1.png",
+    "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/images/la fuente de alimentación/atx_2.png",
+    "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/images/la fuente de alimentación/bateria_1.png"
+   ],
+   "readme": "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/README.md",
+   "curriculo": [],
+   "tecnologias": [],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "fuente-de-alimentacion",
+   "subtema_nombre": "Fuente de alimentación"
+  },
+  {
+   "id": "actividades/hardware/memoria/la-memoria-ram",
+   "textos": "ver/datos/hardware-memoria-la-memoria-ram.json",
+   "ruta": "actividades/hardware/memoria/la-memoria-ram",
+   "nombre": "La memoria RAM",
+   "descripcion": "",
+   "dificultad": "",
+   "autor": "Francisco Vargas Ruiz",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Memoria"
+   ],
+   "preguntas": 212,
+   "tipos": {
+    "multichoice": 199,
+    "truefalse": 8,
+    "matching": 5
+   },
+   "ficheros": [
+    {
+     "nombre": "la memoria ram.xml",
+     "ruta": "actividades/hardware/memoria/la-memoria-ram/la memoria ram.xml",
+     "preguntas": 212
+    }
+   ],
+   "imagenes": [
+    "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/ancho-banda_1.png",
+    "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-de-memoria_1.png",
+    "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-de-memoria_2.png",
+    "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-de-memoria_3.png",
+    "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-de-memoria_4.png",
+    "actividades/hardware/memoria/la-memoria-ram/images/la memoria ram/bus-memoria_1.png"
+   ],
+   "readme": "actividades/hardware/memoria/la-memoria-ram/README.md",
+   "curriculo": [],
+   "tecnologias": [],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "memoria",
+   "subtema_nombre": "Memoria"
+  },
+  {
+   "id": "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel",
+   "textos": "ver/datos/hardware-microprocesador-analisis-de-microprocesadores-intel.json",
+   "ruta": "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel",
+   "nombre": "Análisis de microprocesadores Intel",
+   "descripcion": "",
+   "dificultad": "",
+   "autor": "Francisco Vargas Ruiz",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Microprocesador"
+   ],
+   "preguntas": 80,
+   "tipos": {
+    "multichoice": 72,
+    "matching": 8
+   },
+   "ficheros": [
+    {
+     "nombre": "análisis microprocesadores intel.xml",
+     "ruta": "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/análisis microprocesadores intel.xml",
+     "preguntas": 80
+    }
+   ],
+   "imagenes": [
+    "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/images/análisis microprocesadores intel/atom-n570_1.png",
+    "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/images/análisis microprocesadores intel/atom-n570_2.png",
+    "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/images/análisis microprocesadores intel/atom-n570_3.png",
+    "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/images/análisis microprocesadores intel/atom-n570_4.png",
+    "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/images/análisis microprocesadores intel/atom-n570_5.png"
+   ],
+   "readme": "actividades/hardware/microprocesador/analisis-de-microprocesadores-intel/README.md",
+   "curriculo": [],
+   "tecnologias": [],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "microprocesador",
+   "subtema_nombre": "Microprocesador"
+  },
+  {
+   "id": "actividades/hardware/microprocesador/el-microprocesador",
+   "textos": "ver/datos/hardware-microprocesador-el-microprocesador.json",
+   "ruta": "actividades/hardware/microprocesador/el-microprocesador",
+   "nombre": "El microprocesador",
+   "descripcion": "Preguntas tipo test, de asociación y de respuesta corta sobre el microprocesador",
+   "dificultad": "medium",
+   "autor": "Francisco Vargas Ruiz",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Microprocesador"
+   ],
+   "preguntas": 88,
+   "tipos": {
+    "multichoice": 70,
+    "truefalse": 8,
+    "matching": 7,
+    "shortanswer": 3
+   },
+   "ficheros": [
+    {
+     "nombre": "questions.xml",
+     "ruta": "actividades/hardware/microprocesador/el-microprocesador/questions.xml",
+     "preguntas": 88
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [],
+   "tecnologias": [],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "microprocesador",
+   "subtema_nombre": "Microprocesador"
+  },
+  {
+   "id": "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos",
+   "textos": "ver/datos/hardware-perifericos-y-conectores-conectores-y-buses-externos.json",
+   "ruta": "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos",
+   "nombre": "Conectores y buses externos",
+   "descripcion": "",
+   "dificultad": "",
+   "autor": "Francisco Vargas Ruiz",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Periféricos y conectores"
+   ],
+   "preguntas": 136,
+   "tipos": {
+    "multichoice": 127,
+    "matching": 6,
+    "truefalse": 3
+   },
+   "ficheros": [
+    {
+     "nombre": "conextores y buses externos.xml",
+     "ruta": "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/conextores y buses externos.xml",
+     "preguntas": 136
+    }
+   ],
+   "imagenes": [
+    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conextores y buses externos/bluetooth_1.png",
+    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conextores y buses externos/bluetooth_2.png",
+    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conextores y buses externos/com_1.png",
+    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conextores y buses externos/com_2.png",
+    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conextores y buses externos/com_3.png",
+    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conextores y buses externos/firewire_1.png"
+   ],
+   "readme": "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/README.md",
+   "curriculo": [],
+   "tecnologias": [],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "perifericos-y-conectores",
+   "subtema_nombre": "Periféricos y conectores"
+  },
+  {
+   "id": "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion",
+   "textos": "ver/datos/hardware-perifericos-y-conectores-perifericos-y-tarjetas-de-expansion.json",
+   "ruta": "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion",
+   "nombre": "Periféricos y tarjetas de expansión",
+   "descripcion": "",
+   "dificultad": "",
+   "autor": "Francisco Vargas Ruiz",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Periféricos y conectores"
+   ],
+   "preguntas": 43,
+   "tipos": {
+    "multichoice": 37,
+    "truefalse": 6
+   },
+   "ficheros": [
+    {
+     "nombre": "periféricos y tarjetas de expansión.xml",
+     "ruta": "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/periféricos y tarjetas de expansión.xml",
+     "preguntas": 43
+    }
+   ],
+   "imagenes": [
+    "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/disco-duro_1.png",
+    "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/escaner_1.png",
+    "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/escaner_2.png",
+    "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/escaner_3.png",
+    "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/escaner_4.png",
+    "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/images/periféricos y tarjetas de expansión/escaner_5.png"
+   ],
+   "readme": "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/README.md",
+   "curriculo": [],
+   "tecnologias": [],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "perifericos-y-conectores",
+   "subtema_nombre": "Periféricos y conectores"
+  },
+  {
+   "id": "actividades/hardware/placa-base/componentes-de-la-placa-base",
+   "textos": "ver/datos/hardware-placa-base-componentes-de-la-placa-base.json",
+   "ruta": "actividades/hardware/placa-base/componentes-de-la-placa-base",
+   "nombre": "Componentes de la placa base",
+   "descripcion": "Preguntas de arrastrar y soltar para identificar los componentes y conectores de una placa base.",
+   "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Placa base"
+   ],
+   "preguntas": 6,
+   "tipos": {
+    "ddimageortext": 4,
+    "ddmarker": 2
+   },
+   "ficheros": [
+    {
+     "nombre": "arrastrar-soltar-placa-base.xml",
+     "ruta": "actividades/hardware/placa-base/componentes-de-la-placa-base/arrastrar-soltar-placa-base.xml",
+     "preguntas": 6
+    }
+   ],
+   "imagenes": [
+    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-asus-prime-a620m-a_1.png",
+    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-asus-z790-ayw-wifi-w_1.png",
+    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-gigabyte-ga-h110m-s2h_1.png",
+    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-gigabyte-h510m-s2h-v3_1.png",
+    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-gigabyte-x570-aorus-pro-wifi_1.png",
+    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-msi-pro-b850-p-wifi_1.png"
+   ],
+   "readme": "actividades/hardware/placa-base/componentes-de-la-placa-base/README.md",
+   "curriculo": [],
+   "tecnologias": [],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "placa-base",
+   "subtema_nombre": "Placa base"
+  },
+  {
+   "id": "actividades/hardware/placa-base/la-placa-base",
+   "textos": "ver/datos/hardware-placa-base-la-placa-base.json",
+   "ruta": "actividades/hardware/placa-base/la-placa-base",
+   "nombre": "La placa base",
+   "descripcion": "",
+   "dificultad": "",
+   "autor": "Francisco Vargas Ruiz",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Placa base"
+   ],
+   "preguntas": 111,
+   "tipos": {
+    "multichoice": 111
+   },
+   "ficheros": [
+    {
+     "nombre": "la placa base.xml",
+     "ruta": "actividades/hardware/placa-base/la-placa-base/la placa base.xml",
+     "preguntas": 111
+    }
+   ],
+   "imagenes": [
+    "actividades/hardware/placa-base/la-placa-base/images/la placa base/fuw-placa-base_1.png",
+    "actividades/hardware/placa-base/la-placa-base/images/la placa base/fuw-placa-base_2.png",
+    "actividades/hardware/placa-base/la-placa-base/images/la placa base/fuw-placa-base_3.png",
+    "actividades/hardware/placa-base/la-placa-base/images/la placa base/fuw-placa-base_4.png",
+    "actividades/hardware/placa-base/la-placa-base/images/la placa base/fuw-placa-base_5.png"
+   ],
+   "readme": "actividades/hardware/placa-base/la-placa-base/README.md",
+   "curriculo": [],
+   "tecnologias": [],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "placa-base",
+   "subtema_nombre": "Placa base"
+  },
+  {
+   "id": "actividades/redes/cableado/normas-t568a-y-t568b",
+   "textos": "ver/datos/redes-cableado-normas-t568a-y-t568b.json",
+   "ruta": "actividades/redes/cableado/normas-t568a-y-t568b",
+   "nombre": "Normas T-568A y T-568B",
+   "descripcion": "Preguntas de arrastrar y soltar sobre una imagen y de arrastrar y soltar marcadores",
+   "dificultad": "medium",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Redes",
+    "Cableado"
+   ],
+   "preguntas": 12,
+   "tipos": {
+    "ddimageortext": 7,
+    "ddmarker": 5
+   },
+   "ficheros": [
+    {
+     "nombre": "normas T-568A y T-568B.xml",
+     "ruta": "actividades/redes/cableado/normas-t568a-y-t568b/normas T-568A y T-568B.xml",
+     "preguntas": 12
+    }
+   ],
+   "imagenes": [
+    "actividades/redes/cableado/normas-t568a-y-t568b/images/normas T-568A y T-568B/01-arrastrar-etiquetas-sobre-conector-con-norma-t-568a_1.png",
+    "actividades/redes/cableado/normas-t568a-y-t568b/images/normas T-568A y T-568B/02-arrastrar-etiquetas-sobre-conector-con-norma-t-568b_1.png",
+    "actividades/redes/cableado/normas-t568a-y-t568b/images/normas T-568A y T-568B/03-arrastrar-etiquetas-para-formar-cable-directo-t-568a_1.png",
+    "actividades/redes/cableado/normas-t568a-y-t568b/images/normas T-568A y T-568B/04-arrastrar-etiquetas-para-formar-cable-cruzado_1.png",
+    "actividades/redes/cableado/normas-t568a-y-t568b/images/normas T-568A y T-568B/05-arrastrar-marcadores-a-panel-de-parcheo-t-568a-con-codigo-colores_1.png",
+    "actividades/redes/cableado/normas-t568a-y-t568b/images/normas T-568A y T-568B/06-arrastrar-marcadores-a-panel-de-parcheo-t-568b-con-codigo-colores_1.png"
+   ],
+   "readme": "actividades/redes/cableado/normas-t568a-y-t568b/README.md",
+   "curriculo": [],
+   "tecnologias": [],
+   "tema": "redes",
+   "tema_nombre": "Redes",
+   "subtema": "cableado",
+   "subtema_nombre": "Cableado"
+  },
+  {
+   "id": "actividades/redes/cableado/tipos-de-apantallamiento",
+   "textos": "ver/datos/redes-cableado-tipos-de-apantallamiento.json",
+   "ruta": "actividades/redes/cableado/tipos-de-apantallamiento",
+   "nombre": "Tipos de apantallamiento",
+   "descripcion": "Preguntas de opción múltiple y de arrastrar y soltar marcadores",
+   "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Redes",
+    "Cableado"
+   ],
+   "preguntas": 10,
+   "tipos": {
+    "multichoice": 6,
+    "ddmarker": 4
+   },
+   "ficheros": [
+    {
+     "nombre": "apantallamiento.xml",
+     "ruta": "actividades/redes/cableado/tipos-de-apantallamiento/apantallamiento.xml",
+     "preguntas": 10
+    }
+   ],
+   "imagenes": [
+    "actividades/redes/cableado/tipos-de-apantallamiento/images/apantallamiento/01-identificar-apantallamiento-en-imagen_1.png",
+    "actividades/redes/cableado/tipos-de-apantallamiento/images/apantallamiento/02-identificar-apantallamiento-en-imagen_1.png",
+    "actividades/redes/cableado/tipos-de-apantallamiento/images/apantallamiento/03-identificar-apantallamiento-en-imagen_1.png",
+    "actividades/redes/cableado/tipos-de-apantallamiento/images/apantallamiento/04-identificar-apantallamiento-en-imagen_1.png",
+    "actividades/redes/cableado/tipos-de-apantallamiento/images/apantallamiento/05-identificar-apantallamiento-en-imagen_1.png",
+    "actividades/redes/cableado/tipos-de-apantallamiento/images/apantallamiento/07-arrastrar-segun-apantallamiento-externo_1.png"
+   ],
+   "readme": "actividades/redes/cableado/tipos-de-apantallamiento/README.md",
+   "curriculo": [],
+   "tecnologias": [],
+   "tema": "redes",
+   "tema_nombre": "Redes",
+   "subtema": "cableado",
+   "subtema_nombre": "Cableado"
+  }
+ ]
+}

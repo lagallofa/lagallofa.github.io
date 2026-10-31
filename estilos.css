@@ -1,0 +1,78 @@
+/* Estilos comunes de La Gallofa (inicio, buscar, aportar…) */
+:root {
+  --fondo: #fff;
+  --tinta: #111;
+  --suave: #6b6b6b;
+  --linea: #d9d9d9;
+  --relleno: #f4f4f4;
+  --invertido-fondo: #000;
+  --invertido-tinta: #fff;
+
+  /* Un color por nivel, como el arcoíris del trazo */
+  --basica: #e94e3c;
+  --medio: #f2a41c;
+  --superior: #3a7bd5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fondo: #0d0d0d;
+    --tinta: #f2f2f2;
+    --suave: #a3a3a3;
+    --linea: #333;
+    --relleno: #1a1a1a;
+    --invertido-fondo: #f2f2f2;
+    --invertido-tinta: #0d0d0d;
+  }
+}
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--tinta);
+  font: 400 15px/1.55 Montserrat, system-ui, sans-serif;
+}
+a { color: inherit; }
+.contenedor { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+.versalitas { text-transform: uppercase; letter-spacing: .14em; }
+
+/* Portada: fondo negro, logo de trazo fino, título fino, líneas diagonales */
+.portada {
+  position: relative; overflow: hidden;
+  background: #000; color: #fff;
+  text-align: center;
+  padding: 40px 16px 56px;
+}
+
+.portada::before, .portada::after {
+  content: ""; position: absolute; height: 1px; width: 170px;
+  background: rgb(255 255 255 / 70%); transform: rotate(-40deg);
+}
+.portada::before { left: -20px; bottom: 22%; }
+.portada::after { right: -20px; top: 20%; }
+.portada .logo { display: block; width: 64px; height: 64px; margin: 0 auto 10px; }
+.portada h1 { margin: 0; font-weight: 300; font-size: clamp(1.7rem, 6vw, 3.4rem); letter-spacing: .12em; white-space: nowrap; }
+.portada .lema { margin: 8px 0 0; font-size: .8rem; letter-spacing: .22em; }
+.portada .explicacion { max-width: 620px; margin: 16px auto 0; color: #bdbdbd; font-size: .9rem; }
+
+/* Páginas interiores (buscar, ver…): cabecera más baja, lo importante va debajo */
+.portada.compacta { padding: 28px 16px 52px; }
+.portada.compacta .logo { width: 52px; height: 52px; margin-bottom: 6px; }
+.portada.compacta h1 { font-size: clamp(1.5rem, 4.5vw, 2.6rem); }
+.portada.compacta .explicacion { margin-top: 10px; font-size: .85rem; }
+footer { background: #000; color: #bdbdbd; text-align: center; font-size: .78rem; padding: 28px 16px; }
+footer b { color: #fff; font-weight: 500; }
+
+/* Enlace para volver al inicio, arriba a la izquierda de la portada */
+.volver {
+  position: absolute; top: 16px; left: 16px; z-index: 1;
+  font-size: .68rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+  color: #fff; text-decoration: none; opacity: .8;
+}
+.volver:hover { opacity: 1; }
+
+@media (width <= 600px) {
+  .portada::before, .portada::after { width: 120px; }
+  .portada .logo { width: 52px; height: 52px; }
+}

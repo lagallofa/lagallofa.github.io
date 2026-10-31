@@ -1,0 +1,45 @@
+name: "Actualizar actividades"
+# En cada cambio: actirepo genera las páginas (README y capturas) de cada actividad
+# y generar_indice.py rehace la lista que usa el buscador.
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Chrome (para las capturas)
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Instalar actirepo
+        run: pip install git+https://github.com/noeper/actirepo.git
+
+      - name: Generar las páginas de las actividades
+        run: actirepo --repository actividades --readme --recursive --force
+
+      - name: Generar el índice del buscador
+        run: python scripts/generar_indice.py
+
+      - name: Guardar los cambios
+        run: |
+          git config user.name "actirepo[bot]"
+          git config user.email "actirepo[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No hay cambios que guardar"
+          else
+            git commit -m "Actualización automática de actividades e índice"
+            git push
+          fi

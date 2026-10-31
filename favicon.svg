@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -60 120 120">
+  <!-- Icono de la pestaña: el corro del logo, en blanco sobre negro; trazo más grueso para que se vea en pequeño -->
+  <circle r="60" fill="#111"/>
+  <defs>
+    <g id="persona">
+      <circle cy="-40" r="8"/>
+      <path d="M-9,-16 C-9,-30 9,-30 9,-16 Z"/>
+    </g>
+  </defs>
+  <g fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round">
+    <use href="#persona"/>
+    <use href="#persona" transform="rotate(60)"/>
+    <use href="#persona" transform="rotate(120)"/>
+    <use href="#persona" transform="rotate(180)"/>
+    <use href="#persona" transform="rotate(240)"/>
+    <use href="#persona" transform="rotate(300)"/>
+  </g>
+</svg>

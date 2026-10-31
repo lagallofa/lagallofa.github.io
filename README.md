@@ -1,33 +1,48 @@
----
-title: Repositorio de actividades de informática
----
+# La Gallofa
 
-# Repositorio de actividades de informática
+Actividades de FP de Informática para Moodle (formato Moodle XML), compartidas entre
+profesorado y organizadas por nivel, ciclo, módulo, resultado de aprendizaje (RA) y criterio
+de evaluación (CE).
 
+**Web: <https://lagallofa.github.io>**
 
+> En Canarias, en la isla de La Palma, una gallofa era una reunión de vecinos para ayudar a uno
+> de ellos en la realización de una determinada faena. La persona beneficiada obsequiaba a los
+> demás con comida y bebida.
 
-## Contenido
+## Qué hay en este repositorio
 
+| Carpeta o fichero | Qué es |
+|---|---|
+| [`index.html`](index.html) | Página de inicio de la web |
+| [`buscar/`](buscar) | Buscador de actividades |
+| [`aportar/`](aportar), [`modificar/`](modificar), [`retirar/`](retirar) | Páginas para que el profesorado gestione sus actividades |
+| [`actividades/`](actividades) | Las actividades: una carpeta por actividad, con su XML, capturas y ficha `activity.json` |
+| `indice.json`, `indice.js` | Lista de todas las actividades para el buscador (se genera sola) |
+| [`scripts/`](scripts) | Programas que generan el índice |
 
-|   | Tipo              | Cantidad                   |
-| - | ----------------- | -------------------------- |
-| ![ddmarker](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddmarker.svg) | Arrastrar y soltar marcador | 11 |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 562 |
-| ![ddimageortext](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddimageortext.svg) | Arrastrar y soltar imagen o texto | 11 |
-| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | Verdadero/Falso | 17 |
-|   | **TOTAL**         | 601 |
+## Ficha de una actividad (`activity.json`)
 
+```json
+{
+  "name": "Tipos de apantallamiento",
+  "description": "Preguntas de opción múltiple y de arrastrar y soltar marcadores",
+  "difficulty": "easy",
+  "author": { "name": "Noemí Pérez" },
+  "curriculo": [
+    {
+      "nivel": "Grado Medio",
+      "ciclo": "Sistemas Microinformáticos y Redes",
+      "modulo": "Redes locales",
+      "ra": "RA1",
+      "ce": ["a", "b"]
+    }
+  ]
+}
+```
 
-## Categorías
-| Nombre              | Descripción                   | Preguntas |
-| ------------------- | ----------------------------- | --------- |
-| [Redes](redes) | Redes de ordenadores. | 22 |
-| [Hardware](hardware) | Hardware del PC | 579 |
+Una actividad puede servir para varios módulos (una entrada por módulo), pero dentro de un
+módulo solo para un RA, y sus CE son de ese RA.
 
-
-
-
-
-
----
-Generated with :heart: by [actirepo v0.2.0](https://github.com/teuton-software/actirepo)
+Las páginas de cada actividad las genera [actirepo](https://github.com/teuton-software/actirepo)
+automáticamente en cada cambio.

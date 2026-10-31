@@ -1,0 +1,81 @@
+{
+ "especiales": [
+  {"id": "no-procede", "nombre": "No procede (fundamentos, no depende de una tecnología)"}
+ ],
+ "grupos": [
+  {
+   "grupo": "Lenguajes de programación",
+   "tecnologias": [
+    {"id": "java", "nombre": "Java"},
+    {"id": "python", "nombre": "Python"},
+    {"id": "csharp", "nombre": "C#"},
+    {"id": "c", "nombre": "C"},
+    {"id": "cpp", "nombre": "C++"},
+    {"id": "kotlin", "nombre": "Kotlin"},
+    {"id": "dart", "nombre": "Dart"},
+    {"id": "javascript", "nombre": "JavaScript"},
+    {"id": "typescript", "nombre": "TypeScript"},
+    {"id": "php", "nombre": "PHP"}
+   ]
+  },
+  {
+   "grupo": "Desarrollo web y marcos",
+   "tecnologias": [
+    {"id": "html-css", "nombre": "HTML y CSS"},
+    {"id": "xml", "nombre": "XML (DTD, XSD, XPath, XSLT)"},
+    {"id": "react", "nombre": "React"},
+    {"id": "angular", "nombre": "Angular"},
+    {"id": "vue", "nombre": "Vue"},
+    {"id": "spring", "nombre": "Spring"},
+    {"id": "django", "nombre": "Django"},
+    {"id": "laravel", "nombre": "Laravel"},
+    {"id": "flutter", "nombre": "Flutter"},
+    {"id": "android", "nombre": "Android"}
+   ]
+  },
+  {
+   "grupo": "Sistemas operativos",
+   "tecnologias": [
+    {"id": "linux", "nombre": "Linux"},
+    {"id": "windows", "nombre": "Windows"},
+    {"id": "windows-server", "nombre": "Windows Server"},
+    {"id": "macos", "nombre": "macOS"}
+   ]
+  },
+  {
+   "grupo": "Bases de datos",
+   "tecnologias": [
+    {"id": "mysql", "nombre": "MySQL / MariaDB"},
+    {"id": "postgresql", "nombre": "PostgreSQL"},
+    {"id": "oracle", "nombre": "Oracle"},
+    {"id": "sqlite", "nombre": "SQLite"},
+    {"id": "sql-server", "nombre": "SQL Server"},
+    {"id": "mongodb", "nombre": "MongoDB"}
+   ]
+  },
+  {
+   "grupo": "Redes, virtualización y servicios",
+   "tecnologias": [
+    {"id": "packet-tracer", "nombre": "Cisco Packet Tracer"},
+    {"id": "cisco-ios", "nombre": "Cisco IOS"},
+    {"id": "virtualbox", "nombre": "VirtualBox"},
+    {"id": "proxmox", "nombre": "Proxmox"},
+    {"id": "docker", "nombre": "Docker"},
+    {"id": "apache", "nombre": "Apache"},
+    {"id": "nginx", "nombre": "Nginx"},
+    {"id": "git", "nombre": "Git"}
+   ]
+  },
+  {
+   "grupo": "Ofimática y gestión",
+   "tecnologias": [
+    {"id": "libreoffice", "nombre": "LibreOffice"},
+    {"id": "microsoft-office", "nombre": "Microsoft Office"},
+    {"id": "google-workspace", "nombre": "Google Workspace"},
+    {"id": "odoo", "nombre": "Odoo"},
+    {"id": "wordpress", "nombre": "WordPress"},
+    {"id": "moodle", "nombre": "Moodle"}
+   ]
+  }
+ ]
+}

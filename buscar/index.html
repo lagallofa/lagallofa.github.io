@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Gallofa · Buscador de actividades</title>
+<meta name="description" content="Actividades de FP de Informática en formato Moodle XML, organizadas por módulo, resultado de aprendizaje y criterio de evaluación.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../estilos.css">
+<style>
+
+  /* Niveles: círculos rellenos como los de los ciclos */
+  .niveles { display: flex; justify-content: center; gap: clamp(12px, 4vw, 36px); flex-wrap: wrap; margin: -44px 0 0; position: relative; }
+
+  .nivel {
+    width: 112px; height: 112px; border-radius: 50%;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    background: var(--invertido-fondo); color: var(--invertido-tinta);
+    border: 3px solid var(--fondo);
+    box-shadow: 0 0 0 1px var(--tinta);
+    font: inherit; cursor: pointer; text-align: center; line-height: 1.15;
+    transition: transform .15s;
+  }
+  .nivel b { font-size: 1.05rem; font-weight: 700; letter-spacing: .06em; }
+  .nivel span { font-size: .62rem; letter-spacing: .14em; text-transform: uppercase; margin-top: 4px; }
+  .nivel:disabled { opacity: .5; cursor: default; }
+  .nivel:hover:not(:disabled) { transform: scale(1.05); }
+  .nivel[aria-pressed="true"] { box-shadow: 0 0 0 4px var(--color-nivel); }
+  .nivel[data-nivel="FP Básica"] { --color-nivel: var(--basica); }
+  .nivel[data-nivel="Grado Medio"] { --color-nivel: var(--medio); }
+  .nivel[data-nivel="Grado Superior"] { --color-nivel: var(--superior); }
+
+  /* Filtros: líneas finas, sin cajas */
+  .filtros { padding: 32px 0 18px; border-bottom: 1px solid var(--tinta); }
+  .rejilla-filtros { display: grid; gap: 14px 22px; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
+  label.campo { display: flex; flex-direction: column; gap: 2px; font-size: .68rem; font-weight: 600; color: var(--suave); }
+
+  select, input[type="search"] {
+    font: inherit; font-size: .92rem;
+    padding: 6px 0;
+    border: 0; border-bottom: 1px solid var(--tinta); border-radius: 0;
+    background: transparent; color: var(--tinta);
+    min-width: 0;
+  }
+  select option { background: var(--fondo); color: var(--tinta); }
+  select:disabled { opacity: .4; }
+  select:focus, input:focus { outline: none; border-bottom-width: 2px; }
+  .tecnologias[hidden] { display: none; }
+  .tecnologias { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 16px; }
+  .tecnologias b { font-size: .68rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--suave); margin-right: 4px; }
+
+  .tecnologias button {
+    font: inherit; font-size: .75rem; cursor: pointer; padding: 4px 12px; border-radius: 999px;
+    border: 1px solid var(--tinta); background: none; color: var(--tinta);
+  }
+  .tecnologias button[aria-pressed="true"] { background: var(--tinta); color: var(--fondo); }
+  .barra { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-top: 18px; font-size: .8rem; color: var(--suave); }
+  .barra label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+  .barra input { accent-color: var(--tinta); }
+
+  button.limpiar {
+    font: inherit; font-size: .72rem; font-weight: 600; cursor: pointer;
+    background: none; border: 1px solid var(--tinta); border-radius: 999px;
+    color: var(--tinta); padding: 5px 14px; margin-left: 10px;
+  }
+  button.limpiar:hover { background: var(--tinta); color: var(--fondo); }
+
+  /* Tarjetas: borde fino, esquinas rectas, cuadrado negro en la esquina */
+  main { padding: 32px 0 72px; }
+  .tarjetas { display: grid; gap: 22px; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); }
+  .tarjeta { position: relative; border: 1px solid var(--tinta); display: flex; flex-direction: column; background: var(--fondo); }
+
+  .tarjeta::after {
+    content: ""; position: absolute; right: -1px; bottom: -1px;
+    width: 26px; height: 26px; background: var(--tinta);
+  }
+
+  .miniatura {
+    position: relative; aspect-ratio: 16 / 9; width: 100%;
+    background: var(--relleno); border: 0; border-bottom: 1px solid var(--tinta); padding: 0;
+    cursor: zoom-in; overflow: hidden;
+  }
+  .miniatura img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+  .miniatura.vacia { cursor: default; display: flex; align-items: center; justify-content: center; color: var(--suave); font-size: .72rem; }
+
+  .contador-preguntas {
+    position: absolute; right: 12px; bottom: -30px; z-index: 1;
+    width: 72px; height: 72px; border-radius: 50%;
+    background: var(--tinta); color: var(--fondo);
+    display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1;
+    border: 3px solid var(--fondo);
+  }
+  .contador-preguntas b { font-size: 1.15rem; }
+  .contador-preguntas span { font-size: .5rem; letter-spacing: .06em; text-transform: uppercase; margin-top: 3px; }
+  .cuerpo { padding: 16px 18px 30px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+  .ruta { font-size: .64rem; color: var(--suave); padding-right: 70px; }
+  .tarjeta h2 { margin: 0; font-size: 1rem; font-weight: 600; line-height: 1.3; letter-spacing: .04em; text-transform: uppercase; }
+  .descripcion { margin: 0; color: var(--suave); font-size: .85rem; }
+  .etiquetas { display: flex; flex-wrap: wrap; gap: 6px; }
+  .etiqueta { font-size: .68rem; padding: 2px 9px; border-radius: 999px; border: 1px solid var(--linea); color: var(--suave); white-space: nowrap; }
+  .etiqueta.easy::before, .etiqueta.medium::before, .etiqueta.hard::before { content: "●"; margin-right: 4px; }
+  .etiqueta.easy::before { color: #2f9e5b; }
+  .etiqueta.medium::before { color: var(--medio); }
+  .etiqueta.hard::before { color: var(--basica); }
+  .curriculo { display: flex; flex-direction: column; gap: 6px; font-size: .78rem; }
+  .curriculo div { border-left: 3px solid var(--color-nivel, var(--tinta)); padding: 2px 0 2px 10px; }
+  .curriculo b { font-weight: 600; }
+  .curriculo small { color: var(--suave); font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; display: block; }
+  .sin-clasificar { font-size: .75rem; color: var(--suave); border-left: 3px dashed var(--linea); padding-left: 10px; }
+  .acciones { display: flex; gap: 8px; margin-top: auto; padding-top: 8px; flex-wrap: wrap; }
+
+  .boton {
+    font-size: .7rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
+    text-decoration: none; padding: 7px 14px; border: 1px solid var(--tinta); border-radius: 999px;
+  }
+  .boton.principal { background: var(--tinta); color: var(--fondo); }
+  .boton:hover { opacity: .8; }
+  .vacio { text-align: center; color: var(--suave); padding: 56px 0; }
+
+  .vacio span {
+    display: inline-flex; width: 150px; height: 150px; border-radius: 50%; border: 1px solid var(--tinta);
+    align-items: center; justify-content: center; padding: 18px; font-size: .75rem;
+  }
+
+  dialog { border: 1px solid var(--tinta); border-radius: 0; padding: 0; max-width: min(960px, 94vw); width: 100%; background: var(--fondo); color: var(--tinta); }
+  dialog::backdrop { background: rgb(0 0 0 / 75%); }
+  .galeria-cabecera { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; background: #000; color: #fff; }
+  .galeria-cabecera strong { font-weight: 500; font-size: .85rem; }
+  .galeria-cabecera button { font: inherit; font-size: 1.5rem; line-height: 1; background: none; border: 0; color: #fff; cursor: pointer; }
+  .galeria-imagenes { max-height: 80vh; overflow: auto; padding: 16px; display: flex; flex-direction: column; gap: 16px; }
+  .galeria-imagenes img { width: 100%; border: 1px solid var(--linea); }
+
+
+  @media (width <= 600px) {
+    .nivel { width: 92px; height: 92px; }
+    .nivel b { font-size: .9rem; }
+    .rejilla-filtros { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<header class="portada compacta">
+  <a class="volver" href="../">← Inicio</a>
+  <img class="logo" src="../logo.svg" alt="">
+  <h1 class="versalitas">La Gallofa</h1>
+  <p class="lema versalitas">Actividades de FP de Informática</p>
+  <p class="explicacion">Preguntas para Moodle (formato XML) organizadas por módulo, resultado de aprendizaje y criterio de evaluación. Descárgalas e impórtalas en el banco de preguntas de tu aula.</p>
+</header>
+
+<div class="contenedor">
+  <nav class="niveles" id="niveles" aria-label="Nivel">
+    <button class="nivel" type="button" data-nivel="FP Básica" disabled><b>FPB</b><span>Básica</span></button>
+    <button class="nivel" type="button" data-nivel="Grado Medio" disabled><b>GM</b><span>Grado medio</span></button>
+    <button class="nivel" type="button" data-nivel="Grado Superior" disabled><b>GS</b><span>Grado superior</span></button>
+  </nav>
+
+  <section class="filtros">
+    <div class="rejilla-filtros">
+      <label class="campo versalitas">Ciclo <select id="f-ciclo"></select></label>
+      <label class="campo versalitas">Módulo <select id="f-modulo"></select></label>
+      <label class="campo versalitas">Resultado de aprendizaje <select id="f-ra"></select></label>
+      <label class="campo versalitas">Criterio de evaluación <select id="f-ce"></select></label>
+      <label class="campo versalitas">Tema <select id="f-tema"></select></label>
+      <label class="campo versalitas">Subtema <select id="f-subtema"></select></label>
+      <label class="campo versalitas">Buscar <input type="search" id="f-texto" placeholder="placa base, RJ45…"></label>
+    </div>
+    <div class="tecnologias" id="f-tec" role="group" aria-label="Tecnología" hidden></div>
+    <div class="barra">
+      <span id="contador">Cargando…</span>
+      <span>
+        <label><input type="checkbox" id="f-sin"> Mostrar también las no clasificadas</label>
+        <button class="limpiar versalitas" id="limpiar" type="button">Limpiar</button>
+      </span>
+    </div>
+  </section>
+</div>
+
+<main class="contenedor">
+  <div class="tarjetas" id="tarjetas"></div>
+  <p class="vacio" id="vacio" hidden><span>No hay actividades con esos filtros</span></p>
+</main>
+
+<footer>
+  <b>La Gallofa</b> · <a href="https://github.com/lagallofa">github.com/lagallofa</a>
+</footer>
+
+<dialog id="galeria">
+  <div class="galeria-cabecera"><strong id="galeria-titulo" class="versalitas"></strong><button type="button" id="galeria-cerrar" aria-label="Cerrar">×</button></div>
+  <div class="galeria-imagenes" id="galeria-imagenes"></div>
+</dialog>
+
+<script src="../indice.js"></script>
+<script>
+const BASE = "../";
+const TIPOS = {
+  multichoice: "Opción múltiple", truefalse: "Verdadero/Falso", matching: "Emparejamiento",
+  shortanswer: "Respuesta corta", numerical: "Numérica", essay: "Ensayo",
+  ddimageortext: "Arrastrar sobre imagen", ddmarker: "Arrastrar marcadores", ddwtos: "Arrastrar al texto",
+  gapselect: "Seleccionar palabras", cloze: "Respuestas anidadas", multianswer: "Respuestas anidadas",
+  coderunner: "CodeRunner", description: "Descripción"
+};
+const DIFICULTAD = { easy: "Dificultad baja", medium: "Dificultad media", hard: "Dificultad alta" };
+const COLOR_NIVEL = { "FP Básica": "var(--basica)", "Grado Medio": "var(--medio)", "Grado Superior": "var(--superior)" };
+// El nivel se elige con los círculos; el resto, con desplegables
+const FILTROS = ["nivel", "ciclo", "modulo", "ra", "ce"];
+const ETIQUETAS = { ciclo: "Todos los ciclos", modulo: "Todos los módulos", ra: "Todos los RA", ce: "Todos los CE" };
+
+const $ = id => document.getElementById(id);
+const url = ruta => BASE + ruta.split("/").map(encodeURIComponent).join("/");
+const normalizar = s => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const ordenar = (a, b) => a.localeCompare(b, "es", { numeric: true });
+const escapar = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const n = (cantidad, una, varias) => `${cantidad} ${cantidad === 1 ? una : varias}`;
+
+let actividades = [];
+let nivel = "";
+let tecnologias = new Set();  // tecnologías marcadas en los chips
+
+// Cada entrada de "curriculo" es una fila: nivel, ciclo, módulo, RA y una lista de CE.
+function filas(a) {
+  return (a.curriculo || []).flatMap(c => {
+    const ces = c.ce && c.ce.length ? c.ce : [""];
+    return ces.map(ce => ({ nivel: c.nivel || "", ciclo: c.ciclo || "", modulo: c.modulo || "", ra: c.ra || "", ce }));
+  });
+}
+
+function seleccion() {
+  return Object.fromEntries(FILTROS.map(f => [f, f === "nivel" ? nivel : $("f-" + f).value]));
+}
+
+// Una fila cumple si coincide con todos los filtros elegidos hasta "hasta" (sin incluirlo).
+function cumple(fila, sel, hasta = FILTROS.length) {
+  return FILTROS.slice(0, hasta).every(f => !sel[f] || fila[f] === sel[f]);
+}
+
+function rellenar() {
+  const sel = seleccion();
+  const todas = actividades.flatMap(filas);
+
+  // Todos los niveles se pueden elegir; si uno está vacío, sus desplegables quedan sin opciones
+  document.querySelectorAll(".nivel").forEach(b => {
+    b.disabled = false;
+    b.setAttribute("aria-pressed", b.dataset.nivel === nivel);
+  });
+
+  FILTROS.forEach((f, i) => {
+    if (f === "nivel") return;
+    const opciones = [...new Set(todas.filter(fila => cumple(fila, sel, i)).map(fila => fila[f]).filter(Boolean))].sort(ordenar);
+    const select = $("f-" + f);
+    const actual = opciones.includes(sel[f]) ? sel[f] : "";
+    sel[f] = actual;
+    select.innerHTML = `<option value="">${ETIQUETAS[f]}</option>` +
+      opciones.map(o => `<option value="${escapar(o)}"${o === actual ? " selected" : ""}>${escapar(f === "ce" && sel.ra ? sel.ra + "." + o : o)}</option>`).join("");
+    select.disabled = opciones.length === 0;
+  });
+  rellenarTemas();
+}
+
+// Tema y subtema son la carpeta de la actividad; el subtema depende del tema elegido
+function rellenarTemas() {
+  const opciones = (lista, valor, texto) => [...new Map(lista.map(a => [a[valor], a[texto]])).entries()]
+    .sort((x, y) => ordenar(x[1], y[1]));
+  const pintarSelect = (id, pares, vacio) => {
+    const select = $(id), actual = pares.some(([v]) => v === select.value) ? select.value : "";
+    select.innerHTML = `<option value="">${vacio}</option>` +
+      pares.map(([v, t]) => `<option value="${escapar(v)}"${v === actual ? " selected" : ""}>${escapar(t)}</option>`).join("");
+    select.disabled = pares.length === 0;
+  };
+  pintarSelect("f-tema", opciones(actividades, "tema", "tema_nombre"), "Todos los temas");
+  const tema = $("f-tema").value;
+  pintarSelect("f-subtema", opciones(actividades.filter(a => a.tema === tema), "subtema", "subtema_nombre"),
+    tema ? "Todos los subtemas" : "Elige antes un tema");
+}
+
+// Chips de tecnología: solo las que usa alguna actividad; «no procede» no se filtra
+function pintarTecnologias(nombres) {
+  const ids = Object.keys(nombres).filter(t => t !== "no-procede").sort((a, b) => ordenar(nombres[a], nombres[b]));
+  $("f-tec").hidden = ids.length === 0;
+  $("f-tec").innerHTML = `<b>Tecnología</b>` + ids.map(t =>
+    `<button type="button" data-tec="${escapar(t)}" aria-pressed="false">${escapar(nombres[t])}</button>`).join("");
+}
+
+function filtrar() {
+  const sel = seleccion();
+  const hayFiltro = FILTROS.some(f => sel[f]);
+  const texto = normalizar($("f-texto").value.trim());
+  const verSin = $("f-sin").checked;
+
+  return actividades.filter(a => {
+    const fs = filas(a);
+    if (hayFiltro) {
+      if (!fs.some(fila => cumple(fila, sel))) return false;
+    } else if (!fs.length && !verSin) {
+      return false;
+    }
+    if ($("f-tema").value && a.tema !== $("f-tema").value) return false;
+    if ($("f-subtema").value && a.subtema !== $("f-subtema").value) return false;
+    // Las de «no procede» (y las aún sin etiquetar) valen para cualquier tecnología
+    if (tecnologias.size && a.tecnologias.length && !a.tecnologias.includes("no-procede") &&
+        !a.tecnologias.some(t => tecnologias.has(t))) return false;
+    if (texto) {
+      const pajar = normalizar([a.nombre, a.descripcion, a.autor, ...a.categorias, ...fs.map(f => f.modulo)].join(" "));
+      if (!texto.split(/\s+/).every(t => pajar.includes(t))) return false;
+    }
+    return true;
+  });
+}
+
+function tarjeta(a) {
+  const contador = `<div class="contador-preguntas"><b>${a.preguntas}</b><span>preguntas</span></div>`;
+  const imagen = a.imagenes[0]
+    ? `<button class="miniatura" type="button" data-id="${escapar(a.id)}" aria-label="Ver capturas de ${escapar(a.nombre)}"><img loading="lazy" src="${url(a.imagenes[0])}" alt=""></button>`
+    : `<div class="miniatura vacia versalitas">Sin vista previa</div>`;
+  const tipos = Object.entries(a.tipos).map(([t, c]) => `<span class="etiqueta">${escapar(TIPOS[t] || t)} · ${c}</span>`).join("");
+  const dificultad = a.dificultad ? `<span class="etiqueta ${escapar(a.dificultad)}">${escapar(DIFICULTAD[a.dificultad] || a.dificultad)}</span>` : "";
+  const curriculo = a.curriculo && a.curriculo.length
+    ? `<div class="curriculo">${a.curriculo.map(c => `<div style="--color-nivel:${COLOR_NIVEL[c.nivel] || "var(--tinta)"}">
+        <small>${escapar(c.ciclo)}</small><b>${escapar(c.modulo)}</b><br>${escapar(c.ra)}${c.ce && c.ce.length ? " · CE " + c.ce.map(escapar).join(", ") : ""}</div>`).join("")}</div>`
+    : `<div class="sin-clasificar">Pendiente de clasificar por módulo, RA y CE</div>`;
+  const descargas = a.ficheros.map(f =>
+    `<a class="boton principal" href="${url(f.ruta)}" download>Descargar${a.ficheros.length > 1 ? " " + escapar(f.nombre) : " XML"}</a>`).join("");
+  const ver = `<a class="boton" href="../ver/?id=${encodeURIComponent(a.id)}">Ver preguntas</a>`;
+
+  return `<article class="tarjeta">
+    <div style="position:relative">${imagen}${contador}</div>
+    <div class="cuerpo">
+      <div class="ruta versalitas">${a.categorias.map(escapar).join(" › ")}</div>
+      <h2>${escapar(a.nombre)}</h2>
+      ${a.descripcion ? `<p class="descripcion">${escapar(a.descripcion)}</p>` : ""}
+      <div class="etiquetas">${dificultad}${tipos}</div>
+      ${curriculo}
+      <div class="acciones">${descargas}${ver}</div>
+    </div>
+  </article>`;
+}
+
+function pintar() {
+  rellenar();
+  const lista = filtrar();
+  $("tarjetas").innerHTML = lista.map(tarjeta).join("");
+  $("vacio").hidden = lista.length > 0;
+  const nivelVacio = nivel && !actividades.some(a => filas(a).some(f => f.nivel === nivel));
+  $("vacio").firstElementChild.textContent = nivelVacio
+    ? `Todavía no hay actividades de ${nivel}`
+    : "No hay actividades con esos filtros";
+  const preguntas = lista.reduce((s, a) => s + a.preguntas, 0);
+  const sinClasificar = actividades.filter(a => !filas(a).length).length;
+  $("contador").textContent = `${n(lista.length, "actividad", "actividades")} · ${n(preguntas, "pregunta", "preguntas")}` +
+    (sinClasificar && !$("f-sin").checked ? ` · ${sinClasificar} sin clasificar ocultas` : "");
+}
+
+function abrirGaleria(id) {
+  const a = actividades.find(x => x.id === id);
+  if (!a) return;
+  $("galeria-titulo").textContent = a.nombre;
+  $("galeria-imagenes").innerHTML = a.imagenes.map(i => `<img loading="lazy" src="${url(i)}" alt="">`).join("");
+  $("galeria").showModal();
+}
+
+$("niveles").addEventListener("click", e => {
+  const boton = e.target.closest(".nivel");
+  if (!boton || boton.disabled) return;
+  nivel = nivel === boton.dataset.nivel ? "" : boton.dataset.nivel;
+  pintar();
+});
+FILTROS.slice(1).forEach(f => $("f-" + f).addEventListener("change", pintar));
+$("f-tema").addEventListener("change", () => { $("f-subtema").value = ""; pintar(); });
+$("f-subtema").addEventListener("change", pintar);
+$("f-tec").addEventListener("click", e => {
+  const boton = e.target.closest("button[data-tec]");
+  if (!boton) return;
+  const t = boton.dataset.tec;
+  tecnologias.has(t) ? tecnologias.delete(t) : tecnologias.add(t);
+  boton.setAttribute("aria-pressed", tecnologias.has(t));
+  pintar();
+});
+$("f-texto").addEventListener("input", pintar);
+$("f-sin").addEventListener("change", pintar);
+$("limpiar").addEventListener("click", () => {
+  nivel = "";
+  FILTROS.slice(1).forEach(f => $("f-" + f).value = "");
+  $("f-tema").value = $("f-subtema").value = "";
+  tecnologias.clear();
+  $("f-tec").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", "false"));
+  $("f-texto").value = "";
+  pintar();
+});
+$("tarjetas").addEventListener("click", e => {
+  const boton = e.target.closest(".miniatura[data-id]");
+  if (boton) abrirGaleria(boton.dataset.id);
+});
+$("galeria-cerrar").addEventListener("click", () => $("galeria").close());
+$("galeria").addEventListener("click", e => { if (e.target === $("galeria")) $("galeria").close(); });
+
+// indice.js ya trae los datos; si falta, se pide indice.json
+(window.INDICE ? Promise.resolve(window.INDICE) : fetch(BASE + "indice.json").then(r => {
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+}))
+  .then(datos => {
+    actividades = datos.actividades;
+    pintarTecnologias(datos.tecnologias || {});
+    // Mientras casi nada esté clasificado, enseñar todo por defecto
+    if (!actividades.some(a => filas(a).length)) $("f-sin").checked = true;
+    pintar();
+  })
+  .catch(() => { $("contador").textContent = "No se pudo cargar el índice de actividades."; });
+</script>
+</body>
+</html>

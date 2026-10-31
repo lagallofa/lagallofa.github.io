@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Gallofa · Actividades de FP de Informática</title>
+<meta name="description" content="Actividades de FP de Informática para Moodle, compartidas entre profesorado y organizadas por módulo, resultado de aprendizaje y criterio de evaluación.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+<style>
+  .portada { padding-bottom: 96px; }
+
+  /* Cuatro círculos grandes, como los de los ciclos */
+  .opciones {
+    display: grid; gap: 28px 20px; justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 900px; margin: -78px auto 0; position: relative;
+  }
+  .opcion { display: flex; flex-direction: column; align-items: center; gap: 14px; text-decoration: none; text-align: center; }
+
+  .opcion .circulo {
+    width: 156px; height: 156px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--invertido-fondo); color: var(--invertido-tinta);
+    border: 4px solid var(--fondo); box-shadow: 0 0 0 1px var(--tinta);
+    font-size: .95rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+    transition: transform .15s;
+  }
+  .opcion:hover .circulo, .opcion:focus-visible .circulo { transform: scale(1.05); }
+  .opcion p { margin: 0; max-width: 200px; font-size: .82rem; color: var(--suave); }
+
+  .proyecto {
+    max-width: 760px; margin: 0 auto; padding: 64px 16px 72px;
+    display: grid; gap: 28px; grid-template-columns: 1fr 1fr;
+  }
+  .proyecto h2 { margin: 0 0 8px; font-size: .78rem; font-weight: 600; }
+  .proyecto p { margin: 0; font-size: .9rem; color: var(--suave); }
+  .proyecto div { position: relative; border: 1px solid var(--tinta); padding: 20px 22px 26px; }
+  .proyecto div::after { content: ""; position: absolute; right: -1px; bottom: -1px; width: 22px; height: 22px; background: var(--tinta); }
+
+  @media (width <= 760px) {
+    .opciones { grid-template-columns: repeat(2, 1fr); }
+    .opcion .circulo { width: 132px; height: 132px; font-size: .82rem; }
+    .proyecto { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<header class="portada">
+  <img class="logo" src="logo.svg" alt="">
+  <h1 class="versalitas">La Gallofa</h1>
+  <p class="lema versalitas">Actividades de FP de Informática</p>
+  <p class="explicacion">En La Palma, una gallofa era una reunión de vecinos para ayudarse en una faena. En otros lugares se llama junta, andecha, auzolan o facendera. Únete a la gallofa de profes de informática y llévate o comparte actividades para Moodle.</p>
+</header>
+
+<nav class="opciones contenedor" aria-label="Qué quieres hacer">
+  <a class="opcion" href="buscar/">
+    <span class="circulo">Buscar</span>
+    <p>Encuentra actividades por nivel, ciclo, módulo, RA y CE, y descárgalas para Moodle.</p>
+  </a>
+  <a class="opcion" href="aportar/">
+    <span class="circulo">Aportar</span>
+    <p>Sube una actividad tuya para que la usen otros profes.</p>
+  </a>
+  <a class="opcion" href="modificar/">
+    <span class="circulo">Modificar</span>
+    <p>Corrige o mejora una de tus actividades.</p>
+  </a>
+  <a class="opcion" href="retirar/">
+    <span class="circulo">Retirar</span>
+    <p>Quita una de tus actividades de La Gallofa.</p>
+  </a>
+</nav>
+
+<section class="proyecto">
+  <div>
+    <h2 class="versalitas">Listas para Moodle</h2>
+    <p>Cada actividad es un fichero XML que se importa en el banco de preguntas de tu aula.</p>
+  </div>
+  <div>
+    <h2 class="versalitas">Según la normativa</h2>
+    <p>Cada actividad indica para qué módulo, resultado de aprendizaje y criterios de evaluación sirve.</p>
+  </div>
+  <div>
+    <h2 class="versalitas">Revisadas</h2>
+    <p>Antes de publicarse, cada aportación o cambio se revisa para que las preguntas estén bien hechas.</p>
+  </div>
+  <div>
+    <h2 class="versalitas">Abiertas</h2>
+    <p>Todo está en GitHub, con el historial de cada cambio y el nombre de quien lo hizo.</p>
+  </div>
+</section>
+
+<footer>
+  <b>La Gallofa</b> · <a href="https://github.com/lagallofa">github.com/lagallofa</a>
+</footer>
+</body>
+</html>

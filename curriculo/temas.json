@@ -1,0 +1,1596 @@
+{
+ "temas": [
+  {
+   "id": "hardware",
+   "nombre": "Hardware y montaje de equipos",
+   "subtemas": [
+    {
+     "id": "electricidad-y-electronica",
+     "nombre": "Electricidad y electrónica",
+     "descripcion": "Magnitudes eléctricas, componentes electrónicos, medidas, sistemas de numeración y unidades de información",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3015"
+      },
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3029"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0221"
+      }
+     ]
+    },
+    {
+     "id": "arquitectura",
+     "nombre": "Arquitectura",
+     "descripcion": "Bloques funcionales, CPU, buses, arquitecturas de ordenador",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3029"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0221"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0371"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    },
+    {
+     "id": "placa-base",
+     "nombre": "Placa base",
+     "descripcion": "Formatos, chipset, zócalos, BIOS/UEFI",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3029"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0221"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0371"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    },
+    {
+     "id": "microprocesador",
+     "nombre": "Microprocesador",
+     "descripcion": "Tipos, características, refrigeración",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3029"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0221"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0371"
+      }
+     ]
+    },
+    {
+     "id": "memoria",
+     "nombre": "Memoria",
+     "descripcion": "Tipos de memoria, RAM, características y formatos",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3029"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0221"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0371"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    },
+    {
+     "id": "almacenamiento",
+     "nombre": "Almacenamiento",
+     "descripcion": "Discos, controladoras, soportes, RAID físico",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3029"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0221"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0371"
+      }
+     ]
+    },
+    {
+     "id": "fuente-de-alimentacion",
+     "nombre": "Fuente de alimentación",
+     "descripcion": "Fuentes, SAI, consumo",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3029"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0221"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0371"
+      }
+     ]
+    },
+    {
+     "id": "perifericos-y-conectores",
+     "nombre": "Periféricos y conectores",
+     "descripcion": "Periféricos, tarjetas de expansión, puertos y conectores externos",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3029"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0221"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0371"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    },
+    {
+     "id": "montaje-y-mantenimiento",
+     "nombre": "Montaje y mantenimiento",
+     "descripcion": "Ensamblado, diagnóstico y averías, mantenimiento, imágenes y clonado, almacenaje",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3015"
+      },
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3029"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0221"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0371"
+      }
+     ]
+    },
+    {
+     "id": "cpd",
+     "nombre": "CPD",
+     "descripcion": "Hardware en centros de proceso de datos",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0371"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sistemas-operativos",
+   "nombre": "Sistemas operativos",
+   "subtemas": [
+    {
+     "id": "fundamentos",
+     "nombre": "Fundamentos",
+     "descripcion": "Funciones, tipos, arquitectura, licencias",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0222"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0369"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    },
+    {
+     "id": "instalacion",
+     "nombre": "Instalación",
+     "descripcion": "Instalación, gestores de arranque, actualizaciones, aplicaciones",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3029"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0222"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0224"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0369"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    },
+    {
+     "id": "virtualizacion",
+     "nombre": "Virtualización",
+     "descripcion": "Máquinas virtuales",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0222"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0369"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    },
+    {
+     "id": "sistemas-de-archivos",
+     "nombre": "Sistemas de archivos",
+     "descripcion": "Archivos y directorios, particiones, discos, cuotas",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3030"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0222"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0369"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    },
+    {
+     "id": "usuarios-y-permisos",
+     "nombre": "Usuarios y permisos",
+     "descripcion": "Cuentas, grupos, permisos, directivas",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3030"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0222"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0224"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0369"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    },
+    {
+     "id": "procesos-y-rendimiento",
+     "nombre": "Procesos y rendimiento",
+     "descripcion": "Procesos, servicios, monitorización, registros",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0222"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0224"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0369"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0374"
+      }
+     ]
+    },
+    {
+     "id": "comandos-y-scripts",
+     "nombre": "Comandos y scripts",
+     "descripcion": "Línea de comandos y scripts",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0222"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0374"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    },
+    {
+     "id": "dominios-y-directorio",
+     "nombre": "Dominios y directorio",
+     "descripcion": "Dominios, servicio de directorio (LDAP, Active Directory)",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0224"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0369"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0374"
+      }
+     ]
+    },
+    {
+     "id": "recursos-compartidos",
+     "nombre": "Recursos compartidos",
+     "descripcion": "Compartir carpetas e impresoras, integración de sistemas libres y propietarios",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3030"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0224"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0374"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "redes",
+   "nombre": "Redes",
+   "subtemas": [
+    {
+     "id": "fundamentos",
+     "nombre": "Fundamentos",
+     "descripcion": "Tipos y topologías, modelos OSI y TCP/IP, protocolos",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3016"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0225"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0370"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    },
+    {
+     "id": "cableado",
+     "nombre": "Cableado",
+     "descripcion": "Cableado estructurado, medios, conectores, normas, canalizaciones y armarios",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3016"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0225"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0370"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    },
+    {
+     "id": "direccionamiento-ip",
+     "nombre": "Direccionamiento IP",
+     "descripcion": "IPv4, subredes, IPv6",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3016"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0225"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0370"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    },
+    {
+     "id": "conmutacion-y-vlan",
+     "nombre": "Conmutación y VLAN",
+     "descripcion": "Conmutadores, VLAN",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0225"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0370"
+      }
+     ]
+    },
+    {
+     "id": "enrutamiento",
+     "nombre": "Enrutamiento",
+     "descripcion": "Routers, rutas estáticas y protocolos dinámicos",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0370"
+      }
+     ]
+    },
+    {
+     "id": "inalambricas",
+     "nombre": "Inalámbricas",
+     "descripcion": "Redes inalámbricas",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3016"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0225"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0227"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0370"
+      }
+     ]
+    },
+    {
+     "id": "acceso-a-internet",
+     "nombre": "Acceso a internet",
+     "descripcion": "NAT, interconexión con redes públicas",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0227"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0370"
+      }
+     ]
+    },
+    {
+     "id": "incidencias",
+     "nombre": "Incidencias",
+     "descripcion": "Diagnóstico y resolución de problemas de red",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3016"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0225"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "servicios-en-red",
+   "nombre": "Servicios en red",
+   "subtemas": [
+    {
+     "id": "dhcp",
+     "nombre": "DHCP",
+     "descripcion": "Configuración automática de red",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0227"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0375"
+      }
+     ]
+    },
+    {
+     "id": "dns",
+     "nombre": "DNS",
+     "descripcion": "Resolución de nombres",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0227"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0375"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0614"
+      }
+     ]
+    },
+    {
+     "id": "web",
+     "nombre": "Web",
+     "descripcion": "Servidores web",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0227"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0375"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0614"
+      }
+     ]
+    },
+    {
+     "id": "transferencia-de-archivos",
+     "nombre": "Transferencia de archivos",
+     "descripcion": "FTP y similares",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0227"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0375"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0614"
+      }
+     ]
+    },
+    {
+     "id": "correo",
+     "nombre": "Correo",
+     "descripcion": "Servidores de correo",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0227"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0375"
+      }
+     ]
+    },
+    {
+     "id": "acceso-remoto",
+     "nombre": "Acceso remoto",
+     "descripcion": "SSH, escritorio remoto, administración remota",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0227"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0374"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0378"
+      }
+     ]
+    },
+    {
+     "id": "multimedia-y-mensajeria",
+     "nombre": "Multimedia y mensajería",
+     "descripcion": "Audio, vídeo, mensajería instantánea, listas",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0375"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "seguridad",
+   "nombre": "Seguridad informática",
+   "subtemas": [
+    {
+     "id": "fundamentos-y-legislacion",
+     "nombre": "Fundamentos y legislación",
+     "descripcion": "Principios, amenazas, protección de datos, normas",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0226"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0378"
+      }
+     ]
+    },
+    {
+     "id": "seguridad-pasiva",
+     "nombre": "Seguridad pasiva",
+     "descripcion": "Copias de seguridad, SAI, RAID, ubicación física",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0226"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0369"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0378"
+      }
+     ]
+    },
+    {
+     "id": "seguridad-activa",
+     "nombre": "Seguridad activa",
+     "descripcion": "Malware, antivirus, contraseñas, control de acceso, auditorías",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3030"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0226"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0369"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0378"
+      }
+     ]
+    },
+    {
+     "id": "criptografia",
+     "nombre": "Criptografía",
+     "descripcion": "Cifrado, firma y certificados",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0226"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0378"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0490"
+      }
+     ]
+    },
+    {
+     "id": "seguridad-perimetral",
+     "nombre": "Seguridad perimetral",
+     "descripcion": "Cortafuegos, proxy, VPN",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0226"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0378"
+      }
+     ]
+    },
+    {
+     "id": "alta-disponibilidad",
+     "nombre": "Alta disponibilidad",
+     "descripcion": "Redundancia, balanceo, virtualización de servidores",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0378"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0377"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bases-de-datos",
+   "nombre": "Bases de datos",
+   "subtemas": [
+    {
+     "id": "fundamentos",
+     "nombre": "Fundamentos",
+     "descripcion": "Almacenamiento de la información, tipos de bases de datos y SGBD",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0372"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0484"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0484"
+      }
+     ]
+    },
+    {
+     "id": "diseno",
+     "nombre": "Diseño",
+     "descripcion": "Modelo entidad/relación, modelo relacional, normalización",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0372"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0484"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0484"
+      }
+     ]
+    },
+    {
+     "id": "sql-consultas",
+     "nombre": "SQL consultas",
+     "descripcion": "SELECT: consultas simples, combinaciones, subconsultas",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0372"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0484"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0484"
+      }
+     ]
+    },
+    {
+     "id": "sql-definicion-y-manipulacion",
+     "nombre": "SQL definición y manipulación",
+     "descripcion": "DDL y DML, transacciones",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0372"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0484"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0484"
+      }
+     ]
+    },
+    {
+     "id": "programacion",
+     "nombre": "Programación",
+     "descripcion": "Guiones, procedimientos, funciones, disparadores",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0372"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0377"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0484"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0484"
+      }
+     ]
+    },
+    {
+     "id": "administracion",
+     "nombre": "Administración",
+     "descripcion": "Instalación de SGBD, usuarios y privilegios, rendimiento, réplicas",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0372"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0377"
+      }
+     ]
+    },
+    {
+     "id": "no-relacionales",
+     "nombre": "No relacionales",
+     "descripcion": "Documentales, objeto-relacionales, NoSQL",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0484"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0484"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0486"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "programacion",
+   "nombre": "Programación",
+   "subtemas": [
+    {
+     "id": "fundamentos",
+     "nombre": "Fundamentos",
+     "descripcion": "Elementos de un programa, tipos de datos, variables, operadores",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0485"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0485"
+      }
+     ]
+    },
+    {
+     "id": "estructuras-de-control",
+     "nombre": "Estructuras de control",
+     "descripcion": "Condicionales, bucles, funciones",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0485"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0485"
+      }
+     ]
+    },
+    {
+     "id": "poo",
+     "nombre": "POO",
+     "descripcion": "Clases, objetos, herencia, polimorfismo, interfaces",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0485"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0485"
+      }
+     ]
+    },
+    {
+     "id": "estructuras-de-datos",
+     "nombre": "Estructuras de datos",
+     "descripcion": "Arrays, colecciones, cadenas",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0485"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0485"
+      }
+     ]
+    },
+    {
+     "id": "ficheros",
+     "nombre": "Ficheros",
+     "descripcion": "Entrada y salida, ficheros",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0485"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0485"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0486"
+      }
+     ]
+    },
+    {
+     "id": "acceso-a-datos",
+     "nombre": "Acceso a datos",
+     "descripcion": "Conectores, ORM, persistencia",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0485"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0485"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0486"
+      }
+     ]
+    },
+    {
+     "id": "concurrencia",
+     "nombre": "Concurrencia",
+     "descripcion": "Multiproceso y multihilo",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0490"
+      }
+     ]
+    },
+    {
+     "id": "comunicaciones-y-servicios",
+     "nombre": "Comunicaciones y servicios",
+     "descripcion": "Sockets, servicios en red",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0490"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "entornos-de-desarrollo",
+   "nombre": "Entornos de desarrollo",
+   "subtemas": [
+    {
+     "id": "ides",
+     "nombre": "IDE",
+     "descripcion": "Instalación y uso de entornos de desarrollo",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0487"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0487"
+      }
+     ]
+    },
+    {
+     "id": "pruebas",
+     "nombre": "Pruebas",
+     "descripcion": "Diseño y realización de pruebas",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0487"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0487"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0488"
+      }
+     ]
+    },
+    {
+     "id": "control-de-versiones",
+     "nombre": "Control de versiones",
+     "descripcion": "Git y repositorios",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0487"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0487"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0614"
+      }
+     ]
+    },
+    {
+     "id": "uml",
+     "nombre": "UML",
+     "descripcion": "Diagramas de clases y de comportamiento",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0487"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0487"
+      }
+     ]
+    },
+    {
+     "id": "documentacion-y-refactorizacion",
+     "nombre": "Documentación y refactorización",
+     "descripcion": "Optimización, refactorización, documentación",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0487"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0487"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0488"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "desarrollo-de-aplicaciones",
+   "nombre": "Interfaces, móviles y juegos",
+   "subtemas": [
+    {
+     "id": "interfaces-graficas",
+     "nombre": "Interfaces gráficas",
+     "descripcion": "Interfaces de usuario, componentes visuales, interfaces naturales",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0488"
+      }
+     ]
+    },
+    {
+     "id": "informes-y-distribucion",
+     "nombre": "Informes y distribución",
+     "descripcion": "Informes, empaquetado y distribución de aplicaciones",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0488"
+      }
+     ]
+    },
+    {
+     "id": "moviles",
+     "nombre": "Móviles",
+     "descripcion": "Aplicaciones para dispositivos móviles",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0489"
+      }
+     ]
+    },
+    {
+     "id": "juegos-y-multimedia",
+     "nombre": "Juegos y multimedia",
+     "descripcion": "Librerías multimedia, motores de juegos, 2D y 3D",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0489"
+      }
+     ]
+    },
+    {
+     "id": "erp-crm",
+     "nombre": "ERP y CRM",
+     "descripcion": "Sistemas de gestión empresarial",
+     "modulos": [
+      {
+       "ciclo": "DAM",
+       "modulo": "0491"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0373"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lenguajes-de-marcas",
+   "nombre": "Lenguajes de marcas",
+   "subtemas": [
+    {
+     "id": "html",
+     "nombre": "HTML",
+     "descripcion": "Estructura de documentos HTML",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0373"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0373"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0373"
+      }
+     ]
+    },
+    {
+     "id": "xml",
+     "nombre": "XML",
+     "descripcion": "Documentos XML bien formados",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0373"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0373"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0373"
+      }
+     ]
+    },
+    {
+     "id": "esquemas",
+     "nombre": "Esquemas",
+     "descripcion": "DTD y XML Schema",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0373"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0373"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0373"
+      }
+     ]
+    },
+    {
+     "id": "transformacion-y-consulta",
+     "nombre": "Transformación y consulta",
+     "descripcion": "XPath, XSLT, XQuery",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0373"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0373"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0373"
+      }
+     ]
+    },
+    {
+     "id": "sindicacion-y-json",
+     "nombre": "Sindicación y JSON",
+     "descripcion": "RSS, Atom, JSON y almacenamiento de información",
+     "modulos": [
+      {
+       "ciclo": "ASIR",
+       "modulo": "0373"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0373"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0373"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "desarrollo-web",
+   "nombre": "Desarrollo web",
+   "subtemas": [
+    {
+     "id": "entorno-cliente",
+     "nombre": "Entorno cliente",
+     "descripcion": "JavaScript, DOM, eventos, formularios, comunicación asíncrona",
+     "modulos": [
+      {
+       "ciclo": "DAW",
+       "modulo": "0612"
+      }
+     ]
+    },
+    {
+     "id": "entorno-servidor",
+     "nombre": "Entorno servidor",
+     "descripcion": "Programación en servidor, sesiones, acceso a datos, servicios web",
+     "modulos": [
+      {
+       "ciclo": "DAW",
+       "modulo": "0613"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0376"
+      }
+     ]
+    },
+    {
+     "id": "diseno-de-interfaces",
+     "nombre": "Diseño de interfaces",
+     "descripcion": "CSS, multimedia, accesibilidad, usabilidad",
+     "modulos": [
+      {
+       "ciclo": "DAW",
+       "modulo": "0615"
+      }
+     ]
+    },
+    {
+     "id": "despliegue",
+     "nombre": "Despliegue",
+     "descripcion": "Arquitecturas web, servidores de aplicaciones, integración continua",
+     "modulos": [
+      {
+       "ciclo": "DAW",
+       "modulo": "0614"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0376"
+      }
+     ]
+    },
+    {
+     "id": "gestores-de-contenidos",
+     "nombre": "Gestores de contenidos",
+     "descripcion": "CMS, plataformas de aprendizaje, ofimática web",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0228"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0376"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ofimatica",
+   "nombre": "Ofimática",
+   "subtemas": [
+    {
+     "id": "procesador-de-textos",
+     "nombre": "Procesador de textos",
+     "descripcion": "Documentos y plantillas",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3030"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0223"
+      }
+     ]
+    },
+    {
+     "id": "hoja-de-calculo",
+     "nombre": "Hoja de cálculo",
+     "descripcion": "Fórmulas, funciones, gráficos",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3030"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0223"
+      }
+     ]
+    },
+    {
+     "id": "bases-de-datos-ofimaticas",
+     "nombre": "Bases de datos ofimáticas",
+     "descripcion": "Tablas, consultas, formularios e informes",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3030"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0223"
+      }
+     ]
+    },
+    {
+     "id": "presentaciones",
+     "nombre": "Presentaciones",
+     "descripcion": "Presentaciones multimedia",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3030"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0223"
+      }
+     ]
+    },
+    {
+     "id": "imagen-y-video",
+     "nombre": "Imagen y vídeo",
+     "descripcion": "Retoque de imágenes y edición de vídeo",
+     "modulos": [
+      {
+       "ciclo": "SMR",
+       "modulo": "0223"
+      }
+     ]
+    },
+    {
+     "id": "internet-y-correo",
+     "nombre": "Internet y correo",
+     "descripcion": "Navegación, correo y agenda, servicios de Internet",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3030"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0223"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prevencion",
+   "nombre": "Prevención de riesgos y medio ambiente",
+   "subtemas": [
+    {
+     "id": "riesgos-y-medio-ambiente",
+     "nombre": "Riesgos y medio ambiente",
+     "descripcion": "Normas de seguridad en el taller, riesgos laborales, reciclaje de residuos",
+     "modulos": [
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3015"
+      },
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3016"
+      },
+      {
+       "ciclo": "FPB-IC",
+       "modulo": "3029"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0221"
+      },
+      {
+       "ciclo": "SMR",
+       "modulo": "0225"
+      },
+      {
+       "ciclo": "ASIR",
+       "modulo": "0371"
+      },
+      {
+       "ciclo": "DAM",
+       "modulo": "0483"
+      },
+      {
+       "ciclo": "DAW",
+       "modulo": "0483"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
