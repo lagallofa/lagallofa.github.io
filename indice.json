@@ -330,40 +330,151 @@
    "subtema_nombre": "Placa base"
   },
   {
-   "id": "actividades/redes/cableado/normas-t568a-y-t568b",
-   "textos": "ver/datos/redes-cableado-normas-t568a-y-t568b.json",
-   "ruta": "actividades/redes/cableado/normas-t568a-y-t568b",
-   "nombre": "Normas T-568A y T-568B",
-   "descripcion": "Preguntas de arrastrar y soltar sobre una imagen y de arrastrar y soltar marcadores",
+   "id": "actividades/redes/cableado/conectores-rj45-t568",
+   "textos": "ver/datos/redes-cableado-conectores-rj45-t568.json",
+   "ruta": "actividades/redes/cableado/conectores-rj45-t568",
+   "nombre": "Conectores RJ-45. Normas T-568A y T-568B",
+   "descripcion": "Preguntas de arrastrar y soltar sobre una imagen: orden de los hilos en el conector RJ-45 y cables directo y cruzado",
    "dificultad": "medium",
    "autor": "Noemí Pérez",
    "categorias": [
     "Redes",
     "Cableado"
    ],
-   "preguntas": 12,
+   "preguntas": 4,
    "tipos": {
-    "ddimageortext": 7,
-    "ddmarker": 5
+    "ddimageortext": 4
    },
    "ficheros": [
     {
-     "nombre": "normas T-568A y T-568B.xml",
-     "ruta": "actividades/redes/cableado/normas-t568a-y-t568b/normas T-568A y T-568B.xml",
-     "preguntas": 12
+     "nombre": "conectores RJ-45 T-568A y T-568B.xml",
+     "ruta": "actividades/redes/cableado/conectores-rj45-t568/conectores RJ-45 T-568A y T-568B.xml",
+     "preguntas": 4
     }
    ],
    "imagenes": [
-    "actividades/redes/cableado/normas-t568a-y-t568b/images/normas T-568A y T-568B/01-arrastrar-etiquetas-sobre-conector-con-norma-t-568a_1.png",
-    "actividades/redes/cableado/normas-t568a-y-t568b/images/normas T-568A y T-568B/02-arrastrar-etiquetas-sobre-conector-con-norma-t-568b_1.png",
-    "actividades/redes/cableado/normas-t568a-y-t568b/images/normas T-568A y T-568B/03-arrastrar-etiquetas-para-formar-cable-directo-t-568a_1.png",
-    "actividades/redes/cableado/normas-t568a-y-t568b/images/normas T-568A y T-568B/04-arrastrar-etiquetas-para-formar-cable-cruzado_1.png",
-    "actividades/redes/cableado/normas-t568a-y-t568b/images/normas T-568A y T-568B/05-arrastrar-marcadores-a-panel-de-parcheo-t-568a-con-codigo-colores_1.png",
-    "actividades/redes/cableado/normas-t568a-y-t568b/images/normas T-568A y T-568B/06-arrastrar-marcadores-a-panel-de-parcheo-t-568b-con-codigo-colores_1.png"
+    "actividades/redes/cableado/conectores-rj45-t568/images/conectores RJ-45 T-568A y T-568B/01-arrastrar-etiquetas-sobre-conector-con-norma-t-568a_1.png",
+    "actividades/redes/cableado/conectores-rj45-t568/images/conectores RJ-45 T-568A y T-568B/02-arrastrar-etiquetas-sobre-conector-con-norma-t-568b_1.png",
+    "actividades/redes/cableado/conectores-rj45-t568/images/conectores RJ-45 T-568A y T-568B/03-arrastrar-etiquetas-para-formar-cable-directo-t-568a_1.png",
+    "actividades/redes/cableado/conectores-rj45-t568/images/conectores RJ-45 T-568A y T-568B/04-arrastrar-etiquetas-para-formar-cable-cruzado_1.png"
    ],
-   "readme": "actividades/redes/cableado/normas-t568a-y-t568b/README.md",
-   "curriculo": [],
-   "tecnologias": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "Informática y Comunicaciones",
+     "modulo": "3016 Instalación y mantenimiento de redes para transmisión de datos",
+     "ra": "RA4",
+     "ce": [
+      "b",
+      "f"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3016"
+    },
+    {
+     "ciclo": "Sistemas Microinformáticos y Redes",
+     "modulo": "0225 Redes locales",
+     "ra": "RA3",
+     "ce": [
+      "c"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0225"
+    },
+    {
+     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "modulo": "0370 Planificación y Administración de Redes",
+     "ra": "RA2",
+     "ce": [
+      "a",
+      "b"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0370"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "redes",
+   "tema_nombre": "Redes",
+   "subtema": "cableado",
+   "subtema_nombre": "Cableado"
+  },
+  {
+   "id": "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568",
+   "textos": "ver/datos/redes-cableado-paneles-de-parcheo-y-tomas-t568.json",
+   "ruta": "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568",
+   "nombre": "Paneles de parcheo y tomas. Normas T-568A y T-568B",
+   "descripcion": "Preguntas de arrastrar y soltar sobre una imagen y de arrastrar y soltar marcadores: conexionado de paneles de parcheo y conectores hembra RJ-45",
+   "dificultad": "medium",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Redes",
+    "Cableado"
+   ],
+   "preguntas": 8,
+   "tipos": {
+    "ddmarker": 5,
+    "ddimageortext": 3
+   },
+   "ficheros": [
+    {
+     "nombre": "paneles de parcheo y tomas T-568A y T-568B.xml",
+     "ruta": "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/paneles de parcheo y tomas T-568A y T-568B.xml",
+     "preguntas": 8
+    }
+   ],
+   "imagenes": [
+    "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/images/paneles de parcheo y tomas T-568A y T-568B/05-arrastrar-marcadores-a-panel-de-parcheo-t-568a-con-codigo-colores_1.png",
+    "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/images/paneles de parcheo y tomas T-568A y T-568B/06-arrastrar-marcadores-a-panel-de-parcheo-t-568b-con-codigo-colores_1.png",
+    "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/images/paneles de parcheo y tomas T-568A y T-568B/07-arrastrar-marcadores-a-panel-de-parcheo-t-568b-con-codigo-colores_1.png",
+    "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/images/paneles de parcheo y tomas T-568A y T-568B/08-arrastrar-marcadores-a-panel-de-parcheo-t-568b-sin-codigo-colores_1.png",
+    "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/images/paneles de parcheo y tomas T-568A y T-568B/09-arrastrar-marcadores-a-panel-de-parcheo-t-568a-sin-codigo-colores_1.png",
+    "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/images/paneles de parcheo y tomas T-568A y T-568B/11-arrastrar-marcadores-a-panel-de-parcheo-t-568b-con-codigo-colores_1.png"
+   ],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "Informática y Comunicaciones",
+     "modulo": "3016 Instalación y mantenimiento de redes para transmisión de datos",
+     "ra": "RA3",
+     "ce": [
+      "f"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3016"
+    },
+    {
+     "ciclo": "Sistemas Microinformáticos y Redes",
+     "modulo": "0225 Redes locales",
+     "ra": "RA2",
+     "ce": [
+      "g"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0225"
+    },
+    {
+     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "modulo": "0370 Planificación y Administración de Redes",
+     "ra": "RA2",
+     "ce": [
+      "a"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0370"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
    "tema": "redes",
    "tema_nombre": "Redes",
    "subtema": "cableado",

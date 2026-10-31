@@ -1,0 +1,39 @@
+{
+    "name": "Paneles de parcheo y tomas. Normas T-568A y T-568B",
+    "description": "Preguntas de arrastrar y soltar sobre una imagen y de arrastrar y soltar marcadores: conexionado de paneles de parcheo y conectores hembra RJ-45",
+    "difficulty": "medium",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@canariaseducacion.es",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3016",
+            "ra": "RA3",
+            "ce": [
+                "f"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0225",
+            "ra": "RA2",
+            "ce": [
+                "g"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0370",
+            "ra": "RA2",
+            "ce": [
+                "a"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

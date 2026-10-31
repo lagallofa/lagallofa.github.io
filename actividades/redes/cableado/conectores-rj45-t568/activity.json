@@ -1,0 +1,41 @@
+{
+    "name": "Conectores RJ-45. Normas T-568A y T-568B",
+    "description": "Preguntas de arrastrar y soltar sobre una imagen: orden de los hilos en el conector RJ-45 y cables directo y cruzado",
+    "difficulty": "medium",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@canariaseducacion.es",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3016",
+            "ra": "RA4",
+            "ce": [
+                "b",
+                "f"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0225",
+            "ra": "RA3",
+            "ce": [
+                "c"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0370",
+            "ra": "RA2",
+            "ce": [
+                "a",
+                "b"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}
