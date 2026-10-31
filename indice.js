@@ -152,8 +152,15 @@ window.INDICE = {
      "preguntas": 88
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/microprocesador/el-microprocesador/images/questions/aclaraciones_1.png",
+    "actividades/hardware/microprocesador/el-microprocesador/images/questions/aclaraciones_2.png",
+    "actividades/hardware/microprocesador/el-microprocesador/images/questions/arquitectura-x86_1.png",
+    "actividades/hardware/microprocesador/el-microprocesador/images/questions/arquitectura-x86_2.png",
+    "actividades/hardware/microprocesador/el-microprocesador/images/questions/calculo-velocidad-micro_1.png",
+    "actividades/hardware/microprocesador/el-microprocesador/images/questions/calculo-velocidad-micro_2.png"
+   ],
+   "readme": "actividades/hardware/microprocesador/el-microprocesador/README.md",
    "curriculo": [],
    "tecnologias": [],
    "tema": "hardware",

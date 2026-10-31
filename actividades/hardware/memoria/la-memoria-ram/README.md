@@ -1,8 +1,9 @@
 ---
-title: Memoria ram
+title: La memoria RAM
+author: Francisco Vargas Ruiz ()
 ---
 
-# Memoria ram
+# La memoria RAM
 
 ![Dificultad](https://img.shields.io/badge/Dificultad-Desconocida-black)
 

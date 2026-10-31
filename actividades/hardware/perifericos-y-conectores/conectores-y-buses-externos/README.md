@@ -1,5 +1,6 @@
 ---
 title: Conectores y buses externos
+author: Francisco Vargas Ruiz ()
 ---
 
 # Conectores y buses externos

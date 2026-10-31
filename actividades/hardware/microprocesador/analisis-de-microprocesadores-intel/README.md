@@ -1,8 +1,9 @@
 ---
-title: Microprocesador
+title: Análisis de microprocesadores Intel
+author: Francisco Vargas Ruiz ()
 ---
 
-# Microprocesador
+# Análisis de microprocesadores Intel
 
 ![Dificultad](https://img.shields.io/badge/Dificultad-Desconocida-black)
 

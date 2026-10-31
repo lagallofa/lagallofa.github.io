@@ -1,8 +1,9 @@
 ---
-title: Fuente de alimentación
+title: La fuente de alimentación
+author: Francisco Vargas Ruiz ()
 ---
 
-# Fuente de alimentación
+# La fuente de alimentación
 
 ![Dificultad](https://img.shields.io/badge/Dificultad-Desconocida-black)
 

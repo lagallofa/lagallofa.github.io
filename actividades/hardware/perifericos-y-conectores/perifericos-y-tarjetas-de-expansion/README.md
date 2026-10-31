@@ -1,5 +1,6 @@
 ---
 title: Periféricos y tarjetas de expansión
+author: Francisco Vargas Ruiz ()
 ---
 
 # Periféricos y tarjetas de expansión
