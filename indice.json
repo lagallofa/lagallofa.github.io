@@ -358,7 +358,7 @@
     "actividades/redes/cableado/conectores-rj45-t568/images/conectores RJ-45 T-568A y T-568B/03-arrastrar-etiquetas-para-formar-cable-directo-t-568a_1.png",
     "actividades/redes/cableado/conectores-rj45-t568/images/conectores RJ-45 T-568A y T-568B/04-arrastrar-etiquetas-para-formar-cable-cruzado_1.png"
    ],
-   "readme": "",
+   "readme": "actividades/redes/cableado/conectores-rj45-t568/README.md",
    "curriculo": [
     {
      "ciclo": "Informática y Comunicaciones",
@@ -433,10 +433,10 @@
     "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/images/paneles de parcheo y tomas T-568A y T-568B/06-arrastrar-marcadores-a-panel-de-parcheo-t-568b-con-codigo-colores_1.png",
     "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/images/paneles de parcheo y tomas T-568A y T-568B/07-arrastrar-marcadores-a-panel-de-parcheo-t-568b-con-codigo-colores_1.png",
     "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/images/paneles de parcheo y tomas T-568A y T-568B/08-arrastrar-marcadores-a-panel-de-parcheo-t-568b-sin-codigo-colores_1.png",
-    "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/images/paneles de parcheo y tomas T-568A y T-568B/09-arrastrar-marcadores-a-panel-de-parcheo-t-568a-sin-codigo-colores_1.png",
-    "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/images/paneles de parcheo y tomas T-568A y T-568B/11-arrastrar-marcadores-a-panel-de-parcheo-t-568b-con-codigo-colores_1.png"
+    "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/images/paneles de parcheo y tomas T-568A y T-568B/09-arrastrar-marcadores-a-panel-de-parcheo-t-568b-sin-codigo-colores_1.png",
+    "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/images/paneles de parcheo y tomas T-568A y T-568B/10-arrastrar-marcadores-a-panel-de-parcheo-t-568a-sin-codigo-colores_1.png"
    ],
-   "readme": "",
+   "readme": "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/README.md",
    "curriculo": [
     {
      "ciclo": "Informática y Comunicaciones",

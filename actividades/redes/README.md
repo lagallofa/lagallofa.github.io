@@ -11,8 +11,8 @@ title: Redes
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![ddimageortext](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddimageortext.svg) | Arrastrar y soltar imagen o texto | 7 |
 | ![ddmarker](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddmarker.svg) | Arrastrar y soltar marcador | 9 |
+| ![ddimageortext](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddimageortext.svg) | Arrastrar y soltar imagen o texto | 7 |
 | ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 6 |
 |   | **TOTAL**         | 22 |
 
