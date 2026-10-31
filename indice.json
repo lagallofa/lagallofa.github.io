@@ -7,7 +7,8 @@
   "pages_url": "https://lagallofa.github.io/actividades"
  },
  "tecnologias": {
-  "no-procede": "No procede (fundamentos, no depende de una tecnología)"
+  "no-procede": "No procede (fundamentos, no depende de una tecnología)",
+  "virtualbox": "VirtualBox"
  },
  "actividades": [
   {
@@ -903,6 +904,81 @@
    "tema_nombre": "Redes",
    "subtema": "cableado",
    "subtema_nombre": "Cableado"
+  },
+  {
+   "id": "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor",
+   "textos": "ver/datos/sistemas-operativos-virtualizacion-escape-room-operacion-hipervisor.json",
+   "ruta": "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor",
+   "nombre": "Escape room «Operación Hipervisor»",
+   "descripcion": "Escape room de virtualización: temario, instrucciones y cinco salas (conceptos, tipos de hipervisor, reparto de la RAM, error VT-x y elegir tecnología) que dan las letras del código de salida",
+   "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Sistemas operativos",
+    "Virtualización"
+   ],
+   "preguntas": 8,
+   "tipos": {
+    "description": 2,
+    "matching": 2,
+    "ddwtos": 1,
+    "multichoice": 1,
+    "numerical": 1,
+    "shortanswer": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "escape room operación hipervisor.xml",
+     "ruta": "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/escape room operación hipervisor.xml",
+     "preguntas": 8
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "Sistemas Microinformáticos y Redes",
+     "modulo": "0222 Sistemas operativos monopuesto",
+     "ra": "RA5",
+     "ce": [
+      "a",
+      "b",
+      "f"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0222"
+    },
+    {
+     "ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA2",
+     "ce": [
+      "g"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA2",
+     "ce": [
+      "g"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    }
+   ],
+   "tecnologias": [
+    "virtualbox"
+   ],
+   "tema": "sistemas-operativos",
+   "tema_nombre": "Sistemas operativos",
+   "subtema": "virtualizacion",
+   "subtema_nombre": "Virtualización"
   }
  ]
 }

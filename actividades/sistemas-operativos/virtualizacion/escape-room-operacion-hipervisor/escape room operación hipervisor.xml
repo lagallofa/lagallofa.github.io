@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 151650214  -->
+  <question type="ddwtos">
+    <name>
+      <text>RA2 CEg · Virtualización · Escape room 3: Tipos de hipervisor</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h4>🚪 Sala 2 · El almacén</h4>
+<p>En el almacén hay cajas de software sin etiquetar. Arrastra a cada producto su tipo:</p>
+<ul>
+<li><strong>Tipo 1</strong> (nativo o <em>bare metal</em>): se instala directamente sobre el hardware, sin sistema operativo debajo.</li>
+<li><strong>Tipo 2</strong> (alojado): es un programa más que se instala sobre un sistema operativo.</li>
+<li><strong>Contenedor</strong>: no simula hardware; comparte el núcleo del anfitrión.</li>
+</ul>
+<table style="border-collapse: collapse;">
+<tbody>
+<tr>
+<td style="padding: 6px 12px;">📦 VMware ESXi</td>
+<td style="padding: 6px 12px;">[[1]]</td>
+</tr>
+<tr>
+<td style="padding: 6px 12px;">📦 Oracle VirtualBox</td>
+<td style="padding: 6px 12px;">[[2]]</td>
+</tr>
+<tr>
+<td style="padding: 6px 12px;">📦 Proxmox VE</td>
+<td style="padding: 6px 12px;">[[1]]</td>
+</tr>
+<tr>
+<td style="padding: 6px 12px;">📦 VMware Workstation</td>
+<td style="padding: 6px 12px;">[[2]]</td>
+</tr>
+<tr>
+<td style="padding: 6px 12px;">📦 Docker</td>
+<td style="padding: 6px 12px;">[[3]]</td>
+</tr>
+<tr>
+<td style="padding: 6px 12px;">📦 Parallels Desktop (Mac)</td>
+<td style="padding: 6px 12px;">[[2]]</td>
+</tr>
+</tbody>
+</table>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>✅ ¡Almacén ordenado! 🔑 Tu segunda letra es: <strong style="font-size: 1.4em;">I</strong></p>
+<p>Truco: si para usarlo primero tienes que instalar Windows, Linux o macOS, es de tipo 2.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Algunas cajas están mal etiquetadas. Pregunta clave: ¿necesita un sistema operativo debajo para funcionar?</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Pregunta clave: ¿necesita un sistema operativo debajo para funcionar? Si no, es de tipo 1.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>Tipo 1</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>Tipo 2</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>Contenedor</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <hint format="html">
+      <text><![CDATA[<p>💡 Pista 1: VirtualBox lo instalaste (o lo instalarás) en tu Windows como cualquier programa. ¿Qué tipo es entonces?</p>]]></text>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>💡 Pista 2: ESXi y Proxmox se instalan en un servidor vacío, en lugar de Windows o Linux. Docker no simula hardware.</p>]]></text>
+    </hint>
+  </question>
+
+<!-- question: 151699869  -->
+  <question type="description">
+    <name>
+      <text>RA2 CEg · Virtualización · Escape room 0: Temario</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-family: 'Segoe UI',Roboto,Arial,sans-serif; color: #3f4448; font-size: 17px; line-height: 1.5; max-width: 980px;">
+<div style="background: linear-gradient(to right,#F8F6F0,#FDFCF9); border-left: 6px solid #3f4448; padding: 18px 22px; border-radius: 6px; margin-bottom: 22px;">
+<div style="font-size: 28px; font-weight: 600;">🖥️ Virtualización: lo esencial</div>
+<div style="font-size: 15px; color: #62666a;">Varios ordenadores dentro de uno solo</div>
+</div>
+<h3 style="border-bottom: 2px solid #3f4448; padding-bottom: 4px;">1. ¿Qué es virtualizar?</h3>
+<p><strong>Virtualizar</strong> es crear, mediante software, una versión "simulada" de un ordenador: con su procesador, su memoria, su disco y su tarjeta de red virtuales. A ese ordenador simulado lo llamamos <strong>máquina virtual (MV)</strong>.</p>
+<p>Dentro de una máquina virtual se instala un sistema operativo completo, que funciona como si estuviera en un ordenador de verdad… pero sin saber que no lo está.</p>
+<div style="background: #eef6ee; border-left: 4px solid #3c8d40; padding: 10px 14px; border-radius: 4px;">💡 <strong>Ejemplo:</strong> en tu PC con Windows abres VirtualBox y arrancas un Ubuntu en una ventana. En ese momento funcionan <strong>dos</strong> sistemas operativos a la vez en el mismo hardware.</div>
+<h3 style="border-bottom: 2px solid #3f4448; padding-bottom: 4px; margin-top: 28px;">2. Las piezas</h3>
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr style="background: #3f4448; color: #fff;">
+<th style="padding: 8px; text-align: left;">Concepto</th>
+<th style="padding: 8px; text-align: left;">Qué es</th>
+</tr>
+<tr>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;"><strong>Anfitrión</strong> (<em>host</em>)</td>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;">El ordenador físico (y su sistema operativo) que presta sus recursos.</td>
+</tr>
+<tr style="background: #F8F6F0;">
+<td style="padding: 8px; border-bottom: 1px solid #ddd;"><strong>Invitado</strong> (<em>guest</em>)</td>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;">El sistema operativo que se ejecuta dentro de la máquina virtual.</td>
+</tr>
+<tr>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;"><strong>Hipervisor</strong></td>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;">El software que crea las máquinas virtuales y les reparte CPU, RAM y disco. Es el "casero" de las MV.</td>
+</tr>
+<tr style="background: #F8F6F0;">
+<td style="padding: 8px; border-bottom: 1px solid #ddd;"><strong>Instantánea</strong> (<em>snapshot</em>)</td>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;">Una "foto" del estado de la MV para poder volver atrás si algo sale mal.</td>
+</tr>
+<tr>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;"><strong>Imagen ISO</strong></td>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;">Un archivo que contiene el disco de instalación de un sistema operativo. Se "mete" en la MV como si fuera un DVD o un USB.</td>
+</tr>
+</tbody>
+</table>
+<h3 style="border-bottom: 2px solid #3f4448; padding-bottom: 4px; margin-top: 28px;">3. Tipos de hipervisor</h3>
+<table style="border-collapse: separate; border-spacing: 14px 0; width: 100%;">
+<tbody>
+<tr>
+<td style="vertical-align: top; width: 50%; background: #F8F6F0; border-radius: 8px; padding: 14px;">
+<div style="font-size: 20px; font-weight: 600;">Tipo 1 · Nativo (<em>bare metal</em>)</div>
+<div style="margin: 10px 0; text-align: center; font-size: 15px;">
+<div style="background: #d6e4f0; border: 1px solid #7a9cbf; padding: 6px; margin: 3px;">MV 1  |  MV 2  |  MV 3</div>
+<div style="background: #f5d9a8; border: 1px solid #c89a4a; padding: 6px; margin: 3px; font-weight: bold;">Hipervisor</div>
+<div style="background: #cfcfcf; border: 1px solid #888; padding: 6px; margin: 3px;">Hardware</div>
+</div>
+<p>Se instala <strong>directamente sobre el hardware</strong>, sin sistema operativo debajo. Muy eficiente.</p>
+<p>📍 Servidores y centros de datos.<br>📦 VMware ESXi, Proxmox VE, Microsoft Hyper-V, KVM.</p>
+</td>
+<td style="vertical-align: top; width: 50%; background: #F8F6F0; border-radius: 8px; padding: 14px;">
+<div style="font-size: 20px; font-weight: 600;">Tipo 2 · Alojado (<em>hosted</em>)</div>
+<div style="margin: 10px 0; text-align: center; font-size: 15px;">
+<div style="background: #d6e4f0; border: 1px solid #7a9cbf; padding: 6px; margin: 3px;">MV 1  |  MV 2</div>
+<div style="background: #f5d9a8; border: 1px solid #c89a4a; padding: 6px; margin: 3px; font-weight: bold;">Hipervisor (un programa)</div>
+<div style="background: #e3d7f0; border: 1px solid #9a83b8; padding: 6px; margin: 3px;">Sistema operativo anfitrión</div>
+<div style="background: #cfcfcf; border: 1px solid #888; padding: 6px; margin: 3px;">Hardware</div>
+</div>
+<p>Es un <strong>programa más</strong> que se instala sobre Windows, Linux o macOS. Fácil de usar.</p>
+<p>📍 Ordenadores personales, aulas, pruebas.<br>📦 Oracle VirtualBox, VMware Workstation, Parallels Desktop.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="font-size: 15px;">🔎 Regla rápida: <strong>si para usarlo primero necesitas instalar un sistema operativo, es de tipo 2.</strong></p>
+<h3 style="border-bottom: 2px solid #3f4448; padding-bottom: 4px; margin-top: 28px;">4. Máquina virtual frente a contenedor</h3>
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr style="background: #3f4448; color: #fff;">
+<th style="padding: 8px;"> </th>
+<th style="padding: 8px;">🖥️ Máquina virtual</th>
+<th style="padding: 8px;">🐳 Contenedor (Docker)</th>
+</tr>
+<tr>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;"><strong>¿Qué virtualiza?</strong></td>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;">Un ordenador completo (hardware virtual)</td>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;">Solo la aplicación y lo que necesita</td>
+</tr>
+<tr style="background: #F8F6F0;">
+<td style="padding: 8px; border-bottom: 1px solid #ddd;"><strong>Sistema operativo</strong></td>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;">Cada MV tiene el suyo</td>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;">Comparten el <strong>núcleo</strong> del anfitrión</td>
+</tr>
+<tr>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;"><strong>Tamaño y arranque</strong></td>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;">GB · minutos</td>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;">MB · segundos</td>
+</tr>
+<tr style="background: #F8F6F0;">
+<td style="padding: 8px; border-bottom: 1px solid #ddd;"><strong>¿Para qué?</strong></td>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;">Probar otro sistema, servidores aislados</td>
+<td style="padding: 8px; border-bottom: 1px solid #ddd;">Desplegar aplicaciones rápido</td>
+</tr>
+</tbody>
+</table>
+<h3 style="border-bottom: 2px solid #3f4448; padding-bottom: 4px; margin-top: 28px;">5. ¿Para qué sirve? Ventajas</h3>
+<ul>
+<li>🧪 <strong>Probar sin miedo</strong>: instalar otro sistema operativo sin tocar el tuyo.</li>
+<li>⏪ <strong>Instantáneas</strong>: si rompes algo, vuelves atrás en segundos.</li>
+<li>🏢 <strong>Aprovechar el hardware</strong>: un servidor potente hace el trabajo de varios.</li>
+<li>📦 <strong>Portabilidad</strong>: una MV se copia y se lleva a otro equipo.</li>
+<li>🔒 <strong>Aislamiento</strong>: lo que pasa en una MV no afecta a las demás.</li>
+</ul>
+<h3 style="border-bottom: 2px solid #3f4448; padding-bottom: 4px; margin-top: 28px;">6. Requisitos y recursos</h3>
+<div style="background: #fdecea; border-left: 4px solid #c0392b; padding: 10px 14px; border-radius: 4px; margin-bottom: 12px;">⚙️ <strong>Virtualización por hardware:</strong> el procesador debe tenerla <strong>activada en la UEFI/BIOS</strong> (Intel <strong>VT-x</strong> o AMD-V/<strong>SVM</strong>). Si no, la máquina virtual no arranca.</div>
+<p>Los recursos de las máquinas virtuales <strong>salen del anfitrión</strong>: la RAM, los núcleos y el disco que les das, se los quitas a él.</p>
+<div style="background: #F8F6F0; border: 1px dashed #3f4448; padding: 10px 14px; border-radius: 4px;">🧮 PC con <strong>32 GB</strong> de RAM → el anfitrión necesita <strong>8 GB</strong> → quedan <strong>24 GB</strong> → caben <strong>6 MV de 4 GB</strong> encendidas a la vez.</div>
+<h3 style="border-bottom: 2px solid #3f4448; padding-bottom: 4px; margin-top: 28px;">7. Y ahora…</h3>
+<p>🔐 Pon a prueba lo aprendido con el <strong>escape room "Operación Hipervisor"</strong>. En la próxima clase crearás tu primera máquina virtual en VirtualBox.</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151699867  -->
+  <question type="description">
+    <name>
+      <text>RA2 CEg · Virtualización · Escape room 1: Instrucciones</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="border: 2px solid #3f4448; border-radius: 10px; padding: 18px; background: #F8F6F0; font-family: Segoe UI,Arial,sans-serif;">
+<h3 style="margin-top: 0;">🔐 Operación Hipervisor</h3>
+<p>La <strong>Clínica Veterinaria Huellas</strong> ha crecido. Su viejo servidor ya no da abasto y el director quiere <strong>virtualizar</strong>: meter varios "ordenadores" dentro de uno solo.</p>
+<p>Vuestro equipo técnico ha quedado encerrado en la sala de servidores 🖥️🔒. Para salir hay que superar <strong>5 salas</strong>.</p>
+<ul>
+<li>Cada sala es una página. Pulsa <strong>Comprobar</strong> para saber si has acertado. Si fallas, puedes volver a intentarlo.</li>
+<li>Cada sala superada te da una <strong>🔑 letra</strong>. Apúntala.</li>
+<li>Con las 5 letras formarás el <strong>código de salida</strong>. Escríbelo en la última página.</li>
+<li>¡El primer equipo que diga el código en voz alta gana! 🏆</li>
+</ul>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151650212  -->
+  <question type="matching">
+    <name>
+      <text>RA2 CEg · Virtualización · Escape room 2: Conceptos básicos</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h4>🚪 Sala 1 · El laboratorio</h4>
+<p>En la pizarra de la sala hay cinco palabras y cinco definiciones mezcladas. Relaciona cada concepto con su definición para abrir la primera puerta.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>✅ ¡Puerta abierta! 🔑 Tu primera letra es: <strong style="font-size: 1.4em;">L</strong></p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Casi... Revisa las parejas que no están bien y vuelve a intentarlo.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>La puerta sigue cerrada. Piensa: ¿quién presta los recursos y quién los usa?</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>Anfitrión (host)</p>]]></text>
+      <answer>
+        <text>El ordenador físico y su sistema operativo, que prestan sus recursos a las máquinas virtuales</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Invitado (guest)</p>]]></text>
+      <answer>
+        <text>El sistema operativo que se ejecuta dentro de una máquina virtual</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Hipervisor</p>]]></text>
+      <answer>
+        <text>El software que crea las máquinas virtuales y les reparte CPU, RAM y disco</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Máquina virtual</p>]]></text>
+      <answer>
+        <text>Un ordenador simulado por software, con su propio hardware virtual</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Instantánea (snapshot)</p>]]></text>
+      <answer>
+        <text>Una copia del estado de la máquina virtual en un momento, para poder volver atrás</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>El programa que sirve para descargar imágenes ISO de Internet</text>
+      </answer>
+    </subquestion>
+    <hint format="html">
+      <text><![CDATA[<p>💡 Pista 1: el anfitrión es el ordenador "de verdad"; el invitado vive dentro de la máquina virtual.</p>]]></text>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>💡 Pista 2: el hipervisor es el "casero" que reparte la CPU, la RAM y el disco. La instantánea sirve para volver atrás en el tiempo.</p>]]></text>
+    </hint>
+  </question>
+
+<!-- question: 151650218  -->
+  <question type="matching">
+    <name>
+      <text>RA2 CEg · Virtualización · Escape room 6: Elegir la tecnología</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h4>🚪 Sala 5 · La salida</h4>
+<p>Para abrir la última puerta, el director os plantea tres necesidades de la clínica. Elige la tecnología más adecuada para cada una:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>✅ ¡Puerta abierta! 🔑 Tu quinta y última letra es: <strong style="font-size: 1.4em;">X</strong></p>
+<p>Ya tienes las cinco letras. Ve a la última página y escribe el código de salida.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Casi. Pista: ¿hay un sistema operativo debajo? ¿Se simula hardware o se comparte el núcleo?</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Pista: el tipo 1 va directo sobre el hardware, el tipo 2 se instala como un programa y el contenedor comparte el núcleo del anfitrión.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>🏢 Un servidor nuevo, dedicado solo a ejecutar a la vez las máquinas virtuales de la base de datos, el correo y la web de citas, sin instalar Windows ni Linux debajo</p>]]></text>
+      <answer>
+        <text>Hipervisor de tipo 1</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>💻 La recepcionista quiere probar Linux en su portátil con Windows, sin borrar nada y sin tocar el arranque</p>]]></text>
+      <answer>
+        <text>Hipervisor de tipo 2</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>🐳 El programador quiere desplegar la web de citas en segundos, muy ligera y compartiendo el núcleo del sistema</p>]]></text>
+      <answer>
+        <text>Contenedor</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>Emulador de consola</text>
+      </answer>
+    </subquestion>
+    <hint format="html">
+      <text><![CDATA[<p>💡 Pista 1: si no hay sistema operativo debajo, el hipervisor va directo sobre el hardware.</p>]]></text>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>💡 Pista 2: "compartir el núcleo" y "en segundos" son las palabras clave de los contenedores.</p>]]></text>
+    </hint>
+  </question>
+
+<!-- question: 151650217  -->
+  <question type="multichoice">
+    <name>
+      <text>RA2 CEg · Virtualización · Escape room 5: VT-x desactivado</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h4>🚪 Sala 4 · El error misterioso</h4>
+<p>Al arrancar la primera máquina virtual, VirtualBox muestra este mensaje:</p>
+<blockquote style="border-left: 4px solid #c0392b; padding: 8px 12px; background: #fdecea; font-family: Consolas,monospace;">VT-x is disabled in the BIOS for all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED).</blockquote>
+<p>❓ ¿Qué tenéis que hacer?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Reiniciar, entrar en la UEFI/BIOS y activar la virtualización del procesador (Intel VT-x o AMD-V/SVM)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>✅ ¡Exacto! La virtualización por hardware es una opción del procesador que se activa en el firmware, como viste en la UT1. 🔑 Tu cuarta letra es: <strong style="font-size: 1.4em;">U</strong></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Desinstalar VirtualBox y volver a instalarlo</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>❌ VirtualBox está bien instalado. El mensaje habla de la <em>BIOS</em>: el problema está en el firmware, no en el programa.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ampliar la memoria RAM del ordenador</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>❌ El mensaje no dice nada de memoria. Fíjate en "VT-x" y en "BIOS".</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Asignar más núcleos de CPU a la máquina virtual</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>❌ Dar más núcleos no sirve si el procesador tiene la virtualización desactivada.</p>]]></text>
+      </feedback>
+    </answer>
+    <hint format="html">
+      <text><![CDATA[<p>💡 Pista 1: lee el mensaje con calma. ¿Dónde dice que está desactivado VT-x?</p>]]></text>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>💡 Pista 2: acuérdate de la UT1. ¿Qué se configura entrando en la UEFI al encender el equipo?</p>]]></text>
+    </hint>
+  </question>
+
+<!-- question: 151650216  -->
+  <question type="numerical">
+    <name>
+      <text>RA2 CEg · Virtualización · Escape room 4: Tetris de la RAM</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h4>🚪 Sala 3 · El Tetris de la RAM</h4>
+<p>El ordenador de recepción de la clínica tiene <strong>16 GB de RAM</strong>. Su Windows (el anfitrión) necesita reservar <strong>4 GB</strong> para funcionar bien.</p>
+<p>Queréis encender a la vez varias máquinas virtuales con Linux, y a cada una le asignáis <strong>3 GB de RAM</strong>.</p>
+<p>❓ ¿Cuántas máquinas virtuales podéis tener encendidas <strong>a la vez</strong> como máximo? (Escribe solo el número).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>4</text>
+      <feedback format="html">
+        <text><![CDATA[<p>✅ ¡Encaja perfecto! 16 − 4 = 12 GB libres, y 12 ÷ 3 = 4 máquinas. 🔑 Tu tercera letra es: <strong style="font-size: 1.4em;">N</strong></p>]]></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>5</text>
+      <feedback format="html">
+        <text><![CDATA[<p>❌ Te has olvidado de la RAM del anfitrión: Windows también necesita sus 4 GB.</p>]]></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>*</text>
+      <feedback format="html">
+        <text><![CDATA[<p>❌ Recuerda: la RAM que das a las máquinas virtuales se resta de la del anfitrión. Primero calcula cuánta queda libre.</p>]]></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <hint format="html">
+      <text><![CDATA[<p>💡 Pista 1: la RAM del anfitrión no desaparece porque arranques máquinas virtuales. ¿Cuánta queda libre de verdad?</p>]]></text>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>💡 Pista 2: (16 − 4) ÷ 3 = ?</p>]]></text>
+    </hint>
+  </question>
+
+<!-- question: 151650219  -->
+  <question type="shortanswer">
+    <name>
+      <text>RA2 CEg · Virtualización · Escape room 7: Código de salida</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h4>🏁 La puerta final</h4>
+<p>Escribe las cinco letras que has conseguido, en el orden de las salas, para escapar de la sala de servidores.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>LINUX</text>
+      <feedback format="html">
+        <text><![CDATA[<p>🎉 ¡<strong>ESCAPASTE!</strong> El código era <strong>LINUX</strong>, el sistema que vas a instalar en tu primera máquina virtual. ¡Díselo en voz alta al profe! 📣</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>*</text>
+      <feedback format="html">
+        <text><![CDATA[<p>🔒 Ese no es el código. Revisa las letras de cada sala y su orden (sala 1, 2, 3, 4 y 5).</p>]]></text>
+      </feedback>
+    </answer>
+    <hint format="html">
+      <text><![CDATA[<p>💡 Pista 1: es un sistema operativo libre con un pingüino de mascota 🐧.</p>]]></text>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>💡 Pista 2: escribe las letras de las salas 1 a 5 seguidas, sin espacios.</p>]]></text>
+    </hint>
+  </question>
+
+</quiz>
