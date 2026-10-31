@@ -34,7 +34,7 @@ Ficheros de preguntas disponibles en esta actividad:
 
 ![09 Arrastrar según los dos apantallamientos](images/apantallamiento/09-arrastrar-segun-los-dos-apantallamientos_1.png)
 
-![10 Arrastrar según los dos apantallamientos](images/apantallamiento/10-arrastrar-segun-los-dos-apantallamientos_1.png)
+![10 Arrastrar según los dos apantallamientos (II)](images/apantallamiento/10-arrastrar-segun-los-dos-apantallamientos-ii_1.png)
 
 
 
