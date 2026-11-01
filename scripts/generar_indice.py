@@ -94,6 +94,13 @@ def slug(texto):
     return re.sub(r"[^a-z0-9]+", "-", sin_tildes.lower()).strip("-")
 
 
+def slug_actirepo(texto):
+    """Como nombra actirepo las capturas (slugify de Django): «E/S» -> «es», no «e-s»."""
+    sin_tildes = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode()
+    limpio = re.sub(r"[^\w\s-]", "", sin_tildes.lower())
+    return re.sub(r"[-\s]+", "-", limpio).strip("-_")
+
+
 def capturas(xml):
     """Capturas de actirepo de cada pregunta, por nombre: «07-arrastrar-…_1.png»."""
     por_nombre = {}
@@ -167,7 +174,7 @@ def pregunta(q, capturas_xml, usadas):
         "retro": html(q, "generalfeedback/text"),
     }
     # Captura de actirepo de esta pregunta (si hay varias con el mismo nombre, por orden)
-    clave = slug(nombre)
+    clave = slug_actirepo(nombre)
     lista = capturas_xml.get(clave, [])
     if usadas[clave] < len(lista):
         datos["captura"] = lista[usadas[clave]]
