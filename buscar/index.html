@@ -165,6 +165,7 @@
       <label class="campo versalitas">Criterio de evaluación <select id="f-ce"></select></label>
       <label class="campo versalitas">Tema <select id="f-tema"></select></label>
       <label class="campo versalitas">Subtema <select id="f-subtema"></select></label>
+      <label class="campo versalitas">Dificultad <select id="f-dificultad"></select></label>
       <label class="campo versalitas">Buscar <input type="search" id="f-texto" placeholder="placa base, RJ45…"></label>
     </div>
     <div class="tecnologias" id="f-tec" role="group" aria-label="Tecnología" hidden></div>
@@ -273,6 +274,10 @@ function rellenarTemas() {
   const tema = $("f-tema").value;
   pintarSelect("f-subtema", opciones(actividades.filter(a => a.tema === tema), "subtema", "subtema_nombre"),
     tema ? "Todos los subtemas" : "Elige antes un tema");
+  // Dificultad: de baja a alta, solo las que usa alguna actividad
+  const usadas = new Set(actividades.map(a => a.dificultad));
+  pintarSelect("f-dificultad", Object.entries(DIFICULTAD).filter(([d]) => usadas.has(d))
+    .map(([d, texto]) => [d, texto.replace("Dificultad ", "").replace(/^./, c => c.toUpperCase())]), "Todas");
 }
 
 // Chips de tecnología: solo las que usa alguna actividad; «no procede» no se filtra
@@ -298,9 +303,9 @@ function filtrar() {
     }
     if ($("f-tema").value && a.tema !== $("f-tema").value) return false;
     if ($("f-subtema").value && a.subtema !== $("f-subtema").value) return false;
-    // Las de «no procede» (y las aún sin etiquetar) valen para cualquier tecnología
-    if (tecnologias.size && a.tecnologias.length && !a.tecnologias.includes("no-procede") &&
-        !a.tecnologias.some(t => tecnologias.has(t))) return false;
+    // Con una tecnología marcada, solo las actividades que la trabajan
+    if (tecnologias.size && !a.tecnologias.some(t => tecnologias.has(t))) return false;
+    if ($("f-dificultad").value && a.dificultad !== $("f-dificultad").value) return false;
     if (texto) {
       const pajar = normalizar([a.nombre, a.descripcion, a.autor, ...a.categorias, ...fs.map(f => f.modulo)].join(" "));
       if (!texto.split(/\s+/).every(t => pajar.includes(t))) return false;
@@ -369,6 +374,7 @@ $("niveles").addEventListener("click", e => {
 FILTROS.slice(1).forEach(f => $("f-" + f).addEventListener("change", pintar));
 $("f-tema").addEventListener("change", () => { $("f-subtema").value = ""; pintar(); });
 $("f-subtema").addEventListener("change", pintar);
+$("f-dificultad").addEventListener("change", pintar);
 $("f-tec").addEventListener("click", e => {
   const boton = e.target.closest("button[data-tec]");
   if (!boton) return;
@@ -382,7 +388,7 @@ $("f-sin").addEventListener("change", pintar);
 $("limpiar").addEventListener("click", () => {
   nivel = "";
   FILTROS.slice(1).forEach(f => $("f-" + f).value = "");
-  $("f-tema").value = $("f-subtema").value = "";
+  $("f-tema").value = $("f-subtema").value = $("f-dificultad").value = "";
   tecnologias.clear();
   $("f-tec").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", "false"));
   $("f-texto").value = "";
