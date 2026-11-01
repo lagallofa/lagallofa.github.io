@@ -360,7 +360,7 @@ window.INDICE = {
    "autor": "Noemí Pérez",
    "categorias": [
     "Hardware y montaje de equipos",
-    "Electricidad-y-electronica"
+    "Electricidad y electrónica"
    ],
    "preguntas": 13,
    "tipos": {
@@ -406,7 +406,7 @@ window.INDICE = {
    "autor": "Noemí Pérez",
    "categorias": [
     "Hardware y montaje de equipos",
-    "Electricidad-y-electronica"
+    "Electricidad y electrónica"
    ],
    "preguntas": 11,
    "tipos": {
@@ -452,7 +452,7 @@ window.INDICE = {
    "autor": "Noemí Pérez",
    "categorias": [
     "Hardware y montaje de equipos",
-    "Electricidad-y-electronica"
+    "Electricidad y electrónica"
    ],
    "preguntas": 8,
    "tipos": {
@@ -521,7 +521,7 @@ window.INDICE = {
    "autor": "Noemí Pérez",
    "categorias": [
     "Hardware y montaje de equipos",
-    "Electricidad-y-electronica"
+    "Electricidad y electrónica"
    ],
    "preguntas": 40,
    "tipos": {
@@ -592,7 +592,7 @@ window.INDICE = {
    "autor": "Noemí Pérez",
    "categorias": [
     "Hardware y montaje de equipos",
-    "Electricidad-y-electronica"
+    "Electricidad y electrónica"
    ],
    "preguntas": 7,
    "tipos": {
@@ -1020,7 +1020,7 @@ window.INDICE = {
    "autor": "Noemí Pérez",
    "categorias": [
     "Hardware y montaje de equipos",
-    "Montaje-y-mantenimiento"
+    "Montaje y mantenimiento"
    ],
    "preguntas": 9,
    "tipos": {
@@ -1114,7 +1114,7 @@ window.INDICE = {
    "autor": "Noemí Pérez",
    "categorias": [
     "Hardware y montaje de equipos",
-    "Montaje-y-mantenimiento"
+    "Montaje y mantenimiento"
    ],
    "preguntas": 18,
    "tipos": {
@@ -2693,7 +2693,7 @@ window.INDICE = {
    "autor": "Noemí Pérez",
    "categorias": [
     "Redes",
-    "Conmutacion-y-vlan"
+    "Conmutación y VLAN"
    ],
    "preguntas": 3,
    "tipos": {
@@ -2775,7 +2775,7 @@ window.INDICE = {
    "autor": "Noemí Pérez",
    "categorias": [
     "Redes",
-    "Direccionamiento-ip"
+    "Direccionamiento IP"
    ],
    "preguntas": 3,
    "tipos": {
@@ -3014,8 +3014,8 @@ window.INDICE = {
     "description": 2,
     "matching": 2,
     "ddwtos": 1,
-    "multichoice": 1,
     "numerical": 1,
+    "multichoice": 1,
     "shortanswer": 1
    },
    "ficheros": [

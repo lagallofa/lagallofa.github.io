@@ -74,7 +74,15 @@ def leer_preguntas(xml):
     except ET.ParseError as error:
         print(f"Aviso: XML no válido {xml.relative_to(RAIZ)}: {error}", file=sys.stderr)
         return []
-    return [q for q in quiz.iter("question") if q.get("type") != "category"]
+    preguntas = [q for q in quiz.iter("question") if q.get("type") != "category"]
+    # Moodle exporta en cualquier orden: se ordenan por nombre con los números de menor a mayor
+    # («Escape room 2» antes que «Escape room 10»)
+    return sorted(preguntas, key=lambda q: orden_natural(q.findtext("name/text") or ""))
+
+
+def orden_natural(nombre):
+    return [(0, int(trozo), "") if trozo.isdigit() else (1, 0, trozo.lower())
+            for trozo in re.split(r"(\d+)", nombre.strip()) if trozo]
 
 
 # --- Preguntas en texto para la página «Ver» -------------------------------------------
