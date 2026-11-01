@@ -51,6 +51,8 @@ Ficheros de preguntas disponibles en esta actividad:
 
 ![05 Identificar apantallamiento en imagen](images/apantallamiento/05-identificar-apantallamiento-en-imagen_1.png)
 
+![06 Identificar apantallamiento en imagen](images/apantallamiento/06-identificar-apantallamiento-en-imagen_1.png)
+
 
 
 

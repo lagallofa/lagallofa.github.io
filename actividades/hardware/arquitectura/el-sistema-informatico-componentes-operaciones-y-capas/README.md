@@ -38,6 +38,26 @@ Ficheros de preguntas disponibles en esta actividad:
 
 ![Sistema informático · Operaciones al hacer y guardar una foto](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-operaciones-al-hacer-y-guardar-una-foto_1.png)
 
+![Sistema informático · Operaciones de un sistema informático](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-operaciones-de-un-sistema-informatico_1.png)
+
+![Sistema informático · Ordenador frente a sistema informático](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-ordenador-frente-a-sistema-informatico_1.png)
+
+![Sistema informático · Por qué al desarrollador le sirve conocer el sistema](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-por-que-al-desarrollador-le-sirve-conocer-el-sistema_1.png)
+
+![Sistema informático · Qué describe mejor un sistema informático](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-que-describe-mejor-un-sistema-informatico_1.png)
+
+![Sistema informático · Qué representa el ejemplo de las calificaciones](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-que-representa-el-ejemplo-de-las-calificaciones_1.png)
+
+![Sistema informático · Secuencia entrada, proceso y salida](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-secuencia-entrada-proceso-y-salida_1.png)
+
+![Sistema informático · ¿Qué elemento es software?](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-que-elemento-es-software_1.png)
+
+![Sistema informático · ¿Qué elemento es un dato?](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-que-elemento-es-un-dato_1.png)
+
+![Sistema informático · ¿Qué operación es calcular la media?](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-que-operacion-es-calcular-la-media_1.png)
+
+![Sistema informático · ¿Qué situación es una entrada de datos?](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-que-situacion-es-una-entrada-de-datos_1.png)
+
 
 
 #### Verdadero/Falso

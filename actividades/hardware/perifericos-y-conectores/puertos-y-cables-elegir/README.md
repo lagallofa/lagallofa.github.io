@@ -37,6 +37,26 @@ Ficheros de preguntas disponibles en esta actividad:
 
 ![Puertos · ¿Qué puerto es? (PS/2)](images/puertos-y-cables-elegir/puertos-que-puerto-es-ps2_1.png)
 
+![Puertos · ¿Qué puerto es? (RJ-45) 1](images/puertos-y-cables-elegir/puertos-que-puerto-es-rj-45-1_1.png)
+
+![Puertos · ¿Qué puerto es? (RJ-45) 2](images/puertos-y-cables-elegir/puertos-que-puerto-es-rj-45-2_1.png)
+
+![Puertos · ¿Qué puerto es? (Thunderbolt)](images/puertos-y-cables-elegir/puertos-que-puerto-es-thunderbolt_1.png)
+
+![Puertos · ¿Qué puerto es? (USB tipo A) 1](images/puertos-y-cables-elegir/puertos-que-puerto-es-usb-tipo-a-1_1.png)
+
+![Puertos · ¿Qué puerto es? (USB tipo A) 2](images/puertos-y-cables-elegir/puertos-que-puerto-es-usb-tipo-a-2_1.png)
+
+![Puertos · ¿Qué puerto es? (USB tipo B)](images/puertos-y-cables-elegir/puertos-que-puerto-es-usb-tipo-b_1.png)
+
+![Puertos · ¿Qué puerto es? (USB tipo C)](images/puertos-y-cables-elegir/puertos-que-puerto-es-usb-tipo-c_1.png)
+
+![Puertos · ¿Qué puerto es? (VGA)](images/puertos-y-cables-elegir/puertos-que-puerto-es-vga_1.png)
+
+![Puertos · ¿Qué puerto es? (jack de audio)](images/puertos-y-cables-elegir/puertos-que-puerto-es-jack-de-audio_1.png)
+
+![Puertos · ¿Qué puerto es? (serie)](images/puertos-y-cables-elegir/puertos-que-puerto-es-serie_1.png)
+
 
 
 

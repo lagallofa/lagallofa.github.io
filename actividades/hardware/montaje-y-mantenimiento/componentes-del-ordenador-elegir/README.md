@@ -37,6 +37,12 @@ Ficheros de preguntas disponibles en esta actividad:
 
 ![Componentes · ¿Qué componente es? (microprocesador)](images/componentes-del-ordenador-elegir/componentes-que-componente-es-microprocesador_1.png)
 
+![Componentes · ¿Qué componente es? (periférico)](images/componentes-del-ordenador-elegir/componentes-que-componente-es-periferico_1.png)
+
+![Componentes · ¿Qué componente es? (placa base)](images/componentes-del-ordenador-elegir/componentes-que-componente-es-placa-base_1.png)
+
+![Componentes · ¿Qué componente es? (tarjeta gráfica)](images/componentes-del-ordenador-elegir/componentes-que-componente-es-tarjeta-grafica_1.png)
+
 
 
 

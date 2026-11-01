@@ -37,6 +37,18 @@ Ficheros de preguntas disponibles en esta actividad:
 
 ![Arranque · Orden del proceso de arranque](images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-orden-del-proceso-de-arranque_1.png)
 
+![Arranque · Qué se borra al quitar la pila](images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-que-se-borra-al-quitar-la-pila_1.png)
+
+![Arranque · ¿Cuándo actúa Secure Boot?](images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-cuando-actua-secure-boot_1.png)
+
+![Arranque · ¿Qué NO es una función de la UEFI?](images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-que-no-es-una-funcion-de-la-uefi_1.png)
+
+![Arranque · ¿Qué dispositivos pueden tener firmware?](images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-que-dispositivos-pueden-tener-firmware_1.png)
+
+![Arranque · ¿Qué es Secure Boot?](images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-que-es-secure-boot_1.png)
+
+![Arranque · ¿Qué es el POST?](images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-que-es-el-post_1.png)
+
 
 
 

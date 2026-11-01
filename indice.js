@@ -318,7 +318,7 @@ window.INDICE = {
     "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-componentes-de-un-sistema-informatico_1.png",
     "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-moodle-no-es-todo-el-sistema-informatico_1.png",
     "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-operaciones-al-hacer-y-guardar-una-foto_1.png",
-    "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-vf-el-hardware-es-solo-lo-de-dentro-de-la-caja_1.png"
+    "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-operaciones-de-un-sistema-informatico_1.png"
    ],
    "readme": "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/README.md",
    "curriculo": [
@@ -1078,7 +1078,8 @@ window.INDICE = {
     "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/images/componentes-del-ordenador-elegir/componentes-que-componente-es-interfaz-de-es_1.png",
     "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/images/componentes-del-ordenador-elegir/componentes-que-componente-es-memoria-principal_1.png",
     "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/images/componentes-del-ordenador-elegir/componentes-que-componente-es-memoria-secundaria_1.png",
-    "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/images/componentes-del-ordenador-elegir/componentes-que-componente-es-microprocesador_1.png"
+    "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/images/componentes-del-ordenador-elegir/componentes-que-componente-es-microprocesador_1.png",
+    "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/images/componentes-del-ordenador-elegir/componentes-que-componente-es-periferico_1.png"
    ],
    "readme": "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/README.md",
    "curriculo": [
@@ -1177,7 +1178,8 @@ window.INDICE = {
     "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/images/componentes-y-perifericos-escribir-el-nombre/componentes-identificar-disco-duro-hdd_1.png",
     "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/images/componentes-y-perifericos-escribir-el-nombre/componentes-identificar-disipador_1.png",
     "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/images/componentes-y-perifericos-escribir-el-nombre/componentes-identificar-fuente-de-alimentacion_1.png",
-    "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/images/componentes-y-perifericos-escribir-el-nombre/componentes-identificar-memoria-ram_1.png"
+    "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/images/componentes-y-perifericos-escribir-el-nombre/componentes-identificar-memoria-ram_1.png",
+    "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/images/componentes-y-perifericos-escribir-el-nombre/componentes-identificar-placa-base_1.png"
    ],
    "readme": "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/README.md",
    "curriculo": [
@@ -1572,6 +1574,7 @@ window.INDICE = {
     "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-dvi_1.png",
     "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-hdmi-1_1.png",
     "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-hdmi-2_1.png",
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-jack-de-audio_1.png",
     "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-ps2_1.png"
    ],
    "readme": "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/README.md",
@@ -2062,6 +2065,7 @@ window.INDICE = {
    "imagenes": [
     "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-arrancar-desde-usb-prioridad-de-arranque_1.png",
     "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-como-avisa-de-un-error-en-las-comprobaciones-iniciales_1.png",
+    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-cuando-actua-secure-boot_1.png",
     "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-la-uefi-no-encuentra-un-sistema-arrancable_1.png",
     "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-objetivo-principal-de-secure-boot_1.png",
     "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-orden-del-proceso-de-arranque_1.png"
@@ -2514,7 +2518,8 @@ window.INDICE = {
     "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/identificar-cable-coaxial_1.png",
     "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/identificar-cable-fibra-optica_1.png",
     "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/identificar-cable-par-trenzado_1.png",
-    "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/medios-de-transmision-conector-de-fibra-optica_1.png"
+    "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/medios-de-transmision-conector-de-fibra-optica_1.png",
+    "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/medios-de-transmision-parte-del-cable-coaxial_1.png"
    ],
    "readme": "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/README.md",
    "curriculo": [
@@ -2688,7 +2693,7 @@ window.INDICE = {
     "actividades/redes/cableado/tipos-de-apantallamiento/images/apantallamiento/03-identificar-apantallamiento-en-imagen_1.png",
     "actividades/redes/cableado/tipos-de-apantallamiento/images/apantallamiento/04-identificar-apantallamiento-en-imagen_1.png",
     "actividades/redes/cableado/tipos-de-apantallamiento/images/apantallamiento/05-identificar-apantallamiento-en-imagen_1.png",
-    "actividades/redes/cableado/tipos-de-apantallamiento/images/apantallamiento/07-arrastrar-segun-apantallamiento-externo_1.png"
+    "actividades/redes/cableado/tipos-de-apantallamiento/images/apantallamiento/06-identificar-apantallamiento-en-imagen_1.png"
    ],
    "readme": "actividades/redes/cableado/tipos-de-apantallamiento/README.md",
    "curriculo": [

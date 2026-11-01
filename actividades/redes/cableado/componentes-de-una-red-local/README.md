@@ -51,6 +51,24 @@ Ficheros de preguntas disponibles en esta actividad:
 
 ![Componentes de red · Icono: switch multicapa](images/componentes-de-una-red-local/componentes-de-red-icono-switch-multicapa_1.png)
 
+![Componentes de red · Identificar: conector RJ-45](images/componentes-de-una-red-local/componentes-de-red-identificar-conector-rj-45_1.png)
+
+![Componentes de red · Identificar: latiguillos](images/componentes-de-una-red-local/componentes-de-red-identificar-latiguillos_1.png)
+
+![Componentes de red · Identificar: panel de parcheo](images/componentes-de-una-red-local/componentes-de-red-identificar-panel-de-parcheo_1.png)
+
+![Componentes de red · Identificar: punto de acceso](images/componentes-de-una-red-local/componentes-de-red-identificar-punto-de-acceso_1.png)
+
+![Componentes de red · Identificar: rack](images/componentes-de-una-red-local/componentes-de-red-identificar-rack_1.png)
+
+![Componentes de red · Identificar: roseta](images/componentes-de-una-red-local/componentes-de-red-identificar-roseta_1.png)
+
+![Componentes de red · Identificar: router](images/componentes-de-una-red-local/componentes-de-red-identificar-router_1.png)
+
+![Componentes de red · Identificar: switch](images/componentes-de-una-red-local/componentes-de-red-identificar-switch_1.png)
+
+![Componentes de red · Identificar: tarjeta de red](images/componentes-de-una-red-local/componentes-de-red-identificar-tarjeta-de-red_1.png)
+
 
 
 

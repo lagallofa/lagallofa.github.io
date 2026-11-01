@@ -39,6 +39,14 @@ Ficheros de preguntas disponibles en esta actividad:
 
 ![Puertos · Escribir el puerto: HDMI](images/puertos-y-cables-escribir-el-nombre/puertos-escribir-el-puerto-hdmi_1.png)
 
+![Puertos · Escribir el puerto: RJ-45](images/puertos-y-cables-escribir-el-nombre/puertos-escribir-el-puerto-rj-45_1.png)
+
+![Puertos · Escribir el puerto: Thunderbolt 1](images/puertos-y-cables-escribir-el-nombre/puertos-escribir-el-puerto-thunderbolt-1_1.png)
+
+![Puertos · Escribir el puerto: paralelo](images/puertos-y-cables-escribir-el-nombre/puertos-escribir-el-puerto-paralelo_1.png)
+
+![Puertos · Escribir el puerto: serie](images/puertos-y-cables-escribir-el-nombre/puertos-escribir-el-puerto-serie_1.png)
+
 
 
 #### Arrastrar y soltar imagen o texto

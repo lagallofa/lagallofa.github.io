@@ -38,6 +38,8 @@ Ficheros de preguntas disponibles en esta actividad:
 
 ![Unidades · Arrastrar: dividir o multiplicar](images/unidades-de-informacion-convertir-y-escribir/unidades-arrastrar-dividir-o-multiplicar_1.png)
 
+![Unidades · Ordenar la escala TB, GB, MB, kB y B](images/unidades-de-informacion-convertir-y-escribir/unidades-ordenar-la-escala-tb-gb-mb-kb-y-b_1.png)
+
 
 
 #### Respuesta corta
