@@ -858,8 +858,11 @@
      "preguntas": 3
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/memoria/memoria-ram-y-memoria-secundaria/images/memoria-ram-y-memoria-secundaria/memoria-acronimo-de-ram_1.png",
+    "actividades/hardware/memoria/memoria-ram-y-memoria-secundaria/images/memoria-ram-y-memoria-secundaria/memoria-arrastrar-caracteristicas-ram-frente-a-ssd_1.png"
+   ],
+   "readme": "actividades/hardware/memoria/memoria-ram-y-memoria-secundaria/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -1321,7 +1324,7 @@
     }
    ],
    "imagenes": [],
-   "readme": "",
+   "readme": "actividades/hardware/perifericos-y-conectores/panel-trasero-nombre-y-velocidad-de-cada-puerto/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -1513,8 +1516,14 @@
      "preguntas": 19
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-displayport_1.png",
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-dvi_1.png",
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-hdmi-1_1.png",
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-hdmi-2_1.png",
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-ps2_1.png"
+   ],
+   "readme": "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -1607,8 +1616,15 @@
      "preguntas": 15
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/cables-escribir-el-cable-firewire_1.png",
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/cables-escribir-el-cable-hdmi_1.png",
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/panel-trasero-arrastrar-etiquetas-sobre-los-puertos_1.png",
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/panel-trasero-arrastrar-etiquetas-sobre-un-panel-moderno_1.png",
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/panel-trasero-marcadores-puertos-del-panel-trasero_1.png",
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/puertos-el-unico-puerto-de-video-analogico-vga_1.png"
+   ],
+   "readme": "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -1700,7 +1716,7 @@
     }
    ],
    "imagenes": [],
-   "readme": "",
+   "readme": "actividades/hardware/placa-base/buscar-datos-en-el-manual-de-la-placa-base/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -1793,7 +1809,14 @@
      "preguntas": 11
     }
    ],
-   "imagenes": [],
+   "imagenes": [
+    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-arrastrar-componentes-asus-prime-a620m-a_1.png",
+    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-arrastrar-componentes-asus-z790-ayw-wifi-w_1.png",
+    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-arrastrar-componentes-gigabyte-ga-h110m-s2h_1.png",
+    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-arrastrar-componentes-msi-pro-b850-p-wifi_1.png",
+    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-localizar-conectores-sata-pcie-y-m2-4-etiquetas_1.png",
+    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-localizar-conectores-sata-pcie-y-m2-6-etiquetas_1.png"
+   ],
    "readme": "actividades/hardware/placa-base/componentes-de-la-placa-base/README.md",
    "curriculo": [
     {
@@ -1889,8 +1912,12 @@
      "preguntas": 5
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/placa-base/conectores-del-panel-frontal/images/conectores-del-panel-frontal/panel-frontal-arrastrar-los-conectores-y-led-de-la-carcasa_1.png",
+    "actividades/hardware/placa-base/conectores-del-panel-frontal/images/conectores-del-panel-frontal/panel-frontal-que-conector-corresponde-al-boton_1.png",
+    "actividades/hardware/placa-base/conectores-del-panel-frontal/images/conectores-del-panel-frontal/panel-frontal-que-conector-es-usb_1.png"
+   ],
+   "readme": "actividades/hardware/placa-base/conectores-del-panel-frontal/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -1981,8 +2008,14 @@
      "preguntas": 13
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-arrancar-desde-usb-prioridad-de-arranque_1.png",
+    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-como-avisa-de-un-error-en-las-comprobaciones-iniciales_1.png",
+    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-la-uefi-no-encuentra-un-sistema-arrancable_1.png",
+    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-objetivo-principal-de-secure-boot_1.png",
+    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-orden-del-proceso-de-arranque_1.png"
+   ],
+   "readme": "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -2061,8 +2094,13 @@
      "preguntas": 4
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar/images/el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar/arranque-arrastrar-interfaz-de-bios-o-de-uefi_1.png",
+    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar/images/el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar/arranque-firmware-que-sustituye-a-la-bios-uefi_1.png",
+    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar/images/el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar/arranque-nombre-del-diagnostico-al-arrancar-post_1.png",
+    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar/images/el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar/arranque-nombre-del-jumper-de-reseteo_1.png"
+   ],
+   "readme": "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -2246,8 +2284,15 @@
      "preguntas": 19
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/redes/cableado/componentes-de-una-red-local/images/componentes-de-una-red-local/componentes-de-red-arrastrar-elementos-de-un-esquema-de-red_1.png",
+    "actividades/redes/cableado/componentes-de-una-red-local/images/componentes-de-una-red-local/componentes-de-red-arrastrar-elementos-del-cableado-estructurado_1.png",
+    "actividades/redes/cableado/componentes-de-una-red-local/images/componentes-de-una-red-local/componentes-de-red-arrastrar-routers-y-repetidor-wifi_1.png",
+    "actividades/redes/cableado/componentes-de-una-red-local/images/componentes-de-una-red-local/componentes-de-red-arrastrar-switch-y-router_1.png",
+    "actividades/redes/cableado/componentes-de-una-red-local/images/componentes-de-una-red-local/componentes-de-red-icono-punto-de-acceso_1.png",
+    "actividades/redes/cableado/componentes-de-una-red-local/images/componentes-de-una-red-local/componentes-de-red-icono-router-inalambrico_1.png"
+   ],
+   "readme": "actividades/redes/cableado/componentes-de-una-red-local/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -2413,8 +2458,14 @@
      "preguntas": 7
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/conector-rj-45_1.png",
+    "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/identificar-cable-coaxial_1.png",
+    "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/identificar-cable-fibra-optica_1.png",
+    "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/identificar-cable-par-trenzado_1.png",
+    "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/medios-de-transmision-conector-de-fibra-optica_1.png"
+   ],
+   "readme": "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",

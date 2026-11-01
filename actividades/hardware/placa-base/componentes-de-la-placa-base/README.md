@@ -5,7 +5,7 @@ author: Noemí Pérez (nperpere@gobiernodecanarias.org)
 
 # Componentes de la placa base
 
-![Dificultad](https://img.shields.io/badge/Dificultad-Baja-green)
+![Dificultad](https://img.shields.io/badge/Dificultad-Media-yellow)
 
 Preguntas de arrastrar y soltar para identificar los componentes y conectores de una placa base.
 
@@ -21,29 +21,35 @@ Ficheros de preguntas disponibles en esta actividad:
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
 | ![ddimageortext](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddimageortext.svg) | [Arrastrar y soltar imagen o texto](#arrastrar-y-soltar-imagen-o-texto) | 4 |
-| ![ddmarker](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddmarker.svg) | [Arrastrar y soltar marcador](#arrastrar-y-soltar-marcador) | 2 |
-|   | **TOTAL**         | 6 |
+| ![ddmarker](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddmarker.svg) | [Arrastrar y soltar marcador](#arrastrar-y-soltar-marcador) | 7 |
+|   | **TOTAL**         | 11 |
 
 
 #### Arrastrar y soltar imagen o texto
 
 
-![Placa base ASUS PRIME A620M-A](images/arrastrar-soltar-placa-base/placa-base-asus-prime-a620m-a_1.png)
+![Placa base · Arrastrar componentes: ASUS PRIME A620M-A](images/arrastrar-soltar-placa-base/placa-base-arrastrar-componentes-asus-prime-a620m-a_1.png)
 
-![Placa base ASUS Z790-AYW WIFI W](images/arrastrar-soltar-placa-base/placa-base-asus-z790-ayw-wifi-w_1.png)
+![Placa base · Arrastrar componentes: ASUS Z790-AYW WIFI W](images/arrastrar-soltar-placa-base/placa-base-arrastrar-componentes-asus-z790-ayw-wifi-w_1.png)
 
-![Placa base Gigabyte GA-h110M-S2H](images/arrastrar-soltar-placa-base/placa-base-gigabyte-ga-h110m-s2h_1.png)
+![Placa base · Arrastrar componentes: Gigabyte GA-H110M-S2H](images/arrastrar-soltar-placa-base/placa-base-arrastrar-componentes-gigabyte-ga-h110m-s2h_1.png)
 
-![Placa base MSI PRO B850-P WIFI](images/arrastrar-soltar-placa-base/placa-base-msi-pro-b850-p-wifi_1.png)
+![Placa base · Arrastrar componentes: MSI PRO B850-P WIFI](images/arrastrar-soltar-placa-base/placa-base-arrastrar-componentes-msi-pro-b850-p-wifi_1.png)
 
 
 
 #### Arrastrar y soltar marcador
 
 
-![Placa base Gigabyte H510M S2H V3](images/arrastrar-soltar-placa-base/placa-base-gigabyte-h510m-s2h-v3_1.png)
+![Placa base · Localizar conectores SATA, PCIe y M.2 (4 etiquetas)](images/arrastrar-soltar-placa-base/placa-base-localizar-conectores-sata-pcie-y-m2-4-etiquetas_1.png)
 
-![Placa base Gigabyte X570 AORUS PRO WIFI](images/arrastrar-soltar-placa-base/placa-base-gigabyte-x570-aorus-pro-wifi_1.png)
+![Placa base · Localizar conectores SATA, PCIe y M.2 (6 etiquetas)](images/arrastrar-soltar-placa-base/placa-base-localizar-conectores-sata-pcie-y-m2-6-etiquetas_1.png)
+
+![Placa base · Localizar conectores SATA, PCIe y M.2: ASUS PRIME B760-PLUS](images/arrastrar-soltar-placa-base/placa-base-localizar-conectores-sata-pcie-y-m2-asus-prime-b760-plus_1.png)
+
+![Placa base · Marcadores: Gigabyte H510M S2H V3](images/arrastrar-soltar-placa-base/placa-base-marcadores-gigabyte-h510m-s2h-v3_1.png)
+
+![Placa base · Marcadores: Gigabyte X570 AORUS PRO WIFI](images/arrastrar-soltar-placa-base/placa-base-marcadores-gigabyte-x570-aorus-pro-wifi_1.png)
 
 
 
