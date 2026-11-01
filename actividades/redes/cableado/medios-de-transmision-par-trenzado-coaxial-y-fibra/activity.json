@@ -1,0 +1,55 @@
+{
+    "name": "Medios de transmisión: par trenzado, coaxial y fibra",
+    "description": "Identificar cables de par trenzado, coaxial y fibra óptica, sus partes y sus conectores.",
+    "difficulty": "medium",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@gobiernodecanarias.org",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "f"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "f"
+            ]
+        },
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3016",
+            "ra": "RA1",
+            "ce": [
+                "c"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0225",
+            "ra": "RA1",
+            "ce": [
+                "d"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0370",
+            "ra": "RA1",
+            "ce": [
+                "b"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

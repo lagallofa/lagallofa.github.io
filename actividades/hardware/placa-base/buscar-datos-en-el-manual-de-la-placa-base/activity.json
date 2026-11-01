@@ -1,0 +1,58 @@
+{
+    "name": "Buscar datos en el manual de la placa base",
+    "description": "Buscar en el manual del fabricante las características de una placa base: memoria, ranuras, conectores y teclas de la UEFI.",
+    "difficulty": "hard",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@gobiernodecanarias.org",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a",
+                "c"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a",
+                "c"
+            ]
+        },
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3029",
+            "ra": "RA2",
+            "ce": [
+                "b"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0221",
+            "ra": "RA2",
+            "ce": [
+                "b"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0371",
+            "ra": "RA1",
+            "ce": [
+                "a",
+                "b"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

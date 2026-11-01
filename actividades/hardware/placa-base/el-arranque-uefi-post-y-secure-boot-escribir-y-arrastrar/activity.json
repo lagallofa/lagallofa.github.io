@@ -1,0 +1,47 @@
+{
+    "name": "El arranque: UEFI, POST y Secure Boot: escribir y arrastrar",
+    "description": "Nombres del firmware, del POST y del jumper de reseteo, e interfaces de BIOS y UEFI.",
+    "difficulty": "medium",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@gobiernodecanarias.org",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "c"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "c"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0371",
+            "ra": "RA1",
+            "ce": [
+                "b"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0221",
+            "ra": "RA2",
+            "ce": [
+                "f"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

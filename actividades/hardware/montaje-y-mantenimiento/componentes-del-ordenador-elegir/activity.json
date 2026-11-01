@@ -1,0 +1,58 @@
+{
+    "name": "Componentes del ordenador: elegir",
+    "description": "Reconocer en una foto a qué categoría pertenece un componente y clasificar periféricos de entrada y salida.",
+    "difficulty": "easy",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@gobiernodecanarias.org",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a",
+                "d"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a",
+                "d"
+            ]
+        },
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3029",
+            "ra": "RA1",
+            "ce": [
+                "e"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0221",
+            "ra": "RA1",
+            "ce": [
+                "a"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0371",
+            "ra": "RA1",
+            "ce": [
+                "a",
+                "h"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

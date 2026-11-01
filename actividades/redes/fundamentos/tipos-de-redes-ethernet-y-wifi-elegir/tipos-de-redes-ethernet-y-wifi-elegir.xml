@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/UT1 Sistemas informáticos/Tipos de redes, Ethernet y wifi: elegir</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151703817  -->
+  <question type="multichoice">
+    <name>
+      <text>Comunicación · Tipos de comunicación</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Con un walkie-talkie, las dos personas pueden hablar, pero no a la vez. ¿Qué tipo de comunicación es?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="border: 1px solid #DCDFE5; border-radius: 8px; overflow: hidden; font-family: Arial, sans-serif; margin: 12px 0;">
+<div style="background-color: #0c7c59; color: white; padding: 6px 12px; font-weight: 600; font-size: 15px;">✅ Solución</div>
+<div style="background-color: #ffffff; padding: 16px 16px 4px 16px; line-height: 1.6; font-size: 1.05rem; overflow-x: auto;">
+<div style="margin: 0 0 12px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">💡 Explicación</p>
+<div style="margin: 0;"><strong>Símplex</strong>: un solo sentido. <strong>Semidúplex</strong>: los dos sentidos, pero no a la vez. <strong>Dúplex completo</strong>: los dos sentidos a la vez.</div>
+</div>
+<div style="margin: 0 0 12px 0;">Semidúplex (half-duplex)</div>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Semidúplex (half-duplex)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Símplex</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>En símplex la información viaja en un único sentido, como una emisión de radio.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Dúplex completo (full-duplex)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>En full-duplex ambos transmiten a la vez, como en una llamada telefónica.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151702297  -->
+  <question type="ddwtos">
+    <name>
+      <text>Ethernet y wifi · Arrastrar: latencia y ancho de banda</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 10px 0;">❓ Arrastra cada palabra a su lugar:</p>
+<ul>
+<li>[[1]] es el retraso en la comunicación entre dos puntos.</li>
+<li>[[2]] es la cantidad de información que se puede transmitir por segundo.</li>
+</ul>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>Latencia</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Ancho de banda</text>
+      <group>1</group>
+    </dragbox>
+  </question>
+
+<!-- question: 151703761  -->
+  <question type="cloze">
+    <name>
+      <text>Ethernet y wifi · Ethernet o wifi para jugar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Si fueras <em><strong>gamer</strong></em>, ¿cómo conectarías tu PC? {1:MC:=Por cable Ethernet~Por wifi}</p>
+<p style="margin: 8px 0 0 0;">¿Por qué? {1:MC:=Porque ofrece menor latencia y una conexión más estable~Porque el cable siempre es más barato~Porque el wifi no permite conectarse a Internet~Porque el cable no necesita tarjeta de red}</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="border: 1px solid #DCDFE5; border-radius: 8px; overflow: hidden; font-family: Arial, sans-serif; margin: 12px 0;">
+<div style="background-color: #0c7c59; color: white; padding: 6px 12px; font-weight: 600; font-size: 15px;">✅ Solución</div>
+<div style="background-color: #ffffff; padding: 16px 16px 4px 16px; line-height: 1.6; font-size: 1.05rem; overflow-x: auto;">
+<div style="margin: 0 0 12px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">💡 Explicación</p>
+<div style="margin: 0;"><strong>Ethernet</strong> ofrece conexiones más estables, con menor latencia y menos interferencias. El wifi da movilidad, pero su rendimiento depende de la distancia, los obstáculos y las interferencias.</div>
+</div>
+<div style="margin: 0 0 12px 0;">Por cable Ethernet, porque ofrece menor latencia y una conexión más estable</div>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151703824  -->
+  <question type="multichoice">
+    <name>
+      <text>Tipos de redes · Característica principal de Ethernet</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ ¿Cuál es la característica principal de una red Ethernet?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">Ethernet es el estándar de las redes locales <strong>cableadas</strong>. Las redes locales inalámbricas usan otro estándar, el wifi (IEEE 802.11).</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Es el estándar de las redes locales cableadas.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Es el estándar de las redes locales inalámbricas.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Es una red local que solo funciona con un switch.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151703826  -->
+  <question type="multichoice">
+    <name>
+      <text>Tipos de redes · Elegir el tipo de red (aula)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ La red que conecta los ordenadores de un aula es una…</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">Es una <strong>LAN</strong> (red de área local): está dentro de un mismo edificio.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>LAN.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>MAN.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>WAN.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151703827  -->
+  <question type="multichoice">
+    <name>
+      <text>Tipos de redes · Elegir el tipo de red (ciudad)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ La red que conecta los colegios públicos de un mismo municipio es una…</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">Es una <strong>MAN</strong> (red de área metropolitana): une edificios repartidos por una misma ciudad o municipio.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>LAN.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>MAN.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>WAN.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151703828  -->
+  <question type="multichoice">
+    <name>
+      <text>Tipos de redes · Elegir el tipo de red (empresa)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ La red que une las oficinas de una empresa en Madrid, Tenerife y París es una…</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">Es una <strong>WAN</strong> (red de área amplia): une lugares de distintas ciudades y países.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>LAN.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>MAN.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>WAN.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151703197  -->
+  <question type="matching">
+    <name>
+      <text>Tipos de redes · Relacionar ejemplos con el tipo de red</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Relaciona cada ejemplo con el tipo de red al que corresponde:</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="border: 1px solid #DCDFE5; border-radius: 8px; overflow: hidden; font-family: Arial, sans-serif; margin: 12px 0;">
+<div style="background-color: #0c7c59; color: white; padding: 6px 12px; font-weight: 600; font-size: 15px;">✅ Solución</div>
+<div style="background-color: #ffffff; padding: 16px 16px 4px 16px; line-height: 1.6; font-size: 1.05rem; overflow-x: auto;">
+<div style="margin: 0 0 12px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">💡 Explicación</p>
+<div style="margin: 0;">Las redes se clasifican por su alcance: <strong>PAN</strong> (personal), <strong>LAN</strong> (local: un edificio), <strong>MAN</strong> (metropolitana: una ciudad) y <strong>WAN</strong> (amplia: países o el mundo).</div>
+</div>
+<div style="margin: 0 0 12px 0;"><strong>PAN</strong> → Un móvil conectado por Bluetooth a unos auriculares inalámbricos.<br><strong>LAN</strong> → Los ordenadores de un aula conectados al switch del centro.<br><strong>MAN</strong> → La red que une las bibliotecas municipales de una misma ciudad.<br><strong>WAN</strong> → Internet.</div>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>Un móvil conectado por Bluetooth a unos auriculares inalámbricos.</p>]]></text>
+      <answer>
+        <text>PAN</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Los ordenadores de un aula conectados al switch del centro.</p>]]></text>
+      <answer>
+        <text>LAN</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>La red que une las bibliotecas municipales de una misma ciudad.</p>]]></text>
+      <answer>
+        <text>MAN</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Internet.</p>]]></text>
+      <answer>
+        <text>WAN</text>
+      </answer>
+    </subquestion>
+  </question>
+
+</quiz>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/UT1 Sistemas informáticos/Unidades de información: elegir</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151702885  -->
+  <question type="multichoice">
+    <name>
+      <text>Unidades · Abreviatura de kilobyte</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ ¿Cómo se escribe kilobyte abreviado?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>kb.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>kB.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Kb.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>KB.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151705024  -->
+  <question type="cloze">
+    <name>
+      <text>Unidades · Capacidad en bytes y velocidad en bits</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 10px 0;">❓ Rellena los siguientes huecos con la palabra correcta:</p>
+<div class="editor-indent" style="margin-left: 30px;">
+<p>■ La capacidad de almacenamiento (de un disco, de la RAM, de un pendrive…) se mide en {1:MC:bits~=bytes}.</p>
+<p>■ La velocidad de transmisión (de una conexión a Internet, de una red…) se mide en {1:MC:=bits~bytes} por segundo.</p>
+</div>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p>La respuesta correcta es:</p>
+<p>■ La capacidad de almacenamiento se mide en <strong>bytes</strong> (kilobytes, megabytes, gigabytes…).</p>
+<p style="margin: 0;">■ La velocidad de transmisión se mide en <strong>bits</strong> por segundo (kbps, Mbps, Gbps…).</p>
+</div>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151703161  -->
+  <question type="gapselect">
+    <name>
+      <text>Unidades · Elegir: bits o bytes</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 10px 0;">❓ Empareja correctamente:</p>
+<p>La <strong>velocidad de transmisión</strong> (de una conexión a Internet, de una red…) se mide en [[1]] por segundo.</p>
+<p>La <strong>capacidad de almacenamiento</strong> (de un disco, de la RAM, de un pendrive…) se mide en [[2]].</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <selectoption>
+      <text>bits, kilobits, megabits, gigabits, terabits, etc.</text>
+      <group>1</group>
+    </selectoption>
+    <selectoption>
+      <text>bytes, kilobytes, megabytes, gigabytes, terabytes, etc.</text>
+      <group>1</group>
+    </selectoption>
+  </question>
+
+<!-- question: 151703877  -->
+  <question type="ordering">
+    <name>
+      <text>Unidades · Ordenar unidades de almacenamiento</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Ordena las unidades de <strong>mayor a menor</strong>:</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="border: 1px solid #DCDFE5; border-radius: 8px; overflow: hidden; font-family: Arial, sans-serif; margin: 12px 0;">
+<div style="background-color: #0c7c59; color: white; padding: 6px 12px; font-weight: 600; font-size: 15px;">✅ Solución</div>
+<div style="background-color: #ffffff; padding: 16px 16px 4px 16px; line-height: 1.6; font-size: 1.05rem; overflow-x: auto;">
+<div style="margin: 0 0 12px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">💡 Explicación</p>
+<div style="margin: 0;">Cada unidad de la escala decimal es 1000 veces mayor que la siguiente, salvo el byte, que equivale a 8 bits.</div>
+</div>
+<div style="margin: 0 0 12px 0;">Terabyte (TB) &gt; Gigabyte (GB) &gt; Megabyte (MB) &gt; Kilobyte (kB) &gt; Byte (B) &gt; Bit (b)</div>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <layouttype>VERTICAL</layouttype>
+    <selecttype>ALL</selecttype>
+    <selectcount>2</selectcount>
+    <gradingtype>RELATIVE_NEXT_EXCLUDE_LAST</gradingtype>
+    <showgrading>SHOW</showgrading>
+    <numberingstyle>none</numberingstyle>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <shownumcorrect>1</shownumcorrect>
+    <answer fraction="1" format="moodle_auto_format">
+      <text>Terabyte (TB)</text>
+    </answer>
+    <answer fraction="2" format="moodle_auto_format">
+      <text>Gigabyte (GB)</text>
+    </answer>
+    <answer fraction="3" format="moodle_auto_format">
+      <text>Megabyte (MB)</text>
+    </answer>
+    <answer fraction="4" format="moodle_auto_format">
+      <text>Kilobyte (kB)</text>
+    </answer>
+    <answer fraction="5" format="moodle_auto_format">
+      <text>Byte (B)</text>
+    </answer>
+    <answer fraction="6" format="moodle_auto_format">
+      <text>Bit (b)</text>
+    </answer>
+  </question>
+
+<!-- question: 151705046  -->
+  <question type="cloze">
+    <name>
+      <text>Unidades · Usar correctamente las unidades</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 10px 0;">❓ Elige la opción correcta:</p>
+<div class="editor-indent" style="margin-left: 30px;">
+<p>■ ¿Qué unidades de medida utilizamos si hablamos de velocidad de conexión? {1:MC:=bits, kilobits, megabits, gigabits, etc.~bytes, kilobytes, megabytes, gigabytes, etc}</p>
+<p>■ ¿Qué unidades de medida utilizamos si hablamos de capacidad de memoria RAM o de disco duro? {1:MC:bits, kilobits, megabits, gigabits, etc.~=bytes, kilobytes, megabytes, gigabytes, etc}<span style="font-size: 0.9375rem;"> </span></p>
+</div>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p>La respuesta correcta es:</p>
+<p>■ ¿Qué unidades de medida utilizamos si hablamos de velocidad de conexión? <strong>bits, kilobits, megabits, gigabits, etc</strong>.</p>
+<p style="margin: 0;">■ ¿Qué unidades de medida utilizamos si hablamos de capacidad de memoria RAM o de disco duro? <strong>bytes, kilobytes, megabytes, gigabytes, etc</strong>.</p>
+</div>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151702301  -->
+  <question type="matching">
+    <name>
+      <text>Unidades · V/F: Mbps o MBps</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Indica si es verdadero o falso:</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>Cuando se habla de caudal de una red, se habla de TBps, GBps, MBps o Bps.</p>]]></text>
+      <answer>
+        <text>Falso</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Cuando se habla de capacidad de un disco duro se habla de TB, GB o MB.</p>]]></text>
+      <answer>
+        <text>Verdadero</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>La velocidad de una conexión a Internet se mide en Mbps.</p>]]></text>
+      <answer>
+        <text>Verdadero</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Un SSD de 1 TB tiene una capacidad de 1000 Mbps.</p>]]></text>
+      <answer>
+        <text>Falso</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 151702300  -->
+  <question type="matching">
+    <name>
+      <text>Unidades · V/F: igualdades entre unidades</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Indica si es verdadero o falso:</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>1 byte son 8 bits.</p>]]></text>
+      <answer>
+        <text>Verdadero</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>1 MB son 1000 bytes.</p>]]></text>
+      <answer>
+        <text>Falso</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>1 GB son 1000 MB.</p>]]></text>
+      <answer>
+        <text>Verdadero</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>1 TB son 1000 GB.</p>]]></text>
+      <answer>
+        <text>Verdadero</text>
+      </answer>
+    </subquestion>
+  </question>
+
+</quiz>

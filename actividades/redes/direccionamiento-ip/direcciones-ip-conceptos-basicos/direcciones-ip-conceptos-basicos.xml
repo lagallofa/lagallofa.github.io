@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/UT1 Sistemas informáticos/Direcciones IP: conceptos básicos</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151703830  -->
+  <question type="multichoice">
+    <name>
+      <text>Direccionamiento IP · Direcciones IP privadas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ ¿Cuál de estas direcciones IPv4 es <strong>privada</strong>?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="border: 1px solid #DCDFE5; border-radius: 8px; overflow: hidden; font-family: Arial, sans-serif; margin: 12px 0;">
+<div style="background-color: #0c7c59; color: white; padding: 6px 12px; font-weight: 600; font-size: 15px;">✅ Solución</div>
+<div style="background-color: #ffffff; padding: 16px 16px 4px 16px; line-height: 1.6; font-size: 1.05rem; overflow-x: auto;">
+<div style="margin: 0 0 12px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">💡 Explicación</p>
+<div style="margin: 0;">Los rangos privados son <strong>10.0.0.0/8</strong>, <strong>172.16.0.0/12</strong> (172.16 a 172.31) y <strong>192.168.0.0/16</strong>.</div>
+</div>
+<div style="margin: 0 0 12px 0;">172.20.5.10</div>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.5000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>172.20.5.10</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8.8.8.8</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Es una dirección pública.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>172.32.1.1</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>El rango privado 172.16.0.0/12 llega solo hasta 172.31.255.255.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>193.168.1.10</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>No confundas con 192.168.x.x: 193.168 no es un rango privado.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151703832  -->
+  <question type="multichoice">
+    <name>
+      <text>Direccionamiento IP · Puerta de enlace</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Un ordenador con la dirección 192.168.10.25 quiere acceder a una página web de Internet. ¿A quién envía los paquetes?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="border: 1px solid #DCDFE5; border-radius: 8px; overflow: hidden; font-family: Arial, sans-serif; margin: 12px 0;">
+<div style="background-color: #0c7c59; color: white; padding: 6px 12px; font-weight: 600; font-size: 15px;">✅ Solución</div>
+<div style="background-color: #ffffff; padding: 16px 16px 4px 16px; line-height: 1.6; font-size: 1.05rem; overflow-x: auto;">
+<div style="margin: 0 0 12px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">💡 Explicación</p>
+<div style="margin: 0;">La <strong>puerta de enlace predeterminada</strong> es el dispositivo de capa 3 (un router o un switch de capa 3) al que el equipo envía los paquetes destinados a otras redes.</div>
+</div>
+<div style="margin: 0 0 12px 0;">A su puerta de enlace predeterminada, normalmente el router.</div>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>A su puerta de enlace predeterminada, normalmente el router.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Directamente al servidor web, sin pasar por ningún otro dispositivo.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>El servidor está en otra red: hace falta un dispositivo de capa 3.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Al switch de capa 2, que los enruta a Internet.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Un switch de capa 2 no comunica redes IP diferentes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>A la impresora de red.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>La impresora no encamina tráfico.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151703764  -->
+  <question type="cloze">
+    <name>
+      <text>Direccionamiento IP · Qué es una dirección IP</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 10px 0;">❓ Una <strong>dirección IP</strong> es... {1:MC:=un número que identifica a cada dispositivo dentro de una red~el nombre del fabricante de la tarjeta de red~la velocidad máxima de la conexión a Internet~un cable que conecta dos ordenadores}</p>
+<p>¿Cuál de estas es una dirección <strong>IPv4 válida</strong>? {1:MC:=192.168.1.25~192.168.1.256~00:1A:2B:3C:4D:5E~10.0.0}</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">Una IPv4 tiene <strong>4 números separados por puntos</strong>, cada uno entre <strong>0 y 255</strong> (por ejemplo, 192.168.1.25). 192.168.1.256 no vale porque 256 &gt; 255; 10.0.0 solo tiene 3 números; y 00:1A:2B:3C:4D:5E es una <strong>dirección MAC</strong>, no una IP.</p>
+</div>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+</quiz>

@@ -1,0 +1,39 @@
+{
+    "name": "Direcciones IP: conceptos básicos",
+    "description": "Qué es una dirección IP, direcciones privadas y puerta de enlace.",
+    "difficulty": "easy",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@gobiernodecanarias.org",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA5",
+            "ce": [
+                "a"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA5",
+            "ce": [
+                "a"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0370",
+            "ra": "RA2",
+            "ce": [
+                "d"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

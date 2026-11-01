@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/UT1 Sistemas informáticos/El sistema informático: componentes, operaciones y capas</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151703799  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · Capas del sistema informático</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Haces doble clic en el icono del navegador. ¿Qué capa busca su código en el disco y lo carga en la memoria RAM?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="border: 1px solid #DCDFE5; border-radius: 8px; overflow: hidden; font-family: Arial, sans-serif; margin: 12px 0;">
+<div style="background-color: #0c7c59; color: white; padding: 6px 12px; font-weight: 600; font-size: 15px;">✅ Solución</div>
+<div style="background-color: #ffffff; padding: 16px 16px 4px 16px; line-height: 1.6; font-size: 1.05rem; overflow-x: auto;">
+<div style="margin: 0 0 12px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">💡 Explicación</p>
+<div style="margin: 0;">La petición baja por las capas <strong>usuario → aplicación → sistema operativo → hardware</strong>. El sistema operativo gestiona los recursos: busca el programa en el disco, lo carga en la RAM y ordena al hardware lo que tiene que hacer.</div>
+</div>
+<div style="margin: 0 0 12px 0;">El sistema operativo</div>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.5000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>El sistema operativo</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La aplicación (el propio navegador)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>La aplicación no habla directamente con los circuitos: se lo pide al sistema operativo.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>El hardware, por sí solo</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>El hardware ejecuta, pero quien gestiona la memoria y decide qué cargar es el sistema operativo.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>El usuario</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>El usuario solo inicia la acción.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151640364  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · Clasificar portátil, Moodle, PDF y profesor</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Un profesor sube a Moodle un PDF desde su portátil. ¿Qué clasificación es correcta?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">El <strong>portátil</strong> es hardware porque es físico; <strong>Moodle</strong> es software; el <strong>PDF</strong> es un dato que el sistema almacena o transmite; y el <strong>profesor</strong> es una persona que interactúa con el sistema.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Portátil: hardware; Moodle: software; PDF: dato; profesor: persona.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Portátil: software; Moodle: dato; PDF: hardware; profesor: persona.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Portátil: hardware; Moodle: persona; PDF: software; profesor: dato.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Portátil: dato; Moodle: hardware; PDF: persona; profesor: software.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151703800  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · Componentes de un sistema informático</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ ¿Qué componentes forman un sistema informático?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="border: 1px solid #DCDFE5; border-radius: 8px; overflow: hidden; font-family: Arial, sans-serif; margin: 12px 0;">
+<div style="background-color: #0c7c59; color: white; padding: 6px 12px; font-weight: 600; font-size: 15px;">✅ Solución</div>
+<div style="background-color: #ffffff; padding: 16px 16px 4px 16px; line-height: 1.6; font-size: 1.05rem; overflow-x: auto;">
+<div style="margin: 0 0 12px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">💡 Explicación</p>
+<div style="margin: 0;">Un sistema informático combina elementos <strong>físicos</strong> (hardware), <strong>lógicos</strong> (software), la <strong>información</strong> que se trata (datos) y las <strong>personas</strong> (usuarios, analistas, programadores, técnicos) que interactúan para recibir, almacenar, procesar y transmitir información.</div>
+</div>
+<div style="margin: 0 0 12px 0;">Hardware, software, datos y personas</div>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.5000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Hardware, software, datos y personas</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Hardware, software y redes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>La red forma parte del hardware y del software; faltan los datos y el componente humano.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>CPU, memoria y periféricos</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Son solo componentes físicos (hardware).</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Sistema operativo, aplicaciones y datos</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>El sistema operativo y las aplicaciones son software; faltan el hardware y las personas.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151640366  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · Moodle no es todo el sistema informático</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Un alumno afirma: «Moodle es todo el sistema informático del aula porque es lo que yo utilizo». ¿Cuál es la explicación más adecuada?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;"><strong>Moodle es software</strong>, concretamente una aplicación. Para funcionar necesita hardware sobre el que ejecutarse, otros programas, datos y personas que lo utilicen o administren. Que se ejecute en un servidor no lo convierte en hardware y que gestione datos no lo convierte en un dato.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Moodle es software y forma parte de un sistema más amplio en el que intervienen también hardware, datos y personas.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Moodle es hardware porque se ejecuta en un servidor.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Moodle es un dato porque almacena cursos y calificaciones.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Moodle constituye por sí solo todo el sistema informático.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151640372  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · Operaciones al hacer y guardar una foto</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Un usuario hace una fotografía con su móvil y esta queda guardada para poder verla posteriormente. ¿Qué dos operaciones se reconocen más claramente?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">La captura de la fotografía introduce información en el sistema, por lo que constituye una <strong>entrada</strong>; al conservarla para recuperarla después se produce <strong>almacenamiento</strong>.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Entrada y almacenamiento.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Procesamiento y salida.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Salida y entrada.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Procesamiento y comunicación.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151703801  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · Operaciones de un sistema informático</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Guardas en el SSD el trabajo que estás haciendo para continuarlo mañana. ¿Qué operación del sistema informático se está realizando?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="border: 1px solid #DCDFE5; border-radius: 8px; overflow: hidden; font-family: Arial, sans-serif; margin: 12px 0;">
+<div style="background-color: #0c7c59; color: white; padding: 6px 12px; font-weight: 600; font-size: 15px;">✅ Solución</div>
+<div style="background-color: #ffffff; padding: 16px 16px 4px 16px; line-height: 1.6; font-size: 1.05rem; overflow-x: auto;">
+<div style="margin: 0 0 12px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">💡 Explicación</p>
+<div style="margin: 0;">El ciclo básico es <strong>entrada → proceso → salida → almacenamiento</strong>. El almacenamiento conserva los datos de forma temporal o permanente para utilizarlos después.</div>
+</div>
+<div style="margin: 0 0 12px 0;">Almacenamiento</div>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Almacenamiento</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Entrada</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>La entrada es la captación de datos mediante dispositivos externos.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Proceso</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>El proceso es la transformación de la información por el procesador.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Salida</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>La salida es la presentación de los resultados hacia el exterior.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151704571  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · Ordenador frente a sistema informático</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ En la biblioteca del instituto hay seis ordenadores conectados en red, una impresora, un programa de préstamos y una bibliotecaria que lo gestiona todo. ¿Qué afirmación es correcta?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="border: 1px solid #DCDFE5; border-radius: 8px; overflow: hidden; font-family: Arial, sans-serif; margin: 12px 0;">
+<div style="background-color: #0c7c59; color: white; padding: 6px 12px; font-weight: 600; font-size: 15px;">✅ Solución</div>
+<div style="background-color: #ffffff; padding: 16px 16px 4px 16px; line-height: 1.6; font-size: 1.05rem; overflow-x: auto;">
+<div style="margin: 0 0 12px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">💡 Explicación</p>
+<div style="margin: 0;"><strong>Ordenador no es igual a sistema informático.</strong> El ordenador es una parte física; un sistema informático puede incluir varios ordenadores, servidores, dispositivos, software, redes y personas.</div>
+</div>
+<div style="margin: 0 0 12px 0;">Todo el conjunto forma un sistema informático; cada ordenador es solo una de sus partes físicas.</div>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.5000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Todo el conjunto forma un sistema informático; cada ordenador es solo una de sus partes físicas.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cada ordenador es un sistema informático independiente y la red no forma parte de ninguno.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Un sistema informático puede incluir varios ordenadores, redes y personas.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Solo el programa de préstamos es el sistema informático.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>El programa es solo la parte lógica.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La bibliotecaria no forma parte del sistema informático porque no es un componente físico.</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Las personas son uno de los cuatro componentes de un sistema informático, junto con el hardware, el software y los datos.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151701308  -->
+  <question type="ordering">
+    <name>
+      <text>Sistema informático · Ordenar las capas del sistema informático</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Ordena las capas del sistema informático de arriba hacia abajo, desde el nivel de interacción con el humano hasta el nivel físico.</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0 0 6px 0;">El orden, de arriba abajo, es: <strong>usuario → aplicación → sistema operativo → hardware</strong>. El usuario trabaja con las aplicaciones; las aplicaciones piden lo que necesitan al sistema operativo, y el sistema operativo es el que controla el hardware.</p>
+<p style="margin: 0;"><img class="img-fluid" style="display: block; margin-left: auto; margin-right: auto;" src="@@PLUGINFILE@@/imagen-28.jpg"></p>
+</div>]]></text>
+<file name="imagen-28.jpg" path="/" encoding="base64">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</file>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <layouttype>VERTICAL</layouttype>
+    <selecttype>ALL</selecttype>
+    <selectcount>2</selectcount>
+    <gradingtype>ABSOLUTE_POSITION</gradingtype>
+    <showgrading>SHOW</showgrading>
+    <numberingstyle>none</numberingstyle>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect>1</shownumcorrect>
+    <answer fraction="1" format="moodle_auto_format">
+      <text>Usuario</text>
+    </answer>
+    <answer fraction="2" format="moodle_auto_format">
+      <text>Aplicación</text>
+    </answer>
+    <answer fraction="3" format="moodle_auto_format">
+      <text>Sistema operativo</text>
+    </answer>
+    <answer fraction="4" format="moodle_auto_format">
+      <text>Hardware</text>
+    </answer>
+  </question>
+
+<!-- question: 151640382  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · Por qué al desarrollador le sirve conocer el sistema</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Un desarrollador crea una aplicación que funciona correctamente en su equipo. ¿Por qué le resulta útil conocer el sistema informático sobre el que se ejecuta?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">El software <strong>no se ejecuta de forma aislada</strong>: necesita procesador, memoria, almacenamiento y servicios proporcionados por el sistema operativo. Comprender esos elementos no significa que un desarrollador tenga que fabricar hardware ni elimina la necesidad de probar sus programas.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Porque la aplicación necesita recursos y servicios proporcionados por el hardware y el sistema operativo.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Porque todo desarrollador debe saber fabricar procesadores y memorias.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Porque conocer el hardware sustituye la necesidad de probar el software.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Porque una aplicación funciona aunque no exista hardware ni sistema operativo.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151640384  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · Qué describe mejor un sistema informático</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ ¿Cuál de las siguientes afirmaciones describe mejor un sistema informático?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">Un sistema informático puede ser sencillo o muy complejo y puede integrar <strong>hardware, software, datos y personas</strong> que colaboran para una finalidad común. No tiene que limitarse a un único ordenador ni necesita obligatoriamente conexión a Internet.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Puede estar formado por múltiples dispositivos, programas, datos y personas que colaboran para realizar una función.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tiene que estar formado necesariamente por un único ordenador.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Solo puede considerarse sistema informático si está conectado a Internet.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Está formado exclusivamente por hardware y software.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151640388  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · Qué representa el ejemplo de las calificaciones</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Una aplicación recibe el nombre de un alumno, consulta la información almacenada y muestra sus calificaciones. ¿Qué idea representa mejor este ejemplo?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">El ejemplo muestra el <strong>tratamiento de la información</strong>: se reciben datos, se procesan, se consulta información almacenada y se ofrece un resultado. El almacenamiento y la conexión de dispositivos pueden formar parte del sistema, pero no constituyen por sí solos su finalidad general.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Un sistema informático trata datos para obtener o comunicar información.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Un sistema informático sirve únicamente para almacenar datos.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La función principal de un sistema informático es conectar dispositivos.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>El tratamiento de la información depende exclusivamente del hardware.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151640390  -->
+  <question type="matching">
+    <name>
+      <text>Sistema informático · Relacionar elementos con hardware, software, datos y personas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Relaciona cada elemento con la categoría a la que pertenece dentro de un sistema informático.</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;"><strong>Hardware</strong> son los elementos físicos; <strong>software</strong>, los programas; <strong>datos</strong>, la información que se almacena, procesa o transmite; y <strong>personas</strong>, quienes utilizan, desarrollan, administran o mantienen el sistema.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[<p>CPU</p>]]></text>
+      <answer>
+        <text>Hardware</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Linux</p>]]></text>
+      <answer>
+        <text>Software</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Alumno</p>]]></text>
+      <answer>
+        <text>Personas</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Fichero de notas</p>]]></text>
+      <answer>
+        <text>Datos</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Teclado</p>]]></text>
+      <answer>
+        <text>Hardware</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Moodle</p>]]></text>
+      <answer>
+        <text>Software</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Profesor</p>]]></text>
+      <answer>
+        <text>Personas</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Base de datos con información académica</p>]]></text>
+      <answer>
+        <text>Datos</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 151704539  -->
+  <question type="matching">
+    <name>
+      <text>Sistema informático · Relacionar hardware, software, firmware y usuario con su definición</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Relaciona cada elemento de un sistema informático con su definición:</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">Un sistema informático está formado por <strong>hardware</strong> (lo físico), <strong>software</strong> (lo lógico), <strong>datos</strong> (la información que se trata) y <strong>personas</strong>, como los usuarios que lo utilizan. El <strong>firmware</strong> es un software especial que va grabado en el hardware, como la BIOS/UEFI de la placa base.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>¡Correcto!</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>Hardware</p>]]></text>
+      <answer>
+        <text>Parte física: los componentes y dispositivos que se pueden tocar</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Software</p>]]></text>
+      <answer>
+        <text>Programas que indican al hardware qué tiene que hacer</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Firmware</p>]]></text>
+      <answer>
+        <text>Programa grabado en un chip del propio hardware que lo controla a bajo nivel (por ejemplo, la BIOS/UEFI)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Usuario</p>]]></text>
+      <answer>
+        <text>Persona que utiliza el sistema informático</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>Conjunto de cables que une dos ordenadores</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 151640393  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · Secuencia entrada, proceso y salida</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Un alumno introduce su nombre en una aplicación, esta busca sus calificaciones almacenadas y finalmente las muestra en pantalla. ¿Qué secuencia describe mejor lo que ha ocurrido?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">Primero se produce una <strong>entrada</strong> al introducir el nombre; después el sistema <strong>procesa</strong> la petición y consulta la información <strong>almacenada</strong>; finalmente genera una <strong>salida</strong> al mostrar las calificaciones.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Entrada → procesamiento → almacenamiento/consulta → salida.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Procesamiento → entrada → salida → almacenamiento.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Salida → almacenamiento → entrada → procesamiento.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Entrada → salida → procesamiento → almacenamiento.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151640395  -->
+  <question type="truefalse">
+    <name>
+      <text>Sistema informático · V/F: el hardware es solo lo de dentro de la caja</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ El hardware comprende únicamente los componentes que se encuentran dentro de la caja del ordenador.</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;"><strong>Falso.</strong> Hardware es cualquier elemento físico del sistema informático. Incluye componentes internos, como el procesador o la memoria RAM, pero también dispositivos externos, como el teclado, el monitor o una impresora.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151640397  -->
+  <question type="truefalse">
+    <name>
+      <text>Sistema informático · V/F: ordenador y sistema informático son lo mismo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Un ordenador y un sistema informático son exactamente lo mismo.</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;"><strong>Falso.</strong> Un ordenador es un dispositivo físico que puede formar parte de un sistema informático. El sistema informático es un concepto más amplio: integra los elementos necesarios para tratar información, como hardware, software, datos y personas.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151640398  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · ¿Qué elemento es software?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ En el sistema informático de un instituto, ¿cuál de estos elementos es <strong>software</strong>?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;"><strong>Linux es software</strong> porque es un conjunto de programas. El monitor es hardware porque es un elemento físico; el alumnado pertenece a las personas que intervienen en el sistema; y las calificaciones son datos.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>El sistema operativo Linux instalado en un ordenador.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>El monitor del aula.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>El alumnado que utiliza los equipos.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Las calificaciones almacenadas de los estudiantes.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151640400  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · ¿Qué elemento es un dato?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ En una aplicación web utilizada para gestionar una biblioteca, ¿cuál de estos elementos es un <strong>dato</strong>?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;"><strong>El registro con el título, autor e ISBN es un dato</strong>, ya que representa información que el sistema almacena y procesa. El navegador es software, el servidor físico es hardware y la bibliotecaria es una persona que interactúa con el sistema.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>El registro que contiene el título, autor e ISBN de un libro.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>El navegador utilizado para acceder a la aplicación.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>El servidor físico donde se ejecuta la aplicación.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La bibliotecaria que introduce los préstamos.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151640403  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · ¿Qué operación es calcular la media?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Una aplicación recibe las notas de un alumno y calcula automáticamente su media. ¿Qué operación está realizando principalmente cuando calcula esa media?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">Calcular la media supone <strong>transformar unos datos para obtener un resultado</strong>, por lo que es procesamiento. La entrada sería recibir las notas, el almacenamiento sería guardarlas y la salida sería mostrar o comunicar el resultado.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Procesamiento.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Entrada.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Almacenamiento.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Salida.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151640405  -->
+  <question type="multichoice">
+    <name>
+      <text>Sistema informático · ¿Qué situación es una entrada de datos?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ ¿Cuál de las siguientes situaciones representa una <strong>entrada de datos</strong> a un sistema informático?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p style="margin: 0;">Escribir una contraseña proporciona <strong>datos de entrada</strong> al sistema. Mostrar un resultado es salida; guardar un documento corresponde al almacenamiento; y calcular un importe es procesamiento.</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Un usuario escribe su contraseña en un formulario.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>El monitor muestra el resultado de una búsqueda.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>El sistema guarda un documento en el SSD.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>La aplicación calcula el importe total de una compra.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

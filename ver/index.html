@@ -120,7 +120,7 @@ const TIPOS = {
   multichoice: "Opción múltiple", truefalse: "Verdadero/Falso", matching: "Emparejamiento",
   shortanswer: "Respuesta corta", numerical: "Numérica", essay: "Ensayo",
   ddimageortext: "Arrastrar sobre imagen", ddmarker: "Arrastrar marcadores", ddwtos: "Arrastrar al texto",
-  gapselect: "Seleccionar palabras", multianswer: "Respuestas anidadas",
+  gapselect: "Seleccionar palabras", cloze: "Respuestas anidadas", multianswer: "Respuestas anidadas",
   coderunner: "CodeRunner", description: "Descripción"
 };
 const DIFICULTAD = { easy: "Dificultad baja", medium: "Dificultad media", hard: "Dificultad alta" };
@@ -175,8 +175,11 @@ function pares(p) {
 }
 
 function pregunta(p, n) {
-  let cuerpo = `<div class="enunciado">${limpiar(p.enunciado, p.captura ? "imagen: ver la captura de abajo" : "imagen")}</div>`;
-  if (p.captura) cuerpo += `<a href="${url(p.captura)}" target="_blank" rel="noopener"><img class="captura" loading="lazy" src="${url(p.captura)}" alt="Captura de la pregunta"></a>`;
+  // La captura de actirepo ya muestra el enunciado: el texto queda plegado para no repetirlo
+  let cuerpo = p.captura
+    ? `<a href="${url(p.captura)}" target="_blank" rel="noopener"><img class="captura" loading="lazy" src="${url(p.captura)}" alt="Captura de la pregunta"></a>
+       <details class="retro"><summary>Enunciado en texto</summary><div class="enunciado">${limpiar(p.enunciado, "imagen: ver la captura")}</div></details>`
+    : `<div class="enunciado">${limpiar(p.enunciado)}</div>`;
   if (p.respuestas) cuerpo += respuestas(p);
   if (p.pares) cuerpo += pares(p);
   if (p.codigo) cuerpo += `<pre>${escapar(p.codigo)}</pre>`;

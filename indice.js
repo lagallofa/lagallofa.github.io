@@ -12,6 +12,649 @@ window.INDICE = {
  },
  "actividades": [
   {
+   "id": "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores",
+   "textos": "ver/datos/hardware-almacenamiento-almacenamiento-hdd-ssd-formatos-y-conectores.json",
+   "ruta": "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores",
+   "nombre": "Almacenamiento: HDD, SSD, formatos y conectores",
+   "descripcion": "Diferencias entre HDD y SSD e identificación de su formato (2,5″, 3,5″, M.2) y su conexión (SATA o PCIe).",
+   "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Almacenamiento"
+   ],
+   "preguntas": 10,
+   "tipos": {
+    "cloze": 6,
+    "multichoice": 4
+   },
+   "ficheros": [
+    {
+     "nombre": "almacenamiento-hdd-ssd-formatos-y-conectores.xml",
+     "ruta": "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-hdd-ssd-formatos-y-conectores.xml",
+     "preguntas": 10
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "FPB · Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "f"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA1",
+     "ce": [
+      "g"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "almacenamiento",
+   "subtema_nombre": "Almacenamiento"
+  },
+  {
+   "id": "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar",
+   "textos": "ver/datos/hardware-arquitectura-arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar.json",
+   "ruta": "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar",
+   "nombre": "Arquitectura de Von Neumann y Harvard: elegir y relacionar",
+   "descripcion": "Programa almacenado, arquitecturas Von Neumann y Harvard, buses, ciclo de instrucción y niveles de lenguaje, eligiendo o relacionando.",
+   "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Arquitectura"
+   ],
+   "preguntas": 9,
+   "tipos": {
+    "multichoice": 5,
+    "matching": 3,
+    "cloze": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar.xml",
+     "ruta": "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar.xml",
+     "preguntas": 9
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "b"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "c"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "arquitectura",
+   "subtema_nombre": "Arquitectura"
+  },
+  {
+   "id": "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar",
+   "textos": "ver/datos/hardware-arquitectura-arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar.json",
+   "ruta": "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar",
+   "nombre": "Arquitectura de Von Neumann y Harvard: escribir y arrastrar",
+   "descripcion": "Componentes de la CPU, buses y arquitecturas, escribiendo el nombre o arrastrándolo sobre un esquema.",
+   "dificultad": "medium",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Arquitectura"
+   ],
+   "preguntas": 10,
+   "tipos": {
+    "shortanswer": 4,
+    "ddimageortext": 3,
+    "cloze": 3
+   },
+   "ficheros": [
+    {
+     "nombre": "arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar.xml",
+     "ruta": "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar.xml",
+     "preguntas": 10
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "b"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "c"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "arquitectura",
+   "subtema_nombre": "Arquitectura"
+  },
+  {
+   "id": "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas",
+   "textos": "ver/datos/hardware-arquitectura-el-sistema-informatico-componentes-operaciones-y-capas.json",
+   "ruta": "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas",
+   "nombre": "El sistema informático: componentes, operaciones y capas",
+   "descripcion": "Preguntas de situación sobre hardware, software, datos y personas, las operaciones de un sistema informático y sus capas.",
+   "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Arquitectura"
+   ],
+   "preguntas": 20,
+   "tipos": {
+    "multichoice": 15,
+    "matching": 2,
+    "truefalse": 2,
+    "ordering": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "el-sistema-informatico-componentes-operaciones-y-capas.xml",
+     "ruta": "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/el-sistema-informatico-componentes-operaciones-y-capas.xml",
+     "preguntas": 20
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA2",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA2",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0222 Sistemas operativos monopuesto",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0222"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0369 Implantación de Sistemas Operativos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0369"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "arquitectura",
+   "subtema_nombre": "Arquitectura"
+  },
+  {
+   "id": "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-con-ayuda",
+   "textos": "ver/datos/hardware-electricidad-y-electronica-binario-y-hexadecimal-con-ayuda.json",
+   "ruta": "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-con-ayuda",
+   "nombre": "Binario y hexadecimal con ayuda",
+   "descripcion": "Conversiones entre decimal y binario con la tabla de pesos, y cuántos números se representan con n bits.",
+   "dificultad": "medium",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Electricidad-y-electronica"
+   ],
+   "preguntas": 13,
+   "tipos": {
+    "cloze": 13
+   },
+   "ficheros": [
+    {
+     "nombre": "binario-y-hexadecimal-con-ayuda.xml",
+     "ruta": "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-con-ayuda/binario-y-hexadecimal-con-ayuda.xml",
+     "preguntas": 13
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0222 Sistemas operativos monopuesto",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0222"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "electricidad-y-electronica",
+   "subtema_nombre": "Electricidad y electrónica"
+  },
+  {
+   "id": "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-sin-ayuda",
+   "textos": "ver/datos/hardware-electricidad-y-electronica-binario-y-hexadecimal-sin-ayuda.json",
+   "ruta": "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-sin-ayuda",
+   "nombre": "Binario y hexadecimal sin ayuda",
+   "descripcion": "Conversiones entre decimal, binario y hexadecimal sin tabla de pesos, también con 12 bits.",
+   "dificultad": "hard",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Electricidad-y-electronica"
+   ],
+   "preguntas": 11,
+   "tipos": {
+    "cloze": 11
+   },
+   "ficheros": [
+    {
+     "nombre": "binario-y-hexadecimal-sin-ayuda.xml",
+     "ruta": "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-sin-ayuda/binario-y-hexadecimal-sin-ayuda.xml",
+     "preguntas": 11
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0222 Sistemas operativos monopuesto",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0222"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "electricidad-y-electronica",
+   "subtema_nombre": "Electricidad y electrónica"
+  },
+  {
+   "id": "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga",
+   "textos": "ver/datos/hardware-electricidad-y-electronica-calcular-el-tiempo-de-descarga.json",
+   "ruta": "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga",
+   "nombre": "Calcular el tiempo de descarga",
+   "descripcion": "Cálculo del tiempo de descarga de un archivo a partir de su tamaño y de la velocidad de la conexión.",
+   "dificultad": "hard",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Electricidad-y-electronica"
+   ],
+   "preguntas": 8,
+   "tipos": {
+    "cloze": 4,
+    "multichoice": 4
+   },
+   "ficheros": [
+    {
+     "nombre": "calcular-el-tiempo-de-descarga.xml",
+     "ruta": "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/calcular-el-tiempo-de-descarga.xml",
+     "preguntas": 8
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "e"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "e"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0222 Sistemas operativos monopuesto",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0222"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "electricidad-y-electronica",
+   "subtema_nombre": "Electricidad y electrónica"
+  },
+  {
+   "id": "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir",
+   "textos": "ver/datos/hardware-electricidad-y-electronica-unidades-de-informacion-convertir-y-escribir.json",
+   "ruta": "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir",
+   "nombre": "Unidades de información: convertir y escribir",
+   "descripcion": "Conversiones entre bits, bytes y sus múltiplos decimales, y escritura de los nombres de las unidades.",
+   "dificultad": "medium",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Electricidad-y-electronica"
+   ],
+   "preguntas": 40,
+   "tipos": {
+    "cloze": 23,
+    "ddimageortext": 6,
+    "numerical": 6,
+    "shortanswer": 5
+   },
+   "ficheros": [
+    {
+     "nombre": "unidades-de-informacion-convertir-y-escribir.xml",
+     "ruta": "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/unidades-de-informacion-convertir-y-escribir.xml",
+     "preguntas": 40
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0222 Sistemas operativos monopuesto",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0222"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "electricidad-y-electronica",
+   "subtema_nombre": "Electricidad y electrónica"
+  },
+  {
+   "id": "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-elegir",
+   "textos": "ver/datos/hardware-electricidad-y-electronica-unidades-de-informacion-elegir.json",
+   "ruta": "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-elegir",
+   "nombre": "Unidades de información: elegir",
+   "descripcion": "Bits y bytes, abreviaturas y unidades de capacidad y de velocidad, eligiendo la opción correcta.",
+   "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Electricidad-y-electronica"
+   ],
+   "preguntas": 7,
+   "tipos": {
+    "cloze": 2,
+    "matching": 2,
+    "multichoice": 1,
+    "gapselect": 1,
+    "ordering": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "unidades-de-informacion-elegir.xml",
+     "ruta": "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-elegir/unidades-de-informacion-elegir.xml",
+     "preguntas": 7
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0222 Sistemas operativos monopuesto",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0222"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "electricidad-y-electronica",
+   "subtema_nombre": "Electricidad y electrónica"
+  },
+  {
    "id": "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion",
    "textos": "ver/datos/hardware-fuente-de-alimentacion-la-fuente-de-alimentacion.json",
    "ruta": "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion",
@@ -44,7 +687,7 @@ window.INDICE = {
    "readme": "actividades/hardware/fuente-de-alimentacion/la-fuente-de-alimentacion/README.md",
    "curriculo": [
     {
-     "ciclo": "Informática y Comunicaciones",
+     "ciclo": "FPB · Informática y Comunicaciones",
      "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
      "ra": "RA1",
      "ce": [
@@ -56,7 +699,7 @@ window.INDICE = {
      "codigo": "3029"
     },
     {
-     "ciclo": "Sistemas Microinformáticos y Redes",
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
      "modulo": "0221 Montaje y mantenimiento de equipos",
      "ra": "RA3",
      "ce": [
@@ -67,7 +710,7 @@ window.INDICE = {
      "codigo": "0221"
     },
     {
-     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
      "modulo": "0371 Fundamentos de Hardware",
      "ra": "RA1",
      "ce": [
@@ -122,7 +765,7 @@ window.INDICE = {
    "readme": "actividades/hardware/memoria/la-memoria-ram/README.md",
    "curriculo": [
     {
-     "ciclo": "Informática y Comunicaciones",
+     "ciclo": "FPB · Informática y Comunicaciones",
      "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
      "ra": "RA1",
      "ce": [
@@ -133,7 +776,7 @@ window.INDICE = {
      "codigo": "3029"
     },
     {
-     "ciclo": "Sistemas Microinformáticos y Redes",
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
      "modulo": "0221 Montaje y mantenimiento de equipos",
      "ra": "RA1",
      "ce": [
@@ -145,7 +788,7 @@ window.INDICE = {
      "codigo": "0221"
     },
     {
-     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
      "modulo": "0371 Fundamentos de Hardware",
      "ra": "RA1",
      "ce": [
@@ -158,7 +801,7 @@ window.INDICE = {
      "codigo": "0371"
     },
     {
-     "ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
      "modulo": "0483 Sistemas informáticos",
      "ra": "RA1",
      "ce": [
@@ -170,7 +813,7 @@ window.INDICE = {
      "codigo": "0483"
     },
     {
-     "ciclo": "Desarrollo de Aplicaciones Web",
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
      "modulo": "0483 Sistemas informáticos",
      "ra": "RA1",
      "ce": [
@@ -180,6 +823,98 @@ window.INDICE = {
      "sigla": "DAW",
      "nivel": "Grado Superior",
      "codigo": "0483"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "memoria",
+   "subtema_nombre": "Memoria"
+  },
+  {
+   "id": "actividades/hardware/memoria/memoria-ram-y-memoria-secundaria",
+   "textos": "ver/datos/hardware-memoria-memoria-ram-y-memoria-secundaria.json",
+   "ruta": "actividades/hardware/memoria/memoria-ram-y-memoria-secundaria",
+   "nombre": "Memoria RAM y memoria secundaria",
+   "descripcion": "Memoria volátil y no volátil, y diferencias entre la RAM y un SSD.",
+   "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Memoria"
+   ],
+   "preguntas": 3,
+   "tipos": {
+    "shortanswer": 1,
+    "ddmarker": 1,
+    "ddwtos": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "memoria-ram-y-memoria-secundaria.xml",
+     "ruta": "actividades/hardware/memoria/memoria-ram-y-memoria-secundaria/memoria-ram-y-memoria-secundaria.xml",
+     "preguntas": 3
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "FPB · Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "f"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA1",
+     "ce": [
+      "g"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
     }
    ],
    "tecnologias": [
@@ -227,7 +962,7 @@ window.INDICE = {
    "readme": "actividades/hardware/microprocesador/el-microprocesador/README.md",
    "curriculo": [
     {
-     "ciclo": "Informática y Comunicaciones",
+     "ciclo": "FPB · Informática y Comunicaciones",
      "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
      "ra": "RA1",
      "ce": [
@@ -238,7 +973,7 @@ window.INDICE = {
      "codigo": "3029"
     },
     {
-     "ciclo": "Sistemas Microinformáticos y Redes",
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
      "modulo": "0221 Montaje y mantenimiento de equipos",
      "ra": "RA1",
      "ce": [
@@ -251,7 +986,7 @@ window.INDICE = {
      "codigo": "0221"
     },
     {
-     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
      "modulo": "0371 Fundamentos de Hardware",
      "ra": "RA1",
      "ce": [
@@ -271,6 +1006,194 @@ window.INDICE = {
    "tema_nombre": "Hardware y montaje de equipos",
    "subtema": "microprocesador",
    "subtema_nombre": "Microprocesador"
+  },
+  {
+   "id": "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir",
+   "textos": "ver/datos/hardware-montaje-y-mantenimiento-componentes-del-ordenador-elegir.json",
+   "ruta": "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir",
+   "nombre": "Componentes del ordenador: elegir",
+   "descripcion": "Reconocer en una foto a qué categoría pertenece un componente y clasificar periféricos de entrada y salida.",
+   "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Montaje-y-mantenimiento"
+   ],
+   "preguntas": 9,
+   "tipos": {
+    "multichoice": 8,
+    "ddwtos": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "componentes-del-ordenador-elegir.xml",
+     "ruta": "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/componentes-del-ordenador-elegir.xml",
+     "preguntas": 9
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "d"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "d"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "FPB · Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "e"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "h"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "montaje-y-mantenimiento",
+   "subtema_nombre": "Montaje y mantenimiento"
+  },
+  {
+   "id": "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre",
+   "textos": "ver/datos/hardware-montaje-y-mantenimiento-componentes-y-perifericos-escribir-el-nombre.json",
+   "ruta": "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre",
+   "nombre": "Componentes y periféricos: escribir el nombre",
+   "descripcion": "Escribir el nombre de componentes internos y periféricos a partir de una foto y una descripción.",
+   "dificultad": "medium",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Montaje-y-mantenimiento"
+   ],
+   "preguntas": 18,
+   "tipos": {
+    "shortanswer": 18
+   },
+   "ficheros": [
+    {
+     "nombre": "componentes-y-perifericos-escribir-el-nombre.xml",
+     "ruta": "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/componentes-y-perifericos-escribir-el-nombre.xml",
+     "preguntas": 18
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "d"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "d"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "FPB · Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "e"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "d"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "h"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "montaje-y-mantenimiento",
+   "subtema_nombre": "Montaje y mantenimiento"
   },
   {
    "id": "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos",
@@ -308,7 +1231,7 @@ window.INDICE = {
    "readme": "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/README.md",
    "curriculo": [
     {
-     "ciclo": "Informática y Comunicaciones",
+     "ciclo": "FPB · Informática y Comunicaciones",
      "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
      "ra": "RA1",
      "ce": [
@@ -319,7 +1242,7 @@ window.INDICE = {
      "codigo": "3029"
     },
     {
-     "ciclo": "Sistemas Microinformáticos y Redes",
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
      "modulo": "0221 Montaje y mantenimiento de equipos",
      "ra": "RA1",
      "ce": [
@@ -331,7 +1254,7 @@ window.INDICE = {
      "codigo": "0221"
     },
     {
-     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
      "modulo": "0371 Fundamentos de Hardware",
      "ra": "RA1",
      "ce": [
@@ -344,7 +1267,7 @@ window.INDICE = {
      "codigo": "0371"
     },
     {
-     "ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
      "modulo": "0483 Sistemas informáticos",
      "ra": "RA1",
      "ce": [
@@ -355,7 +1278,7 @@ window.INDICE = {
      "codigo": "0483"
     },
     {
-     "ciclo": "Desarrollo de Aplicaciones Web",
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
      "modulo": "0483 Sistemas informáticos",
      "ra": "RA1",
      "ce": [
@@ -364,6 +1287,97 @@ window.INDICE = {
      "sigla": "DAW",
      "nivel": "Grado Superior",
      "codigo": "0483"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "perifericos-y-conectores",
+   "subtema_nombre": "Periféricos y conectores"
+  },
+  {
+   "id": "actividades/hardware/perifericos-y-conectores/panel-trasero-nombre-y-velocidad-de-cada-puerto",
+   "textos": "ver/datos/hardware-perifericos-y-conectores-panel-trasero-nombre-y-velocidad-de-cada-puerto.json",
+   "ruta": "actividades/hardware/perifericos-y-conectores/panel-trasero-nombre-y-velocidad-de-cada-puerto",
+   "nombre": "Panel trasero: nombre y velocidad de cada puerto",
+   "descripcion": "Escribir el nombre de cada puerto de paneles traseros reales, con el tipo y la velocidad de los USB.",
+   "dificultad": "hard",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Periféricos y conectores"
+   ],
+   "preguntas": 5,
+   "tipos": {
+    "cloze": 5
+   },
+   "ficheros": [
+    {
+     "nombre": "panel-trasero-nombre-y-velocidad-de-cada-puerto.xml",
+     "ruta": "actividades/hardware/perifericos-y-conectores/panel-trasero-nombre-y-velocidad-de-cada-puerto/panel-trasero-nombre-y-velocidad-de-cada-puerto.xml",
+     "preguntas": 5
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "FPB · Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "h"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA1",
+     "ce": [
+      "j"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "c",
+      "h"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
     }
    ],
    "tecnologias": [
@@ -409,7 +1423,7 @@ window.INDICE = {
    "readme": "actividades/hardware/perifericos-y-conectores/perifericos-y-tarjetas-de-expansion/README.md",
    "curriculo": [
     {
-     "ciclo": "Informática y Comunicaciones",
+     "ciclo": "FPB · Informática y Comunicaciones",
      "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
      "ra": "RA1",
      "ce": [
@@ -421,7 +1435,7 @@ window.INDICE = {
      "codigo": "3029"
     },
     {
-     "ciclo": "Sistemas Microinformáticos y Redes",
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
      "modulo": "0221 Montaje y mantenimiento de equipos",
      "ra": "RA8",
      "ce": [
@@ -433,7 +1447,7 @@ window.INDICE = {
      "codigo": "0221"
     },
     {
-     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
      "modulo": "0371 Fundamentos de Hardware",
      "ra": "RA1",
      "ce": [
@@ -444,7 +1458,7 @@ window.INDICE = {
      "codigo": "0371"
     },
     {
-     "ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
      "modulo": "0483 Sistemas informáticos",
      "ra": "RA1",
      "ce": [
@@ -455,7 +1469,7 @@ window.INDICE = {
      "codigo": "0483"
     },
     {
-     "ciclo": "Desarrollo de Aplicaciones Web",
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
      "modulo": "0483 Sistemas informáticos",
      "ra": "RA1",
      "ce": [
@@ -475,41 +1489,315 @@ window.INDICE = {
    "subtema_nombre": "Periféricos y conectores"
   },
   {
-   "id": "actividades/hardware/placa-base/componentes-de-la-placa-base",
-   "textos": "ver/datos/hardware-placa-base-componentes-de-la-placa-base.json",
-   "ruta": "actividades/hardware/placa-base/componentes-de-la-placa-base",
-   "nombre": "Componentes de la placa base",
-   "descripcion": "Preguntas de arrastrar y soltar para identificar los componentes y conectores de una placa base.",
+   "id": "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir",
+   "textos": "ver/datos/hardware-perifericos-y-conectores-puertos-y-cables-elegir.json",
+   "ruta": "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir",
+   "nombre": "Puertos y cables: elegir",
+   "descripcion": "Reconocer puertos y cables de vídeo, USB, red y audio, y los jacks de un sistema 7.1.",
    "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Periféricos y conectores"
+   ],
+   "preguntas": 19,
+   "tipos": {
+    "multichoice": 15,
+    "cloze": 3,
+    "matching": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "puertos-y-cables-elegir.xml",
+     "ruta": "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/puertos-y-cables-elegir.xml",
+     "preguntas": 19
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "FPB · Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "h"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA1",
+     "ce": [
+      "j"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "c",
+      "h"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "perifericos-y-conectores",
+   "subtema_nombre": "Periféricos y conectores"
+  },
+  {
+   "id": "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre",
+   "textos": "ver/datos/hardware-perifericos-y-conectores-puertos-y-cables-escribir-el-nombre.json",
+   "ruta": "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre",
+   "nombre": "Puertos y cables: escribir el nombre",
+   "descripcion": "Escribir el nombre de puertos y cables a partir de una foto, y arrastrar etiquetas sobre paneles traseros.",
+   "dificultad": "medium",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Periféricos y conectores"
+   ],
+   "preguntas": 15,
+   "tipos": {
+    "shortanswer": 9,
+    "cloze": 3,
+    "ddimageortext": 2,
+    "ddmarker": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "puertos-y-cables-escribir-el-nombre.xml",
+     "ruta": "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/puertos-y-cables-escribir-el-nombre.xml",
+     "preguntas": 15
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "FPB · Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA1",
+     "ce": [
+      "h"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA1",
+     "ce": [
+      "j"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "c",
+      "h"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "perifericos-y-conectores",
+   "subtema_nombre": "Periféricos y conectores"
+  },
+  {
+   "id": "actividades/hardware/placa-base/buscar-datos-en-el-manual-de-la-placa-base",
+   "textos": "ver/datos/hardware-placa-base-buscar-datos-en-el-manual-de-la-placa-base.json",
+   "ruta": "actividades/hardware/placa-base/buscar-datos-en-el-manual-de-la-placa-base",
+   "nombre": "Buscar datos en el manual de la placa base",
+   "descripcion": "Buscar en el manual del fabricante las características de una placa base: memoria, ranuras, conectores y teclas de la UEFI.",
+   "dificultad": "hard",
    "autor": "Noemí Pérez",
    "categorias": [
     "Hardware y montaje de equipos",
     "Placa base"
    ],
-   "preguntas": 6,
+   "preguntas": 4,
    "tipos": {
-    "ddimageortext": 4,
-    "ddmarker": 2
+    "cloze": 3,
+    "matching": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "buscar-datos-en-el-manual-de-la-placa-base.xml",
+     "ruta": "actividades/hardware/placa-base/buscar-datos-en-el-manual-de-la-placa-base/buscar-datos-en-el-manual-de-la-placa-base.xml",
+     "preguntas": 4
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "c"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "c"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "FPB · Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA2",
+     "ce": [
+      "b"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA2",
+     "ce": [
+      "b"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "a",
+      "b"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "placa-base",
+   "subtema_nombre": "Placa base"
+  },
+  {
+   "id": "actividades/hardware/placa-base/componentes-de-la-placa-base",
+   "textos": "ver/datos/hardware-placa-base-componentes-de-la-placa-base.json",
+   "ruta": "actividades/hardware/placa-base/componentes-de-la-placa-base",
+   "nombre": "Componentes de la placa base",
+   "descripcion": "Preguntas de arrastrar y soltar para identificar los componentes y conectores de una placa base.",
+   "dificultad": "medium",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Placa base"
+   ],
+   "preguntas": 11,
+   "tipos": {
+    "ddmarker": 7,
+    "ddimageortext": 4
    },
    "ficheros": [
     {
      "nombre": "arrastrar-soltar-placa-base.xml",
      "ruta": "actividades/hardware/placa-base/componentes-de-la-placa-base/arrastrar-soltar-placa-base.xml",
-     "preguntas": 6
+     "preguntas": 11
     }
    ],
-   "imagenes": [
-    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-asus-prime-a620m-a_1.png",
-    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-asus-z790-ayw-wifi-w_1.png",
-    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-gigabyte-ga-h110m-s2h_1.png",
-    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-gigabyte-h510m-s2h-v3_1.png",
-    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-gigabyte-x570-aorus-pro-wifi_1.png",
-    "actividades/hardware/placa-base/componentes-de-la-placa-base/images/arrastrar-soltar-placa-base/placa-base-msi-pro-b850-p-wifi_1.png"
-   ],
+   "imagenes": [],
    "readme": "actividades/hardware/placa-base/componentes-de-la-placa-base/README.md",
    "curriculo": [
     {
-     "ciclo": "Informática y Comunicaciones",
+     "ciclo": "FPB · Informática y Comunicaciones",
      "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
      "ra": "RA1",
      "ce": [
@@ -521,7 +1809,7 @@ window.INDICE = {
      "codigo": "3029"
     },
     {
-     "ciclo": "Sistemas Microinformáticos y Redes",
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
      "modulo": "0221 Montaje y mantenimiento de equipos",
      "ra": "RA2",
      "ce": [
@@ -532,7 +1820,7 @@ window.INDICE = {
      "codigo": "0221"
     },
     {
-     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
      "modulo": "0371 Fundamentos de Hardware",
      "ra": "RA1",
      "ce": [
@@ -544,7 +1832,7 @@ window.INDICE = {
      "codigo": "0371"
     },
     {
-     "ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
      "modulo": "0483 Sistemas informáticos",
      "ra": "RA1",
      "ce": [
@@ -555,7 +1843,7 @@ window.INDICE = {
      "codigo": "0483"
     },
     {
-     "ciclo": "Desarrollo de Aplicaciones Web",
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
      "modulo": "0483 Sistemas informáticos",
      "ra": "RA1",
      "ce": [
@@ -564,6 +1852,261 @@ window.INDICE = {
      "sigla": "DAW",
      "nivel": "Grado Superior",
      "codigo": "0483"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "placa-base",
+   "subtema_nombre": "Placa base"
+  },
+  {
+   "id": "actividades/hardware/placa-base/conectores-del-panel-frontal",
+   "textos": "ver/datos/hardware-placa-base-conectores-del-panel-frontal.json",
+   "ruta": "actividades/hardware/placa-base/conectores-del-panel-frontal",
+   "nombre": "Conectores del panel frontal",
+   "descripcion": "Conectores del panel frontal de la caja (POWER SW, RESET SW, LED, audio y USB) y su función.",
+   "dificultad": "medium",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Placa base"
+   ],
+   "preguntas": 5,
+   "tipos": {
+    "ddimageortext": 1,
+    "cloze": 1,
+    "matching": 1,
+    "multichoice": 1,
+    "shortanswer": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "conectores-del-panel-frontal.xml",
+     "ruta": "actividades/hardware/placa-base/conectores-del-panel-frontal/conectores-del-panel-frontal.xml",
+     "preguntas": 5
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "FPB · Informática y Comunicaciones",
+     "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
+     "ra": "RA2",
+     "ce": [
+      "f"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3029"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA2",
+     "ce": [
+      "b"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "c"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "placa-base",
+   "subtema_nombre": "Placa base"
+  },
+  {
+   "id": "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir",
+   "textos": "ver/datos/hardware-placa-base-el-arranque-uefi-post-y-secure-boot-elegir.json",
+   "ruta": "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir",
+   "nombre": "El arranque: UEFI, POST y Secure Boot: elegir",
+   "descripcion": "Proceso de arranque, firmware, UEFI, POST, orden de arranque, pila y Secure Boot, eligiendo la opción correcta.",
+   "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Placa base"
+   ],
+   "preguntas": 13,
+   "tipos": {
+    "multichoice": 11,
+    "cloze": 1,
+    "ordering": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "el-arranque-uefi-post-y-secure-boot-elegir.xml",
+     "ruta": "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/el-arranque-uefi-post-y-secure-boot-elegir.xml",
+     "preguntas": 13
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "c"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "c"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA2",
+     "ce": [
+      "f"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "hardware",
+   "tema_nombre": "Hardware y montaje de equipos",
+   "subtema": "placa-base",
+   "subtema_nombre": "Placa base"
+  },
+  {
+   "id": "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar",
+   "textos": "ver/datos/hardware-placa-base-el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar.json",
+   "ruta": "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar",
+   "nombre": "El arranque: UEFI, POST y Secure Boot: escribir y arrastrar",
+   "descripcion": "Nombres del firmware, del POST y del jumper de reseteo, e interfaces de BIOS y UEFI.",
+   "dificultad": "medium",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Hardware y montaje de equipos",
+    "Placa base"
+   ],
+   "preguntas": 4,
+   "tipos": {
+    "shortanswer": 3,
+    "ddimageortext": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar.xml",
+     "ruta": "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar/el-arranque-uefi-post-y-secure-boot-escribir-y-arrastrar.xml",
+     "preguntas": 4
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "c"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "c"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0371 Fundamentos de Hardware",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0371"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0221 Montaje y mantenimiento de equipos",
+     "ra": "RA2",
+     "ce": [
+      "f"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0221"
     }
    ],
    "tecnologias": [
@@ -607,7 +2150,7 @@ window.INDICE = {
    "readme": "actividades/hardware/placa-base/la-placa-base/README.md",
    "curriculo": [
     {
-     "ciclo": "Informática y Comunicaciones",
+     "ciclo": "FPB · Informática y Comunicaciones",
      "modulo": "3029 Montaje y mantenimiento de sistemas y componentes informáticos",
      "ra": "RA1",
      "ce": [
@@ -620,7 +2163,7 @@ window.INDICE = {
      "codigo": "3029"
     },
     {
-     "ciclo": "Sistemas Microinformáticos y Redes",
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
      "modulo": "0221 Montaje y mantenimiento de equipos",
      "ra": "RA1",
      "ce": [
@@ -633,7 +2176,7 @@ window.INDICE = {
      "codigo": "0221"
     },
     {
-     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
      "modulo": "0371 Fundamentos de Hardware",
      "ra": "RA1",
      "ce": [
@@ -646,7 +2189,7 @@ window.INDICE = {
      "codigo": "0371"
     },
     {
-     "ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
      "modulo": "0483 Sistemas informáticos",
      "ra": "RA1",
      "ce": [
@@ -658,7 +2201,7 @@ window.INDICE = {
      "codigo": "0483"
     },
     {
-     "ciclo": "Desarrollo de Aplicaciones Web",
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
      "modulo": "0483 Sistemas informáticos",
      "ra": "RA1",
      "ce": [
@@ -677,6 +2220,99 @@ window.INDICE = {
    "tema_nombre": "Hardware y montaje de equipos",
    "subtema": "placa-base",
    "subtema_nombre": "Placa base"
+  },
+  {
+   "id": "actividades/redes/cableado/componentes-de-una-red-local",
+   "textos": "ver/datos/redes-cableado-componentes-de-una-red-local.json",
+   "ruta": "actividades/redes/cableado/componentes-de-una-red-local",
+   "nombre": "Componentes de una red local",
+   "descripcion": "Identificar los dispositivos y elementos de una red local (switch, router, punto de acceso, rack, roseta…) y sus iconos.",
+   "dificultad": "medium",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Redes",
+    "Cableado"
+   ],
+   "preguntas": 19,
+   "tipos": {
+    "shortanswer": 14,
+    "ddimageortext": 4,
+    "matching": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "componentes-de-una-red-local.xml",
+     "ruta": "actividades/redes/cableado/componentes-de-una-red-local/componentes-de-una-red-local.xml",
+     "preguntas": 19
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "f"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "f"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "FPB · Informática y Comunicaciones",
+     "modulo": "3016 Instalación y mantenimiento de redes para transmisión de datos",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3016"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0225 Redes locales",
+     "ra": "RA1",
+     "ce": [
+      "c"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0225"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0370 Planificación y Administración de Redes",
+     "ra": "RA1",
+     "ce": [
+      "g",
+      "h"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0370"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "redes",
+   "tema_nombre": "Redes",
+   "subtema": "cableado",
+   "subtema_nombre": "Cableado"
   },
   {
    "id": "actividades/redes/cableado/conectores-rj45-t568",
@@ -710,7 +2346,7 @@ window.INDICE = {
    "readme": "actividades/redes/cableado/conectores-rj45-t568/README.md",
    "curriculo": [
     {
-     "ciclo": "Informática y Comunicaciones",
+     "ciclo": "FPB · Informática y Comunicaciones",
      "modulo": "3016 Instalación y mantenimiento de redes para transmisión de datos",
      "ra": "RA4",
      "ce": [
@@ -722,7 +2358,7 @@ window.INDICE = {
      "codigo": "3016"
     },
     {
-     "ciclo": "Sistemas Microinformáticos y Redes",
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
      "modulo": "0225 Redes locales",
      "ra": "RA3",
      "ce": [
@@ -733,11 +2369,102 @@ window.INDICE = {
      "codigo": "0225"
     },
     {
-     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
      "modulo": "0370 Planificación y Administración de Redes",
      "ra": "RA2",
      "ce": [
       "a",
+      "b"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0370"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "redes",
+   "tema_nombre": "Redes",
+   "subtema": "cableado",
+   "subtema_nombre": "Cableado"
+  },
+  {
+   "id": "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra",
+   "textos": "ver/datos/redes-cableado-medios-de-transmision-par-trenzado-coaxial-y-fibra.json",
+   "ruta": "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra",
+   "nombre": "Medios de transmisión: par trenzado, coaxial y fibra",
+   "descripcion": "Identificar cables de par trenzado, coaxial y fibra óptica, sus partes y sus conectores.",
+   "dificultad": "medium",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Redes",
+    "Cableado"
+   ],
+   "preguntas": 7,
+   "tipos": {
+    "shortanswer": 6,
+    "numerical": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "medios-de-transmision-par-trenzado-coaxial-y-fibra.xml",
+     "ruta": "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/medios-de-transmision-par-trenzado-coaxial-y-fibra.xml",
+     "preguntas": 7
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "f"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "f"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "FPB · Informática y Comunicaciones",
+     "modulo": "3016 Instalación y mantenimiento de redes para transmisión de datos",
+     "ra": "RA1",
+     "ce": [
+      "c"
+     ],
+     "sigla": "FPB-IC",
+     "nivel": "FP Básica",
+     "codigo": "3016"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0225 Redes locales",
+     "ra": "RA1",
+     "ce": [
+      "d"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0225"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0370 Planificación y Administración de Redes",
+     "ra": "RA1",
+     "ce": [
       "b"
      ],
      "sigla": "ASIR",
@@ -788,7 +2515,7 @@ window.INDICE = {
    "readme": "actividades/redes/cableado/paneles-de-parcheo-y-tomas-t568/README.md",
    "curriculo": [
     {
-     "ciclo": "Informática y Comunicaciones",
+     "ciclo": "FPB · Informática y Comunicaciones",
      "modulo": "3016 Instalación y mantenimiento de redes para transmisión de datos",
      "ra": "RA3",
      "ce": [
@@ -799,7 +2526,7 @@ window.INDICE = {
      "codigo": "3016"
     },
     {
-     "ciclo": "Sistemas Microinformáticos y Redes",
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
      "modulo": "0225 Redes locales",
      "ra": "RA2",
      "ce": [
@@ -810,7 +2537,7 @@ window.INDICE = {
      "codigo": "0225"
     },
     {
-     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
      "modulo": "0370 Planificación y Administración de Redes",
      "ra": "RA2",
      "ce": [
@@ -864,7 +2591,7 @@ window.INDICE = {
    "readme": "actividades/redes/cableado/tipos-de-apantallamiento/README.md",
    "curriculo": [
     {
-     "ciclo": "Informática y Comunicaciones",
+     "ciclo": "FPB · Informática y Comunicaciones",
      "modulo": "3016 Instalación y mantenimiento de redes para transmisión de datos",
      "ra": "RA1",
      "ce": [
@@ -875,7 +2602,7 @@ window.INDICE = {
      "codigo": "3016"
     },
     {
-     "ciclo": "Sistemas Microinformáticos y Redes",
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
      "modulo": "0225 Redes locales",
      "ra": "RA1",
      "ce": [
@@ -886,7 +2613,7 @@ window.INDICE = {
      "codigo": "0225"
     },
     {
-     "ciclo": "Administración de Sistemas Informáticos en Red",
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
      "modulo": "0370 Planificación y Administración de Redes",
      "ra": "RA2",
      "ce": [
@@ -904,6 +2631,320 @@ window.INDICE = {
    "tema_nombre": "Redes",
    "subtema": "cableado",
    "subtema_nombre": "Cableado"
+  },
+  {
+   "id": "actividades/redes/conmutacion-y-vlan/dispositivos-de-red-vlan-y-topologias",
+   "textos": "ver/datos/redes-conmutacion-y-vlan-dispositivos-de-red-vlan-y-topologias.json",
+   "ruta": "actividades/redes/conmutacion-y-vlan/dispositivos-de-red-vlan-y-topologias",
+   "nombre": "Dispositivos de red, VLAN y topologías",
+   "descripcion": "Switch o router, VLAN y topologías de conexión de switches.",
+   "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Redes",
+    "Conmutacion-y-vlan"
+   ],
+   "preguntas": 3,
+   "tipos": {
+    "multichoice": 3
+   },
+   "ficheros": [
+    {
+     "nombre": "dispositivos-de-red-vlan-y-topologias.xml",
+     "ruta": "actividades/redes/conmutacion-y-vlan/dispositivos-de-red-vlan-y-topologias/dispositivos-de-red-vlan-y-topologias.xml",
+     "preguntas": 3
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "f",
+      "g"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "f",
+      "g"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0225 Redes locales",
+     "ra": "RA1",
+     "ce": [
+      "g"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0225"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0370 Planificación y Administración de Redes",
+     "ra": "RA1",
+     "ce": [
+      "c",
+      "h"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0370"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "redes",
+   "tema_nombre": "Redes",
+   "subtema": "conmutacion-y-vlan",
+   "subtema_nombre": "Conmutación y VLAN"
+  },
+  {
+   "id": "actividades/redes/direccionamiento-ip/direcciones-ip-conceptos-basicos",
+   "textos": "ver/datos/redes-direccionamiento-ip-direcciones-ip-conceptos-basicos.json",
+   "ruta": "actividades/redes/direccionamiento-ip/direcciones-ip-conceptos-basicos",
+   "nombre": "Direcciones IP: conceptos básicos",
+   "descripcion": "Qué es una dirección IP, direcciones privadas y puerta de enlace.",
+   "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Redes",
+    "Direccionamiento-ip"
+   ],
+   "preguntas": 3,
+   "tipos": {
+    "multichoice": 2,
+    "cloze": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "direcciones-ip-conceptos-basicos.xml",
+     "ruta": "actividades/redes/direccionamiento-ip/direcciones-ip-conceptos-basicos/direcciones-ip-conceptos-basicos.xml",
+     "preguntas": 3
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA5",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA5",
+     "ce": [
+      "a"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0370 Planificación y Administración de Redes",
+     "ra": "RA2",
+     "ce": [
+      "d"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0370"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "redes",
+   "tema_nombre": "Redes",
+   "subtema": "direccionamiento-ip",
+   "subtema_nombre": "Direccionamiento IP"
+  },
+  {
+   "id": "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir",
+   "textos": "ver/datos/redes-fundamentos-tipos-de-redes-ethernet-y-wifi-elegir.json",
+   "ruta": "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir",
+   "nombre": "Tipos de redes, Ethernet y wifi: elegir",
+   "descripcion": "Tipos de red según su alcance (PAN, LAN, MAN y WAN), Ethernet y wifi, latencia y ancho de banda.",
+   "dificultad": "easy",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Redes",
+    "Fundamentos"
+   ],
+   "preguntas": 8,
+   "tipos": {
+    "multichoice": 5,
+    "ddwtos": 1,
+    "cloze": 1,
+    "matching": 1
+   },
+   "ficheros": [
+    {
+     "nombre": "tipos-de-redes-ethernet-y-wifi-elegir.xml",
+     "ruta": "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/tipos-de-redes-ethernet-y-wifi-elegir.xml",
+     "preguntas": 8
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "e"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "e"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0225 Redes locales",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0225"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0370 Planificación y Administración de Redes",
+     "ra": "RA1",
+     "ce": [
+      "c"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0370"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "redes",
+   "tema_nombre": "Redes",
+   "subtema": "fundamentos",
+   "subtema_nombre": "Fundamentos"
+  },
+  {
+   "id": "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar",
+   "textos": "ver/datos/redes-fundamentos-tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar.json",
+   "ruta": "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar",
+   "nombre": "Tipos de redes, Ethernet y wifi: escribir y arrastrar",
+   "descripcion": "Clasificar ejemplos de redes por su alcance y escribir los nombres de los tipos de red y de sus estándares.",
+   "dificultad": "medium",
+   "autor": "Noemí Pérez",
+   "categorias": [
+    "Redes",
+    "Fundamentos"
+   ],
+   "preguntas": 8,
+   "tipos": {
+    "ddmarker": 3,
+    "shortanswer": 3,
+    "ddimageortext": 2
+   },
+   "ficheros": [
+    {
+     "nombre": "tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar.xml",
+     "ruta": "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar.xml",
+     "preguntas": 8
+    }
+   ],
+   "imagenes": [],
+   "readme": "",
+   "curriculo": [
+    {
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "e"
+     ],
+     "sigla": "DAM",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
+     "modulo": "0483 Sistemas informáticos",
+     "ra": "RA1",
+     "ce": [
+      "e"
+     ],
+     "sigla": "DAW",
+     "nivel": "Grado Superior",
+     "codigo": "0483"
+    },
+    {
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
+     "modulo": "0225 Redes locales",
+     "ra": "RA1",
+     "ce": [
+      "b"
+     ],
+     "sigla": "SMR",
+     "nivel": "Grado Medio",
+     "codigo": "0225"
+    },
+    {
+     "ciclo": "ASIR · Administración de Sistemas Informáticos en Red",
+     "modulo": "0370 Planificación y Administración de Redes",
+     "ra": "RA1",
+     "ce": [
+      "c"
+     ],
+     "sigla": "ASIR",
+     "nivel": "Grado Superior",
+     "codigo": "0370"
+    }
+   ],
+   "tecnologias": [
+    "no-procede"
+   ],
+   "tema": "redes",
+   "tema_nombre": "Redes",
+   "subtema": "fundamentos",
+   "subtema_nombre": "Fundamentos"
   },
   {
    "id": "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor",
@@ -940,7 +2981,7 @@ window.INDICE = {
    "readme": "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/README.md",
    "curriculo": [
     {
-     "ciclo": "Sistemas Microinformáticos y Redes",
+     "ciclo": "SMR · Sistemas Microinformáticos y Redes",
      "modulo": "0222 Sistemas operativos monopuesto",
      "ra": "RA5",
      "ce": [
@@ -953,7 +2994,7 @@ window.INDICE = {
      "codigo": "0222"
     },
     {
-     "ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+     "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
      "modulo": "0483 Sistemas informáticos",
      "ra": "RA2",
      "ce": [
@@ -964,7 +3005,7 @@ window.INDICE = {
      "codigo": "0483"
     },
     {
-     "ciclo": "Desarrollo de Aplicaciones Web",
+     "ciclo": "DAW · Desarrollo de Aplicaciones Web",
      "modulo": "0483 Sistemas informáticos",
      "ra": "RA2",
      "ce": [

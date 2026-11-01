@@ -1,0 +1,56 @@
+{
+    "name": "Panel trasero: nombre y velocidad de cada puerto",
+    "description": "Escribir el nombre de cada puerto de paneles traseros reales, con el tipo y la velocidad de los USB.",
+    "difficulty": "hard",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@gobiernodecanarias.org",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a"
+            ]
+        },
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3029",
+            "ra": "RA1",
+            "ce": [
+                "h"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0221",
+            "ra": "RA1",
+            "ce": [
+                "j"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0371",
+            "ra": "RA1",
+            "ce": [
+                "c",
+                "h"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

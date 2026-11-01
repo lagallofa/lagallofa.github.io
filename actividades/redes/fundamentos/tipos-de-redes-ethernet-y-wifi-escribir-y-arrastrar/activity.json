@@ -1,0 +1,47 @@
+{
+    "name": "Tipos de redes, Ethernet y wifi: escribir y arrastrar",
+    "description": "Clasificar ejemplos de redes por su alcance y escribir los nombres de los tipos de red y de sus estándares.",
+    "difficulty": "medium",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@gobiernodecanarias.org",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "e"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "e"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0225",
+            "ra": "RA1",
+            "ce": [
+                "b"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0370",
+            "ra": "RA1",
+            "ce": [
+                "c"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

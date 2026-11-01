@@ -1,0 +1,49 @@
+{
+    "name": "Arquitectura de Von Neumann y Harvard: elegir y relacionar",
+    "description": "Programa almacenado, arquitecturas Von Neumann y Harvard, buses, ciclo de instrucción y niveles de lenguaje, eligiendo o relacionando.",
+    "difficulty": "easy",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@gobiernodecanarias.org",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0221",
+            "ra": "RA1",
+            "ce": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0371",
+            "ra": "RA1",
+            "ce": [
+                "a",
+                "c"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

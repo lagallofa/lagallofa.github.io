@@ -1,0 +1,23 @@
+{
+    "name": "Binario y hexadecimal sin ayuda",
+    "description": "Conversiones entre decimal, binario y hexadecimal sin tabla de pesos, también con 12 bits.",
+    "difficulty": "hard",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@gobiernodecanarias.org",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "SMR",
+            "modulo": "0222",
+            "ra": "RA1",
+            "ce": [
+                "b"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

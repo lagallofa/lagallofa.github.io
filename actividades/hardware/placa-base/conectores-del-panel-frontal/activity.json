@@ -1,0 +1,55 @@
+{
+    "name": "Conectores del panel frontal",
+    "description": "Conectores del panel frontal de la caja (POWER SW, RESET SW, LED, audio y USB) y su función.",
+    "difficulty": "medium",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@gobiernodecanarias.org",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a"
+            ]
+        },
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3029",
+            "ra": "RA2",
+            "ce": [
+                "f"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0221",
+            "ra": "RA2",
+            "ce": [
+                "b"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0371",
+            "ra": "RA1",
+            "ce": [
+                "c"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

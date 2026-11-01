@@ -181,7 +181,7 @@ def pregunta(q, capturas_xml, usadas):
                           for d in q.findall("drop")]
     elif tipo in ("ddwtos", "gapselect"):
         datos["enunciado"] = huecos(q)
-    elif tipo == "multianswer":
+    elif tipo in ("multianswer", "cloze"):
         datos["enunciado"] = cloze(datos["enunciado"])
     elif tipo == "coderunner":
         datos["codigo"] = q.findtext("answer") or ""
@@ -313,7 +313,9 @@ def nombrar(act, normativa):
     """Añade a cada tupla los nombres de nivel, ciclo y módulo, para el buscador."""
     for t in act["curriculo"]:
         ciclo = normativa[t["ciclo"]]
-        t.update(sigla=t["ciclo"], nivel=ciclo["nivel"], ciclo=ciclo["nombre"], codigo=t["modulo"],
+        # Siglas delante del nombre («FPB-IC» se muestra como «FPB»)
+        nombre_ciclo = f"{t['ciclo'].split('-')[0]} · {ciclo['nombre']}"
+        t.update(sigla=t["ciclo"], nivel=ciclo["nivel"], ciclo=nombre_ciclo, codigo=t["modulo"],
                  modulo=f"{t['modulo']} {ciclo['modulos'][t['modulo']]['nombre']}")
 
 

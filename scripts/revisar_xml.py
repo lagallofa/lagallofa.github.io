@@ -35,7 +35,7 @@ ERROR, AVISO = "error", "aviso"
 
 TIPOS_CONOCIDOS = {
     "multichoice", "truefalse", "shortanswer", "numerical", "matching", "essay", "description",
-    "ddimageortext", "ddmarker", "ddwtos", "gapselect", "multianswer", "calculated",
+    "ddimageortext", "ddmarker", "ddwtos", "gapselect", "multianswer", "cloze", "calculated",
     "calculatedsimple", "calculatedmulti", "randomsamatch", "ordering", "coderunner", "stack",
 }
 # Tipos cuyo contenido se ejecuta (en el servidor de Moodle o en un servidor de pruebas)
@@ -46,6 +46,7 @@ FIRMAS = {
     ".png": [b"\x89PNG\r\n\x1a\n"],
     ".jpg": [b"\xff\xd8\xff"],
     ".jpeg": [b"\xff\xd8\xff"],
+    ".jfif": [b"\xff\xd8\xff"],
     ".gif": [b"GIF87a", b"GIF89a"],
     ".webp": [b"RIFF"],
     ".pdf": [b"%PDF"],

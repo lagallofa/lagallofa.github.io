@@ -1,0 +1,55 @@
+{
+    "name": "Almacenamiento: HDD, SSD, formatos y conectores",
+    "description": "Diferencias entre HDD y SSD e identificación de su formato (2,5″, 3,5″, M.2) y su conexión (SATA o PCIe).",
+    "difficulty": "easy",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@gobiernodecanarias.org",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "b"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "b"
+            ]
+        },
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3029",
+            "ra": "RA1",
+            "ce": [
+                "f"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0221",
+            "ra": "RA1",
+            "ce": [
+                "g"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0371",
+            "ra": "RA1",
+            "ce": [
+                "a"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

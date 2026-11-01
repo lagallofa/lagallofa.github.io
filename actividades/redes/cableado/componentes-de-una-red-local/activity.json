@@ -1,0 +1,56 @@
+{
+    "name": "Componentes de una red local",
+    "description": "Identificar los dispositivos y elementos de una red local (switch, router, punto de acceso, rack, roseta…) y sus iconos.",
+    "difficulty": "medium",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@gobiernodecanarias.org",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "f"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "f"
+            ]
+        },
+        {
+            "ciclo": "FPB-IC",
+            "modulo": "3016",
+            "ra": "RA1",
+            "ce": [
+                "b"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0225",
+            "ra": "RA1",
+            "ce": [
+                "c"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0370",
+            "ra": "RA1",
+            "ce": [
+                "g",
+                "h"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

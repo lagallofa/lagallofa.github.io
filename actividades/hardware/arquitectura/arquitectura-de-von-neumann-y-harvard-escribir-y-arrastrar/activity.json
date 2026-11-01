@@ -1,0 +1,49 @@
+{
+    "name": "Arquitectura de Von Neumann y Harvard: escribir y arrastrar",
+    "description": "Componentes de la CPU, buses y arquitecturas, escribiendo el nombre o arrastrándolo sobre un esquema.",
+    "difficulty": "medium",
+    "author": {
+        "name": "Noemí Pérez",
+        "email": "nperpere@gobiernodecanarias.org",
+        "github": "noeper"
+    },
+    "curriculo": [
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA1",
+            "ce": [
+                "a"
+            ]
+        },
+        {
+            "ciclo": "SMR",
+            "modulo": "0221",
+            "ra": "RA1",
+            "ce": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "ciclo": "ASIR",
+            "modulo": "0371",
+            "ra": "RA1",
+            "ce": [
+                "a",
+                "c"
+            ]
+        }
+    ],
+    "tecnologias": [
+        "no-procede"
+    ]
+}

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/UT1 Sistemas informáticos/Calcular el tiempo de descarga</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151705018  -->
+  <question type="cloze">
+    <name>
+      <text>Unidades · Calcular tiempo de descarga 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 10px 0;">❓ Queremos descargar una canción que ocupa 10 kB y tenemos una conexión de 10 kbps. ¿Cuánto tardaremos en descargarnos dicha canción?</p>
+<ul>
+<li><span style="font-size: 0.9375rem;"><strong>Paso 1</strong>. Hay que pasar de kB a kb. Por lo tanto, <strong>10 kB</strong> son {1:SA:=80} <strong>kb</strong>.</span></li>
+<li><strong>Paso 2</strong>. Mi conexión es de <strong>10 kbps</strong>, es decir, <strong>en un segundo se descargan 10 kb</strong>. ¿Cuánto tiempo necesitaré para descargar los kb calculados en el <strong>paso 1</strong>? Necesitaré {1:SA:=8} segundos.</li>
+</ul>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p>La respuesta correcta es:</p>
+<div>
+<ul>
+<li><strong>Paso 1</strong>. Hay que pasar de kB a kb. Por lo tanto, 10 kB son <strong>80 </strong>kb.</li>
+<li><strong>Paso 2</strong>. Mi conexión es de 10 kbps, es decir, en un segundo se descargan 10 kb. ¿Cuánto tiempo necesitaré para descargar los kb calculados en el paso 1? Necesitaré <strong>8</strong> segundos.</li>
+</ul>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151705021  -->
+  <question type="cloze">
+    <name>
+      <text>Unidades · Calcular tiempo de descarga 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 10px 0;">❓ Queremos descargar una película que ocupa 600 MB y tenemos una conexión de 10 Mbps. ¿Cuánto tardaremos en descargarnos dicha película?</p>
+<ul>
+<li><span style="font-size: 0.9375rem;"><strong>Paso 1</strong>. Hay que pasar de MB a Mb. Por lo tanto, <strong>600 MB</strong> son {1:SA:=4800} <strong>Mb</strong>.</span></li>
+<li><strong>Paso 2</strong>. Mi conexión es de <strong>10 Mbps</strong>, es decir, <strong>en un segundo se descargan 10 Mb</strong>. ¿Cuánto tiempo necesitaré para descargar los Mb calculados en el <strong>paso 1</strong>? Necesitaré {1:SA:=480} segundos.</li>
+</ul>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p>La respuesta correcta es:</p>
+<div>
+<ul>
+<li><strong style="font-size: 0.9375rem;">Paso 1</strong><span style="font-size: 0.9375rem;">. Hay que pasar de MB a Mb. Por lo tanto, </span><span style="font-size: 0.9375rem;">600 MB</span><span style="font-size: 0.9375rem;"> son <strong>4800</strong> </span><span style="font-size: 0.9375rem;">Mb</span><span style="font-size: 0.9375rem;">.</span></li>
+</ul>
+</div>
+<div>
+<ul>
+<li><strong>Paso 2</strong>. Mi conexión es de 10 Mbps, es decir, en un segundo se descargan 10 Mb. ¿Cuánto tiempo necesitaré para descargar los Mb calculados en el paso 1? Necesitaré <strong>480</strong> segundos.</li>
+</ul>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151703777  -->
+  <question type="cloze">
+    <name>
+      <text>Unidades · Tiempo de descarga de un videojuego</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 10px 0;">❓ Un videojuego ocupa <strong>3 GB</strong> y tu conexión de fibra es de <strong>200 Mbps</strong>.</p>
+<p style="margin-top: 0;">■ Tiempo de descarga: {1:NUMERICAL:=120:0} segundos, es decir, {1:NUMERICAL:=2:0} minutos.</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="border: 1px solid #DCDFE5; border-radius: 8px; overflow: hidden; font-family: Arial, sans-serif; margin: 12px 0;">
+<div style="background-color: #0c7c59; color: white; padding: 6px 12px; font-weight: 600; font-size: 15px;">✅ Solución</div>
+<div style="background-color: #ffffff; padding: 16px 16px 4px 16px; line-height: 1.6; font-size: 1.05rem; overflow-x: auto;">
+<div style="margin: 0 0 12px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">💡 Explicación</p>
+<div style="margin: 0;">3 GB = 3000 MB = 24 000 Mb. Tiempo = 24 000 Mb ÷ 200 Mbps = 120 s = 2 minutos.</div>
+</div>
+<div style="margin: 0 0 12px 0;">3 GB = <strong>24000 Mb</strong> → 24000 ÷ 200 = <strong>120 s</strong> = <strong>2 minutos</strong></div>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151703775  -->
+  <question type="cloze">
+    <name>
+      <text>Unidades · Tiempo de descarga de un vídeo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 10px 0;">❓ Quieres descargar un vídeo de <strong>400 MB</strong> con una conexión de <strong>80 Mbps</strong>.</p>
+<p style="margin-bottom: 0;">■ Tiempo de descarga: {1:NUMERICAL:=40:0} segundos</p>
+<div style="margin-top: 16px; padding: 10px 14px; background-color: #fff8e1; border-left: 4px solid #f9a825; border-radius: 4px;">⚠️ Recuerda: la velocidad de la conexión se mide en <strong>bits</strong> por segundo y el tamaño del archivo en <strong>bytes</strong>.</div>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="border: 1px solid #DCDFE5; border-radius: 8px; overflow: hidden; font-family: Arial, sans-serif; margin: 12px 0;">
+<div style="background-color: #0c7c59; color: white; padding: 6px 12px; font-weight: 600; font-size: 15px;">✅ Solución</div>
+<div style="background-color: #ffffff; padding: 16px 16px 4px 16px; line-height: 1.6; font-size: 1.05rem; overflow-x: auto;">
+<div style="margin: 0 0 12px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">💡 Explicación</p>
+<div style="margin: 0;">Primero se igualan las unidades: 400 MB × 8 = 3200 Mb. Después se divide entre la velocidad: 3200 Mb ÷ 80 Mbps = 40 s.</div>
+</div>
+<div style="margin: 0 0 12px 0;">400 MB = <strong>3200 Mb</strong> → 3200 ÷ 80 = <strong>40 segundos</strong></div>
+</div>
+</div>]]></text>
+    </generalfeedback>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 151703790  -->
+  <question type="multichoice">
+    <name>
+      <text>Unidades · Tiempo de descarga: canción de 10 MB a 10 Mbps</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Queremos descargar una canción que ocupa 10 MB y tenemos una conexión de 10 Mbps. ¿Cuánto tardaremos en descargarnos dicha canción?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p>Para resolver este ejercicio hay que seguir los siguientes pasos:</p>
+<p>1) Pasar los 10 MB a Mbits. Si un byte son 8 bits, 10 MB tienen que ser 10x8 Mb, es decir:</p>
+<p style="margin-left: 30px;">«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»10«/mn»«mo»§#160;«/mo»«mi»M«/mi»«mi»B«/mi»«mo»§#160;«/mo»«mo»=«/mo»«mo»§#160;«/mo»«mn»10«/mn»«mo»§#160;«/mo»«mo»§#215;«/mo»«mo»§#160;«/mo»«mn»8«/mn»«mo»§#160;«/mo»«mo»=«/mo»«mo»§#160;«/mo»«mn»80«/mn»«mo»§#160;«/mo»«mi»M«/mi»«mi»b«/mi»«/math»</p>
+<p>2) Averiguar cuántos segundos necesito para descargar 80 Mb. Si para descargar 10 Mb necesito un segundo, para 80 Mb necesitaré:</p>
+<p style="margin-left: 30px;">«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mfrac»«mn»80«/mn»«mn»10«/mn»«/mfrac»«mo»=«/mo»«mn»8«/mn»«mo»§#160;«/mo»«mi»s«/mi»«/math»</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10 s.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1 s.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>8 s.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151703793  -->
+  <question type="multichoice">
+    <name>
+      <text>Unidades · Tiempo de descarga: canción de 12 kB a 10 kbps</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Queremos descargar una canción que ocupa 12 kB y tenemos una conexión de 10 kbps. ¿Cuánto tardaremos en descargarnos dicha canción?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p>Para resolver este ejercicio hay que seguir los siguientes pasos:</p>
+<p>1) Pasar los 12 kB a kb, es decir, multiplicar por 8:</p>
+<p style="margin-left: 30px;">«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»12«/mn»«mo»§#160;«/mo»«mi»k«/mi»«mi»B«/mi»«mo»§#160;«/mo»«mo»=«/mo»«mo»§#160;«/mo»«mn»12«/mn»«mo»§#160;«/mo»«mo»§#215;«/mo»«mo»§#160;«/mo»«mn»8«/mn»«mo»§#160;«/mo»«mo»=«/mo»«mo»§#160;«/mo»«mn»96«/mn»«mo»§#160;«/mo»«mi»k«/mi»«mi»b«/mi»«/math»</p>
+<p>2) Averiguar cuántos segundos necesito para descargar 96 kb. Si para descargar 10 kb necesito un segundo, ¿cuántos segundos necesitaré para descargar 96 kb?:</p>
+<p style="margin-left: 30px;">«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mfrac»«mn»96«/mn»«mn»10«/mn»«/mfrac»«mo»=«/mo»«mn»9«/mn»«mo»,«/mo»«mn»6«/mn»«mo»§#160;«/mo»«mi»s«/mi»«/math»</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>9,6 s.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1 s.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8 s.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10 s.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151704950  -->
+  <question type="multichoice">
+    <name>
+      <text>Unidades · Tiempo de descarga: canción de 2 B a 4 bps</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Queremos descargar una canción que ocupa 2 B y tenemos una conexión de 4 bps. ¿Cuánto tardaremos en descargarnos dicha canción?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p>Para resolver este ejercicio hay que seguir los siguientes pasos:</p>
+<p>1) Pasar los 2 bytes a bits, que son 16 bits:</p>
+<p style="margin-left: 30px;">«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»2«/mn»«mo»§#160;«/mo»«mi»B«/mi»«mo»§#160;«/mo»«mo»=«/mo»«mo»§#160;«/mo»«mn»2«/mn»«mo»§#160;«/mo»«mo»§#215;«/mo»«mo»§#160;«/mo»«mn»8«/mn»«mo»§#160;«/mo»«mo»=«/mo»«mo»§#160;«/mo»«mn»16«/mn»«mo»§#160;«/mo»«mi»b«/mi»«/math»</p>
+<p>2) Averiguar cuántos segundos necesito para descargar 16 b. Si para descargar 4 bits necesito un segundo, para 16 bits necesitaré:</p>
+<p style="margin-left: 30px;">«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mfrac»«mn»16«/mn»«mn»4«/mn»«/mfrac»«mo»=«/mo»«mn»4«/mn»«mo»§#160;«/mo»«mi»s«/mi»«/math»</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>4 s.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8 s.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2 s.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 151703797  -->
+  <question type="multichoice">
+    <name>
+      <text>Unidades · Tiempo de descarga: película de 600 MB a 100 Mbps</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0;">❓ Queremos descargar una película que ocupa 600 MBytes y tenemos una conexión de 100 Mbps. ¿Cuánto tardaremos en descargarnos dicha película?</p>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<div style="background-color: #ffffff; padding: 12px 14px; border-radius: 6px; border: 1px solid #DCDFE5; font-family: Arial, sans-serif; line-height: 1.6; margin: 6px 0;">
+<p style="margin: 0 0 6px 0; font-weight: bold; color: #0c7c59;">✅ Feedback</p>
+<p>Para resolver este ejercicio hay que seguir los siguientes pasos:</p>
+<p>1) Pasar los 600 MBytes a Mbits. Si un byte son 8 bits, 600 MB tienen que ser 600x8 Mb, es decir:</p>
+<p style="margin-left: 30px;">«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»600«/mn»«mo»§#160;«/mo»«mi»M«/mi»«mi»B«/mi»«mo»§#160;«/mo»«mo»=«/mo»«mo»§#160;«/mo»«mn»600«/mn»«mo»§#160;«/mo»«mo»§#215;«/mo»«mo»§#160;«/mo»«mn»8«/mn»«mo»§#160;«/mo»«mo»=«/mo»«mo»§#160;«/mo»«mn»4800«/mn»«mo»§#160;«/mo»«mi»M«/mi»«mi»b«/mi»«/math»</p>
+<p>2) Averiguar cuántos segundos necesito para descargar 4800 Mb. Si para descargar 100 Mb necesito un segundo, para 4800 Mb necesitaré:</p>
+<p style="margin-left: 30px;">«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mfrac»«mn»4800«/mn»«mn»100«/mn»«/mfrac»«mo»=«/mo»«mn»48«/mn»«mo»§#160;«/mo»«mi»s«/mi»«/math»</p>
+</div>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Respuesta correcta</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente correcta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>48 s.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>60 s.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10 s.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
