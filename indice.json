@@ -35,8 +35,13 @@
      "preguntas": 10
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-que-unidad-es-hdd-de-25_1.png",
+    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-que-unidad-es-hdd-de-35_1.png",
+    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-que-unidad-es-ssd-de-25-sata_1.png",
+    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-que-unidad-es-ssd-m2-sata_1.png"
+   ],
+   "readme": "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -127,8 +132,14 @@
      "preguntas": 9
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-arquitectura-harvard_1.png",
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-como-se-programaba-el-eniac_1.png",
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-la-idea-clave-de-von-neumann_1.png",
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-niveles-de-lenguaje_1.png",
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-que-unidad-funcional-opera-los-datos_1.png"
+   ],
+   "readme": "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -210,8 +221,15 @@
      "preguntas": 10
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-acronimo-de-cpu_1.png",
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-acronimo-de-ual-alu_1.png",
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-arrastrar-los-componentes-de-von-neumann_1.png",
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-arrastrar-niveles-de-lenguaje_1.png",
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-arrastrar-von-neumann-o-harvard_1.png",
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-instrucciones-almacenadas-en-memoria-programa_1.png"
+   ],
+   "readme": "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -294,8 +312,15 @@
      "preguntas": 20
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-capas-del-sistema-informatico_1.png",
+    "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-clasificar-portatil-moodle-pdf-y-profesor_1.png",
+    "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-componentes-de-un-sistema-informatico_1.png",
+    "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-moodle-no-es-todo-el-sistema-informatico_1.png",
+    "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-operaciones-al-hacer-y-guardar-una-foto_1.png",
+    "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-vf-el-hardware-es-solo-lo-de-dentro-de-la-caja_1.png"
+   ],
+   "readme": "actividades/hardware/arquitectura/el-sistema-informatico-componentes-operaciones-y-capas/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -374,7 +399,7 @@
     }
    ],
    "imagenes": [],
-   "readme": "",
+   "readme": "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-con-ayuda/README.md",
    "curriculo": [
     {
      "ciclo": "SMR · Sistemas Microinformáticos y Redes",
@@ -420,7 +445,7 @@
     }
    ],
    "imagenes": [],
-   "readme": "",
+   "readme": "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-sin-ayuda/README.md",
    "curriculo": [
     {
      "ciclo": "SMR · Sistemas Microinformáticos y Redes",
@@ -466,8 +491,13 @@
      "preguntas": 8
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/images/calcular-el-tiempo-de-descarga/unidades-tiempo-de-descarga-cancion-de-10-mb-a-10-mbps_1.png",
+    "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/images/calcular-el-tiempo-de-descarga/unidades-tiempo-de-descarga-cancion-de-12-kb-a-10-kbps_1.png",
+    "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/images/calcular-el-tiempo-de-descarga/unidades-tiempo-de-descarga-cancion-de-2-b-a-4-bps_1.png",
+    "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/images/calcular-el-tiempo-de-descarga/unidades-tiempo-de-descarga-pelicula-de-600-mb-a-100-mbps_1.png"
+   ],
+   "readme": "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -537,8 +567,15 @@
      "preguntas": 40
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/images/unidades-de-informacion-convertir-y-escribir/unidades-arrastrar-bit-o-byte_1.png",
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/images/unidades-de-informacion-convertir-y-escribir/unidades-arrastrar-bits-y-bytes_1.png",
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/images/unidades-de-informacion-convertir-y-escribir/unidades-arrastrar-dividir-o-multiplicar_1.png",
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/images/unidades-de-informacion-convertir-y-escribir/unidades-arrastrar-escalas_1.png",
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/images/unidades-de-informacion-convertir-y-escribir/unidades-arrastrar-la-escalera-gb-mb-y-b_1.png",
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/images/unidades-de-informacion-convertir-y-escribir/unidades-cuantos-bytes-son-1-kb_1.png"
+   ],
+   "readme": "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -609,8 +646,10 @@
      "preguntas": 7
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-elegir/images/unidades-de-informacion-elegir/unidades-abreviatura-de-kilobyte_1.png"
+   ],
+   "readme": "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-elegir/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -1034,8 +1073,14 @@
      "preguntas": 9
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/images/componentes-del-ordenador-elegir/componentes-que-componente-es-fuente-de-alimentacion_1.png",
+    "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/images/componentes-del-ordenador-elegir/componentes-que-componente-es-interfaz-de-es_1.png",
+    "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/images/componentes-del-ordenador-elegir/componentes-que-componente-es-memoria-principal_1.png",
+    "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/images/componentes-del-ordenador-elegir/componentes-que-componente-es-memoria-secundaria_1.png",
+    "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/images/componentes-del-ordenador-elegir/componentes-que-componente-es-microprocesador_1.png"
+   ],
+   "readme": "actividades/hardware/montaje-y-mantenimiento/componentes-del-ordenador-elegir/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -1127,8 +1172,14 @@
      "preguntas": 18
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/images/componentes-y-perifericos-escribir-el-nombre/componentes-identificar-caja_1.png",
+    "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/images/componentes-y-perifericos-escribir-el-nombre/componentes-identificar-disco-duro-hdd_1.png",
+    "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/images/componentes-y-perifericos-escribir-el-nombre/componentes-identificar-disipador_1.png",
+    "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/images/componentes-y-perifericos-escribir-el-nombre/componentes-identificar-fuente-de-alimentacion_1.png",
+    "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/images/componentes-y-perifericos-escribir-el-nombre/componentes-identificar-memoria-ram_1.png"
+   ],
+   "readme": "actividades/hardware/montaje-y-mantenimiento/componentes-y-perifericos-escribir-el-nombre/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -2706,8 +2757,12 @@
      "preguntas": 3
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/redes/conmutacion-y-vlan/dispositivos-de-red-vlan-y-topologias/images/dispositivos-de-red-vlan-y-topologias/switch-o-router_1.png",
+    "actividades/redes/conmutacion-y-vlan/dispositivos-de-red-vlan-y-topologias/images/dispositivos-de-red-vlan-y-topologias/topologias-de-switches_1.png",
+    "actividades/redes/conmutacion-y-vlan/dispositivos-de-red-vlan-y-topologias/images/dispositivos-de-red-vlan-y-topologias/vlan_1.png"
+   ],
+   "readme": "actividades/redes/conmutacion-y-vlan/dispositivos-de-red-vlan-y-topologias/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -2789,8 +2844,11 @@
      "preguntas": 3
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/redes/direccionamiento-ip/direcciones-ip-conceptos-basicos/images/direcciones-ip-conceptos-basicos/direccionamiento-ip-direcciones-ip-privadas_1.png",
+    "actividades/redes/direccionamiento-ip/direcciones-ip-conceptos-basicos/images/direcciones-ip-conceptos-basicos/direccionamiento-ip-puerta-de-enlace_1.png"
+   ],
+   "readme": "actividades/redes/direccionamiento-ip/direcciones-ip-conceptos-basicos/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -2860,8 +2918,14 @@
      "preguntas": 8
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/images/tipos-de-redes-ethernet-y-wifi-elegir/comunicacion-tipos-de-comunicacion_1.png",
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/images/tipos-de-redes-ethernet-y-wifi-elegir/tipos-de-redes-caracteristica-principal-de-ethernet_1.png",
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/images/tipos-de-redes-ethernet-y-wifi-elegir/tipos-de-redes-elegir-el-tipo-de-red-aula_1.png",
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/images/tipos-de-redes-ethernet-y-wifi-elegir/tipos-de-redes-elegir-el-tipo-de-red-ciudad_1.png",
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/images/tipos-de-redes-ethernet-y-wifi-elegir/tipos-de-redes-elegir-el-tipo-de-red-empresa_1.png"
+   ],
+   "readme": "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",
@@ -2941,8 +3005,15 @@
      "preguntas": 8
     }
    ],
-   "imagenes": [],
-   "readme": "",
+   "imagenes": [
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/images/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/ethernet-y-wifi-marcadores-ventajas-de-cable-y-wifi_1.png",
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/images/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/tipos-de-redes-arrastrar-lan-man-o-wan-bajo-cada-imagen-1_1.png",
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/images/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/tipos-de-redes-arrastrar-lan-man-o-wan-bajo-cada-imagen-2_1.png",
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/images/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/tipos-de-redes-escribir-red-de-un-hogar-u-oficina-lan_1.png",
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/images/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/tipos-de-redes-estandar-de-las-lan-cableadas-ethernet_1.png",
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/images/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/tipos-de-redes-marcadores-ejemplos-de-red-por-tipo-1_1.png"
+   ],
+   "readme": "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-escribir-y-arrastrar/README.md",
    "curriculo": [
     {
      "ciclo": "DAM · Desarrollo de Aplicaciones Multiplataforma",

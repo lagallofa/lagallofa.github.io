@@ -11,20 +11,20 @@ title: La Gallofa: actividades de FP de Informática
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 370 |
-| ![shortanswer](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/shortanswer.svg) | Respuesta corta | 37 |
-| ![ddimageortext](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddimageortext.svg) | Arrastrar y soltar imagen o texto | 19 |
-| ![ddmarker](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddmarker.svg) | Arrastrar y soltar marcador | 18 |
-| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | Verdadero/Falso | 17 |
-|   | **TOTAL**         | 461 |
+| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 417 |
+| ![shortanswer](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/shortanswer.svg) | Respuesta corta | 67 |
+| ![ddimageortext](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddimageortext.svg) | Arrastrar y soltar imagen o texto | 30 |
+| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | Verdadero/Falso | 19 |
+| ![ddmarker](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddmarker.svg) | Arrastrar y soltar marcador | 21 |
+|   | **TOTAL**         | 554 |
 
 
 ## Categorías
 | Nombre              | Descripción                   | Preguntas |
 | ------------------- | ----------------------------- | --------- |
 | [Sistemas operativos](sistemas-operativos) |  | 2 |
-| [Hardware y montaje de equipos](hardware) |  | 413 |
-| [Redes](redes) |  | 46 |
+| [Hardware y montaje de equipos](hardware) |  | 488 |
+| [Redes](redes) |  | 64 |
 
 
 
