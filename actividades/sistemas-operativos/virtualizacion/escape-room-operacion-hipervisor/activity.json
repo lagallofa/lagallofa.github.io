@@ -8,9 +8,35 @@
         "github": "noeper"
     },
     "curriculo": [
-        { "ciclo": "SMR", "modulo": "0222", "ra": "RA5", "ce": ["a", "b", "f"] },
-        { "ciclo": "DAM", "modulo": "0483", "ra": "RA2", "ce": ["g"] },
-        { "ciclo": "DAW", "modulo": "0483", "ra": "RA2", "ce": ["g"] }
+        {
+            "ciclo": "SMR",
+            "modulo": "0222",
+            "ra": "RA5",
+            "ce": [
+                "a",
+                "b",
+                "f"
+            ]
+        },
+        {
+            "ciclo": "DAM",
+            "modulo": "0483",
+            "ra": "RA2",
+            "ce": [
+                "g"
+            ]
+        },
+        {
+            "ciclo": "DAW",
+            "modulo": "0483",
+            "ra": "RA2",
+            "ce": [
+                "g"
+            ]
+        }
     ],
-    "tecnologias": ["virtualbox"]
+    "tecnologias": [
+        "virtualbox"
+    ],
+    "limit": 1000
 }
