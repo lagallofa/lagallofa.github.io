@@ -20,8 +20,22 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 4 |
-|   | **TOTAL**         | 4 |
+| ![cloze](https://raw.githubusercontent.com/noeper/actirepo/main/icons/cloze.svg) | [Respuestas anidadas (Cloze)](#respuestas-anidadas-cloze) | 4 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 4 |
+|   | **TOTAL**         | 8 |
+
+
+#### Respuestas anidadas (Cloze)
+
+
+![Unidades · Calcular tiempo de descarga 1](images/calcular-el-tiempo-de-descarga/unidades-calcular-tiempo-de-descarga-1_1.png)
+
+![Unidades · Calcular tiempo de descarga 2](images/calcular-el-tiempo-de-descarga/unidades-calcular-tiempo-de-descarga-2_1.png)
+
+![Unidades · Tiempo de descarga de un videojuego](images/calcular-el-tiempo-de-descarga/unidades-tiempo-de-descarga-de-un-videojuego_1.png)
+
+![Unidades · Tiempo de descarga de un vídeo](images/calcular-el-tiempo-de-descarga/unidades-tiempo-de-descarga-de-un-video_1.png)
+
 
 
 #### Selección múltiple

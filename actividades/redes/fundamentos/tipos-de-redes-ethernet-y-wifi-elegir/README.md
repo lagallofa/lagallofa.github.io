@@ -20,8 +20,11 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 5 |
-|   | **TOTAL**         | 5 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 5 |
+| ![ddwtos](https://raw.githubusercontent.com/noeper/actirepo/main/icons/ddwtos.svg) | [Arrastrar y soltar sobre texto](#arrastrar-y-soltar-sobre-texto) | 1 |
+| ![cloze](https://raw.githubusercontent.com/noeper/actirepo/main/icons/cloze.svg) | [Respuestas anidadas (Cloze)](#respuestas-anidadas-cloze) | 1 |
+| ![matching](https://raw.githubusercontent.com/noeper/actirepo/main/icons/matching.svg) | [Emparejamiento](#emparejamiento) | 1 |
+|   | **TOTAL**         | 8 |
 
 
 #### Selección múltiple
@@ -36,6 +39,27 @@ Ficheros de preguntas disponibles en esta actividad:
 ![Tipos de redes · Elegir el tipo de red (ciudad)](images/tipos-de-redes-ethernet-y-wifi-elegir/tipos-de-redes-elegir-el-tipo-de-red-ciudad_1.png)
 
 ![Tipos de redes · Elegir el tipo de red (empresa)](images/tipos-de-redes-ethernet-y-wifi-elegir/tipos-de-redes-elegir-el-tipo-de-red-empresa_1.png)
+
+
+
+#### Arrastrar y soltar sobre texto
+
+
+![Ethernet y wifi · Arrastrar: latencia y ancho de banda](images/tipos-de-redes-ethernet-y-wifi-elegir/ethernet-y-wifi-arrastrar-latencia-y-ancho-de-banda_1.png)
+
+
+
+#### Respuestas anidadas (Cloze)
+
+
+![Ethernet y wifi · Ethernet o wifi para jugar](images/tipos-de-redes-ethernet-y-wifi-elegir/ethernet-y-wifi-ethernet-o-wifi-para-jugar_1.png)
+
+
+
+#### Emparejamiento
+
+
+![Tipos de redes · Relacionar ejemplos con el tipo de red](images/tipos-de-redes-ethernet-y-wifi-elegir/tipos-de-redes-relacionar-ejemplos-con-el-tipo-de-red_1.png)
 
 
 

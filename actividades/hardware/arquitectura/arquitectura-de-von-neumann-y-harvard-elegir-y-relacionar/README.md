@@ -20,8 +20,10 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 5 |
-|   | **TOTAL**         | 5 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 5 |
+| ![matching](https://raw.githubusercontent.com/noeper/actirepo/main/icons/matching.svg) | [Emparejamiento](#emparejamiento) | 3 |
+| ![cloze](https://raw.githubusercontent.com/noeper/actirepo/main/icons/cloze.svg) | [Respuestas anidadas (Cloze)](#respuestas-anidadas-cloze) | 1 |
+|   | **TOTAL**         | 9 |
 
 
 #### Selección múltiple
@@ -36,6 +38,24 @@ Ficheros de preguntas disponibles en esta actividad:
 ![Arquitectura · Niveles de lenguaje](images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-niveles-de-lenguaje_1.png)
 
 ![Arquitectura · ¿Qué unidad funcional opera los datos?](images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-que-unidad-funcional-opera-los-datos_1.png)
+
+
+
+#### Emparejamiento
+
+
+![Arquitectura · Buses del sistema](images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-buses-del-sistema_1.png)
+
+![Arquitectura · Ciclo de instrucción](images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-ciclo-de-instruccion_1.png)
+
+![Arquitectura · Componentes de la máquina de Von Neumann](images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-componentes-de-la-maquina-de-von-neumann_1.png)
+
+
+
+#### Respuestas anidadas (Cloze)
+
+
+![Arquitectura · Pregunta teórica sobre Von Neumann](images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-pregunta-teorica-sobre-von-neumann_1.png)
 
 
 

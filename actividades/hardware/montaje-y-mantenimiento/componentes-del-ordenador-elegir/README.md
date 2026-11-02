@@ -20,8 +20,9 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 8 |
-|   | **TOTAL**         | 8 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 8 |
+| ![ddwtos](https://raw.githubusercontent.com/noeper/actirepo/main/icons/ddwtos.svg) | [Arrastrar y soltar sobre texto](#arrastrar-y-soltar-sobre-texto) | 1 |
+|   | **TOTAL**         | 9 |
 
 
 #### Selección múltiple
@@ -42,6 +43,13 @@ Ficheros de preguntas disponibles en esta actividad:
 ![Componentes · ¿Qué componente es? (placa base)](images/componentes-del-ordenador-elegir/componentes-que-componente-es-placa-base_1.png)
 
 ![Componentes · ¿Qué componente es? (tarjeta gráfica)](images/componentes-del-ordenador-elegir/componentes-que-componente-es-tarjeta-grafica_1.png)
+
+
+
+#### Arrastrar y soltar sobre texto
+
+
+![Periféricos · De entrada, salida o entrada/salida](images/componentes-del-ordenador-elegir/perifericos-de-entrada-salida-o-entradasalida_1.png)
 
 
 

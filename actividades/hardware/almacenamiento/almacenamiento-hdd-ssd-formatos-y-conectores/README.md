@@ -20,8 +20,26 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 4 |
-|   | **TOTAL**         | 4 |
+| ![cloze](https://raw.githubusercontent.com/noeper/actirepo/main/icons/cloze.svg) | [Respuestas anidadas (Cloze)](#respuestas-anidadas-cloze) | 6 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 4 |
+|   | **TOTAL**         | 10 |
+
+
+#### Respuestas anidadas (Cloze)
+
+
+![Almacenamiento · Factor de forma y conector de la unidad 1](images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-factor-de-forma-y-conector-de-la-unidad-1_1.png)
+
+![Almacenamiento · Factor de forma y conector de la unidad 2](images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-factor-de-forma-y-conector-de-la-unidad-2_1.png)
+
+![Almacenamiento · Factor de forma y conector de la unidad 3](images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-factor-de-forma-y-conector-de-la-unidad-3_1.png)
+
+![Almacenamiento · HDD frente a SSD](images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-hdd-frente-a-ssd_1.png)
+
+![Almacenamiento · Qué mejora la memoria secundaria](images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-que-mejora-la-memoria-secundaria_1.png)
+
+![Almacenamiento · Tipo, factor de forma y conector de la unidad](images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-tipo-factor-de-forma-y-conector-de-la-unidad_1.png)
+
 
 
 #### Selección múltiple

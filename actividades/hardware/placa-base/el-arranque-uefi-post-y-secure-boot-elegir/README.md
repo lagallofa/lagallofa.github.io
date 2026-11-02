@@ -20,8 +20,10 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 11 |
-|   | **TOTAL**         | 11 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 11 |
+| ![cloze](https://raw.githubusercontent.com/noeper/actirepo/main/icons/cloze.svg) | [Respuestas anidadas (Cloze)](#respuestas-anidadas-cloze) | 1 |
+| ![ordering](https://raw.githubusercontent.com/noeper/actirepo/main/icons/ordering.svg) | [Ordenación](#ordenación) | 1 |
+|   | **TOTAL**         | 13 |
 
 
 #### Selección múltiple
@@ -48,6 +50,20 @@ Ficheros de preguntas disponibles en esta actividad:
 ![Arranque · ¿Qué es Secure Boot?](images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-que-es-secure-boot_1.png)
 
 ![Arranque · ¿Qué es el POST?](images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-que-es-el-post_1.png)
+
+
+
+#### Respuestas anidadas (Cloze)
+
+
+![Arranque · La UEFI y el arranque](images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-la-uefi-y-el-arranque_1.png)
+
+
+
+#### Ordenación
+
+
+![Arranque · Ordenar el proceso de arranque](images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-ordenar-el-proceso-de-arranque_1.png)
 
 
 

@@ -11,7 +11,7 @@ Conmutadores, VLAN
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 3 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | Selección múltiple | 3 |
 |   | **TOTAL**         | 3 |
 
 

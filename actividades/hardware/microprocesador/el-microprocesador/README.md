@@ -20,10 +20,11 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 57 |
-| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | [Verdadero/Falso](#verdaderofalso) | 8 |
-| ![shortanswer](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 2 |
-|   | **TOTAL**         | 67 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 57 |
+| ![truefalse](https://raw.githubusercontent.com/noeper/actirepo/main/icons/truefalse.svg) | [Verdadero/Falso](#verdaderofalso) | 8 |
+| ![matching](https://raw.githubusercontent.com/noeper/actirepo/main/icons/matching.svg) | [Emparejamiento](#emparejamiento) | 7 |
+| ![shortanswer](https://raw.githubusercontent.com/noeper/actirepo/main/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 2 |
+|   | **TOTAL**         | 74 |
 
 
 #### Selección múltiple
@@ -72,12 +73,31 @@ Ficheros de preguntas disponibles en esta actividad:
 
 
 
-#### Respuesta corta
+#### Emparejamiento
 
+
+![encapsulado](images/questions/encapsulado_5.png)
 
 ![fabricacion](images/questions/fabricacion_1.png)
 
+![memoria cache](images/questions/memoria-cache_1.png)
+
+![memoria cache](images/questions/memoria-cache_2.png)
+
+![partes logicas micro](images/questions/partes-logicas-micro_1.png)
+
+![refrigeracion liquida](images/questions/refrigeracion-liquida_1.png)
+
 ![registros](images/questions/registros_1.png)
+
+
+
+#### Respuesta corta
+
+
+![fabricacion](images/questions/fabricacion_2.png)
+
+![registros](images/questions/registros_2.png)
 
 
 

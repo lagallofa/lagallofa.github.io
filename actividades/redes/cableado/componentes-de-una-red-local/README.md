@@ -20,9 +20,10 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![ddimageortext](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddimageortext.svg) | [Arrastrar y soltar imagen o texto](#arrastrar-y-soltar-imagen-o-texto) | 4 |
-| ![shortanswer](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 14 |
-|   | **TOTAL**         | 18 |
+| ![ddimageortext](https://raw.githubusercontent.com/noeper/actirepo/main/icons/ddimageortext.svg) | [Arrastrar y soltar imagen o texto](#arrastrar-y-soltar-imagen-o-texto) | 4 |
+| ![shortanswer](https://raw.githubusercontent.com/noeper/actirepo/main/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 14 |
+| ![matching](https://raw.githubusercontent.com/noeper/actirepo/main/icons/matching.svg) | [Emparejamiento](#emparejamiento) | 1 |
+|   | **TOTAL**         | 19 |
 
 
 #### Arrastrar y soltar imagen o texto
@@ -68,6 +69,13 @@ Ficheros de preguntas disponibles en esta actividad:
 ![Componentes de red · Identificar: switch](images/componentes-de-una-red-local/componentes-de-red-identificar-switch_1.png)
 
 ![Componentes de red · Identificar: tarjeta de red](images/componentes-de-una-red-local/componentes-de-red-identificar-tarjeta-de-red_1.png)
+
+
+
+#### Emparejamiento
+
+
+![Componentes de red · Relacionar dispositivos de red con su función](images/componentes-de-una-red-local/componentes-de-red-relacionar-dispositivos-de-red-con-su-funcion_1.png)
 
 
 

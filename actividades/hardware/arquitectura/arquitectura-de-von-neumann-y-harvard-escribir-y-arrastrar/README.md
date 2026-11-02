@@ -20,9 +20,10 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![shortanswer](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 4 |
-| ![ddimageortext](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddimageortext.svg) | [Arrastrar y soltar imagen o texto](#arrastrar-y-soltar-imagen-o-texto) | 3 |
-|   | **TOTAL**         | 7 |
+| ![shortanswer](https://raw.githubusercontent.com/noeper/actirepo/main/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 4 |
+| ![ddimageortext](https://raw.githubusercontent.com/noeper/actirepo/main/icons/ddimageortext.svg) | [Arrastrar y soltar imagen o texto](#arrastrar-y-soltar-imagen-o-texto) | 3 |
+| ![cloze](https://raw.githubusercontent.com/noeper/actirepo/main/icons/cloze.svg) | [Respuestas anidadas (Cloze)](#respuestas-anidadas-cloze) | 3 |
+|   | **TOTAL**         | 10 |
 
 
 #### Respuesta corta
@@ -46,6 +47,17 @@ Ficheros de preguntas disponibles en esta actividad:
 ![Arquitectura · Arrastrar niveles de lenguaje](images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-arrastrar-niveles-de-lenguaje_1.png)
 
 ![Arquitectura · Arrastrar: Von Neumann o Harvard](images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-arrastrar-von-neumann-o-harvard_1.png)
+
+
+
+#### Respuestas anidadas (Cloze)
+
+
+![Arquitectura · Identificar arquitecturas Von Neumann y Harvard](images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-identificar-arquitecturas-von-neumann-y-harvard_1.png)
+
+![Arquitectura · Nombrar los buses del sistema](images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-nombrar-los-buses-del-sistema_1.png)
+
+![Arquitectura · Pregunta teórica sobre la unidad de control](images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-pregunta-teorica-sobre-la-unidad-de-control_1.png)
 
 
 

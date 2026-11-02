@@ -20,9 +20,10 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 98 |
-| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | [Verdadero/Falso](#verdaderofalso) | 3 |
-|   | **TOTAL**         | 101 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 98 |
+| ![truefalse](https://raw.githubusercontent.com/noeper/actirepo/main/icons/truefalse.svg) | [Verdadero/Falso](#verdaderofalso) | 3 |
+| ![matching](https://raw.githubusercontent.com/noeper/actirepo/main/icons/matching.svg) | [Emparejamiento](#emparejamiento) | 5 |
+|   | **TOTAL**         | 106 |
 
 
 #### Selección múltiple
@@ -48,6 +49,21 @@ Ficheros de preguntas disponibles en esta actividad:
 ![latencias](images/la%20memoria%20ram/latencias_1.png)
 
 ![latencias](images/la%20memoria%20ram/latencias_2.png)
+
+
+
+#### Emparejamiento
+
+
+![caracteristicas](images/la%20memoria%20ram/caracteristicas_1.png)
+
+![latencias](images/la%20memoria%20ram/latencias_3.png)
+
+![memoria](images/la%20memoria%20ram/memoria_1.png)
+
+![memoria](images/la%20memoria%20ram/memoria_2.png)
+
+![memoria](images/la%20memoria%20ram/memoria_3.png)
 
 
 

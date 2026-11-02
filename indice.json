@@ -36,10 +36,12 @@
     }
    ],
    "imagenes": [
-    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-que-unidad-es-hdd-de-25_1.png",
-    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-que-unidad-es-hdd-de-35_1.png",
-    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-que-unidad-es-ssd-de-25-sata_1.png",
-    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-que-unidad-es-ssd-m2-sata_1.png"
+    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-factor-de-forma-y-conector-de-la-unidad-1_1.png",
+    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-factor-de-forma-y-conector-de-la-unidad-2_1.png",
+    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-factor-de-forma-y-conector-de-la-unidad-3_1.png",
+    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-hdd-frente-a-ssd_1.png",
+    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-que-mejora-la-memoria-secundaria_1.png",
+    "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/images/almacenamiento-hdd-ssd-formatos-y-conectores/almacenamiento-que-unidad-es-hdd-de-25_1.png"
    ],
    "readme": "actividades/hardware/almacenamiento/almacenamiento-hdd-ssd-formatos-y-conectores/README.md",
    "curriculo": [
@@ -134,10 +136,11 @@
    ],
    "imagenes": [
     "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-arquitectura-harvard_1.png",
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-buses-del-sistema_1.png",
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-ciclo-de-instruccion_1.png",
     "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-como-se-programaba-el-eniac_1.png",
-    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-la-idea-clave-de-von-neumann_1.png",
-    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-niveles-de-lenguaje_1.png",
-    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-que-unidad-funcional-opera-los-datos_1.png"
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-componentes-de-la-maquina-de-von-neumann_1.png",
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/images/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/arquitectura-la-idea-clave-de-von-neumann_1.png"
    ],
    "readme": "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-elegir-y-relacionar/README.md",
    "curriculo": [
@@ -227,7 +230,7 @@
     "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-arrastrar-los-componentes-de-von-neumann_1.png",
     "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-arrastrar-niveles-de-lenguaje_1.png",
     "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-arrastrar-von-neumann-o-harvard_1.png",
-    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-instrucciones-almacenadas-en-memoria-programa_1.png"
+    "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/images/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/arquitectura-identificar-arquitecturas-von-neumann-y-harvard_1.png"
    ],
    "readme": "actividades/hardware/arquitectura/arquitectura-de-von-neumann-y-harvard-escribir-y-arrastrar/README.md",
    "curriculo": [
@@ -398,7 +401,14 @@
      "preguntas": 13
     }
    ],
-   "imagenes": [],
+   "imagenes": [
+    "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-con-ayuda/images/binario-y-hexadecimal-con-ayuda/binario-binario-a-decimal-1_1.png",
+    "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-con-ayuda/images/binario-y-hexadecimal-con-ayuda/binario-binario-a-decimal-2_1.png",
+    "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-con-ayuda/images/binario-y-hexadecimal-con-ayuda/binario-binario-a-decimal-repaso_1.png",
+    "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-con-ayuda/images/binario-y-hexadecimal-con-ayuda/binario-binario-a-decimal_1.png",
+    "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-con-ayuda/images/binario-y-hexadecimal-con-ayuda/binario-cuantos-decimales-se-pueden-representar-1_1.png",
+    "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-con-ayuda/images/binario-y-hexadecimal-con-ayuda/binario-cuantos-decimales-se-pueden-representar-2_1.png"
+   ],
    "readme": "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-con-ayuda/README.md",
    "curriculo": [
     {
@@ -444,7 +454,14 @@
      "preguntas": 11
     }
    ],
-   "imagenes": [],
+   "imagenes": [
+    "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-sin-ayuda/images/binario-y-hexadecimal-sin-ayuda/binario-binario-a-decimal-sin-pesos-1_1.png",
+    "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-sin-ayuda/images/binario-y-hexadecimal-sin-ayuda/binario-binario-a-decimal-sin-pesos-2_1.png",
+    "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-sin-ayuda/images/binario-y-hexadecimal-sin-ayuda/binario-binario-a-hexadecimal-1_1.png",
+    "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-sin-ayuda/images/binario-y-hexadecimal-sin-ayuda/binario-binario-a-hexadecimal-2_1.png",
+    "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-sin-ayuda/images/binario-y-hexadecimal-sin-ayuda/binario-binario-a-hexadecimal-3_1.png",
+    "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-sin-ayuda/images/binario-y-hexadecimal-sin-ayuda/binario-binario-y-hexadecimal-repaso_1.png"
+   ],
    "readme": "actividades/hardware/electricidad-y-electronica/binario-y-hexadecimal-sin-ayuda/README.md",
    "curriculo": [
     {
@@ -492,10 +509,12 @@
     }
    ],
    "imagenes": [
+    "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/images/calcular-el-tiempo-de-descarga/unidades-calcular-tiempo-de-descarga-1_1.png",
+    "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/images/calcular-el-tiempo-de-descarga/unidades-calcular-tiempo-de-descarga-2_1.png",
     "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/images/calcular-el-tiempo-de-descarga/unidades-tiempo-de-descarga-cancion-de-10-mb-a-10-mbps_1.png",
     "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/images/calcular-el-tiempo-de-descarga/unidades-tiempo-de-descarga-cancion-de-12-kb-a-10-kbps_1.png",
     "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/images/calcular-el-tiempo-de-descarga/unidades-tiempo-de-descarga-cancion-de-2-b-a-4-bps_1.png",
-    "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/images/calcular-el-tiempo-de-descarga/unidades-tiempo-de-descarga-pelicula-de-600-mb-a-100-mbps_1.png"
+    "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/images/calcular-el-tiempo-de-descarga/unidades-tiempo-de-descarga-de-un-video_1.png"
    ],
    "readme": "actividades/hardware/electricidad-y-electronica/calcular-el-tiempo-de-descarga/README.md",
    "curriculo": [
@@ -573,7 +592,7 @@
     "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/images/unidades-de-informacion-convertir-y-escribir/unidades-arrastrar-dividir-o-multiplicar_1.png",
     "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/images/unidades-de-informacion-convertir-y-escribir/unidades-arrastrar-escalas_1.png",
     "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/images/unidades-de-informacion-convertir-y-escribir/unidades-arrastrar-la-escalera-gb-mb-y-b_1.png",
-    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/images/unidades-de-informacion-convertir-y-escribir/unidades-cuantos-bytes-son-1-kb_1.png"
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/images/unidades-de-informacion-convertir-y-escribir/unidades-bits-a-bytes-128-bits_1.png"
    ],
    "readme": "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-convertir-y-escribir/README.md",
    "curriculo": [
@@ -647,7 +666,12 @@
     }
    ],
    "imagenes": [
-    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-elegir/images/unidades-de-informacion-elegir/unidades-abreviatura-de-kilobyte_1.png"
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-elegir/images/unidades-de-informacion-elegir/unidades-abreviatura-de-kilobyte_1.png",
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-elegir/images/unidades-de-informacion-elegir/unidades-capacidad-en-bytes-y-velocidad-en-bits_1.png",
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-elegir/images/unidades-de-informacion-elegir/unidades-elegir-bits-o-bytes_1.png",
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-elegir/images/unidades-de-informacion-elegir/unidades-ordenar-unidades-de-almacenamiento_1.png",
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-elegir/images/unidades-de-informacion-elegir/unidades-usar-correctamente-las-unidades_1.png",
+    "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-elegir/images/unidades-de-informacion-elegir/unidades-vf-igualdades-entre-unidades_1.png"
    ],
    "readme": "actividades/hardware/electricidad-y-electronica/unidades-de-informacion-elegir/README.md",
    "curriculo": [
@@ -899,7 +923,8 @@
    ],
    "imagenes": [
     "actividades/hardware/memoria/memoria-ram-y-memoria-secundaria/images/memoria-ram-y-memoria-secundaria/memoria-acronimo-de-ram_1.png",
-    "actividades/hardware/memoria/memoria-ram-y-memoria-secundaria/images/memoria-ram-y-memoria-secundaria/memoria-arrastrar-caracteristicas-ram-frente-a-ssd_1.png"
+    "actividades/hardware/memoria/memoria-ram-y-memoria-secundaria/images/memoria-ram-y-memoria-secundaria/memoria-arrastrar-caracteristicas-ram-frente-a-ssd_1.png",
+    "actividades/hardware/memoria/memoria-ram-y-memoria-secundaria/images/memoria-ram-y-memoria-secundaria/memoria-memoria-volatil-o-no-volatil_1.png"
    ],
    "readme": "actividades/hardware/memoria/memoria-ram-y-memoria-secundaria/README.md",
    "curriculo": [
@@ -1282,7 +1307,7 @@
     "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conectores y buses externos/com_2.png",
     "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conectores y buses externos/com_3.png",
     "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conectores y buses externos/dvi_1.png",
-    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conectores y buses externos/usb_1.png"
+    "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/images/conectores y buses externos/jack-51_1.png"
    ],
    "readme": "actividades/hardware/perifericos-y-conectores/conectores-y-buses-externos/README.md",
    "curriculo": [
@@ -1376,7 +1401,13 @@
      "preguntas": 5
     }
    ],
-   "imagenes": [],
+   "imagenes": [
+    "actividades/hardware/perifericos-y-conectores/panel-trasero-nombre-y-velocidad-de-cada-puerto/images/panel-trasero-nombre-y-velocidad-de-cada-puerto/panel-trasero-asus-p5q-em_1.png",
+    "actividades/hardware/perifericos-y-conectores/panel-trasero-nombre-y-velocidad-de-cada-puerto/images/panel-trasero-nombre-y-velocidad-de-cada-puerto/panel-trasero-escribir-el-nombre-de-cada-conector-1_1.png",
+    "actividades/hardware/perifericos-y-conectores/panel-trasero-nombre-y-velocidad-de-cada-puerto/images/panel-trasero-nombre-y-velocidad-de-cada-puerto/panel-trasero-escribir-el-nombre-de-cada-conector-2_1.png",
+    "actividades/hardware/perifericos-y-conectores/panel-trasero-nombre-y-velocidad-de-cada-puerto/images/panel-trasero-nombre-y-velocidad-de-cada-puerto/panel-trasero-escribir-el-nombre-de-cada-conector-3_1.png",
+    "actividades/hardware/perifericos-y-conectores/panel-trasero-nombre-y-velocidad-de-cada-puerto/images/panel-trasero-nombre-y-velocidad-de-cada-puerto/panel-trasero-msi-mag-x870e-tomahawk-wifi_1.png"
+   ],
    "readme": "actividades/hardware/perifericos-y-conectores/panel-trasero-nombre-y-velocidad-de-cada-puerto/README.md",
    "curriculo": [
     {
@@ -1570,12 +1601,12 @@
     }
    ],
    "imagenes": [
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/cables-identificar-cables-de-video_1.png",
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/panel-trasero-elegir-el-nombre-de-cada-conector_1.png",
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-jacks-de-audio-entrada-o-salida-y-funcion_1.png",
     "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-displayport_1.png",
     "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-dvi_1.png",
-    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-hdmi-1_1.png",
-    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-hdmi-2_1.png",
-    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-jack-de-audio_1.png",
-    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-ps2_1.png"
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/images/puertos-y-cables-elegir/puertos-que-puerto-es-hdmi-1_1.png"
    ],
    "readme": "actividades/hardware/perifericos-y-conectores/puertos-y-cables-elegir/README.md",
    "curriculo": [
@@ -1673,10 +1704,10 @@
    "imagenes": [
     "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/cables-escribir-el-cable-firewire_1.png",
     "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/cables-escribir-el-cable-hdmi_1.png",
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/cables-identificar-5-cables_1.png",
     "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/panel-trasero-arrastrar-etiquetas-sobre-los-puertos_1.png",
     "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/panel-trasero-arrastrar-etiquetas-sobre-un-panel-moderno_1.png",
-    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/panel-trasero-marcadores-puertos-del-panel-trasero_1.png",
-    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/puertos-el-unico-puerto-de-video-analogico-vga_1.png"
+    "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/images/puertos-y-cables-escribir-el-nombre/panel-trasero-marcadores-puertos-del-panel-trasero_1.png"
    ],
    "readme": "actividades/hardware/perifericos-y-conectores/puertos-y-cables-escribir-el-nombre/README.md",
    "curriculo": [
@@ -1769,7 +1800,12 @@
      "preguntas": 4
     }
    ],
-   "imagenes": [],
+   "imagenes": [
+    "actividades/hardware/placa-base/buscar-datos-en-el-manual-de-la-placa-base/images/buscar-datos-en-el-manual-de-la-placa-base/arranque-buscar-informacion-de-la-bios-en-el-manual-de-la-placa_1.png",
+    "actividades/hardware/placa-base/buscar-datos-en-el-manual-de-la-placa-base/images/buscar-datos-en-el-manual-de-la-placa-base/manual-de-la-placa-base-b660-ds3h-ddr4_1.png",
+    "actividades/hardware/placa-base/buscar-datos-en-el-manual-de-la-placa-base/images/buscar-datos-en-el-manual-de-la-placa-base/placa-base-manual-gigabyte-h510m-s2h-v2_1.png",
+    "actividades/hardware/placa-base/buscar-datos-en-el-manual-de-la-placa-base/images/buscar-datos-en-el-manual-de-la-placa-base/placa-base-manual-msi-b450m-a-pro-max_1.png"
+   ],
    "readme": "actividades/hardware/placa-base/buscar-datos-en-el-manual-de-la-placa-base/README.md",
    "curriculo": [
     {
@@ -1968,8 +2004,10 @@
    ],
    "imagenes": [
     "actividades/hardware/placa-base/conectores-del-panel-frontal/images/conectores-del-panel-frontal/panel-frontal-arrastrar-los-conectores-y-led-de-la-carcasa_1.png",
+    "actividades/hardware/placa-base/conectores-del-panel-frontal/images/conectores-del-panel-frontal/panel-frontal-funcion-del-conector_1.png",
     "actividades/hardware/placa-base/conectores-del-panel-frontal/images/conectores-del-panel-frontal/panel-frontal-que-conector-corresponde-al-boton_1.png",
-    "actividades/hardware/placa-base/conectores-del-panel-frontal/images/conectores-del-panel-frontal/panel-frontal-que-conector-es-usb_1.png"
+    "actividades/hardware/placa-base/conectores-del-panel-frontal/images/conectores-del-panel-frontal/panel-frontal-que-conector-es-usb_1.png",
+    "actividades/hardware/placa-base/conectores-del-panel-frontal/images/conectores-del-panel-frontal/panel-frontal-relacionar-conectores-con-su-funcion_1.png"
    ],
    "readme": "actividades/hardware/placa-base/conectores-del-panel-frontal/README.md",
    "curriculo": [
@@ -2067,8 +2105,8 @@
     "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-como-avisa-de-un-error-en-las-comprobaciones-iniciales_1.png",
     "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-cuando-actua-secure-boot_1.png",
     "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-la-uefi-no-encuentra-un-sistema-arrancable_1.png",
-    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-objetivo-principal-de-secure-boot_1.png",
-    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-orden-del-proceso-de-arranque_1.png"
+    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-la-uefi-y-el-arranque_1.png",
+    "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/images/el-arranque-uefi-post-y-secure-boot-elegir/arranque-objetivo-principal-de-secure-boot_1.png"
    ],
    "readme": "actividades/hardware/placa-base/el-arranque-uefi-post-y-secure-boot-elegir/README.md",
    "curriculo": [
@@ -2518,8 +2556,8 @@
     "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/identificar-cable-coaxial_1.png",
     "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/identificar-cable-fibra-optica_1.png",
     "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/identificar-cable-par-trenzado_1.png",
-    "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/medios-de-transmision-conector-de-fibra-optica_1.png",
-    "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/medios-de-transmision-parte-del-cable-coaxial_1.png"
+    "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/longitud-maxima-del-par-trenzado_1.png",
+    "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/images/medios-de-transmision-par-trenzado-coaxial-y-fibra/medios-de-transmision-conector-de-fibra-optica_1.png"
    ],
    "readme": "actividades/redes/cableado/medios-de-transmision-par-trenzado-coaxial-y-fibra/README.md",
    "curriculo": [
@@ -2851,7 +2889,8 @@
    ],
    "imagenes": [
     "actividades/redes/direccionamiento-ip/direcciones-ip-conceptos-basicos/images/direcciones-ip-conceptos-basicos/direccionamiento-ip-direcciones-ip-privadas_1.png",
-    "actividades/redes/direccionamiento-ip/direcciones-ip-conceptos-basicos/images/direcciones-ip-conceptos-basicos/direccionamiento-ip-puerta-de-enlace_1.png"
+    "actividades/redes/direccionamiento-ip/direcciones-ip-conceptos-basicos/images/direcciones-ip-conceptos-basicos/direccionamiento-ip-puerta-de-enlace_1.png",
+    "actividades/redes/direccionamiento-ip/direcciones-ip-conceptos-basicos/images/direcciones-ip-conceptos-basicos/direccionamiento-ip-que-es-una-direccion-ip_1.png"
    ],
    "readme": "actividades/redes/direccionamiento-ip/direcciones-ip-conceptos-basicos/README.md",
    "curriculo": [
@@ -2925,10 +2964,11 @@
    ],
    "imagenes": [
     "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/images/tipos-de-redes-ethernet-y-wifi-elegir/comunicacion-tipos-de-comunicacion_1.png",
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/images/tipos-de-redes-ethernet-y-wifi-elegir/ethernet-y-wifi-arrastrar-latencia-y-ancho-de-banda_1.png",
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/images/tipos-de-redes-ethernet-y-wifi-elegir/ethernet-y-wifi-ethernet-o-wifi-para-jugar_1.png",
     "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/images/tipos-de-redes-ethernet-y-wifi-elegir/tipos-de-redes-caracteristica-principal-de-ethernet_1.png",
     "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/images/tipos-de-redes-ethernet-y-wifi-elegir/tipos-de-redes-elegir-el-tipo-de-red-aula_1.png",
-    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/images/tipos-de-redes-ethernet-y-wifi-elegir/tipos-de-redes-elegir-el-tipo-de-red-ciudad_1.png",
-    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/images/tipos-de-redes-ethernet-y-wifi-elegir/tipos-de-redes-elegir-el-tipo-de-red-empresa_1.png"
+    "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/images/tipos-de-redes-ethernet-y-wifi-elegir/tipos-de-redes-elegir-el-tipo-de-red-ciudad_1.png"
    ],
    "readme": "actividades/redes/fundamentos/tipos-de-redes-ethernet-y-wifi-elegir/README.md",
    "curriculo": [
@@ -3102,8 +3142,12 @@
     }
    ],
    "imagenes": [
-    "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/images/escape room operación hipervisor/ra2-ceg-virtualizacion-escape-room-5-vt-x-desactivado_1.png",
-    "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/images/escape room operación hipervisor/ra2-ceg-virtualizacion-escape-room-7-codigo-de-salida_1.png"
+    "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/images/escape room operación hipervisor/ra2-ceg-virtualizacion-escape-room-0-temario_1.png",
+    "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/images/escape room operación hipervisor/ra2-ceg-virtualizacion-escape-room-1-instrucciones_1.png",
+    "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/images/escape room operación hipervisor/ra2-ceg-virtualizacion-escape-room-2-conceptos-basicos_1.png",
+    "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/images/escape room operación hipervisor/ra2-ceg-virtualizacion-escape-room-3-tipos-de-hipervisor_1.png",
+    "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/images/escape room operación hipervisor/ra2-ceg-virtualizacion-escape-room-4-tetris-de-la-ram_1.png",
+    "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/images/escape room operación hipervisor/ra2-ceg-virtualizacion-escape-room-5-vt-x-desactivado_1.png"
    ],
    "readme": "actividades/sistemas-operativos/virtualizacion/escape-room-operacion-hipervisor/README.md",
    "curriculo": [

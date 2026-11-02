@@ -20,7 +20,7 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![shortanswer](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 18 |
+| ![shortanswer](https://raw.githubusercontent.com/noeper/actirepo/main/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 18 |
 |   | **TOTAL**         | 18 |
 
 

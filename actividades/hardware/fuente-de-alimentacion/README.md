@@ -11,7 +11,7 @@ Fuentes, SAI, consumo
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 7 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | Selección múltiple | 7 |
 |   | **TOTAL**         | 7 |
 
 

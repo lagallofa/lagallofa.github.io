@@ -20,9 +20,9 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![ddmarker](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddmarker.svg) | [Arrastrar y soltar marcador](#arrastrar-y-soltar-marcador) | 3 |
-| ![ddimageortext](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddimageortext.svg) | [Arrastrar y soltar imagen o texto](#arrastrar-y-soltar-imagen-o-texto) | 2 |
-| ![shortanswer](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 3 |
+| ![ddmarker](https://raw.githubusercontent.com/noeper/actirepo/main/icons/ddmarker.svg) | [Arrastrar y soltar marcador](#arrastrar-y-soltar-marcador) | 3 |
+| ![ddimageortext](https://raw.githubusercontent.com/noeper/actirepo/main/icons/ddimageortext.svg) | [Arrastrar y soltar imagen o texto](#arrastrar-y-soltar-imagen-o-texto) | 2 |
+| ![shortanswer](https://raw.githubusercontent.com/noeper/actirepo/main/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 3 |
 |   | **TOTAL**         | 8 |
 
 

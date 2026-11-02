@@ -11,10 +11,11 @@ Tipos, características, refrigeración
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 57 |
-| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | Verdadero/Falso | 8 |
-| ![shortanswer](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/shortanswer.svg) | Respuesta corta | 2 |
-|   | **TOTAL**         | 67 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | Selección múltiple | 57 |
+| ![truefalse](https://raw.githubusercontent.com/noeper/actirepo/main/icons/truefalse.svg) | Verdadero/Falso | 8 |
+| ![matching](https://raw.githubusercontent.com/noeper/actirepo/main/icons/matching.svg) | Emparejamiento | 7 |
+| ![shortanswer](https://raw.githubusercontent.com/noeper/actirepo/main/icons/shortanswer.svg) | Respuesta corta | 2 |
+|   | **TOTAL**         | 74 |
 
 
 
@@ -23,5 +24,5 @@ Tipos, características, refrigeración
 ## Actividades
 | Nombre              | Descripción                   | Dificultad | Preguntas |
 | ------------------- | ----------------------------- | ---------- | --------- |
-| [El microprocesador](el-microprocesador) | Preguntas tipo test, de asociación y de respuesta corta sobre el microprocesador | ![Dificultad](https://img.shields.io/badge/Media-yellow) | 67 |
+| [El microprocesador](el-microprocesador) | Preguntas tipo test, de asociación y de respuesta corta sobre el microprocesador | ![Dificultad](https://img.shields.io/badge/Media-yellow) | 74 |
 

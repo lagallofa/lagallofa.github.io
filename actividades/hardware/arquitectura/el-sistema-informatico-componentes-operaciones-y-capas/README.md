@@ -20,9 +20,11 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 15 |
-| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | [Verdadero/Falso](#verdaderofalso) | 2 |
-|   | **TOTAL**         | 17 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 15 |
+| ![ordering](https://raw.githubusercontent.com/noeper/actirepo/main/icons/ordering.svg) | [Ordenación](#ordenación) | 1 |
+| ![matching](https://raw.githubusercontent.com/noeper/actirepo/main/icons/matching.svg) | [Emparejamiento](#emparejamiento) | 2 |
+| ![truefalse](https://raw.githubusercontent.com/noeper/actirepo/main/icons/truefalse.svg) | [Verdadero/Falso](#verdaderofalso) | 2 |
+|   | **TOTAL**         | 20 |
 
 
 #### Selección múltiple
@@ -57,6 +59,22 @@ Ficheros de preguntas disponibles en esta actividad:
 ![Sistema informático · ¿Qué operación es calcular la media?](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-que-operacion-es-calcular-la-media_1.png)
 
 ![Sistema informático · ¿Qué situación es una entrada de datos?](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-que-situacion-es-una-entrada-de-datos_1.png)
+
+
+
+#### Ordenación
+
+
+![Sistema informático · Ordenar las capas del sistema informático](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-ordenar-las-capas-del-sistema-informatico_1.png)
+
+
+
+#### Emparejamiento
+
+
+![Sistema informático · Relacionar elementos con hardware, software, datos y personas](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-relacionar-elementos-con-hardware-software-datos-y-personas_1.png)
+
+![Sistema informático · Relacionar hardware, software, firmware y usuario con su definición](images/el-sistema-informatico-componentes-operaciones-y-capas/sistema-informatico-relacionar-hardware-software-firmware-y-usuario-con-su-definicion_1.png)
 
 
 

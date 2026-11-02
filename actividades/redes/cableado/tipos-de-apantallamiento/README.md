@@ -20,8 +20,8 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![ddmarker](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddmarker.svg) | [Arrastrar y soltar marcador](#arrastrar-y-soltar-marcador) | 4 |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 6 |
+| ![ddmarker](https://raw.githubusercontent.com/noeper/actirepo/main/icons/ddmarker.svg) | [Arrastrar y soltar marcador](#arrastrar-y-soltar-marcador) | 4 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 6 |
 |   | **TOTAL**         | 10 |
 
 

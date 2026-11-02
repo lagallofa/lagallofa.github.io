@@ -20,8 +20,28 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 15 |
-|   | **TOTAL**         | 15 |
+| ![cloze](https://raw.githubusercontent.com/noeper/actirepo/main/icons/cloze.svg) | [Respuestas anidadas (Cloze)](#respuestas-anidadas-cloze) | 3 |
+| ![matching](https://raw.githubusercontent.com/noeper/actirepo/main/icons/matching.svg) | [Emparejamiento](#emparejamiento) | 1 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 15 |
+|   | **TOTAL**         | 19 |
+
+
+#### Respuestas anidadas (Cloze)
+
+
+![Cables · Identificar cables de vídeo](images/puertos-y-cables-elegir/cables-identificar-cables-de-video_1.png)
+
+![Panel trasero · Elegir el nombre de cada conector](images/puertos-y-cables-elegir/panel-trasero-elegir-el-nombre-de-cada-conector_1.png)
+
+![Puertos · Jacks de audio: entrada o salida y función](images/puertos-y-cables-elegir/puertos-jacks-de-audio-entrada-o-salida-y-funcion_1.png)
+
+
+
+#### Emparejamiento
+
+
+![Puertos · Relacionar altavoces 7.1 con los jacks](images/puertos-y-cables-elegir/puertos-relacionar-altavoces-71-con-los-jacks_1.png)
+
 
 
 #### Selección múltiple

@@ -20,9 +20,10 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 97 |
-| ![truefalse](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/truefalse.svg) | [Verdadero/Falso](#verdaderofalso) | 1 |
-|   | **TOTAL**         | 98 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | [Selección múltiple](#selección-múltiple) | 97 |
+| ![truefalse](https://raw.githubusercontent.com/noeper/actirepo/main/icons/truefalse.svg) | [Verdadero/Falso](#verdaderofalso) | 1 |
+| ![matching](https://raw.githubusercontent.com/noeper/actirepo/main/icons/matching.svg) | [Emparejamiento](#emparejamiento) | 3 |
+|   | **TOTAL**         | 101 |
 
 
 #### Selección múltiple
@@ -44,6 +45,17 @@ Ficheros de preguntas disponibles en esta actividad:
 
 
 ![usb](images/conectores%20y%20buses%20externos/usb_1.png)
+
+
+
+#### Emparejamiento
+
+
+![jack](images/conectores%20y%20buses%20externos/jack_1.png)
+
+![jack 5.1](images/conectores%20y%20buses%20externos/jack-51_1.png)
+
+![rca](images/conectores%20y%20buses%20externos/rca_1.png)
 
 
 

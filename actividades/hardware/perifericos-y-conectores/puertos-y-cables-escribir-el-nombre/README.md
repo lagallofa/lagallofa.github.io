@@ -20,10 +20,11 @@ Ficheros de preguntas disponibles en esta actividad:
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![shortanswer](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 9 |
-| ![ddimageortext](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddimageortext.svg) | [Arrastrar y soltar imagen o texto](#arrastrar-y-soltar-imagen-o-texto) | 2 |
-| ![ddmarker](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/ddmarker.svg) | [Arrastrar y soltar marcador](#arrastrar-y-soltar-marcador) | 1 |
-|   | **TOTAL**         | 12 |
+| ![shortanswer](https://raw.githubusercontent.com/noeper/actirepo/main/icons/shortanswer.svg) | [Respuesta corta](#respuesta-corta) | 9 |
+| ![cloze](https://raw.githubusercontent.com/noeper/actirepo/main/icons/cloze.svg) | [Respuestas anidadas (Cloze)](#respuestas-anidadas-cloze) | 3 |
+| ![ddimageortext](https://raw.githubusercontent.com/noeper/actirepo/main/icons/ddimageortext.svg) | [Arrastrar y soltar imagen o texto](#arrastrar-y-soltar-imagen-o-texto) | 2 |
+| ![ddmarker](https://raw.githubusercontent.com/noeper/actirepo/main/icons/ddmarker.svg) | [Arrastrar y soltar marcador](#arrastrar-y-soltar-marcador) | 1 |
+|   | **TOTAL**         | 15 |
 
 
 #### Respuesta corta
@@ -46,6 +47,17 @@ Ficheros de preguntas disponibles en esta actividad:
 ![Puertos · Escribir el puerto: paralelo](images/puertos-y-cables-escribir-el-nombre/puertos-escribir-el-puerto-paralelo_1.png)
 
 ![Puertos · Escribir el puerto: serie](images/puertos-y-cables-escribir-el-nombre/puertos-escribir-el-puerto-serie_1.png)
+
+
+
+#### Respuestas anidadas (Cloze)
+
+
+![Cables · Identificar 5 cables](images/puertos-y-cables-escribir-el-nombre/cables-identificar-5-cables_1.png)
+
+![Puertos · Identificar el puerto](images/puertos-y-cables-escribir-el-nombre/puertos-identificar-el-puerto_1.png)
+
+![Puertos · Identificar puertos y cables (2 imágenes)](images/puertos-y-cables-escribir-el-nombre/puertos-identificar-puertos-y-cables-2-imagenes_1.png)
 
 
 

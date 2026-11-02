@@ -11,8 +11,9 @@ Discos, controladoras, soportes, RAID físico
 
 |   | Tipo              | Cantidad                   |
 | - | ----------------- | -------------------------- |
-| ![multichoice](https://raw.githubusercontent.com/teuton-software/actirepo/master/icons/multichoice.svg) | Selección múltiple | 4 |
-|   | **TOTAL**         | 4 |
+| ![cloze](https://raw.githubusercontent.com/noeper/actirepo/main/icons/cloze.svg) | Respuestas anidadas (Cloze) | 6 |
+| ![multichoice](https://raw.githubusercontent.com/noeper/actirepo/main/icons/multichoice.svg) | Selección múltiple | 4 |
+|   | **TOTAL**         | 10 |
 
 
 
@@ -21,5 +22,5 @@ Discos, controladoras, soportes, RAID físico
 ## Actividades
 | Nombre              | Descripción                   | Dificultad | Preguntas |
 | ------------------- | ----------------------------- | ---------- | --------- |
-| [Almacenamiento: HDD, SSD, formatos y conectores](almacenamiento-hdd-ssd-formatos-y-conectores) | Diferencias entre HDD y SSD e identificación de su formato (2,5″, 3,5″, M.2) y su conexión (SATA o PCIe). | ![Dificultad](https://img.shields.io/badge/Baja-green) | 4 |
+| [Almacenamiento: HDD, SSD, formatos y conectores](almacenamiento-hdd-ssd-formatos-y-conectores) | Diferencias entre HDD y SSD e identificación de su formato (2,5″, 3,5″, M.2) y su conexión (SATA o PCIe). | ![Dificultad](https://img.shields.io/badge/Baja-green) | 10 |
 
